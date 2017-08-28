@@ -1,0 +1,1444 @@
+<b>Verify smart -a list</b>
+phydrv
+===============================================================================
+PdId Model       Type     CfgCapacity Location      OpStatus   ConfigStatus    
+===============================================================================
+1    HUS723020AL SAS HDD  2 TB        Encl1 Slot1   OK         Unconfigured    
+     S640                                                                      
+2    HDS722020AL SAS HDD  2 TB        Encl1 Slot2   OK         Unconfigured    
+     A330                                                                      
+3    ST373455SS  SAS HDD  73 GB       Encl1 Slot3   OK         Unconfigured    
+4    HUS724040AL SAS HDD  4 TB        Encl1 Slot4   OK         Unconfigured    
+     S640                                                                      
+5    INTEL       SAS SSD  31 GB       Encl1 Slot5   OK         Unconfigured    
+7    HUS723020AL SAS HDD  2 TB        Encl1 Slot7   OK         Unconfigured    
+     S640                                                                      
+8    HUS724040AL SAS HDD  4 TB        Encl1 Slot8   OK         Unconfigured    
+     S640                                                                      
+9    HUS724040AL SAS HDD  4 TB        Encl1 Slot9   OK         Unconfigured    
+     S640                                                                      
+11   HDS722020AL SAS HDD  2 TB        Encl1 Slot11  OK         Unconfigured    
+     A330                                                                      
+12   HUS724040AL SAS HDD  4 TB        Encl1 Slot12  OK         Unconfigured    
+     S640                                                                      
+13   ST3146356SS SAS HDD  146 GB      Encl1 Slot13  OK         Unconfigured    
+15   SSD U110    SAS SSD  31 GB       Encl1 Slot15  OK         Unconfigured    
+     32GB                                                                      
+16   ST373455SS  SAS HDD  73 GB       Encl1 Slot16  OK         Unconfigured    
+
+administrator@cli> 
+smart -a list
+Error (0x8058): Cannot perform operation: Flash update in progress.
+
+administrator@cli> 
+
+<font color="red">Fail: Verify smart -a list</font>
+<b>Verify smart -a list -p </b>
+phydrv
+===============================================================================
+PdId Model       Type     CfgCapacity Location      OpStatus   ConfigStatus    
+===============================================================================
+1    HUS723020AL SAS HDD  2 TB        Encl1 Slot1   OK         Unconfigured    
+     S640                                                                      
+2    HDS722020AL SAS HDD  2 TB        Encl1 Slot2   OK         Unconfigured    
+     A330                                                                      
+3    ST373455SS  SAS HDD  73 GB       Encl1 Slot3   OK         Unconfigured    
+4    HUS724040AL SAS HDD  4 TB        Encl1 Slot4   OK         Unconfigured    
+     S640                                                                      
+5    INTEL       SAS SSD  31 GB       Encl1 Slot5   OK         Unconfigured    
+7    HUS723020AL SAS HDD  2 TB        Encl1 Slot7   OK         Unconfigured    
+     S640                                                                      
+8    HUS724040AL SAS HDD  4 TB        Encl1 Slot8   OK         Unconfigured    
+     S640                                                                      
+9    HUS724040AL SAS HDD  4 TB        Encl1 Slot9   OK         Unconfigured    
+     S640                                                                      
+11   HDS722020AL SAS HDD  2 TB        Encl1 Slot11  OK         Unconfigured    
+     A330                                                                      
+12   HUS724040AL SAS HDD  4 TB        Encl1 Slot12  OK         Unconfigured    
+     S640                                                                      
+13   ST3146356SS SAS HDD  146 GB      Encl1 Slot13  OK         Unconfigured    
+15   SSD U110    SAS SSD  31 GB       Encl1 Slot15  OK         Unconfigured    
+     32GB                                                                      
+16   ST373455SS  SAS HDD  73 GB       Encl1 Slot16  OK         Unconfigured    
+
+administrator@cli> 
+smart -a list -p 1
+Error (0x8058): Cannot perform operation: Flash update in progress.
+
+administrator@cli> 
+bgasched
+No BGA Schedule detected
+
+administrator@cli> 
+There is no bgasched
+pool
+No pool in the subsystem
+
+administrator@cli> 
+phydrv
+===============================================================================
+PdId Model       Type     CfgCapacity Location      OpStatus   ConfigStatus    
+===============================================================================
+1    HUS723020AL SAS HDD  2 TB        Encl1 Slot1   OK         Unconfigured    
+     S640                                                                      
+2    HDS722020AL SAS HDD  2 TB        Encl1 Slot2   OK         Unconfigured    
+     A330                                                                      
+3    ST373455SS  SAS HDD  73 GB       Encl1 Slot3   OK         Unconfigured    
+4    HUS724040AL SAS HDD  4 TB        Encl1 Slot4   OK         Unconfigured    
+     S640                                                                      
+5    INTEL       SAS SSD  31 GB       Encl1 Slot5   OK         Unconfigured    
+7    HUS723020AL SAS HDD  2 TB        Encl1 Slot7   OK         Unconfigured    
+     S640                                                                      
+8    HUS724040AL SAS HDD  4 TB        Encl1 Slot8   OK         Unconfigured    
+     S640                                                                      
+9    HUS724040AL SAS HDD  4 TB        Encl1 Slot9   OK         Unconfigured    
+     S640                                                                      
+11   HDS722020AL SAS HDD  2 TB        Encl1 Slot11  OK         Unconfigured    
+     A330                                                                      
+12   HUS724040AL SAS HDD  4 TB        Encl1 Slot12  OK         Unconfigured    
+     S640                                                                      
+13   ST3146356SS SAS HDD  146 GB      Encl1 Slot13  OK         Unconfigured    
+15   SSD U110    SAS SSD  31 GB       Encl1 Slot15  OK         Unconfigured    
+     32GB                                                                      
+16   ST373455SS  SAS HDD  73 GB       Encl1 Slot16  OK         Unconfigured    
+
+administrator@cli> 
+pool -a add -s "name=testBgasched1, raid=1" -p 1,2
+
+administrator@cli> 
+pool -a add -s "name=testBgasched2, raid=1" -p 3,4
+
+administrator@cli> 
+pool -a add -s "name=testBgasched3, raid=0" -p 5
+
+administrator@cli> 
+pool
+===============================================================================
+Id   Name                        TotalCap  UsedCap   FreeCap   OpStatus       
+===============================================================================
+0    testBgasched1               1.83 TB   98.82 KB  1.83 TB   OK,             
+                                                               Synchronizing   
+1    testBgasched2               66.70 GB  98.82 KB  66.70 GB  OK,             
+                                                               Synchronizing   
+2    testBgasched3               28.41 GB  98.82 KB  28.41 GB  OK              
+
+administrator@cli> 
+date
+-------------------------------------------------------------------------------
+SystemDate: 2017-08-14 21:38:35
+
+administrator@cli> 
+add bgasched of daily type
+bgasched -a add -t rc -s "recurtype=daily,poolid=0"
+
+administrator@cli> 
+bgasched -a add -t rc -s "recurtype=daily,poolid=1"
+
+administrator@cli> 
+bgasched -v -t rc
+-------------------------------------------------------------------------------
+Id: 1                                   Type: RedundancyCheck
+StartTime: 22:00                        StartDay: 2017-08-14
+OperationalStatus: Disabled             RecurrenceType: Daily
+EndOn: No End Date                      RecurrenceInterval: 1
+AutoFix: Disabled                       PauseOnError: Disabled
+PoolIds: 0
+-------------------------------------------------------------------------------
+Id: 2                                   Type: RedundancyCheck
+StartTime: 22:00                        StartDay: 2017-08-14
+OperationalStatus: Disabled             RecurrenceType: Daily
+EndOn: No End Date                      RecurrenceInterval: 1
+AutoFix: Disabled                       PauseOnError: Disabled
+PoolIds: 1
+
+administrator@cli> 
+bgasched -a add -t br -s "recurtype=daily"
+
+administrator@cli> 
+bgasched -v -t br
+-------------------------------------------------------------------------------
+Id: 1                                   Type: BatteryRecondition
+StartTime: 02:00                        StartDay: 2017-08-14
+OperationalStatus: Disabled             RecurrenceType: Daily
+EndOn: No End Date                      RecurrenceInterval: 1
+
+administrator@cli> 
+bgasched -a add -t sc -s "recurtype=daily"
+
+administrator@cli> 
+bgasched -v -t sc
+-------------------------------------------------------------------------------
+Id: 1                                   Type: SpareCheck
+StartTime: 22:00                        StartDay: 2017-08-14
+OperationalStatus: Disabled             RecurrenceType: Daily
+EndOn: No End Date                      RecurrenceInterval: 1
+
+administrator@cli> 
+bgasched
+===============================================================================
+Type                ID   Recurrence  StartTime           OperationalStatus 
+===============================================================================
+BatteryRecondition  1    Daily       2017-08-14 02:00    Disabled              
+SpareCheck          1    Daily       2017-08-14 22:00    Disabled              
+RedundancyCheck     1    Daily       2017-08-14 22:00    Disabled              
+RedundancyCheck     2    Daily       2017-08-14 22:00    Disabled              
+
+administrator@cli> 
+bgasched -a del -t br -i 1
+
+administrator@cli> 
+bgasched -a del -t sc -i 1
+
+administrator@cli> 
+bgasched -a del -t rc -i 1
+
+administrator@cli> 
+bgasched -a del -t rc -i 2
+
+administrator@cli> 
+bgasched -a add -t rc -s "recurtype=daily,poolid=2"
+Error (0x2013): Invalid setting parameters
+specified pool id:2 is RAID0
+
+administrator@cli> 
+bgasched
+No BGA Schedule detected
+
+administrator@cli> 
+There is no bgasched
+add bgasched of weekly type
+bgasched -a add -t rc -s "poolid=0"
+
+administrator@cli> 
+bgasched -a add -t rc -s "poolid=1"
+
+administrator@cli> 
+bgasched -v -t rc
+-------------------------------------------------------------------------------
+Id: 1                                   Type: RedundancyCheck
+StartTime: 22:00                        StartDay: 2017-08-14
+OperationalStatus: Disabled             RecurrenceType: Weekly
+EndOn: No End Date                      RecurrenceInterval: 1
+DayOfWeek: Wed                          AutoFix: Disabled
+PauseOnError: Disabled                  PoolIds: 0
+-------------------------------------------------------------------------------
+Id: 2                                   Type: RedundancyCheck
+StartTime: 22:00                        StartDay: 2017-08-14
+OperationalStatus: Disabled             RecurrenceType: Weekly
+EndOn: No End Date                      RecurrenceInterval: 1
+DayOfWeek: Wed                          AutoFix: Disabled
+PauseOnError: Disabled                  PoolIds: 1
+
+administrator@cli> 
+bgasched -a add -t br
+
+administrator@cli> 
+bgasched -v -t br
+-------------------------------------------------------------------------------
+Id: 1                                   Type: BatteryRecondition
+StartTime: 02:00                        StartDay: 2017-08-14
+OperationalStatus: Disabled             RecurrenceType: Monthly
+EndOn: No End Date                      MonthMask:  Jan,Mar,May,Jul,Sep,Nov
+DayOfMonth: 1
+
+administrator@cli> 
+bgasched -a add -t sc
+
+administrator@cli> 
+bgasched -v -t sc
+-------------------------------------------------------------------------------
+Id: 1                                   Type: SpareCheck
+StartTime: 22:00                        StartDay: 2017-08-14
+OperationalStatus: Disabled             RecurrenceType: Weekly
+EndOn: No End Date                      RecurrenceInterval: 1
+DayOfWeek: Tues
+
+administrator@cli> 
+bgasched
+===============================================================================
+Type                ID   Recurrence  StartTime           OperationalStatus 
+===============================================================================
+BatteryRecondition  1    Monthly     2017-08-14 02:00    Disabled              
+SpareCheck          1    Weekly      2017-08-14 22:00    Disabled              
+RedundancyCheck     1    Weekly      2017-08-14 22:00    Disabled              
+RedundancyCheck     2    Weekly      2017-08-14 22:00    Disabled              
+
+administrator@cli> 
+bgasched -a del -t br -i 1
+
+administrator@cli> 
+bgasched -a del -t sc -i 1
+
+administrator@cli> 
+bgasched -a del -t rc -i 1
+
+administrator@cli> 
+bgasched -a del -t rc -i 2
+
+administrator@cli> 
+add bgasched of monthly type
+bgasched -a add -t rc -s "recurtype=monthly,poolid=0"
+
+administrator@cli> 
+bgasched -a add -t rc -s "recurtype=monthly,poolid=1"
+
+administrator@cli> 
+bgasched -v -t rc
+-------------------------------------------------------------------------------
+Id: 1                                   Type: RedundancyCheck
+StartTime: 22:00                        StartDay: 2017-08-14
+OperationalStatus: Disabled             RecurrenceType: Monthly
+MonthMask:  Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec
+EndOn: No End Date                      DayOfMonth: 1
+AutoFix: Disabled                       PauseOnError: Disabled
+PoolIds: 0
+-------------------------------------------------------------------------------
+Id: 2                                   Type: RedundancyCheck
+StartTime: 22:00                        StartDay: 2017-08-14
+OperationalStatus: Disabled             RecurrenceType: Monthly
+MonthMask:  Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec
+EndOn: No End Date                      DayOfMonth: 1
+AutoFix: Disabled                       PauseOnError: Disabled
+PoolIds: 1
+
+administrator@cli> 
+bgasched -a add -t br -s "recurtype=monthly"
+
+administrator@cli> 
+bgasched -v -t br
+-------------------------------------------------------------------------------
+Id: 1                                   Type: BatteryRecondition
+StartTime: 02:00                        StartDay: 2017-08-14
+OperationalStatus: Disabled             RecurrenceType: Monthly
+EndOn: No End Date                      MonthMask:  Jan,Mar,May,Jul,Sep,Nov
+DayOfMonth: 1
+
+administrator@cli> 
+bgasched -a add -t sc -s "recurtype=monthly"
+
+administrator@cli> 
+bgasched -v -t sc
+-------------------------------------------------------------------------------
+Id: 1                                   Type: SpareCheck
+StartTime: 22:00                        StartDay: 2017-08-14
+OperationalStatus: Disabled             RecurrenceType: Monthly
+MonthMask:  Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec
+EndOn: No End Date                      DayOfMonth: 1
+
+administrator@cli> 
+bgasched
+===============================================================================
+Type                ID   Recurrence  StartTime           OperationalStatus 
+===============================================================================
+BatteryRecondition  1    Monthly     2017-08-14 02:00    Disabled              
+SpareCheck          1    Monthly     2017-08-14 22:00    Disabled              
+RedundancyCheck     1    Monthly     2017-08-14 22:00    Disabled              
+RedundancyCheck     2    Monthly     2017-08-14 22:00    Disabled              
+
+administrator@cli> 
+bgasched -a del -t br -i 1
+
+administrator@cli> 
+bgasched -a del -t sc -i 1
+
+administrator@cli> 
+bgasched -a del -t rc -i 1
+
+administrator@cli> 
+bgasched -a del -t rc -i 2
+
+administrator@cli> 
+
+<font color="green">Pass</font>
+'result': 'p'
+bgasched -a add -t rc -s "recurtype=daily"
+
+administrator@cli> 
+bgasched -a add -t br -s "recurtype=weekly"
+
+administrator@cli> 
+bgasched -a add -t sc -s "recurtype=monthly"
+
+administrator@cli> 
+verify: bgasched -a mod -t rc
+bgasched -a mod -t rc -s "autofix=Enable,pause=Enable"
+
+administrator@cli> 
+bgasched -v -t rc
+-------------------------------------------------------------------------------
+Id: 1                                   Type: RedundancyCheck
+StartTime: 22:00                        StartDay: 2017-08-14
+OperationalStatus: Disabled             RecurrenceType: Daily
+EndOn: No End Date                      RecurrenceInterval: 1
+AutoFix: Enabled                        PauseOnError: Enabled
+PoolIds: 0,1,2
+
+administrator@cli> 
+bgasched -a mod -t rc -s "status=Disable,starttime=00:00,startfrom=1970-01-01,endon=1"
+
+administrator@cli> 
+bgasched -v -t rc
+-------------------------------------------------------------------------------
+Id: 1                                   Type: RedundancyCheck
+StartTime: 00:00                        StartDay: 1970-01-01
+OperationalStatus: Disabled             RecurrenceType: Daily
+EndOn: after 1 times                    RecurrenceInterval: 1
+AutoFix: Enabled                        PauseOnError: Enabled
+PoolIds: 0,1,2
+
+administrator@cli> 
+bgasched -a mod -t rc -s "autofix=Enable,pause=Enable"
+
+administrator@cli> 
+bgasched -v -t rc
+-------------------------------------------------------------------------------
+Id: 1                                   Type: RedundancyCheck
+StartTime: 00:00                        StartDay: 1970-01-01
+OperationalStatus: Disabled             RecurrenceType: Daily
+EndOn: after 1 times                    RecurrenceInterval: 1
+AutoFix: Enabled                        PauseOnError: Enabled
+PoolIds: 0,1,2
+
+administrator@cli> 
+bgasched -a mod -t rc -s "status=Disable,starttime=06:10,startfrom=2037-12-31,endon=255"
+
+administrator@cli> 
+bgasched -v -t rc
+-------------------------------------------------------------------------------
+Id: 1                                   Type: RedundancyCheck
+StartTime: 06:10                        StartDay: 2037-12-31
+OperationalStatus: Disabled             RecurrenceType: Daily
+EndOn: after 255 times                  RecurrenceInterval: 1
+AutoFix: Enabled                        PauseOnError: Enabled
+PoolIds: 0,1,2
+
+administrator@cli> 
+bgasched -a mod -t rc -s "autofix=Disable,pause=Disable"
+
+administrator@cli> 
+bgasched -v -t rc
+-------------------------------------------------------------------------------
+Id: 1                                   Type: RedundancyCheck
+StartTime: 06:10                        StartDay: 2037-12-31
+OperationalStatus: Disabled             RecurrenceType: Daily
+EndOn: after 255 times                  RecurrenceInterval: 1
+AutoFix: Disabled                       PauseOnError: Disabled
+PoolIds: 0,1,2
+
+administrator@cli> 
+bgasched -a mod -t rc -s "status=Enable,starttime=12:20,startfrom=2000-01-01,endon=1970-01-01"
+
+administrator@cli> 
+bgasched -v -t rc
+-------------------------------------------------------------------------------
+Id: 1                                   Type: RedundancyCheck
+StartTime: 12:20                        StartDay: 2000-01-01
+OperationalStatus: Enabled              RecurrenceType: Daily
+EndOn: 1970/01/01                       RecurrenceInterval: 1
+AutoFix: Disabled                       PauseOnError: Disabled
+PoolIds: 0,1,2
+
+administrator@cli> 
+Fail: bgasched -a mod -t rc -s "status=Enable,starttime=12:20,startfrom=2000-01-01,endon=1970-01-01"
+bgasched -a mod -t rc -s "autofix=Disable,pause=Disable"
+
+administrator@cli> 
+bgasched -v -t rc
+-------------------------------------------------------------------------------
+Id: 1                                   Type: RedundancyCheck
+StartTime: 12:20                        StartDay: 2000-01-01
+OperationalStatus: Enabled              RecurrenceType: Daily
+EndOn: 1970/01/01                       RecurrenceInterval: 1
+AutoFix: Disabled                       PauseOnError: Disabled
+PoolIds: 0,1,2
+
+administrator@cli> 
+bgasched -a mod -t rc -s "status=Enable,starttime=23:59,startfrom=2000-01-01,endon=2037-12-31"
+
+administrator@cli> 
+bgasched -v -t rc
+-------------------------------------------------------------------------------
+Id: 1                                   Type: RedundancyCheck
+StartTime: 23:59                        StartDay: 2000-01-01
+OperationalStatus: Enabled              RecurrenceType: Daily
+EndOn: 2037/12/31                       RecurrenceInterval: 1
+AutoFix: Disabled                       PauseOnError: Disabled
+PoolIds: 0,1,2
+
+administrator@cli> 
+Fail: bgasched -a mod -t rc -s "status=Enable,starttime=23:59,startfrom=2000-01-01,endon=2037-12-31"
+verify: bgasched -a mod -t br
+bgasched -a mod -t rc -s "autofix=Enable,pause=Enable"
+
+administrator@cli> 
+bgasched -v -t rc
+-------------------------------------------------------------------------------
+Id: 1                                   Type: RedundancyCheck
+StartTime: 23:59                        StartDay: 2000-01-01
+OperationalStatus: Enabled              RecurrenceType: Daily
+EndOn: 2037/12/31                       RecurrenceInterval: 1
+AutoFix: Enabled                        PauseOnError: Enabled
+PoolIds: 0,1,2
+
+administrator@cli> 
+bgasched -a mod -t br -s "status=Disable,starttime=00:00,startfrom=1970-01-01,endon=1"
+
+administrator@cli> 
+bgasched -v -t br
+-------------------------------------------------------------------------------
+Id: 1                                   Type: BatteryRecondition
+StartTime: 00:00                        StartDay: 1970-01-01
+OperationalStatus: Disabled             RecurrenceType: Weekly
+EndOn: after 1 times                    RecurrenceInterval: 1
+DayOfWeek: Sun,Tues
+
+administrator@cli> 
+bgasched -a mod -t rc -s "autofix=Enable,pause=Enable"
+
+administrator@cli> 
+bgasched -v -t rc
+-------------------------------------------------------------------------------
+Id: 1                                   Type: RedundancyCheck
+StartTime: 23:59                        StartDay: 2000-01-01
+OperationalStatus: Enabled              RecurrenceType: Daily
+EndOn: 2037/12/31                       RecurrenceInterval: 1
+AutoFix: Enabled                        PauseOnError: Enabled
+PoolIds: 0,1,2
+
+administrator@cli> 
+bgasched -a mod -t br -s "status=Disable,starttime=06:10,startfrom=2037-12-31,endon=255"
+
+administrator@cli> 
+bgasched -v -t br
+-------------------------------------------------------------------------------
+Id: 1                                   Type: BatteryRecondition
+StartTime: 06:10                        StartDay: 2037-12-31
+OperationalStatus: Disabled             RecurrenceType: Weekly
+EndOn: after 255 times                  RecurrenceInterval: 1
+DayOfWeek: Sun,Tues
+
+administrator@cli> 
+bgasched -a mod -t rc -s "autofix=Disable,pause=Disable"
+
+administrator@cli> 
+bgasched -v -t rc
+-------------------------------------------------------------------------------
+Id: 1                                   Type: RedundancyCheck
+StartTime: 23:59                        StartDay: 2000-01-01
+OperationalStatus: Enabled              RecurrenceType: Daily
+EndOn: 2037/12/31                       RecurrenceInterval: 1
+AutoFix: Disabled                       PauseOnError: Disabled
+PoolIds: 0,1,2
+
+administrator@cli> 
+bgasched -a mod -t br -s "status=Enable,starttime=12:20,startfrom=2000-01-01,endon=1970-01-01"
+
+administrator@cli> 
+bgasched -v -t br
+-------------------------------------------------------------------------------
+Id: 1                                   Type: BatteryRecondition
+StartTime: 12:20                        StartDay: 2000-01-01
+OperationalStatus: Enabled              RecurrenceType: Weekly
+EndOn: 1970/01/01                       RecurrenceInterval: 1
+DayOfWeek: Sun,Tues
+
+administrator@cli> 
+Fail: bgasched -a mod -t br -s "status=Enable,starttime=12:20,startfrom=2000-01-01,endon=1970-01-01"
+bgasched -a mod -t rc -s "autofix=Disable,pause=Disable"
+
+administrator@cli> 
+bgasched -v -t rc
+-------------------------------------------------------------------------------
+Id: 1                                   Type: RedundancyCheck
+StartTime: 23:59                        StartDay: 2000-01-01
+OperationalStatus: Enabled              RecurrenceType: Daily
+EndOn: 2037/12/31                       RecurrenceInterval: 1
+AutoFix: Disabled                       PauseOnError: Disabled
+PoolIds: 0,1,2
+
+administrator@cli> 
+bgasched -a mod -t br -s "status=Enable,starttime=23:59,startfrom=2000-01-01,endon=2037-12-31"
+
+administrator@cli> 
+bgasched -v -t br
+-------------------------------------------------------------------------------
+Id: 1                                   Type: BatteryRecondition
+StartTime: 23:59                        StartDay: 2000-01-01
+OperationalStatus: Enabled              RecurrenceType: Weekly
+EndOn: 2037/12/31                       RecurrenceInterval: 1
+DayOfWeek: Sun,Tues
+
+administrator@cli> 
+Fail: bgasched -a mod -t br -s "status=Enable,starttime=23:59,startfrom=2000-01-01,endon=2037-12-31"
+verify: bgasched -a mod -t sc
+bgasched -a mod -t rc -s "autofix=Enable,pause=Enable"
+
+administrator@cli> 
+bgasched -v -t rc
+-------------------------------------------------------------------------------
+Id: 1                                   Type: RedundancyCheck
+StartTime: 23:59                        StartDay: 2000-01-01
+OperationalStatus: Enabled              RecurrenceType: Daily
+EndOn: 2037/12/31                       RecurrenceInterval: 1
+AutoFix: Enabled                        PauseOnError: Enabled
+PoolIds: 0,1,2
+
+administrator@cli> 
+bgasched -a mod -t sc -s "status=Disable,starttime=00:00,startfrom=1970-01-01,endon=1"
+
+administrator@cli> 
+bgasched -v -t sc
+-------------------------------------------------------------------------------
+Id: 1                                   Type: SpareCheck
+StartTime: 00:00                        StartDay: 1970-01-01
+OperationalStatus: Disabled             RecurrenceType: Monthly
+MonthMask:  Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec
+EndOn: after 1 times                    DayOfMonth: 1
+
+administrator@cli> 
+bgasched -a mod -t rc -s "autofix=Enable,pause=Enable"
+
+administrator@cli> 
+bgasched -v -t rc
+-------------------------------------------------------------------------------
+Id: 1                                   Type: RedundancyCheck
+StartTime: 23:59                        StartDay: 2000-01-01
+OperationalStatus: Enabled              RecurrenceType: Daily
+EndOn: 2037/12/31                       RecurrenceInterval: 1
+AutoFix: Enabled                        PauseOnError: Enabled
+PoolIds: 0,1,2
+
+administrator@cli> 
+bgasched -a mod -t sc -s "status=Disable,starttime=06:10,startfrom=2037-12-31,endon=255"
+
+administrator@cli> 
+bgasched -v -t sc
+-------------------------------------------------------------------------------
+Id: 1                                   Type: SpareCheck
+StartTime: 06:10                        StartDay: 2037-12-31
+OperationalStatus: Disabled             RecurrenceType: Monthly
+MonthMask:  Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec
+EndOn: after 255 times                  DayOfMonth: 1
+
+administrator@cli> 
+bgasched -a mod -t rc -s "autofix=Disable,pause=Disable"
+
+administrator@cli> 
+bgasched -v -t rc
+-------------------------------------------------------------------------------
+Id: 1                                   Type: RedundancyCheck
+StartTime: 23:59                        StartDay: 2000-01-01
+OperationalStatus: Enabled              RecurrenceType: Daily
+EndOn: 2037/12/31                       RecurrenceInterval: 1
+AutoFix: Disabled                       PauseOnError: Disabled
+PoolIds: 0,1,2
+
+administrator@cli> 
+bgasched -a mod -t sc -s "status=Enable,starttime=12:20,startfrom=2000-01-01,endon=1970-01-01"
+
+administrator@cli> 
+bgasched -v -t sc
+-------------------------------------------------------------------------------
+Id: 1                                   Type: SpareCheck
+StartTime: 12:20                        StartDay: 2000-01-01
+OperationalStatus: Enabled              RecurrenceType: Monthly
+MonthMask:  Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec
+EndOn: 1970/01/01                       DayOfMonth: 1
+
+administrator@cli> 
+Fail: bgasched -a mod -t sc -s "status=Enable,starttime=12:20,startfrom=2000-01-01,endon=1970-01-01"
+bgasched -a mod -t rc -s "autofix=Disable,pause=Disable"
+
+administrator@cli> 
+bgasched -v -t rc
+-------------------------------------------------------------------------------
+Id: 1                                   Type: RedundancyCheck
+StartTime: 23:59                        StartDay: 2000-01-01
+OperationalStatus: Enabled              RecurrenceType: Daily
+EndOn: 2037/12/31                       RecurrenceInterval: 1
+AutoFix: Disabled                       PauseOnError: Disabled
+PoolIds: 0,1,2
+
+administrator@cli> 
+bgasched -a mod -t sc -s "status=Enable,starttime=23:59,startfrom=2000-01-01,endon=2037-12-31"
+
+administrator@cli> 
+bgasched -v -t sc
+-------------------------------------------------------------------------------
+Id: 1                                   Type: SpareCheck
+StartTime: 23:59                        StartDay: 2000-01-01
+OperationalStatus: Enabled              RecurrenceType: Monthly
+MonthMask:  Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec
+EndOn: 2037/12/31                       DayOfMonth: 1
+
+administrator@cli> 
+Fail: bgasched -a mod -t sc -s "status=Enable,starttime=23:59,startfrom=2000-01-01,endon=2037-12-31"
+Setting the parameters associated with recurType of daily
+bgasched -a mod -t rc -s "recurInterval=1"
+
+administrator@cli> 
+bgasched -v -t rc
+-------------------------------------------------------------------------------
+Id: 1                                   Type: RedundancyCheck
+StartTime: 23:59                        StartDay: 2000-01-01
+OperationalStatus: Enabled              RecurrenceType: Daily
+EndOn: 2037/12/31                       RecurrenceInterval: 1
+AutoFix: Disabled                       PauseOnError: Disabled
+PoolIds: 0,1,2
+
+administrator@cli> 
+bgasched -a mod -t rc -s "recurInterval=2"
+
+administrator@cli> 
+bgasched -v -t rc
+-------------------------------------------------------------------------------
+Id: 1                                   Type: RedundancyCheck
+StartTime: 23:59                        StartDay: 2000-01-01
+OperationalStatus: Enabled              RecurrenceType: Daily
+EndOn: 2037/12/31                       RecurrenceInterval: 2
+AutoFix: Disabled                       PauseOnError: Disabled
+PoolIds: 0,1,2
+
+administrator@cli> 
+bgasched -a mod -t rc -s "recurInterval=254"
+
+administrator@cli> 
+bgasched -v -t rc
+-------------------------------------------------------------------------------
+Id: 1                                   Type: RedundancyCheck
+StartTime: 23:59                        StartDay: 2000-01-01
+OperationalStatus: Enabled              RecurrenceType: Daily
+EndOn: 2037/12/31                       RecurrenceInterval: 254
+AutoFix: Disabled                       PauseOnError: Disabled
+PoolIds: 0,1,2
+
+administrator@cli> 
+bgasched -a mod -t rc -s "recurInterval=255"
+
+administrator@cli> 
+bgasched -v -t rc
+-------------------------------------------------------------------------------
+Id: 1                                   Type: RedundancyCheck
+StartTime: 23:59                        StartDay: 2000-01-01
+OperationalStatus: Enabled              RecurrenceType: Daily
+EndOn: 2037/12/31                       RecurrenceInterval: 255
+AutoFix: Disabled                       PauseOnError: Disabled
+PoolIds: 0,1,2
+
+administrator@cli> 
+Setting the parameters associated with recurType of weekly
+bgasched -a mod -t br -s "recurInterval=1,dow=Sun"
+
+administrator@cli> 
+bgasched -v -t br
+-------------------------------------------------------------------------------
+Id: 1                                   Type: BatteryRecondition
+StartTime: 23:59                        StartDay: 2000-01-01
+OperationalStatus: Enabled              RecurrenceType: Weekly
+EndOn: 2037/12/31                       RecurrenceInterval: 1
+DayOfWeek: Sun
+
+administrator@cli> 
+bgasched -a mod -t br -s "recurInterval=2,dow=Mon"
+
+administrator@cli> 
+bgasched -v -t br
+-------------------------------------------------------------------------------
+Id: 1                                   Type: BatteryRecondition
+StartTime: 23:59                        StartDay: 2000-01-01
+OperationalStatus: Enabled              RecurrenceType: Weekly
+EndOn: 2037/12/31                       RecurrenceInterval: 2
+DayOfWeek: Mon
+
+administrator@cli> 
+bgasched -a mod -t br -s "recurInterval=51,dow=Tues"
+
+administrator@cli> 
+bgasched -v -t br
+-------------------------------------------------------------------------------
+Id: 1                                   Type: BatteryRecondition
+StartTime: 23:59                        StartDay: 2000-01-01
+OperationalStatus: Enabled              RecurrenceType: Weekly
+EndOn: 2037/12/31                       RecurrenceInterval: 51
+DayOfWeek: Tues
+
+administrator@cli> 
+bgasched -a mod -t br -s "recurInterval=52,dow=Wed"
+
+administrator@cli> 
+bgasched -v -t br
+-------------------------------------------------------------------------------
+Id: 1                                   Type: BatteryRecondition
+StartTime: 23:59                        StartDay: 2000-01-01
+OperationalStatus: Enabled              RecurrenceType: Weekly
+EndOn: 2037/12/31                       RecurrenceInterval: 52
+DayOfWeek: Wed
+
+administrator@cli> 
+bgasched -a mod -t br -s "recurInterval=52,dow=Thur"
+
+administrator@cli> 
+bgasched -v -t br
+-------------------------------------------------------------------------------
+Id: 1                                   Type: BatteryRecondition
+StartTime: 23:59                        StartDay: 2000-01-01
+OperationalStatus: Enabled              RecurrenceType: Weekly
+EndOn: 2037/12/31                       RecurrenceInterval: 52
+DayOfWeek: Thur
+
+administrator@cli> 
+bgasched -a mod -t br -s "recurInterval=52,dow=Fri"
+
+administrator@cli> 
+bgasched -v -t br
+-------------------------------------------------------------------------------
+Id: 1                                   Type: BatteryRecondition
+StartTime: 23:59                        StartDay: 2000-01-01
+OperationalStatus: Enabled              RecurrenceType: Weekly
+EndOn: 2037/12/31                       RecurrenceInterval: 52
+DayOfWeek: Fri
+
+administrator@cli> 
+bgasched -a mod -t br -s "recurInterval=52,dow=Sat"
+
+administrator@cli> 
+bgasched -v -t br
+-------------------------------------------------------------------------------
+Id: 1                                   Type: BatteryRecondition
+StartTime: 23:59                        StartDay: 2000-01-01
+OperationalStatus: Enabled              RecurrenceType: Weekly
+EndOn: 2037/12/31                       RecurrenceInterval: 52
+DayOfWeek: Sat
+
+administrator@cli> 
+Setting the parameters associated with recurType of monthly
+bgasched -a mod -t sc -s "daypattern=dom,dom=1"
+
+administrator@cli> 
+bgasched -v -t sc
+-------------------------------------------------------------------------------
+Id: 1                                   Type: SpareCheck
+StartTime: 23:59                        StartDay: 2000-01-01
+OperationalStatus: Enabled              RecurrenceType: Monthly
+MonthMask:  Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec
+EndOn: 2037/12/31                       DayOfMonth: 1
+
+administrator@cli> 
+bgasched -a mod -t sc -s "daypattern=dom,dom=2"
+
+administrator@cli> 
+bgasched -v -t sc
+-------------------------------------------------------------------------------
+Id: 1                                   Type: SpareCheck
+StartTime: 23:59                        StartDay: 2000-01-01
+OperationalStatus: Enabled              RecurrenceType: Monthly
+MonthMask:  Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec
+EndOn: 2037/12/31                       DayOfMonth: 2
+
+administrator@cli> 
+bgasched -a mod -t sc -s "daypattern=dom,dom=30"
+
+administrator@cli> 
+bgasched -v -t sc
+-------------------------------------------------------------------------------
+Id: 1                                   Type: SpareCheck
+StartTime: 23:59                        StartDay: 2000-01-01
+OperationalStatus: Enabled              RecurrenceType: Monthly
+MonthMask:  Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec
+EndOn: 2037/12/31                       DayOfMonth: 30
+
+administrator@cli> 
+bgasched -a mod -t sc -s "daypattern=dom,dom=31"
+
+administrator@cli> 
+bgasched -v -t sc
+-------------------------------------------------------------------------------
+Id: 1                                   Type: SpareCheck
+StartTime: 23:59                        StartDay: 2000-01-01
+OperationalStatus: Enabled              RecurrenceType: Monthly
+MonthMask:  Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec
+EndOn: 2037/12/31                       DayOfMonth: 31
+
+administrator@cli> 
+bgasched -a mod -t sc -s "daypattern=dow,dow=Sun,wom=1st"
+
+administrator@cli> 
+bgasched -v -t sc
+-------------------------------------------------------------------------------
+Id: 1                                   Type: SpareCheck
+StartTime: 23:59                        StartDay: 2000-01-01
+OperationalStatus: Enabled              RecurrenceType: Monthly
+MonthMask:  Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec
+EndOn: 2037/12/31                       DayOfMonth: 1st Sun
+
+administrator@cli> 
+bgasched -a mod -t sc -s "daypattern=dow,dow=Mon,wom=2nd"
+
+administrator@cli> 
+bgasched -v -t sc
+-------------------------------------------------------------------------------
+Id: 1                                   Type: SpareCheck
+StartTime: 23:59                        StartDay: 2000-01-01
+OperationalStatus: Enabled              RecurrenceType: Monthly
+MonthMask:  Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec
+EndOn: 2037/12/31                       DayOfMonth: 2nd Mon
+
+administrator@cli> 
+bgasched -a mod -t sc -s "daypattern=dow,dow=Tues,wom=3rd"
+
+administrator@cli> 
+bgasched -v -t sc
+-------------------------------------------------------------------------------
+Id: 1                                   Type: SpareCheck
+StartTime: 23:59                        StartDay: 2000-01-01
+OperationalStatus: Enabled              RecurrenceType: Monthly
+MonthMask:  Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec
+EndOn: 2037/12/31                       DayOfMonth: 3rd Tues
+
+administrator@cli> 
+bgasched -a mod -t sc -s "daypattern=dow,dow=Wed,wom=4th"
+
+administrator@cli> 
+bgasched -v -t sc
+-------------------------------------------------------------------------------
+Id: 1                                   Type: SpareCheck
+StartTime: 23:59                        StartDay: 2000-01-01
+OperationalStatus: Enabled              RecurrenceType: Monthly
+MonthMask:  Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec
+EndOn: 2037/12/31                       DayOfMonth: 4th Wed
+
+administrator@cli> 
+bgasched -a mod -t sc -s "daypattern=dow,dow=Thur,wom=Last"
+
+administrator@cli> 
+bgasched -v -t sc
+-------------------------------------------------------------------------------
+Id: 1                                   Type: SpareCheck
+StartTime: 23:59                        StartDay: 2000-01-01
+OperationalStatus: Enabled              RecurrenceType: Monthly
+MonthMask:  Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec
+EndOn: 2037/12/31                       DayOfMonth: Last Thur
+
+administrator@cli> 
+bgasched -a mod -t sc -s "daypattern=dow,dow=Fri,wom=Last"
+
+administrator@cli> 
+bgasched -v -t sc
+-------------------------------------------------------------------------------
+Id: 1                                   Type: SpareCheck
+StartTime: 23:59                        StartDay: 2000-01-01
+OperationalStatus: Enabled              RecurrenceType: Monthly
+MonthMask:  Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec
+EndOn: 2037/12/31                       DayOfMonth: Last Fri
+
+administrator@cli> 
+bgasched -a mod -t sc -s "daypattern=dow,dow=Sat,wom=Last"
+
+administrator@cli> 
+bgasched -v -t sc
+-------------------------------------------------------------------------------
+Id: 1                                   Type: SpareCheck
+StartTime: 23:59                        StartDay: 2000-01-01
+OperationalStatus: Enabled              RecurrenceType: Monthly
+MonthMask:  Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec
+EndOn: 2037/12/31                       DayOfMonth: Last Sat
+
+administrator@cli> 
+
+<font color="red">Fail: To verify modify bgasched </font>
+'result': 'f'
+verify: bgasched
+bgasched
+===============================================================================
+Type                ID   Recurrence  StartTime           OperationalStatus 
+===============================================================================
+BatteryRecondition  1    Weekly      2000-01-01 23:59    Enabled               
+SpareCheck          1    Monthly     2000-01-01 23:59    Enabled               
+RedundancyCheck     1    Daily       2000-01-01 23:59    Enabled               
+
+administrator@cli> 
+verify: bgasched -v
+bgasched -v
+-------------------------------------------------------------------------------
+Id: 1                                   Type: BatteryRecondition
+StartTime: 23:59                        StartDay: 2000-01-01
+OperationalStatus: Enabled              RecurrenceType: Weekly
+EndOn: 2037/12/31                       RecurrenceInterval: 52
+DayOfWeek: Sat
+-------------------------------------------------------------------------------
+Id: 1                                   Type: SpareCheck
+StartTime: 23:59                        StartDay: 2000-01-01
+OperationalStatus: Enabled              RecurrenceType: Monthly
+MonthMask:  Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec
+EndOn: 2037/12/31                       DayOfMonth: Last Sat
+-------------------------------------------------------------------------------
+Id: 1                                   Type: RedundancyCheck
+StartTime: 23:59                        StartDay: 2000-01-01
+OperationalStatus: Enabled              RecurrenceType: Daily
+EndOn: 2037/12/31                       RecurrenceInterval: 255
+AutoFix: Disabled                       PauseOnError: Disabled
+PoolIds: 0,1,2
+
+administrator@cli> 
+verify: bgasched -v -t br
+bgasched -v -t br
+-------------------------------------------------------------------------------
+Id: 1                                   Type: BatteryRecondition
+StartTime: 23:59                        StartDay: 2000-01-01
+OperationalStatus: Enabled              RecurrenceType: Weekly
+EndOn: 2037/12/31                       RecurrenceInterval: 52
+DayOfWeek: Sat
+
+administrator@cli> 
+verify: bgasched -v -t rc
+bgasched -v -t rc
+-------------------------------------------------------------------------------
+Id: 1                                   Type: RedundancyCheck
+StartTime: 23:59                        StartDay: 2000-01-01
+OperationalStatus: Enabled              RecurrenceType: Daily
+EndOn: 2037/12/31                       RecurrenceInterval: 255
+AutoFix: Disabled                       PauseOnError: Disabled
+PoolIds: 0,1,2
+
+administrator@cli> 
+verify: bgasched -v -t sc
+bgasched -v -t sc
+-------------------------------------------------------------------------------
+Id: 1                                   Type: SpareCheck
+StartTime: 23:59                        StartDay: 2000-01-01
+OperationalStatus: Enabled              RecurrenceType: Monthly
+MonthMask:  Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec
+EndOn: 2037/12/31                       DayOfMonth: Last Sat
+
+administrator@cli> 
+
+<font color="green">Pass</font>
+'result': 'p'
+bgasched
+===============================================================================
+Type                ID   Recurrence  StartTime           OperationalStatus 
+===============================================================================
+BatteryRecondition  1    Weekly      2000-01-01 23:59    Enabled               
+SpareCheck          1    Monthly     2000-01-01 23:59    Enabled               
+RedundancyCheck     1    Daily       2000-01-01 23:59    Enabled               
+
+administrator@cli> 
+bgasched -a del -t br -i 1
+
+administrator@cli> 
+bgasched -a del -t sc -i 1
+
+administrator@cli> 
+bgasched -a del -t rc -i 1
+
+administrator@cli> 
+
+<font color="green">Pass</font>
+'result': 'p'
+bgasched -h
+bgasched
+
+Usage:
+  bgasched -a <action> -t <type> -s <list of settings>
+  bgasched -a add -t <type> -s <list of settings>
+  bgasched -a mod -t rc -i <RC scheduler id> -s <list of settings>
+  bgasched -a mod -t <type> -s <list of settings>
+  bgasched -a del -t <type>
+  bgasched -a del -t rc -i <RC scheduler id>
+
+Summary:
+  Bgasched is used to display all scheduled background activities
+  as well as to allow the user to add, modify or delete
+  date and time of the scheduled activities.
+
+-a <action>          Which action to perform.
+
+   list              (Default) Displays information of BGA scheduler.
+   add               Create a new BGA scheduler.
+                     If exists RC scheduler, cannot add RC scheduler
+                     with all pools. The max number of RC scheduler is 2.
+                     Only 1 for other schedulers.
+   mod               Modify a exist scheduler.
+                     Can not change poolid param of an exist RC scheduler
+                     to all pools.
+   del               Delete a exist scheduler.
+
+-t <type>            Specifies what type of scheduler.
+   rc                Redundancy Check Schedule.
+   br                Battery Reconditioning Schedule.
+   sc                Spare Drive Check Schedule.
+
+-i <RC scheduler id> Specifies the RC scheduler ID.
+                     It's used for list/modify/delete RC scheduler.
+                     If the option is not specified, assumed to all.
+
+-s "<option>=<value>"
+                     Used to specify which BGA scheduler settings to
+                     change.
+
+   status=           Specifies status type of scheduler.
+      enable         Enable a scheduler.
+      disable        Disable a scheduler. The default is disable.
+
+   starttime=        Used to specify start time of scheduler in the following
+                     format hh:mm where hour's range is 0-23,
+                     minute's range are 0-59.
+                     The default is 20:00 for MP, 22:00 for RC and SC,
+                     02:00 for others.
+
+   recurtype=        Specifies recurrence type of scheduler.
+                     The default is monthly for br type, weekly for others.
+      daily
+      weekly
+      monthly
+
+   recurInterval=    Specifies recurrence Interval.
+                     This option is for Daily and Weekly recurrence type.
+                     For Daily type, the range is 1-255.
+                     For Weekly type, the range is 1-52.
+                     For Daily type, the default is 1.
+                     For Weekly type, the default is 4 for MP, 2 for RC,
+                     1 for others.
+
+   dow=              Day of Week. This is for Weekly or Monthly recurrence
+                     type scheduler.
+                     Regarding Monthly type, if daypattern (see below) is
+                     day of week, it will be used.
+                     For Weekly, the range is [Sun|Mon|Tues|Wed|Thur|Fri|Sat].
+                     For multiple value, divided by space.
+                     The default is 'Fri' for MP, 'Wed' for RC, 'Tues' for SC,
+                     'Sun Mon Tues Wed Thur Fri Sat' for others.
+                     For Monthly, the range is [Sun|Mon|Tues|Wed|Thur|Fri|Sat].
+                     The default is Sat.
+
+   daypattern =      Specifies the daypattern type for Monthly recurrence
+                     type scheduler.
+      dom            Day of month.
+      dow            Specific day of week.
+
+   dom=              Day of Month, for 'dom' daypattern type.
+                     The range is 1~31. The default is 1.
+
+   wom=              Week ordinal, for 'dow' daypattern type.
+                     The range is (1st| 2nd |3rd |4th |Last).
+                     The default is 1st.
+
+   month=            Months. The range are 1~12 divided by space or '~'.
+                     The default is 1~12.
+
+   startfrom=        Start day of range of occurrence in the following format
+                     yyyy-mm-dd where month's range is 1-12,
+                     day's range is 1-31.
+                     The default is current date of system.
+
+   endon=            Used to specify end time of scheduler.
+      0              (Default) No end time.
+      n              An integer N indicates after N times.
+      yyyy-mm-dd     End date, month's range is 1-12 and day's range is 1-31.
+
+   autofix=          Fix inconsistent data.
+      enable
+      disable        The default is disable.
+
+   pause=            Pause on error.
+      enable
+      disable        The default is disable.
+
+   poolid=           The list of PoolID.
+                     For add action, if the option is not specified,
+                     assumed to for all pools.
+                     For multiple value, divided by space or '~'.
+
+-v                   Verbose mode. Used with -a list.
+
+Examples:
+   bgasched
+   bgasched -a mod -t rc -i 1 -s "status=disable,poolid=1 3~5 7"
+   bgasched -a add -t mp -s "recurtype=monthly,daypattern=dow,wom=2nd,dow=Sun,
+   month= 1 3~6, endon=10"
+   bgasched -a add -t sc -s "recurtype=weekly,dow= Mon Wed Fri,starttime=12:00,
+   endon=2020-01-01"
+Type ' | grep "word1,word2,..."' at the end of each command, to display 
+filtered info.
+
+administrator@cli> 
+
+<font color="green">Pass</font>
+'result': 'p'
+bgasched -x
+Error (0x2012): Invalid option for the command or the action
+invalid option: -x
+
+administrator@cli> 
+bgasched -a list -x
+Error (0x2012): Invalid option for the command or the action
+invalid option: -x
+
+administrator@cli> 
+bgasched -a mod -x
+Error (0x2012): Invalid option for the command or the action
+invalid option: -x
+
+administrator@cli> 
+bgasched -a del -x
+Error (0x2012): Invalid option for the command or the action
+invalid option: -x
+
+administrator@cli> 
+
+<font color="green">Pass</font>
+'result': 'p'
+bgasched -t x
+Error (0x2013): Invalid setting parameters
+-t: invalid setting x (rc|br|sc)
+
+administrator@cli> 
+bgasched -a mod -t x
+Error (0x2013): Invalid setting parameters
+-t: invalid setting x (rc|br|sc)
+
+administrator@cli> 
+bgasched -a add -t sc -s "status=x"
+Error (0x2013): Invalid setting parameters
+status: invalid setting x (enable|disable)
+
+administrator@cli> 
+bgasched -a add -t sc -s "recurtype=x"
+Error (0x2013): Invalid setting parameters
+recurtype: invalid setting x (daily|weekly|monthly)
+
+administrator@cli> 
+bgasched -a add -t sc -s "starttime=-1"
+Error (0x2013): Invalid setting parameters
+invalid start time format XX:XX
+
+administrator@cli> 
+bgasched -a add -t sc -s "starttime=24"
+Error (0x2013): Invalid setting parameters
+invalid start time format XX:XX
+
+administrator@cli> 
+bgasched -a add -t sc -s "recurtype=daily,recurInterval=0"
+Error (0x2013): Invalid setting parameters
+recurinterval: invalid setting 0 (1,255)
+
+administrator@cli> 
+bgasched -a add -t sc -s "recurtype=daily,recurInterval=256"
+Error (0x2013): Invalid setting parameters
+recurinterval: invalid setting 256 (1,255)
+
+administrator@cli> 
+bgasched -a add -t sc -s "recurtype=weekly,recurInterval=0"
+Error (0x2013): Invalid setting parameters
+recurinterval: invalid setting 0 (1,255)
+
+administrator@cli> 
+bgasched -a add -t sc -s "recurtype=weekly,recurInterval=53"
+Error (0x2013): Invalid setting parameters
+invalid interval (1,52)
+
+administrator@cli> 
+bgasched -a add -t sc -s "daypattern=dom,dom=0"
+Error (0x2013): Invalid setting parameters
+dom: invalid setting 0 (1,31)
+
+administrator@cli> 
+bgasched -a add -t sc -s "daypattern=dom,dom=32"
+Error (0x2013): Invalid setting parameters
+dom: invalid setting 32 (1,31)
+
+administrator@cli> 
+bgasched -a add -t sc -s "daypattern=dow,wom=x"
+Error (0x2013): Invalid setting parameters
+wom: invalid setting x (1st|2nd|3rd|4th|last)
+
+administrator@cli> 
+bgasched -a add -t sc -s "startfrom=2017-0-1"
+Error (0x2013): Invalid setting parameters
+invalid month value range 1~12
+
+administrator@cli> 
+bgasched -a add -t sc -s "startfrom=2017-13-1"
+Error (0x2013): Invalid setting parameters
+invalid month value range 1~12
+
+administrator@cli> 
+bgasched -a add -t sc -s "startfrom=2017-1-0"
+Error (0x2013): Invalid setting parameters
+invalid day value range 1~31
+
+administrator@cli> 
+bgasched -a add -t sc -s "startfrom=2017-1-32"
+Error (0x2013): Invalid setting parameters
+invalid day value range 1~31
+
+administrator@cli> 
+bgasched -a add -t sc -s "startfrom=3038-1-1"
+Error (0x2013): Invalid setting parameters
+invalid year value range 1970~2037
+
+administrator@cli> 
+bgasched -a add -t sc -s "endon=-1"
+Error (0x2013): Invalid setting parameters
+-1 format as yyyy-mm-dd
+
+administrator@cli> 
+bgasched -a add -t sc -s "endon=256"
+Error (0x2013): Invalid setting parameters
+invalid endon option (0~255)
+
+administrator@cli> 
+bgasched -a add -t sc -s "endon=2017-0-1"
+Error (0x2013): Invalid setting parameters
+invalid month value range 1~12
+
+administrator@cli> 
+bgasched -a add -t sc -s "endon=2017-13-1"
+Error (0x2013): Invalid setting parameters
+invalid month value range 1~12
+
+administrator@cli> 
+bgasched -a add -t sc -s "endon=2017-1-0"
+Error (0x2013): Invalid setting parameters
+invalid day value range 1~31
+
+administrator@cli> 
+bgasched -a add -t sc -s "endon=2017-32-1"
+Error (0x2013): Invalid setting parameters
+invalid month value range 1~12
+
+administrator@cli> 
+bgasched -a add -t rc -s "autofix=x"
+Error (0x2013): Invalid setting parameters
+autofix: invalid setting x (enable|disable)
+
+administrator@cli> 
+bgasched -a add -t rc -s "pause=x"
+Error (0x2013): Invalid setting parameters
+pause: invalid setting x (enable|disable)
+
+administrator@cli> 
+bgasched -a del -t x
+Error (0x2013): Invalid setting parameters
+-t: invalid setting x (rc|br|sc)
+
+administrator@cli> 
+
+<font color="green">Pass</font>
+'result': 'p'
+bgasched -t 
+Error (0x403): Missing parameter
+-t: missing value
+
+administrator@cli> 
+bgasched -a mod -t rc -s
+Error (0x403): Missing parameter
+-s: missing value
+
+administrator@cli> 
+bgasched -a del -t
+Error (0x403): Missing parameter
+-t: missing value
+
+administrator@cli> 
+
+<font color="green">Pass</font>
+'result': 'p'
+pool
+===============================================================================
+Id   Name                        TotalCap  UsedCap   FreeCap   OpStatus       
+===============================================================================
+0    testBgasched1               1.83 TB   98.82 KB  1.83 TB   OK,             
+                                                               Synchronizing   
+1    testBgasched2               66.70 GB  98.82 KB  66.70 GB  OK,             
+                                                               Synchronizing   
+2    testBgasched3               28.41 GB  98.82 KB  28.41 GB  OK              
+
+administrator@cli> 
+pool -a del -f -i 0
+Do you want to delete the pool? (y|n):Do you want to delete the pool? (y|n):
+
+administrator@cli> 
+pool -a del -f -i 1
+Do you want to delete the pool? (y|n):Do you want to delete the pool? (y|n):
+
+administrator@cli> 
+pool -a del -f -i 2
+Do you want to delete the pool? (y|n):Do you want to delete the pool? (y|n):
+
+administrator@cli> 
+Verify BgascheduleAdd info by api
+Verify Bgaschedule list info by api
+{u'status': 1, u'month_start': 1, u'year_start': 1976, u'range_end': 1, u'start_time': 125, u'interval': 1, u'day_start': 1, u'recurrence_type': u'Daily', u'bga_type': u'ntp', u'id': u'ntp'}
+{u'status': 0, u'month_start': 1, u'year_start': 2017, u'range_end': 1, u'start_time': 60, u'interval': 10, u'day_start': 1, u'rc_fix': 0, u'rc_pause': 0, u'recurrence_type': u'Daily', u'rc_poolnum': 0, u'bga_type': u'rc', u'id': u'rc_1', u'rc_pools': []}
+Verify Bgaschedule list info by api
+{u'status': 1, u'month_start': 1, u'year_start': 1976, u'range_end': 1, u'start_time': 125, u'interval': 1, u'day_start': 1, u'recurrence_type': u'Daily', u'bga_type': u'ntp', u'id': u'ntp'}
+Verify Bgaschedule list info by api
+{u'status': 1, u'month_start': 1, u'year_start': 1976, u'range_end': 1, u'start_time': 125, u'interval': 1, u'day_start': 1, u'recurrence_type': u'Daily', u'bga_type': u'ntp', u'id': u'ntp'}
+{u'status': 0, u'month_start': 1, u'year_start': 2017, u'range_end': 1, u'start_time': 60, u'interval': 10, u'day_start': 1, u'rc_fix': 0, u'rc_pause': 0, u'recurrence_type': u'Daily', u'rc_poolnum': 0, u'bga_type': u'rc', u'id': u'rc_1', u'rc_pools': []}
+Verify BgascheduleAdd info by api
+'result': 'p'
+Verify BgascheduleAdd info by api
+Verify BgascheduleAdd info by api
+Verify BgascheduleAdd info by api
+Verify BgascheduleAdd info by api
+Verify BgascheduleAdd info by api
+'result': 'p'
+Verify BgascheduleAdd info by api
+Verify BgascheduleAdd info by api
+Verify BgascheduleAdd info by api
+'result': 'p'
+Verify BgascheduleAdd info by api
+Verify BgascheduleAdd info by api
+Verify BgascheduleAdd info by api
+'result': 'p'
+Verify BgascheduleAdd info by api
+'result': 'p'
+Verify BgascheduleAdd info by api
+Verify BgascheduleAdd info by api
+Verify BgascheduleAdd info by api
+Verify BgascheduleAdd info by api
+'result': 'p'
+Verify BgascheduleAdd info by api
+'result': 'p'
+Verify BgascheduleAdd info by api
+'result': 'p'
+Verify BgascheduleAdd info by api
+'result': 'p'
+Verify BgascheduleAdd info by api
+Verify BgascheduleAdd info by api
+'result': 'p'
+Verify BgascheduleAdd info by api
+Verify BgascheduleAdd info by api
+Verify BgascheduleAdd info by api
+Verify BgascheduleAdd info by api
+'result': 'p'
+Verify BgascheduleAdd info by api
+Verify BgascheduleAdd info by api
+Verify BgascheduleAdd info by api
+Verify BgascheduleAdd info by api
+Verify BgascheduleAdd info by api
+Verify BgascheduleAdd info by api
+'result': 'p'
+Verify BgascheduleAdd info by api
+'result': 'p'
+Verify BgascheduleAdd info by api
+'result': 'p'
+Verify BgascheduleAdd info by api
+'result': 'p'
+Verify BgascheduleAdd info by api
+'result': 'p'
+Verify BgascheduleAdd info by api
+'result': 'p'
+Verify BgascheduleAdd info by api
+Verify BgascheduleAdd info by api
+'result': 'p'
+Verify BgascheduleAdd info by api
+Verify BgascheduleAdd info by api
+Verify BgascheduleAdd info by api
+Verify BgascheduleAdd info by api
+Verify BgascheduleAdd info by api
+Verify BgascheduleAdd info by api
+Verify BgascheduleAdd info by api
+Verify BgascheduleAdd info by api
+'result': 'p'

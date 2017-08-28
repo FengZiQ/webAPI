@@ -26,14 +26,14 @@ formatter = logging.Formatter('%(asctime)s %(levelname)s %(message)s')
 handler.setFormatter(formatter)
 logger.addHandler(handler)
 
-serverip="10.84.2.164"
+serverip = "10.84.2.164"
 from requests import Request, Session
 
 def setupsession():
     parameters = {"username": "administrator", "password": "password"}
-    s=Session()
+    s = Session()
     url = "https://" + serverip + "/service/login"
-    req=Request("post",url,parameters)
+    req = Request("post", url, parameters)
 
     prepped = s.prepare_request(req)
 
@@ -41,7 +41,7 @@ def setupsession():
 
 if __name__ == "__main__":
 
-    s, p= setupsession()
+    s, p = setupsession()
 
 import json
 import collections

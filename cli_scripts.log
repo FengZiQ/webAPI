@@ -1,0 +1,76 @@
+2017-08-19 13:22:35: 'result': 'p'
+2017-08-19 13:22:27: Verify BgascheduleAdd info by api
+2017-08-19 13:21:44: Verify BgascheduleAdd info by api
+2017-08-19 13:20:17: Verify BgascheduleAdd info by api
+2017-08-19 13:20:05: Verify BgascheduleAdd info by api
+2017-08-19 13:19:42: Verify BgascheduleAdd info by api
+2017-08-19 13:19:21: Verify BgascheduleAdd info by api
+2017-08-19 13:17:34: Verify BgascheduleAdd info by api
+2017-08-19 13:15:33: Verify BgascheduleAdd info by api
+2017-08-19 12:59:12: 'result': 'p'
+2017-08-19 12:59:11: Verify BgascheduleAdd info by api
+2017-08-19 12:49:50: Verify BgascheduleAdd info by api
+2017-08-19 12:48:52: 'result': 'p'
+2017-08-19 12:47:40: Verify BgascheduleAdd info by api
+2017-08-19 12:45:56: 'result': 'p'
+2017-08-19 12:44:14: Verify BgascheduleAdd info by api
+2017-08-19 12:41:28: 'result': 'p'
+2017-08-19 12:41:23: Verify BgascheduleAdd info by api
+2017-08-19 12:38:43: 'result': 'p'
+2017-08-19 12:38:29: Verify BgascheduleAdd info by api
+2017-08-17 15:16:40: 'result': 'p'
+2017-08-17 15:16:32: Verify BgascheduleAdd info by api
+2017-08-17 15:10:02: 'result': 'p'
+2017-08-17 15:09:54: Verify BgascheduleAdd info by api
+2017-08-17 15:08:36: Verify BgascheduleAdd info by api
+2017-08-17 15:08:03: Verify BgascheduleAdd info by api
+2017-08-17 15:07:07: Verify BgascheduleAdd info by api
+2017-08-17 15:06:54: Verify BgascheduleAdd info by api
+2017-08-17 14:42:23: Verify BgascheduleAdd info by api
+2017-08-17 14:39:52: 'result': 'p'
+2017-08-17 14:39:43: Verify BgascheduleAdd info by api
+2017-08-17 14:39:22: Verify BgascheduleAdd info by api
+2017-08-17 14:38:37: Verify BgascheduleAdd info by api
+2017-08-17 14:35:21: Verify BgascheduleAdd info by api
+2017-08-17 14:34:14: 'result': 'p'
+2017-08-17 14:34:06: Verify BgascheduleAdd info by api
+2017-08-17 14:30:56: Verify BgascheduleAdd info by api
+2017-08-17 14:18:06: 'result': 'p'
+2017-08-17 14:17:57: Verify BgascheduleAdd info by api
+2017-08-17 14:17:44: 'result': 'p'
+2017-08-17 14:17:36: Verify BgascheduleAdd info by api
+2017-08-17 14:16:54: 'result': 'p'
+2017-08-17 14:16:46: Verify BgascheduleAdd info by api
+2017-08-17 14:14:02: 'result': 'p'
+2017-08-17 14:13:53: Verify BgascheduleAdd info by api
+2017-08-17 14:13:20: Verify BgascheduleAdd info by api
+2017-08-17 14:12:53: Verify BgascheduleAdd info by api
+2017-08-17 14:12:30: Verify BgascheduleAdd info by api
+2017-08-17 14:11:05: 'result': 'p'
+2017-08-17 14:10:56: Verify BgascheduleAdd info by api
+2017-08-17 11:31:07: 'result': 'p'
+2017-08-17 11:30:58: Verify BgascheduleAdd info by api
+2017-08-17 11:28:28: Verify BgascheduleAdd info by api
+2017-08-17 11:27:42: Verify BgascheduleAdd info by api
+2017-08-17 11:23:21: 'result': 'p'
+2017-08-17 11:23:17: Verify BgascheduleAdd info by api
+2017-08-17 11:22:52: Verify BgascheduleAdd info by api
+2017-08-17 11:21:48: Verify BgascheduleAdd info by api
+2017-08-17 11:19:52: 'result': 'p'
+2017-08-17 11:19:48: Verify BgascheduleAdd info by api
+2017-08-17 11:16:35: Verify BgascheduleAdd info by api
+2017-08-17 11:16:16: Verify BgascheduleAdd info by api
+2017-08-17 11:15:20: Verify BgascheduleAdd info by api
+2017-08-17 11:15:06: Verify BgascheduleAdd info by api
+2017-08-17 11:12:29: 'result': 'p'
+2017-08-17 11:12:27: Verify BgascheduleAdd info by api
+2017-08-17 09:58:07: {u'status': 0, u'month_start': 1, u'year_start': 2017, u'range_end': 1, u'start_time': 60, u'interval': 10, u'day_start': 1, u'rc_fix': 0, u'rc_pause': 0, u'recurrence_type': u'Daily', u'rc_poolnum': 0, u'bga_type': u'rc', u'id': u'rc_1', u'rc_pools': []}
+2017-08-17 09:58:07: {u'status': 1, u'month_start': 1, u'year_start': 1976, u'range_end': 1, u'start_time': 125, u'interval': 1, u'day_start': 1, u'recurrence_type': u'Daily', u'bga_type': u'ntp', u'id': u'ntp'}
+2017-08-17 09:58:07: Verify Bgaschedule list info by api
+2017-08-17 09:41:28: {u'status': 1, u'month_start': 1, u'year_start': 1976, u'range_end': 1, u'start_time': 125, u'interval': 1, u'day_start': 1, u'recurrence_type': u'Daily', u'bga_type': u'ntp', u'id': u'ntp'}
+2017-08-17 09:39:36: Verify Bgaschedule list info by api
+2017-08-17 09:29:23: {u'status': 0, u'month_start': 1, u'year_start': 2017, u'range_end': 1, u'start_time': 60, u'interval': 10, u'day_start': 1, u'rc_fix': 0, u'rc_pause': 0, u'recurrence_type': u'Daily', u'rc_poolnum': 0, u'bga_type': u'rc', u'id': u'rc_1', u'rc_pools': []}
+2017-08-17 09:29:23: {u'status': 1, u'month_start': 1, u'year_start': 1976, u'range_end': 1, u'start_time': 125, u'interval': 1, u'day_start': 1, u'recurrence_type': u'Daily', u'bga_type': u'ntp', u'id': u'ntp'}
+2017-08-17 09:29:23: Verify Bgaschedule list info by api
+2017-08-17 09:28:19: Verify BgascheduleAdd info by api
+﻿
