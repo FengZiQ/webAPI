@@ -1442,3 +1442,267 @@ Verify BgascheduleAdd info by api
 Verify BgascheduleAdd info by api
 Verify BgascheduleAdd info by api
 'result': 'p'
+Verify BgascheduleAdd info by api
+Verify BgascheduleAdd info by api
+Verify BgascheduleAdd info by api
+Verify BgascheduleAdd info by api
+add bgasched of daily type
+Verify BgascheduleAdd info by api
+add bgasched of daily type
+Verify BgascheduleAdd info by api
+add bgasched of daily type
+Verify BgascheduleAdd info by api
+add bgasched of daily type
+Verify BgascheduleAdd info by api
+add bgasched of daily type
+Verify BgascheduleAdd info by api
+add bgasched of daily type
+Verify BgascheduleAdd info by api
+add bgasched of daily type
+Verify BgascheduleAdd info by api
+add bgasched of daily type
+Verify BgascheduleAdd info by api
+add bgasched of daily type
+Verify BgascheduleAdd info by api
+add bgasched of daily type
+Verify BgascheduleAdd info by api
+add bgasched of daily type
+'result': 'p'
+Verify BgascheduleAdd info by api
+add bgasched of daily type
+Verify BgascheduleAdd info by api
+add bgasched of daily type
+add bgasched of weekly type
+'result': 'p'
+Verify BgascheduleAdd info by api
+add bgasched of daily type
+add bgasched of weekly type
+'result': 'p'
+Verify BgascheduleAdd info by api
+add bgasched of daily type
+Verify BgascheduleAdd info by api
+add bgasched of daily type
+add bgasched of daily type is failed
+add bgasched of weekly type
+'result': 'f'
+Verify BgascheduleAdd info by api
+add bgasched of daily type
+add bgasched of rc type is failed
+add bgasched of rc type is failed
+add bgasched of rc type is failed
+add bgasched of rc type is failed
+add bgasched of rc type is failed
+add bgasched of rc type is failed
+add bgasched of rc type is failed
+add bgasched of rc type is failed
+add bgasched of rc type is failed
+add bgasched of rc type is failed
+add bgasched of rc type is failed
+add bgasched of rc type is failed
+add bgasched of rc type is failed
+add bgasched of rc type is failed
+add bgasched of rc type is failed
+add bgasched of rc type is failed
+add bgasched of rc type is failed
+add bgasched of rc type is failed
+add bgasched of rc type is failed
+add bgasched of rc type is failed
+add bgasched of rc type is failed
+add bgasched of rc type is failed
+add bgasched of rc type is failed
+add bgasched of rc type is failed
+add bgasched of rc type is failed
+add bgasched of rc type is failed
+add bgasched of rc type is failed
+add bgasched of rc type is failed
+add bgasched of rc type is failed
+add bgasched of rc type is failed
+add bgasched of rc type is failed
+add bgasched of rc type is failed
+add bgasched of weekly type
+'result': 'f'
+Verify BgascheduleAdd info by api
+add bgasched of daily type
+add bgasched of weekly type
+'result': 'p'
+Verify BgascheduleAdd info by api
+add bgasched of daily type
+Verify BgascheduleAdd info by api
+add bgasched of daily type
+Verify BgascheduleAdd info by api
+add bgasched of daily type
+add bgasched of weekly type
+'result': 'p'
+Verify BgascheduleAdd info by api
+add bgasched of daily type
+Verify BgascheduleAdd info by api
+add bgasched of daily type
+Verify BgascheduleAdd info by api
+add bgasched of daily type
+Verify BgascheduleAdd info by api
+add bgasched of daily type
+{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "start_time": 1439, "interval": 255, "day_start": 30, "rc_pools": [0], "recurrence_type": 1, "bga_type": "rc", "range_end": 2}
+Verify BgascheduleAdd info by api
+add bgasched of daily type
+Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "start_time": 1439, "interval": 255, "day_start": 30, "rc_pools": [0], "recurrence_type": 1, "bga_type": "rc", "range_end": 2}
+Verify BgascheduleAdd info by api
+add bgasched of daily type
+Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "start_time": 1439, "interval": 255, "day_start": 30, "rc_pools": [0], "recurrence_type": 1, "bga_type": "rc", "range_end": 2}
+Verify BgascheduleAdd info by api
+add bgasched of daily type
+Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "start_time": 1439, "interval": 255, "day_start": 30, "rc_pools": [0], "recurrence_type": 1, "bga_type": "rc", "range_end": 2}
+Actual: "[\n    {\n        \"id\": \"ntp\",\n        \"bga_type\": \"ntp\",\n        \"status\": 1,\n        \"start_time\": 125,\n        \"day_start\": 1,\n        \"month_start\": 1,\n        \"year_start\": 1976,\n        \"recurrence_type\": \"Daily\",\n        \"range_end\": 1,\n        \"interval\": 1\n    },\n    {\n        \"id\": \"rc_1\",\n        \"bga_type\": \"rc\",\n        \"status\": 1,\n        \"start_time\": 1439,\n        \"day_start\": 30,\n        \"month_start\": 12,\n        \"year_start\": 2037,\n        \"recurrence_type\": \"Daily\",\n        \"range_end\": 2,\n        \"recurrence_count\": 255,\n        \"interval\": 255,\n        \"rc_fix\": 0,\n        \"rc_pause\": 0,\n        \"rc_pools\": [\n            0\n        ],\n        \"rc_poolnum\": 1\n    }\n]"
+Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "start_time": 1439, "interval": 255, "day_start": 30, "range_end": 2, "recurrence_type": 1, "bga_type": "brc"}
+Verify BgascheduleAdd info by api
+add bgasched of daily type
+Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "start_time": 1439, "interval": 255, "day_start": 30, "rc_pools": [0], "recurrence_type": 1, "bga_type": "rc", "range_end": 2}
+Actual: "[\n    {\n        \"id\": \"ntp\",\n        \"bga_type\": \"ntp\",\n        \"status\": 1,\n        \"start_time\": 125,\n        \"day_start\": 1,\n        \"month_start\": 1,\n        \"year_start\": 1976,\n        \"recurrence_type\": \"Daily\",\n        \"range_end\": 1,\n        \"interval\": 1\n    },\n    {\n        \"id\": \"rc_1\",\n        \"bga_type\": \"rc\",\n        \"status\": 1,\n        \"start_time\": 1439,\n        \"day_start\": 30,\n        \"month_start\": 12,\n        \"year_start\": 2037,\n        \"recurrence_type\": \"Daily\",\n        \"range_end\": 2,\n        \"recurrence_count\": 255,\n        \"interval\": 255,\n        \"rc_fix\": 0,\n        \"rc_pause\": 0,\n        \"rc_pools\": [\n            0\n        ],\n        \"rc_poolnum\": 1\n    }\n]"
+Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "start_time": 1439, "interval": 255, "day_start": 30, "range_end": 2, "recurrence_type": 1, "bga_type": "brc"}
+Verify BgascheduleAdd info by api
+add bgasched of daily type
+Verify BgascheduleAdd info by api
+add bgasched of daily type
+Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "start_time": 1439, "interval": 255, "day_start": 30, "rc_pools": [0], "recurrence_type": 1, "bga_type": "rc", "range_end": 2}
+Verify BgascheduleAdd info by api
+add bgasched of daily type
+Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "start_time": 1439, "interval": 255, "day_start": 30, "rc_pools": [0], "recurrence_type": 1, "bga_type": "rc", "range_end": 2}
+Verify BgascheduleAdd info by api
+add bgasched of daily type
+Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "start_time": 1439, "interval": 255, "day_start": 30, "rc_pools": [0], "recurrence_type": 1, "bga_type": "rc", "range_end": 2}
+Verify BgascheduleAdd info by api
+add bgasched of daily type
+Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "start_time": 1439, "interval": 255, "day_start": 30, "rc_pools": [0], "recurrence_type": 1, "bga_type": "rc", "range_end": 2}
+Verify BgascheduleAdd info by api
+add bgasched of daily type
+Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "start_time": 1439, "interval": 255, "day_start": 30, "rc_pools": [0], "recurrence_type": 1, "bga_type": "rc", "range_end": 2}
+Actual:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "range_end": 2, "start_time": 1439, "interval": 255, "day_start": 30, "rc_fix": 0, "rc_pause": 0, "recurrence_type": "Daily", "rc_poolnum": 1, "bga_type": "rc", "id": "rc_1", "rc_pools": [0]}
+Verify BgascheduleAdd info by api
+add bgasched of daily type
+Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "start_time": 1439, "interval": 255, "day_start": 30, "rc_pools": [0], "recurrence_type": 1, "bga_type": "rc", "range_end": 2}
+Actual:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "range_end": 2, "start_time": 1439, "interval": 255, "day_start": 30, "rc_fix": 0, "rc_pause": 0, "recurrence_type": "Daily", "rc_poolnum": 1, "bga_type": "rc", "id": "rc_1", "rc_pools": [0]}
+Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "start_time": 1439, "interval": 255, "day_start": 30, "range_end": 2, "recurrence_type": 1, "bga_type": "brc"}
+Actual:{"status": 1, "month_start": 1, "year_start": 1976, "range_end": 1, "start_time": 125, "interval": 1, "day_start": 1, "recurrence_type": "Daily", "bga_type": "ntp", "id": "ntp"}
+Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "start_time": 1439, "interval": 255, "day_start": 30, "range_end": 2, "recurrence_type": 1, "bga_type": "sc"}
+Actual:{"status": 1, "month_start": 1, "year_start": 1976, "range_end": 1, "start_time": 125, "interval": 1, "day_start": 1, "recurrence_type": "Daily", "bga_type": "ntp", "id": "ntp"}
+add bgasched of weekly type
+'result': 'p'
+Verify BgascheduleAdd info by api
+add bgasched of daily type
+Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "start_time": 1439, "interval": 255, "day_start": 30, "rc_pools": [0], "recurrence_type": 1, "bga_type": "rc", "range_end": 2}
+Actual:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "range_end": 2, "start_time": 1439, "interval": 255, "day_start": 30, "rc_fix": 0, "rc_pause": 0, "recurrence_type": "Daily", "rc_poolnum": 1, "bga_type": "rc", "id": "rc_1", "rc_pools": [0]}
+Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "start_time": 1439, "interval": 255, "day_start": 30, "range_end": 2, "recurrence_type": 1, "bga_type": "brc"}
+Actual:{"status": 1, "month_start": 1, "year_start": 1976, "range_end": 1, "start_time": 125, "interval": 1, "day_start": 1, "recurrence_type": "Daily", "bga_type": "ntp", "id": "ntp"}
+Verify BgascheduleAdd info by api
+add bgasched of daily type
+Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "start_time": 1439, "interval": 255, "day_start": 30, "rc_pools": [0], "recurrence_type": 1, "bga_type": "rc", "range_end": 2}
+Actual:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "range_end": 2, "start_time": 1439, "interval": 255, "day_start": 30, "rc_fix": 0, "rc_pause": 0, "recurrence_type": "Daily", "rc_poolnum": 1, "bga_type": "rc", "id": "rc_1", "rc_pools": [0]}
+Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "start_time": 1439, "interval": 255, "day_start": 30, "range_end": 2, "recurrence_type": 1, "bga_type": "brc"}
+Actual:{"status": 1, "month_start": 1, "year_start": 1976, "range_end": 1, "start_time": 125, "interval": 1, "day_start": 1, "recurrence_type": "Daily", "bga_type": "ntp", "id": "ntp"}
+Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "start_time": 1439, "interval": 255, "day_start": 30, "range_end": 2, "recurrence_type": 1, "bga_type": "sc"}
+Actual:{"status": 1, "month_start": 1, "year_start": 1976, "range_end": 1, "start_time": 125, "interval": 1, "day_start": 1, "recurrence_type": "Daily", "bga_type": "ntp", "id": "ntp"}
+add bgasched of weekly type
+'result': 'p'
+Verify BgascheduleAdd info by api
+add bgasched of daily type
+Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "start_time": 1439, "interval": 255, "day_start": 30, "rc_pools": [0], "recurrence_type": 1, "bga_type": "rc", "range_end": 2}
+Actual:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "range_end": 2, "start_time": 1439, "interval": 255, "day_start": 30, "rc_fix": 0, "rc_pause": 0, "recurrence_type": "Daily", "rc_poolnum": 1, "bga_type": "rc", "id": "rc_1", "rc_pools": [0]}
+Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "start_time": 1439, "interval": 255, "day_start": 30, "range_end": 2, "recurrence_type": 1, "bga_type": "brc"}
+Actual:{"status": 1, "month_start": 1, "year_start": 1976, "range_end": 1, "start_time": 125, "interval": 1, "day_start": 1, "recurrence_type": "Daily", "bga_type": "ntp", "id": "ntp"}
+Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "start_time": 1439, "interval": 255, "day_start": 30, "range_end": 2, "recurrence_type": 1, "bga_type": "sc"}
+Actual:{"status": 1, "month_start": 1, "year_start": 1976, "range_end": 1, "start_time": 125, "interval": 1, "day_start": 1, "recurrence_type": "Daily", "bga_type": "ntp", "id": "ntp"}
+add bgasched of weekly type
+'result': 'p'
+Verify BgascheduleAdd info by api
+add bgasched of daily type
+Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "start_time": 1439, "interval": 255, "day_start": 30, "rc_pools": [0], "recurrence_type": 1, "bga_type": "rc", "range_end": 2}
+Actual:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "range_end": 2, "start_time": 1439, "interval": 255, "day_start": 30, "rc_fix": 0, "rc_pause": 0, "recurrence_type": "Daily", "rc_poolnum": 1, "bga_type": "rc", "id": "rc_1", "rc_pools": [0]}
+Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "start_time": 1439, "interval": 255, "day_start": 30, "range_end": 2, "recurrence_type": 1, "bga_type": "brc"}
+Actual:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "range_end": 2, "start_time": 1439, "interval": 255, "day_start": 30, "recurrence_type": "Daily", "bga_type": "brc", "id": "brc"}
+Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "start_time": 1439, "interval": 255, "day_start": 30, "range_end": 2, "recurrence_type": 1, "bga_type": "sc"}
+Actual:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "range_end": 2, "start_time": 1439, "interval": 255, "day_start": 30, "recurrence_type": "Daily", "bga_type": "sc", "id": "sc"}
+add bgasched of weekly type
+'result': 'p'
+Verify BgascheduleAdd info by api
+add bgasched of daily type
+Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "start_time": 1439, "interval": 255, "day_start": 30, "rc_pools": [0], "recurrence_type": 1, "bga_type": "rc", "range_end": 2}
+Actual:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "range_end": 2, "start_time": 1439, "interval": 255, "day_start": 30, "rc_fix": 0, "rc_pause": 0, "recurrence_type": "Daily", "rc_poolnum": 1, "bga_type": "rc", "id": "rc_1", "rc_pools": [0]}
+Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "start_time": 1439, "interval": 255, "day_start": 30, "range_end": 2, "recurrence_type": 1, "bga_type": "brc"}
+Verify BgascheduleAdd info by api
+add bgasched of daily type
+Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "start_time": 1439, "interval": 255, "day_start": 30, "rc_pools": [0], "recurrence_type": 1, "bga_type": "rc", "range_end": 2}
+Actual:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "range_end": 2, "start_time": 1439, "interval": 255, "day_start": 30, "rc_fix": 0, "rc_pause": 0, "recurrence_type": "Daily", "rc_poolnum": 1, "bga_type": "rc", "id": "rc_1", "rc_pools": [0]}
+Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "start_time": 1439, "interval": 255, "day_start": 30, "range_end": 2, "recurrence_type": 1, "bga_type": "brc"}
+Verify BgascheduleAdd info by api
+add bgasched of daily type
+Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "start_time": 1439, "interval": 255, "day_start": 30, "rc_pools": [0], "recurrence_type": 1, "bga_type": "rc", "range_end": 2}
+Actual:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "range_end": 2, "start_time": 1439, "interval": 255, "day_start": 30, "rc_fix": 0, "rc_pause": 0, "recurrence_type": "Daily", "rc_poolnum": 1, "bga_type": "rc", "id": "rc_1", "rc_pools": [0]}
+Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "start_time": 1439, "interval": 255, "day_start": 30, "range_end": 2, "recurrence_type": 1, "bga_type": "brc"}
+Actual:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "range_end": 2, "start_time": 1439, "interval": 255, "day_start": 30, "recurrence_type": "Daily", "bga_type": "brc", "id": "brc"}
+Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "start_time": 1439, "interval": 255, "day_start": 30, "range_end": 2, "recurrence_type": 1, "bga_type": "sc"}
+Actual:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "range_end": 2, "start_time": 1439, "interval": 255, "day_start": 30, "recurrence_type": "Daily", "bga_type": "sc", "id": "sc"}
+add bgasched of weekly type
+'result': 'p'
+Verify BgascheduleAdd info by api
+add bgasched of daily type
+Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "start_time": 1439, "interval": 255, "day_start": 30, "rc_pools": [0], "recurrence_type": 1, "bga_type": "rc", "range_end": 2}
+Actual:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "range_end": 2, "start_time": 1439, "interval": 255, "day_start": 30, "rc_fix": 0, "rc_pause": 0, "recurrence_type": "Daily", "rc_poolnum": 1, "bga_type": "rc", "id": "rc_1", "rc_pools": [0]}
+Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "start_time": 1439, "interval": 255, "day_start": 30, "range_end": 2, "recurrence_type": 1, "bga_type": "brc"}
+Actual:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "range_end": 2, "start_time": 1439, "interval": 255, "day_start": 30, "recurrence_type": "Daily", "bga_type": "brc", "id": "brc"}
+Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "start_time": 1439, "interval": 255, "day_start": 30, "range_end": 2, "recurrence_type": 1, "bga_type": "sc"}
+Actual:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "range_end": 2, "start_time": 1439, "interval": 255, "day_start": 30, "recurrence_type": "Daily", "bga_type": "sc", "id": "sc"}
+add bgasched of weekly type
+'result': 'p'
+Verify BgascheduleAdd info by api
+add bgasched of daily type
+Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "start_time": 1439, "interval": 255, "day_start": 30, "rc_pools": [0], "recurrence_type": 1, "bga_type": "rc", "range_end": 2}
+Actual:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "range_end": 2, "start_time": 1439, "interval": 255, "day_start": 30, "rc_fix": 0, "rc_pause": 0, "recurrence_type": "Daily", "rc_poolnum": 1, "bga_type": "rc", "id": "rc_1", "rc_pools": [0]}
+Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "start_time": 1439, "interval": 255, "day_start": 30, "range_end": 2, "recurrence_type": 1, "bga_type": "brc"}
+Actual:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "range_end": 2, "start_time": 1439, "interval": 255, "day_start": 30, "recurrence_type": "Daily", "bga_type": "brc", "id": "brc"}
+Verify BgascheduleAdd info by api
+add bgasched of daily type
+Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "start_time": 1439, "interval": 255, "day_start": 30, "rc_pools": [0], "recurrence_type": 1, "bga_type": "rc", "range_end": 2}
+Actual:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "range_end": 2, "start_time": 1439, "interval": 255, "day_start": 30, "rc_fix": 0, "rc_pause": 0, "recurrence_type": "Daily", "rc_poolnum": 1, "bga_type": "rc", "id": "rc_1", "rc_pools": [0]}
+Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "start_time": 1439, "interval": 255, "day_start": 30, "range_end": 2, "recurrence_type": 1, "bga_type": "brc"}
+Actual:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "range_end": 2, "start_time": 1439, "interval": 255, "day_start": 30, "recurrence_type": "Daily", "bga_type": "brc", "id": "brc"}
+Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "start_time": 1439, "interval": 255, "day_start": 30, "range_end": 2, "recurrence_type": 1, "bga_type": "sc"}
+Actual:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "range_end": 2, "start_time": 1439, "interval": 255, "day_start": 30, "recurrence_type": "Daily", "bga_type": "sc", "id": "sc"}
+add bgasched of weekly type
+'result': 'p'
+Verify BgascheduleAdd info by api
+add bgasched of daily type
+Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "start_time": 1439, "interval": 255, "rc_pause": 0, "rc_fix": 0, "rc_pools": [0], "recurrence_type": 1, "bga_type": "rc", "range_end": 2, "day_start": 30}
+Actual:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "range_end": 2, "start_time": 1439, "interval": 255, "day_start": 30, "rc_fix": 0, "rc_pause": 0, "recurrence_type": "Daily", "rc_poolnum": 1, "bga_type": "rc", "id": "rc_1", "rc_pools": [0]}
+Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "start_time": 1439, "interval": 255, "rc_pause": 0, "rc_fix": 0, "range_end": 2, "recurrence_type": 1, "bga_type": "brc", "day_start": 30}
+Actual:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "range_end": 2, "start_time": 1439, "interval": 255, "day_start": 30, "recurrence_type": "Daily", "bga_type": "brc", "id": "brc"}
+Verify BgascheduleAdd info by api
+add bgasched of daily type
+Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "start_time": 1439, "interval": 255, "day_start": 30, "rc_fix": 0, "rc_pools": [0], "recurrence_type": 1, "bga_type": "rc", "range_end": 2}
+Actual:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "range_end": 2, "start_time": 1439, "interval": 255, "day_start": 30, "rc_fix": 0, "rc_pause": 0, "recurrence_type": "Daily", "rc_poolnum": 1, "bga_type": "rc", "id": "rc_1", "rc_pools": [0]}
+Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "start_time": 1439, "interval": 255, "day_start": 30, "rc_fix": 0, "range_end": 2, "recurrence_type": 1, "bga_type": "brc"}
+Actual:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "range_end": 2, "start_time": 1439, "interval": 255, "day_start": 30, "recurrence_type": "Daily", "bga_type": "brc", "id": "brc"}
+Verify BgascheduleAdd info by api
+add bgasched of daily type
+Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "start_time": 1439, "interval": 255, "day_start": 30, "rc_pools": [0], "recurrence_type": 1, "bga_type": "rc", "range_end": 2}
+Actual:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "range_end": 2, "start_time": 1439, "interval": 255, "day_start": 30, "rc_fix": 0, "rc_pause": 0, "recurrence_type": "Daily", "rc_poolnum": 1, "bga_type": "rc", "id": "rc_1", "rc_pools": [0]}
+Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "start_time": 1439, "interval": 255, "day_start": 30, "range_end": 2, "recurrence_type": 1, "bga_type": "brc"}
+Actual:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "range_end": 2, "start_time": 1439, "interval": 255, "day_start": 30, "recurrence_type": "Daily", "bga_type": "brc", "id": "brc"}
+Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "start_time": 1439, "interval": 255, "day_start": 30, "range_end": 2, "recurrence_type": 1, "bga_type": "sc"}
+Actual:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "range_end": 2, "start_time": 1439, "interval": 255, "day_start": 30, "recurrence_type": "Daily", "bga_type": "sc", "id": "sc"}
+add bgasched of weekly type
+'result': 'p'
+Verify BgascheduleAdd info by api
+add bgasched of daily type
+Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "range_end": 2, "start_time": 1439, "interval": 255, "day_start": 30, "rc_fix": 0, "rc_pause": 0, "recurrence_type": 1, "bga_type": "rc", "rc_pools": [0]}
+Actual:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "range_end": 2, "start_time": 1439, "interval": 255, "day_start": 30, "rc_fix": 0, "rc_pause": 0, "recurrence_type": "Daily", "rc_poolnum": 1, "bga_type": "rc", "id": "rc_1", "rc_pools": [0]}
+Verify BgascheduleAdd info by api
+Verify BgascheduleAdd info by api
+Verify BgascheduleAdd info by api
+add bgasched of daily type
+Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "range_end": 2, "start_time": 1439, "interval": 255, "day_start": 30, "rc_fix": 0, "rc_pause": 0, "recurrence_type": 1, "bga_type": "rc", "rc_pools": [0]}
+Actual:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "range_end": 2, "start_time": 1439, "interval": 255, "day_start": 30, "rc_fix": 0, "rc_pause": 0, "recurrence_type": "Daily", "rc_poolnum": 1, "bga_type": "rc", "id": "rc_1", "rc_pools": [0]}
+Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "start_time": 1439, "interval": 255, "day_start": 30, "range_end": 2, "recurrence_type": 1, "bga_type": "brc"}
+Actual:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "range_end": 2, "start_time": 1439, "interval": 255, "day_start": 30, "recurrence_type": "Daily", "bga_type": "brc", "id": "brc"}
+Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "start_time": 1439, "interval": 255, "day_start": 30, "range_end": 2, "recurrence_type": 1, "bga_type": "sc"}
+Actual:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "range_end": 2, "start_time": 1439, "interval": 255, "day_start": 30, "recurrence_type": "Daily", "bga_type": "sc", "id": "sc"}
+add bgasched of weekly type
+'result': 'p'

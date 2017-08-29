@@ -33,64 +33,112 @@ def BgascheduleApiAdd():
     tolog("Verify BgascheduleAdd info by api")
 
     # precondition
-    ResponseInfo = server.webapi('get', 'bgaschedule')
-    bgaInfo = json.loads(ResponseInfo['text'])
-    if len(bgaInfo) > 1:
-        for bga in bgaInfo:
-            if bga['id'] == 'brc':
-                server.webapiurl('delete', 'bgaschedule', 'brc')
-            elif bga['id'] == 'rc_1':
-                server.webapiurl('delete', 'bgaschedule', 'rc_1')
-            elif bga['id'] == 'rc_2':
-                server.webapiurl('delete', 'bgaschedule', 'rc_2')
-            elif bga['id'] == 'sc':
-                server.webapiurl('delete', 'bgaschedule', 'sc')
+    def deleteBgaschedule():
+        ResponseInfo = server.webapi('get', 'bgaschedule')
+        bgaInfo = json.loads(ResponseInfo['text'])
+        if len(bgaInfo) > 1:
+            for bga in bgaInfo:
+                if bga['id'] == 'brc':
+                    server.webapiurl('delete', 'bgaschedule', 'brc')
+                elif bga['id'] == 'rc_1':
+                    server.webapiurl('delete', 'bgaschedule', 'rc_1')
+                elif bga['id'] == 'rc_2':
+                    server.webapiurl('delete', 'bgaschedule', 'rc_2')
+                elif bga['id'] == 'sc':
+                    server.webapiurl('delete', 'bgaschedule', 'sc')
 
+    deleteBgaschedule()
     pdId = findPlId()
 
     if len(pdId) >= 5:
         server.webapi('post', 'pool', {'name': 'testBgaschedApi1',
-                                          'sector': '512B', 'raid_level': 'RAID1',
+                                          'sector': '512B', 'raid_level': 'RAID5',
                                           'ctrl_id': 1, 'force_sync': 0,
-                                          'pds': [pdId[0], pdId[1]]
-                                          })
-        server.webapi('post', 'pool', {'name': 'testBgaschedApi2',
-                                          'sector': '512B', 'raid_level': 'RAID1',
-                                          'ctrl_id': 1, 'force_sync': 0,
-                                          'pds': [pdId[2], pdId[3]]
+                                          'pds': [pdId[0], pdId[1], pdId[2]]
                                           })
         server.webapi('post', 'pool', {'name': 'testBgaschedApi3',
                                           'sector': '512B', 'raid_level': 'RAID0',
                                           'ctrl_id': 1, 'force_sync': 0,
-                                          'pds': [pdId[4]]
+                                          'pds': [pdId[3]]
                                           })
+
+    bga_type = ['rc', 'brc', 'sc']
+
     # add bgasched of daily type
+    tolog('add bgasched of daily type')
+    def addDailyBgasched():
+        Failflag = False
+        dayTypeParameters = {
+            "status": 1,
+            "start_time": 1439,
+            "interval": 255,
+            "day_start": 30,
+            "month_start": 12,
+            "year_start": 2037,
+            "range_end": 2,
+            "recurrence_count": 255
+        }
 
+        for i in range(3):
+            if bga_type[i] == 'rc':
+                parameters = dict(dayTypeParameters.items() + {
+                    'bga_type': bga_type[i],
+                    'recurrence_type': 1,
+                    'rc_pools': [0],
+                    "rc_fix": 0,
+                    "rc_pause": 0
+                }.items())
+                server.webapi('post', 'bgaschedule', parameters)
 
+                tolog('Expect:' + json.dumps(parameters))
+                expectResult = dict(dayTypeParameters.items() +{
+                    'bga_type': bga_type[i],
+                    "recurrence_type": "Daily",
+                    'rc_pools': [0],
+                    "rc_fix": 0,
+                    "rc_pause": 0
+                }.items())
 
-    # bodyParameters = {"bga_type": "brc",
-    #                   "status": 1,
-    #                   "start_time": 60,
-    #                   "recurrence_type": 1,
-    #                   "day_pattern": 0,
-    #                   "day_of_month": 1,
-    #                   "month_mask": 4095,
-    #                   "year_start": 2017,
-    #                   "month_start": 8,
-    #                   "day_start": 17,
-    #                   "range_end": 1
-    #                   }
-    # result = server.webapi('post', 'bgaschedule', bodyParameters)
-    # print result['parameters']
-    # print result["response"]
-    #
-    # checkResult = server.webapi('get', 'bgaschedule')
-    #
-    #
-    # a=json.loads(checkResult['text'])
-    # print a
-    #
-    # server.webapiurl('delete', 'bgaschedule','brc')
+                check = server.webapi('get', 'bgaschedule')
+                result = json.loads(check['text'])
+
+                tolog('Actual:' + json.dumps(result[1]))
+                actualResult = result[1]
+
+                for key in expectResult.keys():
+                    if expectResult[key] != actualResult[key]:
+                        Failflag = True
+
+                deleteBgaschedule()
+
+            else:
+                parameters = dict({'bga_type': bga_type[i], 'recurrence_type': 1}.items() + dayTypeParameters.items())
+                server.webapi('post', 'bgaschedule', parameters)
+
+                tolog('Expect:' + json.dumps(parameters))
+                expectResult = dict(
+                    dayTypeParameters.items() +{'bga_type': bga_type[i], "recurrence_type": "Daily"}.items()
+                )
+
+                check = server.webapi('get', 'bgaschedule')
+                result = json.loads(check['text'])
+
+                tolog('Actual:' + json.dumps(result[0]))
+                actualResult = result[0]
+
+                for key in expectResult.keys():
+                    if expectResult[key] != actualResult[key]:
+                        Failflag = True
+
+                deleteBgaschedule()
+
+        return Failflag
+
+    # Failflag = addDailyBgasched()
+
+    # add bgasched of weekly type
+    tolog('add bgasched of weekly type')
+    
 
 
 
