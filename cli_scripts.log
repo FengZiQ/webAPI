@@ -1,3 +1,359 @@
+2017-08-31 15:03:29: 'result': 'p'
+2017-08-31 15:03:29: Actual: rc type deletes successfully
+
+2017-08-31 15:03:26: Expect: delete rc type
+
+2017-08-31 15:03:26: Actual: sc type deletes successfully
+
+2017-08-31 15:03:24: Expect: delete sc type
+
+2017-08-31 15:03:24: Actual: brc type deletes successfully 
+
+2017-08-31 15:03:22: Expect: delete brc type 
+
+2017-08-31 15:03:22: To delete bgaschedule by api 
+
+2017-08-31 15:03:22: 'result': 'p'
+2017-08-31 15:03:22: Actual: {"status": 1, "month_start": 12, "year_start": 2037, "range_end": 1, "start_time": 1439, "interval": 255, "day_start": 31, "recurrence_type": "Daily", "bga_type": "sc", "id": "sc"}
+
+2017-08-31 15:03:20: Expect: {"status": 1, "month_start": 12, "year_start": 2037, "range_end": 1, "start_time": 1439, "interval": 255, "day_start": 31, "recurrence_type": 1}
+
+2017-08-31 15:03:20: Actual: {"status": 1, "month_start": 6, "year_start": 2017, "range_end": 1, "start_time": 512, "interval": 125, "day_start": 16, "recurrence_type": "Daily", "bga_type": "sc", "id": "sc"}
+
+2017-08-31 15:03:18: Expect: {"status": 1, "month_start": 6, "year_start": 2017, "range_end": 1, "start_time": 512, "interval": 125, "day_start": 16, "recurrence_type": 1}
+
+2017-08-31 15:03:18: Actual: {"status": 0, "month_start": 1, "year_start": 1970, "range_end": 1, "start_time": 0, "interval": 1, "day_start": 1, "recurrence_type": "Daily", "bga_type": "sc", "id": "sc"}
+
+2017-08-31 15:03:16: Expect: {"status": 0, "month_start": 1, "year_start": 1970, "range_end": 1, "start_time": 0, "interval": 1, "day_start": 1, "recurrence_type": 1}
+
+2017-08-31 15:03:16: Actual: {"status": 1, "month_start": 12, "year_start": 2037, "range_end": 1, "start_time": 1439, "interval": 255, "day_start": 31, "recurrence_type": "Daily", "bga_type": "brc", "id": "brc"}
+
+2017-08-31 15:03:13: Expect: {"status": 1, "month_start": 12, "year_start": 2037, "range_end": 1, "start_time": 1439, "interval": 255, "day_start": 31, "recurrence_type": 1}
+
+2017-08-31 15:03:13: Actual: {"status": 1, "month_start": 6, "year_start": 2017, "range_end": 1, "start_time": 512, "interval": 125, "day_start": 16, "recurrence_type": "Daily", "bga_type": "brc", "id": "brc"}
+
+2017-08-31 15:03:11: Expect: {"status": 1, "month_start": 6, "year_start": 2017, "range_end": 1, "start_time": 512, "interval": 125, "day_start": 16, "recurrence_type": 1}
+
+2017-08-31 15:03:11: Actual: {"status": 0, "month_start": 1, "year_start": 1970, "range_end": 1, "start_time": 0, "interval": 1, "day_start": 1, "recurrence_type": "Daily", "bga_type": "brc", "id": "brc"}
+
+2017-08-31 15:03:09: Expect: {"status": 0, "month_start": 1, "year_start": 1970, "range_end": 1, "start_time": 0, "interval": 1, "day_start": 1, "recurrence_type": 1}
+
+2017-08-31 15:03:09: Actual: {"status": 1, "month_start": 12, "year_start": 2037, "range_end": 1, "start_time": 1439, "interval": 255, "day_start": 31, "rc_fix": 1, "rc_pause": 1, "recurrence_type": "Daily", "rc_poolnum": 1, "bga_type": "rc", "id": "rc_1", "rc_pools": [0]}
+
+2017-08-31 15:03:06: Expect: {"status": 1, "month_start": 12, "year_start": 2037, "range_end": 1, "start_time": 1439, "interval": 255, "day_start": 31, "rc_fix": 1, "rc_pause": 1, "recurrence_type": 1}
+
+2017-08-31 15:03:06: Actual: {"status": 1, "month_start": 6, "year_start": 2017, "range_end": 1, "start_time": 512, "interval": 125, "day_start": 16, "rc_fix": 0, "rc_pause": 0, "recurrence_type": "Daily", "rc_poolnum": 1, "bga_type": "rc", "id": "rc_1", "rc_pools": [0]}
+
+2017-08-31 15:03:04: Expect: {"status": 1, "month_start": 6, "year_start": 2017, "range_end": 1, "start_time": 512, "interval": 125, "day_start": 16, "rc_fix": 0, "rc_pause": 0, "recurrence_type": 1}
+
+2017-08-31 15:03:04: Actual: {"status": 0, "month_start": 1, "year_start": 1970, "range_end": 1, "start_time": 0, "interval": 1, "day_start": 1, "rc_fix": 0, "rc_pause": 1, "recurrence_type": "Daily", "rc_poolnum": 1, "bga_type": "rc", "id": "rc_1", "rc_pools": [0]}
+
+2017-08-31 15:03:02: Expect: {"status": 0, "month_start": 1, "year_start": 1970, "range_end": 1, "start_time": 0, "interval": 1, "day_start": 1, "rc_fix": 0, "rc_pause": 1, "recurrence_type": 1}
+
+2017-08-31 15:03:02: To modify daily bgaschedule 
+
+2017-08-31 15:03:02: Actual: {"status": 1, "month_start": 7, "year_start": 2020, "range_end": 1, "start_time": 513, "interval": 2, "day_start": 15, "day_mask": 127, "recurrence_type": "Weekly", "bga_type": "sc", "id": "sc"}
+
+2017-08-31 15:03:00: Expect: {"status": 1, "month_start": 7, "year_start": 2020, "range_end": 1, "start_time": 513, "interval": 2, "day_start": 15, "day_mask": 127, "recurrence_type": 2}
+
+2017-08-31 15:03:00: Actual: {"status": 1, "month_start": 12, "year_start": 2037, "range_end": 1, "start_time": 1439, "interval": 52, "day_start": 31, "day_mask": 111, "recurrence_type": "Weekly", "bga_type": "sc", "id": "sc"}
+
+2017-08-31 15:02:58: Expect: {"status": 1, "month_start": 12, "year_start": 2037, "range_end": 1, "start_time": 1439, "interval": 52, "day_start": 31, "day_mask": 111, "recurrence_type": 2}
+
+2017-08-31 15:02:58: Actual: {"status": 0, "month_start": 12, "year_start": 2037, "range_end": 1, "start_time": 1439, "interval": 52, "day_start": 31, "day_mask": 91, "recurrence_type": "Weekly", "bga_type": "sc", "id": "sc"}
+
+2017-08-31 15:02:55: Expect: {"status": 0, "month_start": 12, "year_start": 2037, "range_end": 1, "start_time": 1439, "interval": 52, "day_start": 31, "day_mask": 91, "recurrence_type": 2}
+
+2017-08-31 15:02:55: Actual: {"status": 1, "month_start": 6, "year_start": 2017, "range_end": 1, "start_time": 512, "interval": 25, "day_start": 16, "day_mask": 85, "recurrence_type": "Weekly", "bga_type": "sc", "id": "sc"}
+
+2017-08-31 15:02:53: Expect: {"status": 1, "month_start": 6, "year_start": 2017, "range_end": 1, "start_time": 512, "interval": 25, "day_start": 16, "day_mask": 85, "recurrence_type": 2}
+
+2017-08-31 15:02:53: Actual: {"status": 1, "month_start": 6, "year_start": 2017, "range_end": 1, "start_time": 512, "interval": 25, "day_start": 16, "day_mask": 41, "recurrence_type": "Weekly", "bga_type": "sc", "id": "sc"}
+
+2017-08-31 15:02:51: Expect: {"status": 1, "month_start": 6, "year_start": 2017, "range_end": 1, "start_time": 512, "interval": 25, "day_start": 16, "day_mask": 41, "recurrence_type": 2}
+
+2017-08-31 15:02:51: Actual: {"status": 0, "month_start": 1, "year_start": 1970, "range_end": 1, "start_time": 0, "interval": 1, "day_start": 1, "day_mask": 68, "recurrence_type": "Weekly", "bga_type": "sc", "id": "sc"}
+
+2017-08-31 15:02:49: Expect: {"status": 0, "month_start": 1, "year_start": 1970, "range_end": 1, "start_time": 0, "interval": 1, "day_start": 1, "day_mask": 68, "recurrence_type": 2}
+
+2017-08-31 15:02:49: Actual: {"status": 0, "month_start": 1, "year_start": 1970, "range_end": 1, "start_time": 0, "interval": 1, "day_start": 1, "day_mask": 32, "recurrence_type": "Weekly", "bga_type": "sc", "id": "sc"}
+
+2017-08-31 15:02:46: Expect: {"status": 0, "month_start": 1, "year_start": 1970, "range_end": 1, "start_time": 0, "interval": 1, "day_start": 1, "day_mask": 32, "recurrence_type": 2}
+
+2017-08-31 15:02:46: Actual: {"status": 1, "month_start": 7, "year_start": 2020, "range_end": 1, "start_time": 513, "interval": 2, "day_start": 15, "day_mask": 127, "recurrence_type": "Weekly", "bga_type": "brc", "id": "brc"}
+
+2017-08-31 15:02:44: Expect: {"status": 1, "month_start": 7, "year_start": 2020, "range_end": 1, "start_time": 513, "interval": 2, "day_start": 15, "day_mask": 127, "recurrence_type": 2}
+
+2017-08-31 15:02:44: Actual: {"status": 1, "month_start": 12, "year_start": 2037, "range_end": 1, "start_time": 1439, "interval": 52, "day_start": 31, "day_mask": 111, "recurrence_type": "Weekly", "bga_type": "brc", "id": "brc"}
+
+2017-08-31 15:02:42: Expect: {"status": 1, "month_start": 12, "year_start": 2037, "range_end": 1, "start_time": 1439, "interval": 52, "day_start": 31, "day_mask": 111, "recurrence_type": 2}
+
+2017-08-31 15:02:42: Actual: {"status": 0, "month_start": 12, "year_start": 2037, "range_end": 1, "start_time": 1439, "interval": 52, "day_start": 31, "day_mask": 91, "recurrence_type": "Weekly", "bga_type": "brc", "id": "brc"}
+
+2017-08-31 15:02:40: Expect: {"status": 0, "month_start": 12, "year_start": 2037, "range_end": 1, "start_time": 1439, "interval": 52, "day_start": 31, "day_mask": 91, "recurrence_type": 2}
+
+2017-08-31 15:02:40: Actual: {"status": 1, "month_start": 6, "year_start": 2017, "range_end": 1, "start_time": 512, "interval": 25, "day_start": 16, "day_mask": 85, "recurrence_type": "Weekly", "bga_type": "brc", "id": "brc"}
+
+2017-08-31 15:02:38: Expect: {"status": 1, "month_start": 6, "year_start": 2017, "range_end": 1, "start_time": 512, "interval": 25, "day_start": 16, "day_mask": 85, "recurrence_type": 2}
+
+2017-08-31 15:02:38: Actual: {"status": 1, "month_start": 6, "year_start": 2017, "range_end": 1, "start_time": 512, "interval": 25, "day_start": 16, "day_mask": 41, "recurrence_type": "Weekly", "bga_type": "brc", "id": "brc"}
+
+2017-08-31 15:02:35: Expect: {"status": 1, "month_start": 6, "year_start": 2017, "range_end": 1, "start_time": 512, "interval": 25, "day_start": 16, "day_mask": 41, "recurrence_type": 2}
+
+2017-08-31 15:02:35: Actual: {"status": 0, "month_start": 1, "year_start": 1970, "range_end": 1, "start_time": 0, "interval": 1, "day_start": 1, "day_mask": 68, "recurrence_type": "Weekly", "bga_type": "brc", "id": "brc"}
+
+2017-08-31 15:02:33: Expect: {"status": 0, "month_start": 1, "year_start": 1970, "range_end": 1, "start_time": 0, "interval": 1, "day_start": 1, "day_mask": 68, "recurrence_type": 2}
+
+2017-08-31 15:02:33: Actual: {"status": 0, "month_start": 1, "year_start": 1970, "range_end": 1, "start_time": 0, "interval": 1, "day_start": 1, "day_mask": 32, "recurrence_type": "Weekly", "bga_type": "brc", "id": "brc"}
+
+2017-08-31 15:02:31: Expect: {"status": 0, "month_start": 1, "year_start": 1970, "range_end": 1, "start_time": 0, "interval": 1, "day_start": 1, "day_mask": 32, "recurrence_type": 2}
+
+2017-08-31 15:02:31: Actual: {"status": 1, "month_start": 7, "year_start": 2020, "range_end": 1, "start_time": 513, "interval": 2, "day_start": 15, "rc_fix": 1, "day_mask": 127, "rc_pause": 1, "recurrence_type": "Weekly", "rc_poolnum": 1, "bga_type": "rc", "id": "rc_1", "rc_pools": [0]}
+
+2017-08-31 15:02:29: Expect: {"status": 1, "month_start": 7, "year_start": 2020, "range_end": 1, "start_time": 513, "interval": 2, "day_start": 15, "rc_fix": 1, "day_mask": 127, "rc_pause": 1, "recurrence_type": 2}
+
+2017-08-31 15:02:29: Actual: {"status": 1, "month_start": 12, "year_start": 2037, "range_end": 1, "start_time": 1439, "interval": 52, "day_start": 31, "rc_fix": 1, "day_mask": 111, "rc_pause": 1, "recurrence_type": "Weekly", "rc_poolnum": 1, "bga_type": "rc", "id": "rc_1", "rc_pools": [0]}
+
+2017-08-31 15:02:27: Expect: {"status": 1, "month_start": 12, "year_start": 2037, "range_end": 1, "start_time": 1439, "interval": 52, "day_start": 31, "rc_fix": 1, "day_mask": 111, "rc_pause": 1, "recurrence_type": 2}
+
+2017-08-31 15:02:27: Actual: {"status": 0, "month_start": 12, "year_start": 2037, "range_end": 1, "start_time": 1439, "interval": 52, "day_start": 31, "rc_fix": 0, "day_mask": 91, "rc_pause": 0, "recurrence_type": "Weekly", "rc_poolnum": 1, "bga_type": "rc", "id": "rc_1", "rc_pools": [0]}
+
+2017-08-31 15:02:24: Expect: {"status": 0, "month_start": 12, "year_start": 2037, "range_end": 1, "start_time": 1439, "interval": 52, "day_start": 31, "rc_fix": 0, "day_mask": 91, "rc_pause": 0, "recurrence_type": 2}
+
+2017-08-31 15:02:24: Actual: {"status": 1, "month_start": 6, "year_start": 2017, "range_end": 1, "start_time": 512, "interval": 25, "day_start": 16, "rc_fix": 1, "day_mask": 85, "rc_pause": 0, "recurrence_type": "Weekly", "rc_poolnum": 1, "bga_type": "rc", "id": "rc_1", "rc_pools": [0]}
+
+2017-08-31 15:02:22: Expect: {"status": 1, "month_start": 6, "year_start": 2017, "range_end": 1, "start_time": 512, "interval": 25, "day_start": 16, "rc_fix": 1, "day_mask": 85, "rc_pause": 0, "recurrence_type": 2}
+
+2017-08-31 15:02:22: Actual: {"status": 1, "month_start": 6, "year_start": 2017, "range_end": 1, "start_time": 512, "interval": 25, "day_start": 16, "rc_fix": 1, "day_mask": 41, "rc_pause": 0, "recurrence_type": "Weekly", "rc_poolnum": 1, "bga_type": "rc", "id": "rc_1", "rc_pools": [0]}
+
+2017-08-31 15:02:20: Expect: {"status": 1, "month_start": 6, "year_start": 2017, "range_end": 1, "start_time": 512, "interval": 25, "day_start": 16, "rc_fix": 1, "day_mask": 41, "rc_pause": 0, "recurrence_type": 2}
+
+2017-08-31 15:02:20: Actual: {"status": 0, "month_start": 1, "year_start": 1970, "range_end": 1, "start_time": 0, "interval": 1, "day_start": 1, "rc_fix": 0, "day_mask": 68, "rc_pause": 1, "recurrence_type": "Weekly", "rc_poolnum": 1, "bga_type": "rc", "id": "rc_1", "rc_pools": [0]}
+
+2017-08-31 15:02:18: Expect: {"status": 0, "month_start": 1, "year_start": 1970, "range_end": 1, "start_time": 0, "interval": 1, "day_start": 1, "rc_fix": 0, "day_mask": 68, "rc_pause": 1, "recurrence_type": 2}
+
+2017-08-31 15:02:18: Actual: {"status": 0, "month_start": 1, "year_start": 1970, "range_end": 1, "start_time": 0, "interval": 1, "day_start": 1, "rc_fix": 0, "day_mask": 32, "rc_pause": 1, "recurrence_type": "Weekly", "rc_poolnum": 1, "bga_type": "rc", "id": "rc_1", "rc_pools": [0]}
+
+2017-08-31 15:02:16: Expect: {"status": 0, "month_start": 1, "year_start": 1970, "range_end": 1, "start_time": 0, "interval": 1, "day_start": 1, "rc_fix": 0, "day_mask": 32, "rc_pause": 1, "recurrence_type": 2}
+
+2017-08-31 15:02:16: To modify weekly bgaschedule 
+
+2017-08-31 15:02:16: Actual: {"status": 1, "month_start": 8, "year_start": 2019, "day_of_week": 6, "range_end": 3, "start_time": 513, "month_mask": 32, "year_end": 2037, "day_start": 15, "day_end": 31, "ordinal": 0, "day_pattern": 1, "recurrence_type": "Monthly", "month_end": 12, "bga_type": "sc", "id": "sc"}
+
+2017-08-31 15:02:13: Expect: {"range_end": 3, "month_end": 12, "day_end": 31, "year_end": 2037}
+
+2017-08-31 15:02:13: Actual: {"status": 1, "month_start": 8, "year_start": 2019, "day_of_week": 6, "range_end": 3, "start_time": 513, "month_mask": 32, "year_end": 1970, "day_start": 15, "day_end": 1, "ordinal": 0, "day_pattern": 1, "recurrence_type": "Monthly", "month_end": 1, "bga_type": "sc", "id": "sc"}
+
+2017-08-31 15:02:11: Expect: {"range_end": 3, "month_end": 1, "day_end": 1, "year_end": 1970}
+
+2017-08-31 15:02:11: Actual: {"status": 1, "month_start": 8, "year_start": 2019, "day_of_week": 6, "range_end": 3, "start_time": 513, "month_mask": 32, "year_end": 2037, "day_start": 15, "day_end": 31, "ordinal": 0, "day_pattern": 1, "recurrence_type": "Monthly", "month_end": 12, "bga_type": "brc", "id": "brc"}
+
+2017-08-31 15:02:09: Expect: {"range_end": 3, "month_end": 12, "day_end": 31, "year_end": 2037}
+
+2017-08-31 15:02:09: Actual: {"status": 1, "month_start": 8, "year_start": 2019, "day_of_week": 6, "range_end": 3, "start_time": 513, "month_mask": 32, "year_end": 1970, "day_start": 15, "day_end": 1, "ordinal": 0, "day_pattern": 1, "recurrence_type": "Monthly", "month_end": 1, "bga_type": "brc", "id": "brc"}
+
+2017-08-31 15:02:07: Expect: {"range_end": 3, "month_end": 1, "day_end": 1, "year_end": 1970}
+
+2017-08-31 15:02:07: Actual: {"status": 1, "month_start": 8, "year_start": 2019, "recurrence_count": 255, "range_end": 2, "start_time": 513, "day_of_month": 15, "day_start": 15, "rc_fix": 1, "rc_pause": 1, "day_pattern": 0, "recurrence_type": "Monthly", "month_mask": 32, "rc_poolnum": 1, "bga_type": "rc", "id": "rc_1", "rc_pools": [0]}
+
+2017-08-31 15:02:05: Expect: {"range_end": 2, "recurrence_count": 255}
+
+2017-08-31 15:02:05: Actual: {"status": 1, "month_start": 8, "year_start": 2019, "recurrence_count": 0, "range_end": 2, "start_time": 513, "day_of_month": 15, "day_start": 15, "rc_fix": 1, "rc_pause": 1, "day_pattern": 0, "recurrence_type": "Monthly", "month_mask": 32, "rc_poolnum": 1, "bga_type": "rc", "id": "rc_1", "rc_pools": [0]}
+
+2017-08-31 15:02:02: Expect: {"range_end": 2, "recurrence_count": 0}
+
+2017-08-31 15:02:02: Actual:{"status": 1, "month_start": 8, "year_start": 2019, "day_of_week": 6, "range_end": 1, "start_time": 513, "day_start": 15, "ordinal": 0, "day_pattern": 1, "recurrence_type": "Monthly", "month_mask": 32, "bga_type": "sc", "id": "sc"}
+
+2017-08-31 15:02:00: Expect: {"status": 1, "month_start": 8, "year_start": 2019, "day_of_week": 6, "range_end": 1, "start_time": 513, "day_pattern": 1, "day_start": 15, "recurrence_type": 3, "month_mask": 32}
+
+2017-08-31 15:02:00: Actual:{"status": 1, "month_start": 7, "year_start": 2020, "day_of_week": 6, "range_end": 1, "start_time": 513, "day_start": 15, "ordinal": 0, "day_pattern": 1, "recurrence_type": "Monthly", "month_mask": 2112, "bga_type": "sc", "id": "sc"}
+
+2017-08-31 15:01:58: Expect: {"status": 1, "month_start": 7, "year_start": 2020, "day_of_week": 6, "range_end": 1, "start_time": 513, "day_pattern": 1, "day_start": 15, "recurrence_type": 3, "month_mask": 2112}
+
+2017-08-31 15:01:58: Actual:{"status": 1, "month_start": 12, "year_start": 2037, "day_of_week": 5, "range_end": 1, "start_time": 1439, "day_start": 31, "ordinal": 0, "day_pattern": 1, "recurrence_type": "Monthly", "month_mask": 2314, "bga_type": "sc", "id": "sc"}
+
+2017-08-31 15:01:56: Expect: {"status": 1, "month_start": 12, "year_start": 2037, "day_of_week": 5, "range_end": 1, "start_time": 1439, "day_pattern": 1, "day_start": 31, "recurrence_type": 3, "month_mask": 2314}
+
+2017-08-31 15:01:56: Actual:{"status": 0, "month_start": 12, "year_start": 2037, "day_of_week": 4, "range_end": 1, "start_time": 1439, "day_start": 31, "ordinal": 0, "day_pattern": 1, "recurrence_type": "Monthly", "month_mask": 2338, "bga_type": "sc", "id": "sc"}
+
+2017-08-31 15:01:54: Expect: {"status": 0, "month_start": 12, "year_start": 2037, "day_of_week": 4, "range_end": 1, "start_time": 1439, "day_pattern": 1, "day_start": 31, "recurrence_type": 3, "month_mask": 2338}
+
+2017-08-31 15:01:54: Actual:{"status": 1, "month_start": 6, "year_start": 2017, "day_of_week": 4, "range_end": 1, "start_time": 512, "day_start": 16, "ordinal": 0, "day_pattern": 1, "recurrence_type": "Monthly", "month_mask": 2356, "bga_type": "sc", "id": "sc"}
+
+2017-08-31 15:01:51: Expect: {"status": 1, "month_start": 6, "year_start": 2017, "day_of_week": 4, "range_end": 1, "start_time": 512, "day_pattern": 1, "day_start": 16, "recurrence_type": 3, "month_mask": 2356}
+
+2017-08-31 15:01:51: Actual:{"status": 1, "month_start": 7, "year_start": 2020, "day_of_week": 3, "range_end": 1, "start_time": 513, "day_start": 15, "ordinal": 0, "day_pattern": 1, "recurrence_type": "Monthly", "month_mask": 2730, "bga_type": "sc", "id": "sc"}
+
+2017-08-31 15:01:49: Expect: {"status": 1, "month_start": 7, "year_start": 2020, "day_of_week": 3, "range_end": 1, "start_time": 513, "day_pattern": 1, "day_start": 15, "recurrence_type": 3, "month_mask": 2730}
+
+2017-08-31 15:01:49: Actual:{"status": 1, "month_start": 12, "year_start": 2037, "day_of_week": 2, "range_end": 1, "start_time": 1439, "day_start": 25, "ordinal": 0, "day_pattern": 1, "recurrence_type": "Monthly", "month_mask": 2922, "bga_type": "sc", "id": "sc"}
+
+2017-08-31 15:01:47: Expect: {"status": 1, "month_start": 12, "year_start": 2037, "day_of_week": 2, "range_end": 1, "start_time": 1439, "day_pattern": 1, "day_start": 25, "recurrence_type": 3, "month_mask": 2922}
+
+2017-08-31 15:01:47: Actual:{"status": 0, "month_start": 12, "year_start": 2037, "day_of_week": 2, "range_end": 1, "start_time": 1439, "day_start": 25, "ordinal": 0, "day_pattern": 1, "recurrence_type": "Monthly", "month_mask": 3435, "bga_type": "sc", "id": "sc"}
+
+2017-08-31 15:01:45: Expect: {"status": 0, "month_start": 12, "year_start": 2037, "day_of_week": 2, "range_end": 1, "start_time": 1439, "day_pattern": 1, "day_start": 25, "recurrence_type": 3, "month_mask": 3435}
+
+2017-08-31 15:01:45: Actual:{"status": 1, "month_start": 6, "year_start": 2017, "day_of_week": 1, "range_end": 1, "start_time": 512, "day_start": 16, "ordinal": 0, "day_pattern": 1, "recurrence_type": "Monthly", "month_mask": 3517, "bga_type": "sc", "id": "sc"}
+
+2017-08-31 15:01:43: Expect: {"status": 1, "month_start": 6, "year_start": 2017, "day_of_week": 1, "range_end": 1, "start_time": 512, "day_pattern": 1, "day_start": 16, "recurrence_type": 3, "month_mask": 3517}
+
+2017-08-31 15:01:43: Actual:{"status": 1, "month_start": 6, "year_start": 2017, "day_of_week": 1, "range_end": 1, "start_time": 512, "day_start": 16, "ordinal": 0, "day_pattern": 1, "recurrence_type": "Monthly", "month_mask": 3567, "bga_type": "sc", "id": "sc"}
+
+2017-08-31 15:01:40: Expect: {"status": 1, "month_start": 6, "year_start": 2017, "day_of_week": 1, "range_end": 1, "start_time": 512, "day_pattern": 1, "day_start": 16, "recurrence_type": 3, "month_mask": 3567}
+
+2017-08-31 15:01:40: Actual:{"status": 0, "month_start": 1, "year_start": 1970, "day_of_week": 0, "range_end": 1, "start_time": 0, "day_start": 1, "ordinal": 0, "day_pattern": 1, "recurrence_type": "Monthly", "month_mask": 4079, "bga_type": "sc", "id": "sc"}
+
+2017-08-31 15:01:38: Expect: {"status": 0, "month_start": 1, "year_start": 1970, "day_of_week": 0, "range_end": 1, "start_time": 0, "day_pattern": 1, "day_start": 1, "recurrence_type": 3, "month_mask": 4079}
+
+2017-08-31 15:01:38: Actual:{"status": 0, "month_start": 1, "year_start": 1970, "day_of_week": 0, "range_end": 1, "start_time": 0, "day_start": 1, "ordinal": 0, "day_pattern": 1, "recurrence_type": "Monthly", "month_mask": 4095, "bga_type": "sc", "id": "sc"}
+
+2017-08-31 15:01:36: Expect: {"status": 0, "month_start": 1, "year_start": 1970, "day_of_week": 0, "range_end": 1, "start_time": 0, "day_pattern": 1, "day_start": 1, "recurrence_type": 3, "month_mask": 4095}
+
+2017-08-31 15:01:36: Actual:{"status": 1, "month_start": 8, "year_start": 2019, "day_of_week": 6, "range_end": 1, "start_time": 513, "day_start": 15, "ordinal": 0, "day_pattern": 1, "recurrence_type": "Monthly", "month_mask": 32, "bga_type": "brc", "id": "brc"}
+
+2017-08-31 15:01:34: Expect: {"status": 1, "month_start": 8, "year_start": 2019, "day_of_week": 6, "range_end": 1, "start_time": 513, "day_pattern": 1, "day_start": 15, "recurrence_type": 3, "month_mask": 32}
+
+2017-08-31 15:01:34: Actual:{"status": 1, "month_start": 7, "year_start": 2020, "day_of_week": 6, "range_end": 1, "start_time": 513, "day_start": 15, "ordinal": 0, "day_pattern": 1, "recurrence_type": "Monthly", "month_mask": 2112, "bga_type": "brc", "id": "brc"}
+
+2017-08-31 15:01:32: Expect: {"status": 1, "month_start": 7, "year_start": 2020, "day_of_week": 6, "range_end": 1, "start_time": 513, "day_pattern": 1, "day_start": 15, "recurrence_type": 3, "month_mask": 2112}
+
+2017-08-31 15:01:32: Actual:{"status": 1, "month_start": 12, "year_start": 2037, "day_of_week": 5, "range_end": 1, "start_time": 1439, "day_start": 31, "ordinal": 0, "day_pattern": 1, "recurrence_type": "Monthly", "month_mask": 2314, "bga_type": "brc", "id": "brc"}
+
+2017-08-31 15:01:29: Expect: {"status": 1, "month_start": 12, "year_start": 2037, "day_of_week": 5, "range_end": 1, "start_time": 1439, "day_pattern": 1, "day_start": 31, "recurrence_type": 3, "month_mask": 2314}
+
+2017-08-31 15:01:29: Actual:{"status": 0, "month_start": 12, "year_start": 2037, "day_of_week": 4, "range_end": 1, "start_time": 1439, "day_start": 31, "ordinal": 0, "day_pattern": 1, "recurrence_type": "Monthly", "month_mask": 2338, "bga_type": "brc", "id": "brc"}
+
+2017-08-31 15:01:27: Expect: {"status": 0, "month_start": 12, "year_start": 2037, "day_of_week": 4, "range_end": 1, "start_time": 1439, "day_pattern": 1, "day_start": 31, "recurrence_type": 3, "month_mask": 2338}
+
+2017-08-31 15:01:27: Actual:{"status": 1, "month_start": 6, "year_start": 2017, "day_of_week": 4, "range_end": 1, "start_time": 512, "day_start": 16, "ordinal": 0, "day_pattern": 1, "recurrence_type": "Monthly", "month_mask": 2356, "bga_type": "brc", "id": "brc"}
+
+2017-08-31 15:01:25: Expect: {"status": 1, "month_start": 6, "year_start": 2017, "day_of_week": 4, "range_end": 1, "start_time": 512, "day_pattern": 1, "day_start": 16, "recurrence_type": 3, "month_mask": 2356}
+
+2017-08-31 15:01:25: Actual:{"status": 1, "month_start": 7, "year_start": 2020, "day_of_week": 3, "range_end": 1, "start_time": 513, "day_start": 15, "ordinal": 0, "day_pattern": 1, "recurrence_type": "Monthly", "month_mask": 2730, "bga_type": "brc", "id": "brc"}
+
+2017-08-31 15:01:23: Expect: {"status": 1, "month_start": 7, "year_start": 2020, "day_of_week": 3, "range_end": 1, "start_time": 513, "day_pattern": 1, "day_start": 15, "recurrence_type": 3, "month_mask": 2730}
+
+2017-08-31 15:01:23: Actual:{"status": 1, "month_start": 12, "year_start": 2037, "day_of_week": 2, "range_end": 1, "start_time": 1439, "day_start": 25, "ordinal": 0, "day_pattern": 1, "recurrence_type": "Monthly", "month_mask": 2922, "bga_type": "brc", "id": "brc"}
+
+2017-08-31 15:01:21: Expect: {"status": 1, "month_start": 12, "year_start": 2037, "day_of_week": 2, "range_end": 1, "start_time": 1439, "day_pattern": 1, "day_start": 25, "recurrence_type": 3, "month_mask": 2922}
+
+2017-08-31 15:01:21: Actual:{"status": 0, "month_start": 12, "year_start": 2037, "day_of_week": 2, "range_end": 1, "start_time": 1439, "day_start": 25, "ordinal": 0, "day_pattern": 1, "recurrence_type": "Monthly", "month_mask": 3435, "bga_type": "brc", "id": "brc"}
+
+2017-08-31 15:01:18: Expect: {"status": 0, "month_start": 12, "year_start": 2037, "day_of_week": 2, "range_end": 1, "start_time": 1439, "day_pattern": 1, "day_start": 25, "recurrence_type": 3, "month_mask": 3435}
+
+2017-08-31 15:01:18: Actual:{"status": 1, "month_start": 6, "year_start": 2017, "day_of_week": 1, "range_end": 1, "start_time": 512, "day_start": 16, "ordinal": 0, "day_pattern": 1, "recurrence_type": "Monthly", "month_mask": 3517, "bga_type": "brc", "id": "brc"}
+
+2017-08-31 15:01:16: Expect: {"status": 1, "month_start": 6, "year_start": 2017, "day_of_week": 1, "range_end": 1, "start_time": 512, "day_pattern": 1, "day_start": 16, "recurrence_type": 3, "month_mask": 3517}
+
+2017-08-31 15:01:16: Actual:{"status": 1, "month_start": 6, "year_start": 2017, "day_of_week": 1, "range_end": 1, "start_time": 512, "day_start": 16, "ordinal": 0, "day_pattern": 1, "recurrence_type": "Monthly", "month_mask": 3567, "bga_type": "brc", "id": "brc"}
+
+2017-08-31 15:01:14: Expect: {"status": 1, "month_start": 6, "year_start": 2017, "day_of_week": 1, "range_end": 1, "start_time": 512, "day_pattern": 1, "day_start": 16, "recurrence_type": 3, "month_mask": 3567}
+
+2017-08-31 15:01:14: Actual:{"status": 0, "month_start": 1, "year_start": 1970, "day_of_week": 0, "range_end": 1, "start_time": 0, "day_start": 1, "ordinal": 0, "day_pattern": 1, "recurrence_type": "Monthly", "month_mask": 4079, "bga_type": "brc", "id": "brc"}
+
+2017-08-31 15:01:12: Expect: {"status": 0, "month_start": 1, "year_start": 1970, "day_of_week": 0, "range_end": 1, "start_time": 0, "day_pattern": 1, "day_start": 1, "recurrence_type": 3, "month_mask": 4079}
+
+2017-08-31 15:01:12: Actual:{"status": 0, "month_start": 1, "year_start": 1970, "day_of_week": 0, "range_end": 1, "start_time": 0, "day_start": 1, "ordinal": 0, "day_pattern": 1, "recurrence_type": "Monthly", "month_mask": 4095, "bga_type": "brc", "id": "brc"}
+
+2017-08-31 15:01:10: Expect: {"status": 0, "month_start": 1, "year_start": 1970, "day_of_week": 0, "range_end": 1, "start_time": 0, "day_pattern": 1, "day_start": 1, "recurrence_type": 3, "month_mask": 4095}
+
+2017-08-31 15:01:10: Actual:{"status": 1, "month_start": 8, "year_start": 2019, "range_end": 1, "start_time": 513, "day_of_month": 15, "day_start": 15, "rc_fix": 1, "rc_pause": 1, "day_pattern": 0, "recurrence_type": "Monthly", "month_mask": 32, "rc_poolnum": 1, "bga_type": "rc", "id": "rc_1", "rc_pools": [0]}
+
+2017-08-31 15:01:07: Expect: {"status": 1, "month_start": 8, "year_start": 2019, "range_end": 1, "start_time": 513, "day_of_month": 15, "day_pattern": 0, "rc_fix": 1, "rc_pause": 1, "day_start": 15, "recurrence_type": 3, "month_mask": 32, "rc_pools": [0]}
+
+2017-08-31 15:01:07: Actual:{"status": 1, "month_start": 7, "year_start": 2020, "range_end": 1, "start_time": 513, "day_of_month": 15, "day_start": 15, "rc_fix": 1, "rc_pause": 1, "day_pattern": 0, "recurrence_type": "Monthly", "month_mask": 2112, "rc_poolnum": 1, "bga_type": "rc", "id": "rc_1", "rc_pools": [0]}
+
+2017-08-31 15:01:05: Expect: {"status": 1, "month_start": 7, "year_start": 2020, "range_end": 1, "start_time": 513, "day_of_month": 15, "day_pattern": 0, "rc_fix": 1, "rc_pause": 1, "day_start": 15, "recurrence_type": 3, "month_mask": 2112, "rc_pools": [0]}
+
+2017-08-31 15:01:05: Actual:{"status": 1, "month_start": 12, "year_start": 2037, "range_end": 1, "start_time": 1439, "day_of_month": 28, "day_start": 31, "rc_fix": 1, "rc_pause": 1, "day_pattern": 0, "recurrence_type": "Monthly", "month_mask": 2314, "rc_poolnum": 1, "bga_type": "rc", "id": "rc_1", "rc_pools": [1]}
+
+2017-08-31 15:01:03: Expect: {"status": 1, "month_start": 12, "year_start": 2037, "range_end": 1, "start_time": 1439, "day_of_month": 28, "day_pattern": 0, "rc_fix": 1, "rc_pause": 1, "day_start": 31, "recurrence_type": 3, "month_mask": 2314, "rc_pools": [1]}
+
+2017-08-31 15:01:03: Actual:{"status": 0, "month_start": 12, "year_start": 2037, "range_end": 1, "start_time": 1439, "day_of_month": 28, "day_start": 31, "rc_fix": 0, "rc_pause": 0, "day_pattern": 0, "recurrence_type": "Monthly", "month_mask": 2338, "rc_poolnum": 1, "bga_type": "rc", "id": "rc_1", "rc_pools": [1]}
+
+2017-08-31 15:01:01: Expect: {"status": 0, "month_start": 12, "year_start": 2037, "range_end": 1, "start_time": 1439, "day_of_month": 28, "day_pattern": 0, "rc_fix": 0, "rc_pause": 0, "day_start": 31, "recurrence_type": 3, "month_mask": 2338, "rc_pools": [1]}
+
+2017-08-31 15:01:01: Actual:{"status": 1, "month_start": 6, "year_start": 2017, "range_end": 1, "start_time": 512, "day_of_month": 16, "day_start": 16, "rc_fix": 1, "rc_pause": 1, "day_pattern": 0, "recurrence_type": "Monthly", "month_mask": 2356, "rc_poolnum": 1, "bga_type": "rc", "id": "rc_1", "rc_pools": [0]}
+
+2017-08-31 15:00:59: Expect: {"status": 1, "month_start": 6, "year_start": 2017, "range_end": 1, "start_time": 512, "day_of_month": 16, "day_pattern": 0, "rc_fix": 1, "rc_pause": 1, "day_start": 16, "recurrence_type": 3, "month_mask": 2356, "rc_pools": [0]}
+
+2017-08-31 15:00:58: Actual:{"status": 1, "month_start": 7, "year_start": 2020, "range_end": 1, "start_time": 513, "day_of_month": 15, "day_start": 15, "rc_fix": 1, "rc_pause": 0, "day_pattern": 0, "recurrence_type": "Monthly", "month_mask": 2730, "rc_poolnum": 1, "bga_type": "rc", "id": "rc_1", "rc_pools": [0]}
+
+2017-08-31 15:00:56: Expect: {"status": 1, "month_start": 7, "year_start": 2020, "range_end": 1, "start_time": 513, "day_of_month": 15, "day_pattern": 0, "rc_fix": 1, "rc_pause": 0, "day_start": 15, "recurrence_type": 3, "month_mask": 2730, "rc_pools": [0]}
+
+2017-08-31 15:00:56: Actual:{"status": 1, "month_start": 12, "year_start": 2037, "range_end": 1, "start_time": 1439, "day_of_month": 31, "day_start": 25, "rc_fix": 1, "rc_pause": 1, "day_pattern": 0, "recurrence_type": "Monthly", "month_mask": 2922, "rc_poolnum": 1, "bga_type": "rc", "id": "rc_1", "rc_pools": [1]}
+
+2017-08-31 15:00:54: Expect: {"status": 1, "month_start": 12, "year_start": 2037, "range_end": 1, "start_time": 1439, "day_of_month": 31, "day_pattern": 0, "rc_fix": 1, "rc_pause": 1, "day_start": 25, "recurrence_type": 3, "month_mask": 2922, "rc_pools": [1]}
+
+2017-08-31 15:00:54: Actual:{"status": 0, "month_start": 12, "year_start": 2037, "range_end": 1, "start_time": 1439, "day_of_month": 31, "day_start": 25, "rc_fix": 0, "rc_pause": 0, "day_pattern": 0, "recurrence_type": "Monthly", "month_mask": 3435, "rc_poolnum": 1, "bga_type": "rc", "id": "rc_1", "rc_pools": [1]}
+
+2017-08-31 15:00:52: Expect: {"status": 0, "month_start": 12, "year_start": 2037, "range_end": 1, "start_time": 1439, "day_of_month": 31, "day_pattern": 0, "rc_fix": 0, "rc_pause": 0, "day_start": 25, "recurrence_type": 3, "month_mask": 3435, "rc_pools": [1]}
+
+2017-08-31 15:00:52: Actual:{"status": 1, "month_start": 6, "year_start": 2017, "range_end": 1, "start_time": 512, "day_of_month": 16, "day_start": 16, "rc_fix": 1, "rc_pause": 0, "day_pattern": 0, "recurrence_type": "Monthly", "month_mask": 3517, "rc_poolnum": 1, "bga_type": "rc", "id": "rc_1", "rc_pools": [0]}
+
+2017-08-31 15:00:50: Expect: {"status": 1, "month_start": 6, "year_start": 2017, "range_end": 1, "start_time": 512, "day_of_month": 16, "day_pattern": 0, "rc_fix": 1, "rc_pause": 0, "day_start": 16, "recurrence_type": 3, "month_mask": 3517, "rc_pools": [0]}
+
+2017-08-31 15:00:50: Actual:{"status": 1, "month_start": 6, "year_start": 2017, "range_end": 1, "start_time": 512, "day_of_month": 16, "day_start": 16, "rc_fix": 1, "rc_pause": 0, "day_pattern": 0, "recurrence_type": "Monthly", "month_mask": 3567, "rc_poolnum": 1, "bga_type": "rc", "id": "rc_1", "rc_pools": [0]}
+
+2017-08-31 15:00:47: Expect: {"status": 1, "month_start": 6, "year_start": 2017, "range_end": 1, "start_time": 512, "day_of_month": 16, "day_pattern": 0, "rc_fix": 1, "rc_pause": 0, "day_start": 16, "recurrence_type": 3, "month_mask": 3567, "rc_pools": [0]}
+
+2017-08-31 15:00:47: Actual:{"status": 0, "month_start": 1, "year_start": 1970, "range_end": 1, "start_time": 0, "day_of_month": 1, "day_start": 1, "rc_fix": 0, "rc_pause": 1, "day_pattern": 0, "recurrence_type": "Monthly", "month_mask": 4079, "rc_poolnum": 1, "bga_type": "rc", "id": "rc_1", "rc_pools": [1]}
+
+2017-08-31 15:00:45: Expect: {"status": 0, "month_start": 1, "year_start": 1970, "range_end": 1, "start_time": 0, "day_of_month": 1, "day_pattern": 0, "rc_fix": 0, "rc_pause": 1, "day_start": 1, "recurrence_type": 3, "month_mask": 4079, "rc_pools": [1]}
+
+2017-08-31 15:00:45: Actual:{"status": 0, "month_start": 1, "year_start": 1970, "range_end": 1, "start_time": 0, "day_of_month": 1, "day_start": 1, "rc_fix": 0, "rc_pause": 1, "day_pattern": 0, "recurrence_type": "Monthly", "month_mask": 4095, "rc_poolnum": 1, "bga_type": "rc", "id": "rc_1", "rc_pools": [1]}
+
+2017-08-31 15:00:43: Expect: {"status": 0, "month_start": 1, "year_start": 1970, "range_end": 1, "start_time": 0, "day_of_month": 1, "day_pattern": 0, "rc_fix": 0, "rc_pause": 1, "day_start": 1, "recurrence_type": 3, "month_mask": 4095, "rc_pools": [1]}
+
+2017-08-31 15:00:43: To modify monthly bgaschedule 
+
+2017-08-31 15:00:37: To modify bgaschedule by api
+2017-08-31 15:00:37: 'result': 'p'
+2017-08-31 15:00:34: Actual:{"status": 1, "month_start": 9, "year_start": 2018, "range_end": 3, "start_time": 0, "month_mask": 4095, "year_end": 2019, "day_start": 28, "day_of_month": 5, "day_end": 1, "day_pattern": 0, "recurrence_type": "Monthly", "month_end": 1, "bga_type": "sc", "id": "sc"}
+
+2017-08-31 15:00:34: Expect:{"status": 1, "month_start": 9, "year_start": 2018, "bga_type": "sc", "range_end": 3, "start_time": 0, "year_end": 2019, "day_start": 28, "day_of_month": 5, "day_end": 1, "day_pattern": 0, "recurrence_type": 3, "month_mask": 4095, "month_end": 1}
+
+2017-08-31 15:00:30: Actual:{"status": 1, "month_start": 9, "year_start": 2018, "range_end": 3, "start_time": 0, "month_mask": 4095, "year_end": 2019, "day_start": 28, "day_of_month": 5, "day_end": 1, "day_pattern": 0, "recurrence_type": "Monthly", "month_end": 1, "bga_type": "brc", "id": "brc"}
+
+2017-08-31 15:00:30: Expect:{"status": 1, "month_start": 9, "year_start": 2018, "bga_type": "brc", "range_end": 3, "start_time": 0, "year_end": 2019, "day_start": 28, "day_of_month": 5, "day_end": 1, "day_pattern": 0, "recurrence_type": 3, "month_mask": 4095, "month_end": 1}
+
+2017-08-31 15:00:26: Actual:{"status": 1, "month_start": 9, "year_start": 2018, "range_end": 3, "start_time": 0, "month_mask": 4095, "year_end": 2019, "day_start": 28, "day_of_month": 5, "rc_poolnum": 1, "day_end": 1, "day_pattern": 0, "recurrence_type": "Monthly", "month_end": 1, "rc_pause": 1, "bga_type": "rc", "rc_fix": 1, "id": "rc_1", "rc_pools": [0]}
+
+2017-08-31 15:00:26: Expect:{"status": 1, "month_start": 9, "year_start": 2018, "bga_type": "rc", "range_end": 3, "start_time": 0, "year_end": 2019, "day_start": 28, "day_of_month": 5, "day_end": 1, "day_pattern": 0, "recurrence_type": 3, "month_mask": 4095, "rc_pause": 1, "month_end": 1, "rc_fix": 1, "rc_pools": [0]}
+
+2017-08-31 15:00:24: add bgasched of monthly type
+
+2017-08-31 15:00:21: Actual:{"status": 0, "month_start": 1, "year_start": 1971, "range_end": 3, "start_time": 0, "interval": 1, "year_end": 2018, "day_start": 1, "day_mask": 127, "day_end": 1, "recurrence_type": "Weekly", "month_end": 1, "bga_type": "sc", "id": "sc"}
+
+2017-08-31 15:00:21: Expect:{"status": 0, "month_start": 1, "year_start": 1971, "range_end": 3, "start_time": 0, "interval": 1, "year_end": 2018, "day_start": 1, "day_mask": 127, "day_end": 1, "recurrence_type": 2, "bga_type": "sc", "month_end": 1}
+
+2017-08-31 15:00:17: Actual:{"status": 0, "month_start": 1, "year_start": 1971, "range_end": 3, "start_time": 0, "interval": 1, "year_end": 2018, "day_start": 1, "day_mask": 127, "day_end": 1, "recurrence_type": "Weekly", "month_end": 1, "bga_type": "brc", "id": "brc"}
+
+2017-08-31 15:00:17: Expect:{"status": 0, "month_start": 1, "year_start": 1971, "range_end": 3, "start_time": 0, "interval": 1, "year_end": 2018, "day_start": 1, "day_mask": 127, "day_end": 1, "recurrence_type": 2, "bga_type": "brc", "month_end": 1}
+
+2017-08-31 15:00:13: Actual:{"status": 0, "month_start": 1, "year_start": 1971, "range_end": 3, "start_time": 0, "interval": 1, "year_end": 2018, "day_start": 1, "rc_fix": 1, "day_mask": 127, "day_end": 1, "rc_pause": 1, "recurrence_type": "Weekly", "month_end": 1, "rc_poolnum": 1, "bga_type": "rc", "id": "rc_1", "rc_pools": [0]}
+
+2017-08-31 15:00:13: Expect:{"status": 0, "month_start": 1, "year_start": 1971, "range_end": 3, "start_time": 0, "interval": 1, "year_end": 2018, "day_start": 1, "rc_fix": 1, "day_mask": 127, "day_end": 1, "rc_pause": 1, "recurrence_type": 2, "bga_type": "rc", "month_end": 1, "rc_pools": [0]}
+
+2017-08-31 15:00:11: add bgasched of weekly type 
+
+2017-08-31 15:00:08: Actual:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "range_end": 2, "start_time": 1439, "interval": 255, "day_start": 30, "recurrence_type": "Daily", "bga_type": "sc", "id": "sc"}
+
+2017-08-31 15:00:08: Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "range_end": 2, "start_time": 1439, "interval": 255, "day_start": 30, "recurrence_type": 1, "bga_type": "sc"}
+
+2017-08-31 15:00:04: Actual:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "range_end": 2, "start_time": 1439, "interval": 255, "day_start": 30, "recurrence_type": "Daily", "bga_type": "brc", "id": "brc"}
+
+2017-08-31 15:00:04: Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "range_end": 2, "start_time": 1439, "interval": 255, "day_start": 30, "recurrence_type": 1, "bga_type": "brc"}
+
+2017-08-31 15:00:00: Actual:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "range_end": 2, "start_time": 1439, "interval": 255, "day_start": 30, "rc_fix": 0, "rc_pause": 0, "recurrence_type": "Daily", "rc_poolnum": 1, "bga_type": "rc", "id": "rc_1", "rc_pools": [0]}
+
+2017-08-31 15:00:00: Expect:{"status": 1, "month_start": 12, "year_start": 2037, "recurrence_count": 255, "range_end": 2, "start_time": 1439, "interval": 255, "day_start": 30, "rc_fix": 0, "rc_pause": 0, "recurrence_type": 1, "bga_type": "rc", "rc_pools": [0]}
+
+2017-08-31 14:59:57: add bgasched of daily type
+
+2017-08-31 14:59:46: To add bgaschedule by api
+
 2017-08-31 14:42:27: 'result': 'p'
 2017-08-31 14:42:27: Actual: rc type deletes successfully
 2017-08-31 14:42:25: Expect: delete rc type

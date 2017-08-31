@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fec8ec44-a364-45ce-a69b-86344cafa238" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bgascheduleapi.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bgasched.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bgasched_api.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/poolApi.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/remote_imporved.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bgascheduleapi.py" afterPath="$PROJECT_DIR$/Bgascheduleapi.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cli_scripts.log" afterPath="$PROJECT_DIR$/cli_scripts.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testlink.notes" afterPath="$PROJECT_DIR$/testlink.notes" />
     </list>
@@ -24,27 +19,21 @@
       <file leaf-file-name="Bgascheduleapi.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Bgascheduleapi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="351" column="0" lean-forward="false" selection-start-line="351" selection-start-column="0" selection-end-line="351" selection-end-column="0" />
+            <state relative-caret-position="76">
+              <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
-                <element signature="e#178#853#0" expanded="false" />
-                <element signature="e#885#13349#0" expanded="false" />
-                <element signature="e#1028#1630#0" expanded="false" />
-                <element signature="e#1710#2700#0" expanded="false" />
-                <element signature="e#2847#6101#0" expanded="false" />
-                <element signature="e#6260#9602#0" expanded="false" />
-                <element signature="e#13237#13281#0" expanded="false" />
-                <element signature="e#13380#29773#0" expanded="false" />
-                <element signature="e#13546#14375#0" expanded="false" />
-                <element signature="e#14449#14738#0" expanded="false" />
-                <element signature="e#14764#15224#0" expanded="false" />
-                <element signature="e#15255#15849#0" expanded="false" />
-                <element signature="e#15960#19795#0" expanded="false" />
-                <element signature="e#19854#23452#0" expanded="false" />
-                <element signature="e#23555#26598#0" expanded="false" />
-                <element signature="e#26699#29704#0" expanded="false" />
-                <element signature="e#29807#32454#0" expanded="false" />
+                <element signature="e#25#50#0" expanded="true" />
+                <element signature="e#156#831#0" expanded="false" />
+                <element signature="e#863#13472#0" expanded="false" />
+                <element signature="e#1684#2674#0" expanded="false" />
+                <element signature="e#2825#6124#0" expanded="false" />
+                <element signature="e#6288#9675#0" expanded="false" />
+                <element signature="e#13503#30127#0" expanded="false" />
+                <element signature="e#13669#14498#0" expanded="false" />
+                <element signature="e#14572#14861#0" expanded="false" />
+                <element signature="e#14887#15347#0" expanded="false" />
+                <element signature="e#15378#15972#0" expanded="false" />
+                <element signature="e#30161#32889#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -97,6 +86,7 @@
         <option value="$PROJECT_DIR$/testlink.notes" />
         <option value="$PROJECT_DIR$/bgasched_api.py" />
         <option value="$PROJECT_DIR$/api_autoscripts_zach.py" />
+        <option value="$PROJECT_DIR$/Bgascheduleapi.py" />
       </list>
     </option>
   </component>
@@ -176,7 +166,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.api_autoscripts_zach">
+  <component name="RunManager" selected="Python.api_autoscripts">
     <configuration default="false" name="bgasched_api" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -190,24 +180,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="webAPI" />
       <option name="SCRIPT_NAME" value="D:\test_H_DS\webAPI\Bgascheduleapi.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="rb" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../cli" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="webAPI" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../cli/rb.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -262,6 +234,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="webAPI" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/api_autoscripts_zach.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="api_autoscripts" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="webAPI" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/api_autoscripts.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -333,18 +323,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.bgasched_api" />
-      <item index="1" class="java.lang.String" itemvalue="Python.rb" />
-      <item index="2" class="java.lang.String" itemvalue="Python.gui_autoscripts" />
-      <item index="3" class="java.lang.String" itemvalue="Python.smart" />
-      <item index="4" class="java.lang.String" itemvalue="Python.api_autoscripts_zach" />
+      <item index="1" class="java.lang.String" itemvalue="Python.gui_autoscripts" />
+      <item index="2" class="java.lang.String" itemvalue="Python.smart" />
+      <item index="3" class="java.lang.String" itemvalue="Python.api_autoscripts_zach" />
+      <item index="4" class="java.lang.String" itemvalue="Python.api_autoscripts" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.api_autoscripts_zach" />
-        <item index="1" class="java.lang.String" itemvalue="Python.bgasched_api" />
-        <item index="2" class="java.lang.String" itemvalue="Python.smart" />
-        <item index="3" class="java.lang.String" itemvalue="Python.gui_autoscripts" />
-        <item index="4" class="java.lang.String" itemvalue="Python.rb" />
+        <item index="0" class="java.lang.String" itemvalue="Python.api_autoscripts" />
+        <item index="1" class="java.lang.String" itemvalue="Python.api_autoscripts_zach" />
+        <item index="2" class="java.lang.String" itemvalue="Python.bgasched_api" />
+        <item index="3" class="java.lang.String" itemvalue="Python.smart" />
+        <item index="4" class="java.lang.String" itemvalue="Python.gui_autoscripts" />
       </list>
     </recent_temporary>
   </component>
@@ -404,7 +394,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="115" />
+      <option name="time" value="117" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -414,24 +404,18 @@
         <state relative-caret-position="418">
           <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
-            <element signature="e#178#853#0" expanded="false" />
-            <element signature="e#885#13349#0" expanded="false" />
-            <element signature="e#1028#1630#0" expanded="false" />
-            <element signature="e#1710#2700#0" expanded="false" />
-            <element signature="e#2847#6101#0" expanded="false" />
-            <element signature="e#6260#9602#0" expanded="false" />
-            <element signature="e#13237#13281#0" expanded="false" />
-            <element signature="e#13380#29773#0" expanded="false" />
-            <element signature="e#13546#14375#0" expanded="false" />
-            <element signature="e#14449#14738#0" expanded="false" />
-            <element signature="e#14764#15224#0" expanded="false" />
-            <element signature="e#15255#15849#0" expanded="false" />
-            <element signature="e#15960#19795#0" expanded="false" />
-            <element signature="e#19854#23452#0" expanded="false" />
-            <element signature="e#23555#26598#0" expanded="false" />
-            <element signature="e#26699#29704#0" expanded="false" />
-            <element signature="e#29807#32454#0" expanded="false" />
+            <element signature="e#25#50#0" expanded="true" />
+            <element signature="e#156#831#0" expanded="false" />
+            <element signature="e#863#13472#0" expanded="false" />
+            <element signature="e#1684#2674#0" expanded="false" />
+            <element signature="e#2825#6124#0" expanded="false" />
+            <element signature="e#6288#9675#0" expanded="false" />
+            <element signature="e#13503#30127#0" expanded="false" />
+            <element signature="e#13669#14498#0" expanded="false" />
+            <element signature="e#14572#14861#0" expanded="false" />
+            <element signature="e#14887#15347#0" expanded="false" />
+            <element signature="e#15378#15972#0" expanded="false" />
+            <element signature="e#30161#32889#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -478,24 +462,18 @@
         <state relative-caret-position="418">
           <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
-            <element signature="e#178#853#0" expanded="false" />
-            <element signature="e#885#13349#0" expanded="false" />
-            <element signature="e#1028#1630#0" expanded="false" />
-            <element signature="e#1710#2700#0" expanded="false" />
-            <element signature="e#2847#6101#0" expanded="false" />
-            <element signature="e#6260#9602#0" expanded="false" />
-            <element signature="e#13237#13281#0" expanded="false" />
-            <element signature="e#13380#29773#0" expanded="false" />
-            <element signature="e#13546#14375#0" expanded="false" />
-            <element signature="e#14449#14738#0" expanded="false" />
-            <element signature="e#14764#15224#0" expanded="false" />
-            <element signature="e#15255#15849#0" expanded="false" />
-            <element signature="e#15960#19795#0" expanded="false" />
-            <element signature="e#19854#23452#0" expanded="false" />
-            <element signature="e#23555#26598#0" expanded="false" />
-            <element signature="e#26699#29704#0" expanded="false" />
-            <element signature="e#29807#32454#0" expanded="false" />
+            <element signature="e#25#50#0" expanded="true" />
+            <element signature="e#156#831#0" expanded="false" />
+            <element signature="e#863#13472#0" expanded="false" />
+            <element signature="e#1684#2674#0" expanded="false" />
+            <element signature="e#2825#6124#0" expanded="false" />
+            <element signature="e#6288#9675#0" expanded="false" />
+            <element signature="e#13503#30127#0" expanded="false" />
+            <element signature="e#13669#14498#0" expanded="false" />
+            <element signature="e#14572#14861#0" expanded="false" />
+            <element signature="e#14887#15347#0" expanded="false" />
+            <element signature="e#15378#15972#0" expanded="false" />
+            <element signature="e#30161#32889#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -541,24 +519,18 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
-            <element signature="e#178#853#0" expanded="false" />
-            <element signature="e#885#13349#0" expanded="false" />
-            <element signature="e#1028#1630#0" expanded="false" />
-            <element signature="e#1710#2700#0" expanded="false" />
-            <element signature="e#2847#6101#0" expanded="false" />
-            <element signature="e#6260#9602#0" expanded="false" />
-            <element signature="e#13237#13281#0" expanded="false" />
-            <element signature="e#13380#29773#0" expanded="false" />
-            <element signature="e#13546#14375#0" expanded="false" />
-            <element signature="e#14449#14738#0" expanded="false" />
-            <element signature="e#14764#15224#0" expanded="false" />
-            <element signature="e#15255#15849#0" expanded="false" />
-            <element signature="e#15960#19795#0" expanded="false" />
-            <element signature="e#19854#23452#0" expanded="false" />
-            <element signature="e#23555#26598#0" expanded="false" />
-            <element signature="e#26699#29704#0" expanded="false" />
-            <element signature="e#29807#32454#0" expanded="false" />
+            <element signature="e#25#50#0" expanded="true" />
+            <element signature="e#156#831#0" expanded="false" />
+            <element signature="e#863#13472#0" expanded="false" />
+            <element signature="e#1684#2674#0" expanded="false" />
+            <element signature="e#2825#6124#0" expanded="false" />
+            <element signature="e#6288#9675#0" expanded="false" />
+            <element signature="e#13503#30127#0" expanded="false" />
+            <element signature="e#13669#14498#0" expanded="false" />
+            <element signature="e#14572#14861#0" expanded="false" />
+            <element signature="e#14887#15347#0" expanded="false" />
+            <element signature="e#15378#15972#0" expanded="false" />
+            <element signature="e#30161#32889#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -852,29 +824,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/api_autoscripts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Bgascheduleapi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="351" column="0" lean-forward="false" selection-start-line="351" selection-start-column="0" selection-end-line="351" selection-end-column="0" />
+        <state relative-caret-position="76">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
-            <element signature="e#178#853#0" expanded="false" />
-            <element signature="e#885#13349#0" expanded="false" />
-            <element signature="e#1028#1630#0" expanded="false" />
-            <element signature="e#1710#2700#0" expanded="false" />
-            <element signature="e#2847#6101#0" expanded="false" />
-            <element signature="e#6260#9602#0" expanded="false" />
-            <element signature="e#13237#13281#0" expanded="false" />
-            <element signature="e#13380#29773#0" expanded="false" />
-            <element signature="e#13546#14375#0" expanded="false" />
-            <element signature="e#14449#14738#0" expanded="false" />
-            <element signature="e#14764#15224#0" expanded="false" />
-            <element signature="e#15255#15849#0" expanded="false" />
-            <element signature="e#15960#19795#0" expanded="false" />
-            <element signature="e#19854#23452#0" expanded="false" />
-            <element signature="e#23555#26598#0" expanded="false" />
-            <element signature="e#26699#29704#0" expanded="false" />
-            <element signature="e#29807#32454#0" expanded="false" />
+            <element signature="e#25#50#0" expanded="true" />
+            <element signature="e#156#831#0" expanded="false" />
+            <element signature="e#863#13472#0" expanded="false" />
+            <element signature="e#1684#2674#0" expanded="false" />
+            <element signature="e#2825#6124#0" expanded="false" />
+            <element signature="e#6288#9675#0" expanded="false" />
+            <element signature="e#13503#30127#0" expanded="false" />
+            <element signature="e#13669#14498#0" expanded="false" />
+            <element signature="e#14572#14861#0" expanded="false" />
+            <element signature="e#14887#15347#0" expanded="false" />
+            <element signature="e#15378#15972#0" expanded="false" />
+            <element signature="e#30161#32889#0" expanded="false" />
           </folding>
         </state>
       </provider>

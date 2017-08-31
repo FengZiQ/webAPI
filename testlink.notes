@@ -1,7 +1,15 @@
-Expect: delete brc type
-Actual: brc type deletes successfully
-Expect: delete sc type
-Actual: sc type deletes successfully
-Expect: delete rc type
-Actual: rc type deletes successfully
+To delete bgaschedule by api 
+
+Expect: delete brc type 
+
+Actual: brc type deletes successfully 
+
+Expect: delete sc type
+
+Actual: sc type deletes successfully
+
+Expect: delete rc type
+
+Actual: rc type deletes successfully
+
 'result': 'p'

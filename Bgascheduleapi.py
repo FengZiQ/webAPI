@@ -1,9 +1,8 @@
-import time
+# -*- coding: utf-8 -*-
+
 from remote import server
 import json
-import unicodedata
 from to_log import tolog
-import requests
 
 Pass = "'result': 'p'"
 Fail = "'result': 'f'"
@@ -31,7 +30,7 @@ def findPlId():
 def BgascheduleApiPost():
     Failflag = False
     FailFlagList = []
-    tolog("Verify BgascheduleAdd info by api")
+    tolog("To add bgaschedule by api\r\n")
 
     # precondition
     def deleteBgaschedule():
@@ -71,7 +70,7 @@ def BgascheduleApiPost():
     bga_type = ['rc', 'brc', 'sc']
 
     # add bgasched of daily type
-    tolog('add bgasched of daily type')
+    tolog('add bgasched of daily type\r\n')
     def addDailyBgasched():
         Failflag = False
         dayTypeParameters = {
@@ -96,7 +95,7 @@ def BgascheduleApiPost():
                 }.items())
                 server.webapi('post', 'bgaschedule', parameters)
 
-                tolog('Expect:' + json.dumps(parameters))
+                tolog('Expect:' + json.dumps(parameters) + '\r\n')
                 expectResult = dict(dayTypeParameters.items() +{
                     'bga_type': bga_type[i],
                     "recurrence_type": "Daily",
@@ -111,7 +110,7 @@ def BgascheduleApiPost():
                 for r in result:
                     if r["bga_type"] == 'rc':
                         actualResult = r
-                        tolog('Actual:' + json.dumps(r))
+                        tolog('Actual:' + json.dumps(r) + '\r\n')
                         for key in expectResult.keys():
                             if expectResult[key] != actualResult[key]:
                                 Failflag = True
@@ -126,7 +125,7 @@ def BgascheduleApiPost():
                 }.items())
                 server.webapi('post', 'bgaschedule', parameters)
 
-                tolog('Expect:' + json.dumps(parameters))
+                tolog('Expect:' + json.dumps(parameters) + '\r\n')
                 expectResult = dict(dayTypeParameters.items() + {
                     'bga_type': bga_type[i],
                     'recurrence_type': "Daily"
@@ -138,14 +137,14 @@ def BgascheduleApiPost():
                 for r in result:
                     if r["bga_type"] == 'sc':
                         actualResult = r
-                        tolog('Actual:' + json.dumps(r))
+                        tolog('Actual:' + json.dumps(r) + '\r\n')
                         for key in expectResult.keys():
                             if expectResult[key] != actualResult[key]:
                                 Failflag = True
                                 tolog('Fail: parameters ' + str(expectResult[key]) + '!=' + str(actualResult[key]))
                     elif r["bga_type"] == 'brc':
                         actualResult = r
-                        tolog('Actual:' + json.dumps(r))
+                        tolog('Actual:' + json.dumps(r) + '\r\n')
                         for key in expectResult:
                             if expectResult[key] != actualResult[key]:
                                 Failflag = True
@@ -158,7 +157,7 @@ def BgascheduleApiPost():
     FailFlagList.append(addDailyBgasched())
 
     # add bgasched of weekly type
-    tolog('add bgasched of weekly type')
+    tolog('add bgasched of weekly type \r\n')
     def addWeeklyBgasched():
         Failflag = False
         weeklyTypeParameters = {
@@ -187,7 +186,7 @@ def BgascheduleApiPost():
 
                 server.webapi('post', 'bgaschedule', parameters)
 
-                tolog('Expect:' + json.dumps(parameters))
+                tolog('Expect:' + json.dumps(parameters) + '\r\n')
                 expectResult = dict(weeklyTypeParameters.items() +{
                     'bga_type': bga_type[i],
                     "recurrence_type": "Weekly",
@@ -202,7 +201,7 @@ def BgascheduleApiPost():
                 for r in result:
                     if r["bga_type"] == 'rc':
                         actualResult = r
-                        tolog('Actual:' + json.dumps(r))
+                        tolog('Actual:' + json.dumps(r) + '\r\n')
                         for key in expectResult.keys():
                             if expectResult[key] != actualResult[key]:
                                 Failflag = True
@@ -218,7 +217,7 @@ def BgascheduleApiPost():
 
                 server.webapi('post', 'bgaschedule', parameters)
 
-                tolog('Expect:' + json.dumps(parameters))
+                tolog('Expect:' + json.dumps(parameters) + '\r\n')
                 expectResult = dict( weeklyTypeParameters.items() +{
                     'bga_type': bga_type[i],
                     "recurrence_type": "Weekly"
@@ -230,14 +229,14 @@ def BgascheduleApiPost():
                 for r in result:
                     if r["bga_type"] == 'sc':
                         actualResult = r
-                        tolog('Actual:' + json.dumps(r))
+                        tolog('Actual:' + json.dumps(r) + '\r\n')
                         for key in expectResult.keys():
                             if expectResult[key] != actualResult[key]:
                                 Failflag = True
                                 tolog('Fail: parameters ' + str(expectResult[key]) + '!=' + str(actualResult[key]))
                     elif r["bga_type"] == 'brc':
                         actualResult = r
-                        tolog('Actual:' + json.dumps(r))
+                        tolog('Actual:' + json.dumps(r) + '\r\n')
                         for key in expectResult:
                             if expectResult[key] != actualResult[key]:
                                 Failflag = True
@@ -250,7 +249,7 @@ def BgascheduleApiPost():
     FailFlagList.append(addWeeklyBgasched())
 
     # add bgasched of monthly type
-    tolog('add bgasched of monthly type')
+    tolog('add bgasched of monthly type\r\n')
     def addmonthlyBgasched():
         Failflag = False
         monthlyTypeParameters = {
@@ -280,8 +279,8 @@ def BgascheduleApiPost():
 
                 server.webapi('post', 'bgaschedule', parameters)
 
-                tolog('Expect:' + json.dumps(parameters))
-                expectResult = dict(monthlyTypeParameters.items() +{
+                tolog('Expect:' + json.dumps(parameters) + '\r\n')
+                expectResult = dict(monthlyTypeParameters.items() + {
                     'bga_type': bga_type[i],
                     "recurrence_type": "Monthly",
                     'rc_pools': [0],
@@ -295,7 +294,7 @@ def BgascheduleApiPost():
                 for r in result:
                     if r["bga_type"] == 'rc':
                         actualResult = r
-                        tolog('Actual:' + json.dumps(r))
+                        tolog('Actual:' + json.dumps(r) + '\r\n')
                         for key in expectResult.keys():
                             if expectResult[key] != actualResult[key]:
                                 Failflag = True
@@ -310,7 +309,7 @@ def BgascheduleApiPost():
                 }.items())
                 server.webapi('post', 'bgaschedule', parameters)
 
-                tolog('Expect:' + json.dumps(parameters))
+                tolog('Expect:' + json.dumps(parameters) + '\r\n')
                 expectResult = dict(monthlyTypeParameters.items() +{
                     'bga_type': bga_type[i],
                     "recurrence_type": "Monthly"
@@ -322,14 +321,14 @@ def BgascheduleApiPost():
                 for r in result:
                     if r["bga_type"] == 'sc':
                         actualResult = r
-                        tolog('Actual:' + json.dumps(r))
+                        tolog('Actual:' + json.dumps(r) + '\r\n')
                         for key in expectResult.keys():
                             if expectResult[key] != actualResult[key]:
                                 Failflag = True
                                 tolog('Fail: parameters ' + str(expectResult[key]) + '!=' + str(actualResult[key]))
                     elif r["bga_type"] == 'brc':
                         actualResult = r
-                        tolog('Actual:' + json.dumps(r))
+                        tolog('Actual:' + json.dumps(r) + '\r\n')
                         for key in expectResult:
                             if expectResult[key] != actualResult[key]:
                                 Failflag = True
@@ -352,7 +351,7 @@ def BgascheduleApiPost():
 
 def BgascheduleApiPut():
     Failflag = False
-    tolog("To verify Bgaschedule modify")
+    tolog("To modify bgaschedule by api")
     # precondition: create different types of bgaschedule
     for bga_type in ['rc', 'brc', 'sc']:
         if bga_type == 'rc':
@@ -419,7 +418,7 @@ def BgascheduleApiPut():
     }
 
     # To modify monthly bgaschedule
-    tolog('To modify monthly bgaschedule')
+    tolog('To modify monthly bgaschedule \r\n')
     for id in bga_id:
         if id == 'rc_1':
             monthlySettingList = dict(monthlySettingListPart.items() + {
@@ -435,7 +434,7 @@ def BgascheduleApiPut():
                 for k in monthlySettingList:
                     expectResult[k] = monthlySettingList[k][i]
 
-                tolog('Expect: ' + json.dumps(expectResult))
+                tolog('Expect: ' + json.dumps(expectResult) + '\r\n')
                 server.webapi('put', 'bgaschedule/' + id, expectResult)
 
                 check = server.webapi('get', 'bgaschedule')
@@ -443,7 +442,7 @@ def BgascheduleApiPut():
 
                 for r in result:
                     if r["bga_type"] == 'rc':
-                        tolog('Actual:' + json.dumps(r))
+                        tolog('Actual:' + json.dumps(r) + '\r\n')
                         actualResult = r
                         for key in expectResult:
                             if expectResult[key] != 3:
@@ -462,14 +461,14 @@ def BgascheduleApiPut():
                 for k in monthlySettingList:
                     expectResult[k] = monthlySettingList[k][i]
 
-                tolog('Expect: ' + json.dumps(expectResult))
+                tolog('Expect: ' + json.dumps(expectResult) + '\r\n')
                 server.webapi('put', 'bgaschedule/' + id, expectResult)
 
                 check = server.webapi('get', 'bgaschedule')
                 result = json.loads(check['text'])
                 for r in result:
                     if r["bga_type"] == 'brc':
-                        tolog('Actual:' + json.dumps(r))
+                        tolog('Actual:' + json.dumps(r) + '\r\n')
                         actualResult = r
                         for key in expectResult:
                             if expectResult[key] != 3:
@@ -487,14 +486,14 @@ def BgascheduleApiPut():
                 for k in monthlySettingList:
                     expectResult[k] = monthlySettingList[k][i]
 
-                tolog('Expect: ' + json.dumps(expectResult))
+                tolog('Expect: ' + json.dumps(expectResult) + '\r\n')
                 server.webapi('put', 'bgaschedule/' + id, expectResult)
 
                 check = server.webapi('get', 'bgaschedule')
                 result = json.loads(check['text'])
                 for r in result:
                     if r["bga_type"] == 'sc':
-                        tolog('Actual:' + json.dumps(r))
+                        tolog('Actual:' + json.dumps(r) + '\r\n')
                         actualResult = r
                         for key in expectResult:
                             if expectResult[key] != 3:
@@ -507,7 +506,7 @@ def BgascheduleApiPut():
         for range_end in range_endList:
             if id == 'rc_1' and range_end == 2:
                 for recurrence_count in [0, 255]:
-                    tolog('Expect: ' + json.dumps({"range_end": 2, "recurrence_count": recurrence_count}))
+                    tolog('Expect: ' + json.dumps({"range_end": 2, "recurrence_count": recurrence_count}) + '\r\n')
 
                     server.webapi('put', 'bgaschedule/' + id, {
                         "range_end": 2,
@@ -520,7 +519,7 @@ def BgascheduleApiPut():
                     for r in result:
                         if r["id"] == "rc_1":
                             actualResult = r
-                            tolog("Actual: " + json.dumps(actualResult))
+                            tolog("Actual: " + json.dumps(actualResult) + '\r\n')
                             if r["range_end"] != 2 and r["recurrence_count"] != 0:
                                 Failflag = True
                                 tolog('Fail: parameters "range_end" !=2 and "recurrence_count" != 0')
@@ -532,7 +531,7 @@ def BgascheduleApiPut():
                         "day_end": untilSetting[0][i],
                         "month_end": untilSetting[1][i],
                         "year_end": untilSetting[2][i]
-                    }))
+                    }) + '\r\n')
 
                     server.webapi('put', 'bgaschedule/' + id, {
                         "range_end": 3,
@@ -547,7 +546,7 @@ def BgascheduleApiPut():
                     for r in result:
                         if r["id"] == "brc":
                             actualResult = r
-                            tolog("Actual: " + json.dumps(actualResult))
+                            tolog("Actual: " + json.dumps(actualResult) + '\r\n')
                             if r["range_end"] != 3 and r["year_end"] != untilSetting[2][i]:
                                 Failflag = True
                                 tolog('Fail: parameters "range_end" !=3 and "year_end" != ' + str(untilSetting[2][i]))
@@ -559,7 +558,7 @@ def BgascheduleApiPut():
                         "day_end": untilSetting[0][i],
                         "month_end": untilSetting[1][i],
                         "year_end": untilSetting[2][i]
-                    }))
+                    }) + '\r\n')
 
                     server.webapi('put', 'bgaschedule/' + id, {
                         "range_end": 3,
@@ -574,13 +573,13 @@ def BgascheduleApiPut():
                     for r in result:
                         if r["id"] == "sc":
                             actualResult = r
-                            tolog("Actual: " + json.dumps(actualResult))
+                            tolog("Actual: " + json.dumps(actualResult) + '\r\n')
                             if r["range_end"] != 3 and r["month_end"] != untilSetting[1][i]:
                                 Failflag = True
                                 tolog('Fail: parameters "range_end" !=3 and "month_end" != ' + str(untilSetting[1][i]))
 
     # To modify weekly bgaschedule
-    tolog('To modify weekly bgaschedule')
+    tolog('To modify weekly bgaschedule \r\n')
     for id in bga_id:
         if id == 'rc_1':
             weeklySetting = dict(weeklySettingList.items() + {
@@ -592,7 +591,7 @@ def BgascheduleApiPut():
                 for k in weeklySetting:
                     expectResult[k] = weeklySetting[k][i]
 
-                tolog('Expect: ' + json.dumps(expectResult))
+                tolog('Expect: ' + json.dumps(expectResult) + '\r\n')
                 server.webapi('put', 'bgaschedule/' + id, expectResult)
 
                 check = server.webapi('get', 'bgaschedule')
@@ -601,7 +600,7 @@ def BgascheduleApiPut():
                 for r in result:
                     if r["id"] == 'rc_1':
                         actualResult = r
-                        tolog('Actual: ' + json.dumps(actualResult))
+                        tolog('Actual: ' + json.dumps(actualResult) + '\r\n')
                         for key in expectResult:
                             if expectResult[key] != 2:
                                 if expectResult[key] != r[key]:
@@ -613,7 +612,7 @@ def BgascheduleApiPut():
                 for k in weeklySettingList:
                     expectResult[k] = weeklySettingList[k][i]
 
-                tolog('Expect: ' + json.dumps(expectResult))
+                tolog('Expect: ' + json.dumps(expectResult) + '\r\n')
                 server.webapi('put', 'bgaschedule/' + id, expectResult)
 
                 check = server.webapi('get', 'bgaschedule')
@@ -622,7 +621,7 @@ def BgascheduleApiPut():
                 for r in result:
                     if r["id"] == 'brc':
                         actualResult = r
-                        tolog('Actual: ' + json.dumps(actualResult))
+                        tolog('Actual: ' + json.dumps(actualResult) + '\r\n')
                         for key in expectResult:
                             if expectResult[key] != 2:
                                 if expectResult[key] != r[key]:
@@ -634,7 +633,7 @@ def BgascheduleApiPut():
                 for k in weeklySettingList:
                     expectResult[k] = weeklySettingList[k][i]
 
-                tolog('Expect: ' + json.dumps(expectResult))
+                tolog('Expect: ' + json.dumps(expectResult) + '\r\n')
                 server.webapi('put', 'bgaschedule/' + id, expectResult)
 
                 check = server.webapi('get', 'bgaschedule')
@@ -643,7 +642,7 @@ def BgascheduleApiPut():
                 for r in result:
                     if r["id"] == 'sc':
                         actualResult = r
-                        tolog('Actual: ' + json.dumps(actualResult))
+                        tolog('Actual: ' + json.dumps(actualResult) + '\r\n')
                         for key in expectResult:
                             if expectResult[key] != 2:
                                 if expectResult[key] != r[key]:
@@ -651,7 +650,7 @@ def BgascheduleApiPut():
                                     tolog('Fail: parameters ' + str(expectResult[key]) + '!=' + str(r[key]))
 
     # To modify daily bgaschedule
-    tolog('To modify daily bgaschedule')
+    tolog('To modify daily bgaschedule \r\n')
     for id in bga_id:
         if id == 'rc_1':
             dailySetting = dict(dailySettingList.items() + {
@@ -663,7 +662,7 @@ def BgascheduleApiPut():
                 for k in dailySetting:
                     expectResult[k] = dailySetting[k][i]
 
-                tolog('Expect: ' + json.dumps(expectResult))
+                tolog('Expect: ' + json.dumps(expectResult) + '\r\n')
                 server.webapi('put', 'bgaschedule/' + id, expectResult)
 
                 check = server.webapi('get', 'bgaschedule')
@@ -672,7 +671,7 @@ def BgascheduleApiPut():
                 for r in result:
                     if r["id"] == 'rc_1':
                         actualResult = r
-                        tolog('Actual: ' + json.dumps(actualResult))
+                        tolog('Actual: ' + json.dumps(actualResult) + '\r\n')
                         for key in expectResult:
                             if expectResult[key] != 1:
                                 if expectResult[key] != r[key]:
@@ -684,7 +683,7 @@ def BgascheduleApiPut():
                 for k in dailySettingList:
                     expectResult[k] = dailySettingList[k][i]
 
-                tolog('Expect: ' + json.dumps(expectResult))
+                tolog('Expect: ' + json.dumps(expectResult) + '\r\n')
                 server.webapi('put', 'bgaschedule/' + id, expectResult)
 
                 check = server.webapi('get', 'bgaschedule')
@@ -693,7 +692,7 @@ def BgascheduleApiPut():
                 for r in result:
                     if r["id"] == 'brc':
                         actualResult = r
-                        tolog('Actual: ' + json.dumps(actualResult))
+                        tolog('Actual: ' + json.dumps(actualResult) + '\r\n')
                         for key in expectResult:
                             if expectResult[key] != 1:
                                 if expectResult[key] != r[key]:
@@ -705,7 +704,7 @@ def BgascheduleApiPut():
                 for k in dailySettingList:
                     expectResult[k] = dailySettingList[k][i]
 
-                tolog('Expect: ' + json.dumps(expectResult))
+                tolog('Expect: ' + json.dumps(expectResult) + '\r\n')
                 server.webapi('put', 'bgaschedule/' + id, expectResult)
 
                 check = server.webapi('get', 'bgaschedule')
@@ -714,7 +713,7 @@ def BgascheduleApiPut():
                 for r in result:
                     if r["id"] == 'sc':
                         actualResult = r
-                        tolog('Actual: ' + json.dumps(actualResult))
+                        tolog('Actual: ' + json.dumps(actualResult) + '\r\n')
                         for key in expectResult:
                             if expectResult[key] != 1:
                                 if expectResult[key] != r[key]:
@@ -731,11 +730,12 @@ def BgascheduleApiDelete():
     Failflag = False
     ResponseInfo = server.webapi('get', 'bgaschedule')
     bgaInfo = json.loads(ResponseInfo['text'])
+    tolog('To delete bgaschedule by api \r\n')
     if len(bgaInfo) > 1:
         for bga in bgaInfo:
             if bga['id'] == 'brc':
                 # delete brc type
-                tolog('Expect: delete brc type')
+                tolog('Expect: delete brc type \r\n')
                 server.webapiurl('delete', 'bgaschedule', 'brc')
 
                 check = server.webapi('get', 'bgaschedule')
@@ -746,12 +746,12 @@ def BgascheduleApiDelete():
                         Failflag = True
                         tolog('Fail: Did not delete brc type')
                     else:
-                        tolog('Actual: brc type deletes successfully')
+                        tolog('Actual: brc type deletes successfully \r\n')
                         break
 
             elif bga['id'] == 'rc_1':
                 # delete rc type
-                tolog('Expect: delete rc type')
+                tolog('Expect: delete rc type\r\n')
                 server.webapiurl('delete', 'bgaschedule', 'rc_1')
 
                 check = server.webapi('get', 'bgaschedule')
@@ -762,12 +762,12 @@ def BgascheduleApiDelete():
                         Failflag = True
                         tolog('Fail: Did not delete rc type')
                     else:
-                        tolog('Actual: rc type deletes successfully')
+                        tolog('Actual: rc type deletes successfully\r\n')
                         break
 
             elif bga['id'] == 'rc_2':
                 # delete rc type
-                tolog('Expect: delete rc type')
+                tolog('Expect: delete rc type\r\n')
                 server.webapiurl('delete', 'bgaschedule', 'rc_2')
 
                 check = server.webapi('get', 'bgaschedule')
@@ -778,12 +778,12 @@ def BgascheduleApiDelete():
                         Failflag = True
                         tolog('Fail: Did not delete rc type')
                     else:
-                        tolog('Actual: rc type deletes successfully')
+                        tolog('Actual: rc type deletes successfully\r\n')
                         break
 
             elif bga['id'] == 'sc':
                 # delete sc type
-                tolog('Expect: delete sc type')
+                tolog('Expect: delete sc type\r\n')
                 server.webapiurl('delete', 'bgaschedule', 'sc')
 
                 check = server.webapi('get', 'bgaschedule')
@@ -794,7 +794,7 @@ def BgascheduleApiDelete():
                         Failflag = True
                         tolog('Fail: Did not delete sc type')
                     else:
-                        tolog('Actual: sc type deletes successfully')
+                        tolog('Actual: sc type deletes successfully\r\n')
                         break
 
     if Failflag:
