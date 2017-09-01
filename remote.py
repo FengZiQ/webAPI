@@ -2,6 +2,7 @@
 import logging
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
 import requests
+from to_log import tolog
 
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 logger = logging.getLogger(__name__)
@@ -46,7 +47,9 @@ class Server(object):
             if response.text != "":
                 setattr(response, "data", response.json())
         except:
-            raise AssertionError(response.text)
+            tolog(str(AssertionError(response.text)))
+            return
+            # raise AssertionError(response.text)
 
         return returninfo
 
@@ -69,7 +72,9 @@ class Server(object):
             if response.text != "":
                 setattr(response, "data", response.json())
         except:
-            raise AssertionError(response.text)
+            tolog(str(AssertionError(response.text)))
+            return
+            # raise AssertionError(response.text)
 
         return returninfo
 
