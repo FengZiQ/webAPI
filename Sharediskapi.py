@@ -172,18 +172,21 @@ def sharediskApiModify():
             "capacity": capacitySettings[i]
         }
         tolog('Expect: ' + json.dumps(expectResult) + '\r\n')
-        server.webapi('put', 'sharedisk/2', expectResult)
+        server.webapi('put', 'sharedisk/0', expectResult)
 
-        check = server.webapi('get', 'sharedisk/2')
+        check = server.webapi('get', 'sharedisk/0')
         actualResult = json.loads(check["text"])[0]
 
-        tolog('Actual: ' + json.dumps(actualResult))
+        tolog('Actual: ' + json.dumps({
+            "name": actualResult["name"],
+            "total_capacity": actualResult["total_capacity"]
+        }))
 
-        if str(actualResult["name"]) != str(nameSettings[i]):
+        if str(actualResult["name"]) != nameSettings[i]:
             Failflag = True
             tolog('Fail: parameters ' + str(actualResult["name"]) + '!=' + nameSettings[i])
 
-        if str(actualResult["total_capacity"]) != capacityResult[i]:
+        if actualResult["total_capacity"] != capacityResult[i]:
             Failflag = True
             tolog('Fail: parameters ' + str(actualResult["total_capacity"]) + '!=' + str(capacityResult[i]))
 
@@ -192,21 +195,40 @@ def sharediskApiModify():
     else:
         tolog(Pass)
 
-
 def sharediskApiDelete():
+    Failflag = False
+    # get sharedisk id
+    sharediskId = []
     ResponseInfo = server.webapi('get', 'sharedisk')
     sharediskInfo = json.loads(ResponseInfo['text'])
-    sharediskId = []
     for info in sharediskInfo:
         sharediskId.append(info["id"])
+
+    # To delete sharedisk by api
+    tolog('To delete sharedisk by aip')
     for i in sharediskId:
+        tolog('Expect: Delete sharedisk id is ' + str(i) + '\r\n')
         server.webapiurl('delete', 'sharedisk', str(i) + '?force=1')
 
+        check = server.webapi('get', 'sharedisk')
+        result = json.loads(check["text"])
 
+        for r in result:
+            if r["id"] == i:
+                Failflag = True
+                tolog('Fail: sharedisk ' + str(i) + ' is not deleted')
+        if not Failflag:
+            tolog('Actual: sharedisk ' + str(i) + ' is deleted \r\n')
+
+    if Failflag:
+        tolog(Fail)
+    else:
+        tolog(Pass)
 
 
 if __name__ == '__main__':
-    # sharediskApiPost()
-    # sharediskApiDelete()
-    # sharediskApiMountAndUnmount()
+    sharediskApiPost()
+    sharediskApiDelete()
+    sharediskApiMountAndUnmount()
     sharediskApiModify()
+    sharediskApiDelete()
