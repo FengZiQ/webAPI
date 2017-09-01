@@ -195,11 +195,16 @@ def sharediskApiModify():
     else:
         tolog(Pass)
 
+def sharediskApiList():
+    Failflag = False
+    
+
+
 def sharediskApiDelete():
     Failflag = False
     # get sharedisk id
     sharediskId = []
-    ResponseInfo = server.webapi('get', 'sharedisk')
+    ResponseInfo = server.webapi('get', 'sharedisk?page_size=100')
     sharediskInfo = json.loads(ResponseInfo['text'])
     for info in sharediskInfo:
         sharediskId.append(info["id"])
@@ -225,10 +230,19 @@ def sharediskApiDelete():
     else:
         tolog(Pass)
 
+def sharediskApiFailedTest():
+    Failflag = False
+    settingsList = {
+        "pool_id": [0],
+        "capacity": ['1GB', '2GB', '1TB'],
+        "recsize": ['128KB', '512B', '1MB'],
+        "sync": ['always', 'standard', 'disabled'],
+        "logbias": ['latency', 'throughput', 'throughput'],
+        "compress": []
+    }
 
 if __name__ == '__main__':
-    sharediskApiPost()
-    sharediskApiDelete()
-    sharediskApiMountAndUnmount()
-    sharediskApiModify()
+    # sharediskApiPost()
+    # sharediskApiMountAndUnmount()
+    # sharediskApiModify()
     sharediskApiDelete()
