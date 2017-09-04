@@ -29,7 +29,7 @@ def findPlId():
     # to create pool
     if len(pdId) >= 5:
         server.webapi('post', 'pool', {
-            'name': 'testSharediskApi2',
+            'name': 'testNASShareApi2',
             'sector': '512B',
             'raid_level': 'RAID5',
             'ctrl_id': 1,
@@ -49,7 +49,7 @@ def findPlId():
 
     return plId
 
-def sharediskApiPost():
+def NASShareApiPost():
     Failflag = False
     plId = findPlId()
 
@@ -66,8 +66,8 @@ def sharediskApiPost():
     recsizeResult = ['128 KB', '512 Bytes', '1 MB']
     capacityResult = [1000000000, 2000000000, 1000000000000]
 
-    # To add sharedisk by api
-    tolog('To add sharedisk by api \r\n')
+    # To add NASShare by api
+    tolog('To add NASShare by api \r\n')
     for i in range(3):
         settings = {}
         for k in settingsList:
@@ -75,18 +75,18 @@ def sharediskApiPost():
 
         for comp in compress:
             expectResult = dict(settings.items() + {
-                "name": 'testSharedisk_' + str(i) + comp[-1],
+                "name": 'testNASShare_' + str(i) + comp[-1],
                 "compress": comp
             }.items())
 
             tolog('Expect: ' + json.dumps(expectResult) + '\r\n')
-            server.webapi('post', 'sharedisk', expectResult)
+            server.webapi('post', 'nasshare', expectResult)
 
-            check = server.webapi('get', 'sharedisk')
+            check = server.webapi('get', 'nasshare')
             result = json.loads(check["text"])
 
             for r in result:
-                if r["name"] == 'testSharedisk_' + str(i) + comp[-1]:
+                if r["name"] == 'testNASShare_' + str(i) + comp[-1]:
                     actualResult = r
                     tolog('Actual: ' + json.dumps(actualResult) + '\r\n')
                     for key in expectResult:
@@ -108,10 +108,10 @@ def sharediskApiPost():
     else:
         tolog(Pass)
 
-def sharediskApiMountAndUnmount():
+def NASShareApiMountAndUnmount():
     Failflag = False
-    tolog('Mount/Un-mount sharedisk by api \r\n')
-    sdResponseInfo = server.webapi('get', 'sharedisk')
+    tolog('Mount/Un-mount NASShare by api \r\n')
+    sdResponseInfo = server.webapi('get', 'nasshare')
     sdInfo = json.loads(sdResponseInfo["text"])
     sdId = []
     for sd in sdInfo:
@@ -127,9 +127,9 @@ def sharediskApiMountAndUnmount():
     # To mount
     for i in range(4):
         tolog('Expect: ' + mount[i] + '\r\n')
-        server.webapi('post', 'sharedisk/' + str(sdId[0]) + '/' + mount[i])
+        server.webapi('post', 'nasshare/' + str(sdId[0]) + '/' + mount[i])
 
-        check = server.webapi('get', 'sharedisk/' + str(sdId[0]))
+        check = server.webapi('get', 'nasshare/' + str(sdId[0]))
         actualResult = json.loads(check["text"])[0]
 
         tolog('Actual: ' + str(actualResult["status"]) + '\r\n')
@@ -141,9 +141,9 @@ def sharediskApiMountAndUnmount():
     # To un-mount
     for i in range(4):
         tolog('Expect: ' + unmount[i] + '\r\n')
-        server.webapi('post', 'sharedisk/' + str(sdId[8]) + '/' + unmount[i])
+        server.webapi('post', 'nasshare/' + str(sdId[8]) + '/' + unmount[i])
 
-        check = server.webapi('get', 'sharedisk/' + str(sdId[8]))
+        check = server.webapi('get', 'nasshare/' + str(sdId[8]))
         actualResult = json.loads(check["text"])[0]
 
         tolog('Actual: ' + str(actualResult["status"]) + '\r\n')
@@ -157,9 +157,9 @@ def sharediskApiMountAndUnmount():
     else:
         tolog(Pass)
 
-def sharediskApiModify():
+def NASShareApiModify():
     Failflag = False
-    tolog('To modify sharedisk by api\r\n')
+    tolog('To modify NASShare by api\r\n')
 
     # test data
     capacitySettings = ['1GB', '2GB', '2GB', '2TB']
@@ -172,9 +172,9 @@ def sharediskApiModify():
             "capacity": capacitySettings[i]
         }
         tolog('Expect: ' + json.dumps(expectResult) + '\r\n')
-        server.webapi('put', 'sharedisk/0', expectResult)
+        server.webapi('put', 'nasshare/0', expectResult)
 
-        check = server.webapi('get', 'sharedisk/0')
+        check = server.webapi('get', 'nasshare/0')
         actualResult = json.loads(check["text"])[0]
 
         tolog('Actual: ' + json.dumps({
@@ -195,61 +195,61 @@ def sharediskApiModify():
     else:
         tolog(Pass)
 
-def sharediskApiList():
+def NASShareApiList():
     Failflag = False
 
     # To verify search function
     tolog('To verify parameters: search/page/page_size \r\n')
     for i in [1, 10, 23]:
-        tolog('Expect: To list sharedisk that id is ' + str(i) + '\r\n')
+        tolog('Expect: To list NASShare that id is ' + str(i) + '\r\n')
 
-        searchResponse = server.webapi('get', 'sharedisk?page=1&page_size=' + str(i) + '&search=id+in+(' + str(i) + ')')
+        searchResponse = server.webapi('get', 'nasshare?page=1&page_size=' + str(i) + '&search=id+in+(' + str(i) + ')')
         actualResult = json.loads(searchResponse["text"])[0]
 
-        tolog('Actual: The sharedisk id is ' + str(actualResult["id"]) + '\r\n')
+        tolog('Actual: The NASShare id is ' + str(actualResult["id"]) + '\r\n')
 
         if actualResult['id'] != i:
             Failflag = True
-            tolog('Fail: Did not find sharedisk of id ' + str(i))
+            tolog('Fail: Did not find NASShare of id ' + str(i))
 
-    # server.webapi('get', 'sharedisk?sort="name,pool_name"&direct="asc"')
+    # server.webapi('get', 'nasshare?sort="name,pool_name"&direct="asc"')
 
     if Failflag:
         tolog(Fail)
     else:
         tolog(Pass)
 
-def sharediskApiDelete():
+def NASShareApiDelete():
     Failflag = False
-    # get sharedisk id
-    sharediskId = []
-    ResponseInfo = server.webapi('get', 'sharedisk?page_size=100')
-    sharediskInfo = json.loads(ResponseInfo['text'])
-    for info in sharediskInfo:
-        sharediskId.append(info["id"])
+    # get NASShare id
+    NASShareId = []
+    ResponseInfo = server.webapi('get', 'nasshare?page_size=100')
+    NASShareInfo = json.loads(ResponseInfo['text'])
+    for info in NASShareInfo:
+        NASShareId.append(info["id"])
 
-    # To delete sharedisk by api
-    tolog('To delete sharedisk by aip')
-    for i in sharediskId:
-        tolog('Expect: Delete sharedisk id is ' + str(i) + '\r\n')
-        server.webapiurl('delete', 'sharedisk', str(i) + '?force=1')
+    # To delete NASShare by api
+    tolog('To delete NASShare by aip')
+    for i in NASShareId:
+        tolog('Expect: Delete NASShare id is ' + str(i) + '\r\n')
+        server.webapiurl('delete', 'nasshare', str(i) + '?force=1')
 
-        check = server.webapi('get', 'sharedisk')
+        check = server.webapi('get', 'nasshare')
         result = json.loads(check["text"])
 
         for r in result:
             if r["id"] == i:
                 Failflag = True
-                tolog('Fail: sharedisk ' + str(i) + ' is not deleted')
+                tolog('Fail: NASShare ' + str(i) + ' is not deleted')
         if not Failflag:
-            tolog('Actual: sharedisk ' + str(i) + ' is deleted \r\n')
+            tolog('Actual: NASShare ' + str(i) + ' is deleted \r\n')
 
     if Failflag:
         tolog(Fail)
     else:
         tolog(Pass)
 
-def sharediskApiFailedTest():
+def NASShareApiFailedTest():
     Failflag = False
     # test data
     settings = [
@@ -284,7 +284,7 @@ def sharediskApiFailedTest():
             "name": settings[i][6]
         }
 
-        result = server.webapi('post', 'sharedisk', parameters)
+        result = server.webapi('post', 'nasshare', parameters)
 
         if expectResult[i] not in result:
             Failflag = True
@@ -302,9 +302,9 @@ def sharediskApiFailedTest():
 
 
 if __name__ == '__main__':
-    sharediskApiPost()
-    sharediskApiMountAndUnmount()
-    sharediskApiModify()
-    sharediskApiDelete()
-    sharediskApiList()
-    sharediskApiFailedTest()
+    NASShareApiPost()
+    NASShareApiMountAndUnmount()
+    NASShareApiModify()
+    NASShareApiList()
+    NASShareApiDelete()
+    NASShareApiFailedTest()
