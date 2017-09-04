@@ -297,6 +297,9 @@ def sharediskApiFailedTest():
     else:
         tolog(Pass)
 
+    # clean up environment
+    server.webapiurl('delete', 'pool', '0?force=1')
+
 
 if __name__ == '__main__':
     sharediskApiPost()
