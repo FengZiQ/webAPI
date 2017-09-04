@@ -118,8 +118,8 @@ def sharediskApiMountAndUnmount():
         sdId.append(sd['id'])
 
     # test data
-    mount = ['/mount', '/mount', '/unmount', '/mount']
-    unmount = ['/unmount', '/unmount', '/mount', '/unmount']
+    mount = ['mount', 'mount', 'unmount', 'mount']
+    unmount = ['unmount', 'unmount', 'mount', 'unmount']
 
     mountResult = ['Mounted', 'Mounted', 'Un-Mounted', 'Mounted']
     unmountResult = ['Un-Mounted', 'Un-Mounted', 'Mounted', 'Un-Mounted']
@@ -127,7 +127,7 @@ def sharediskApiMountAndUnmount():
     # To mount
     for i in range(4):
         tolog('Expect: ' + mount[i] + '\r\n')
-        server.webapi('post', 'sharedisk/' + str(sdId[0]) + mount[i])
+        server.webapi('post', 'sharedisk/' + str(sdId[0]) + '/' + mount[i])
 
         check = server.webapi('get', 'sharedisk/' + str(sdId[0]))
         actualResult = json.loads(check["text"])[0]
@@ -141,7 +141,7 @@ def sharediskApiMountAndUnmount():
     # To un-mount
     for i in range(4):
         tolog('Expect: ' + unmount[i] + '\r\n')
-        server.webapi('post', 'sharedisk/' + str(sdId[8]) + unmount[i])
+        server.webapi('post', 'sharedisk/' + str(sdId[8]) + '/' + unmount[i])
 
         check = server.webapi('get', 'sharedisk/' + str(sdId[8]))
         actualResult = json.loads(check["text"])[0]
@@ -180,7 +180,7 @@ def sharediskApiModify():
         tolog('Actual: ' + json.dumps({
             "name": actualResult["name"],
             "total_capacity": actualResult["total_capacity"]
-        }))
+        })+ '\r\n')
 
         if str(actualResult["name"]) != nameSettings[i]:
             Failflag = True
@@ -197,8 +197,27 @@ def sharediskApiModify():
 
 def sharediskApiList():
     Failflag = False
-    
 
+    # To verify search function
+    tolog('To verify parameters: search/page/page_size \r\n')
+    for i in [1, 10, 23]:
+        tolog('Expect: To list sharedisk that id is ' + str(i) + '\r\n')
+
+        searchResponse = server.webapi('get', 'sharedisk?page=1&page_size=' + str(i) + '&search=id+in+(' + str(i) + ')')
+        actualResult = json.loads(searchResponse["text"])[0]
+
+        tolog('Actual: The sharedisk id is ' + str(actualResult["id"]) + '\r\n')
+
+        if actualResult['id'] != i:
+            Failflag = True
+            tolog('Fail: Did not find sharedisk of id ' + str(i))
+
+    # server.webapi('get', 'sharedisk?sort="name,pool_name"&direct="asc"')
+
+    if Failflag:
+        tolog(Fail)
+    else:
+        tolog(Pass)
 
 def sharediskApiDelete():
     Failflag = False
@@ -232,17 +251,57 @@ def sharediskApiDelete():
 
 def sharediskApiFailedTest():
     Failflag = False
-    settingsList = {
-        "pool_id": [0],
-        "capacity": ['1GB', '2GB', '1TB'],
-        "recsize": ['128KB', '512B', '1MB'],
-        "sync": ['always', 'standard', 'disabled'],
-        "logbias": ['latency', 'throughput', 'throughput'],
-        "compress": []
-    }
+    # test data
+    settings = [
+        [5, '1GB', '128KB', 'always', 'latency', 'gzip', 'FailedTest'],
+        [0, '1KB', '128KB', 'always', 'latency', 'gzip', 'FailedTest'],
+        [0, '1GB', '1GB', 'always', 'latency', 'gzip', 'FailedTest'],
+        [0, '1GB', '128KB', 'test', 'latency', 'gzip', 'FailedTest'],
+        [0, '1GB', '128KB', 'always', 'test', 'gzip', 'FailedTest'],
+        [0, '1GB', '128KB', 'always', 'latency', 'test', 'FailedTest'],
+        [0, '1GB', '128KB', 'always', 'latency', 'gzip', '#$@*']
+    ]
+    expectResult = [
+        'Empty query result, please check input parameters. Pool id=[5] is not existed',
+        '[capacity] must between 1GB to 1PB',
+        'invalid recsize',
+        'invalid sync',
+        'invalid logbias',
+        'invalid compress',
+        'name contain only alphanumeric characters and underscores'
+    ]
+
+    for i in range(7):
+        tolog('Expect: ' + expectResult[i] + '\r\n')
+
+        parameters = {
+            "pool_id": settings[i][0],
+            "capacity": settings[i][1],
+            "recsize": settings[i][2],
+            "sync": settings[i][3],
+            "logbias":settings[i][4],
+            "compress": settings[i][5],
+            "name": settings[i][6]
+        }
+
+        result = server.webapi('post', 'sharedisk', parameters)
+
+        if expectResult[i] not in result:
+            Failflag = True
+            tolog('Fail: ' + expectResult[i])
+        else:
+            tolog('Actual: ' + result + '\r\n')
+
+    if Failflag:
+        tolog(Fail)
+    else:
+        tolog(Pass)
+
 
 if __name__ == '__main__':
-    # sharediskApiPost()
-    # sharediskApiMountAndUnmount()
-    # sharediskApiModify()
+    sharediskApiPost()
+    sharediskApiMountAndUnmount()
+    sharediskApiModify()
     sharediskApiDelete()
+    sharediskApiList()
+    sharediskApiFailedTest()

@@ -1,3 +1,1017 @@
+2017-09-04 11:16:25: 'result': 'p'
+2017-09-04 11:16:25: Actual: name contain only alphanumeric characters and underscores
+
+2017-09-04 11:16:25: Expect: name contain only alphanumeric characters and underscores
+
+2017-09-04 11:16:25: Actual: invalid compress (on|off|lzjb|gzip|gzip-1|gzip-2|gzip-3|gzip-4|gzip-5|gzip-6|gzip-7|gzip-8|gzip-9|zle|lz4)
+
+2017-09-04 11:16:25: Expect: invalid compress
+
+2017-09-04 11:16:25: Actual: invalid logbias (latency|throughput)
+
+2017-09-04 11:16:25: Expect: invalid logbias
+
+2017-09-04 11:16:25: Actual: invalid sync (standard|always|disabled)
+
+2017-09-04 11:16:25: Expect: invalid sync
+
+2017-09-04 11:16:25: Actual: invalid recsize (512b|1kb|2kb|4kb|8kb|16kb|32kb|64kb|128kb|256kb|512kb|1mb)
+
+2017-09-04 11:16:25: Expect: invalid recsize
+
+2017-09-04 11:16:25: Actual: Incorrect parameters: [capacity] must between 1GB to 1PB. (0x4100104)
+
+2017-09-04 11:16:25: Expect: [capacity] must between 1GB to 1PB
+
+2017-09-04 11:16:25: Actual: Empty query result, please check input parameters. Pool id=[5] is not existed. (0x4100102)
+
+2017-09-04 11:16:24: Expect: Empty query result, please check input parameters. Pool id=[5] is not existed
+
+2017-09-04 11:16:24: 'result': 'p'
+2017-09-04 11:16:24: Actual: sharedisk 23 is deleted 
+
+2017-09-04 11:16:23: Expect: Delete sharedisk id is 23
+
+2017-09-04 11:16:23: Actual: sharedisk 22 is deleted 
+
+2017-09-04 11:16:21: Expect: Delete sharedisk id is 22
+
+2017-09-04 11:16:21: Actual: sharedisk 21 is deleted 
+
+2017-09-04 11:16:21: Expect: Delete sharedisk id is 21
+
+2017-09-04 11:16:21: Actual: sharedisk 20 is deleted 
+
+2017-09-04 11:16:20: Expect: Delete sharedisk id is 20
+
+2017-09-04 11:16:20: Actual: sharedisk 19 is deleted 
+
+2017-09-04 11:16:19: Expect: Delete sharedisk id is 19
+
+2017-09-04 11:16:19: Actual: sharedisk 18 is deleted 
+
+2017-09-04 11:16:18: Expect: Delete sharedisk id is 18
+
+2017-09-04 11:16:18: Actual: sharedisk 17 is deleted 
+
+2017-09-04 11:16:17: Expect: Delete sharedisk id is 17
+
+2017-09-04 11:16:17: Actual: sharedisk 16 is deleted 
+
+2017-09-04 11:16:16: Expect: Delete sharedisk id is 16
+
+2017-09-04 11:16:16: Actual: sharedisk 15 is deleted 
+
+2017-09-04 11:16:15: Expect: Delete sharedisk id is 15
+
+2017-09-04 11:16:15: Actual: sharedisk 14 is deleted 
+
+2017-09-04 11:16:14: Expect: Delete sharedisk id is 14
+
+2017-09-04 11:16:14: Actual: sharedisk 13 is deleted 
+
+2017-09-04 11:16:13: Expect: Delete sharedisk id is 13
+
+2017-09-04 11:16:13: Actual: sharedisk 12 is deleted 
+
+2017-09-04 11:16:12: Expect: Delete sharedisk id is 12
+
+2017-09-04 11:16:12: Actual: sharedisk 11 is deleted 
+
+2017-09-04 11:16:10: Expect: Delete sharedisk id is 11
+
+2017-09-04 11:16:10: Actual: sharedisk 10 is deleted 
+
+2017-09-04 11:16:10: Expect: Delete sharedisk id is 10
+
+2017-09-04 11:16:10: Actual: sharedisk 9 is deleted 
+
+2017-09-04 11:16:09: Expect: Delete sharedisk id is 9
+
+2017-09-04 11:16:09: Actual: sharedisk 8 is deleted 
+
+2017-09-04 11:16:08: Expect: Delete sharedisk id is 8
+
+2017-09-04 11:16:08: Actual: sharedisk 7 is deleted 
+
+2017-09-04 11:16:07: Expect: Delete sharedisk id is 7
+
+2017-09-04 11:16:07: Actual: sharedisk 6 is deleted 
+
+2017-09-04 11:16:05: Expect: Delete sharedisk id is 6
+
+2017-09-04 11:16:05: Actual: sharedisk 5 is deleted 
+
+2017-09-04 11:16:04: Expect: Delete sharedisk id is 5
+
+2017-09-04 11:16:04: Actual: sharedisk 4 is deleted 
+
+2017-09-04 11:16:03: Expect: Delete sharedisk id is 4
+
+2017-09-04 11:16:03: Actual: sharedisk 3 is deleted 
+
+2017-09-04 11:16:02: Expect: Delete sharedisk id is 3
+
+2017-09-04 11:16:02: Actual: sharedisk 2 is deleted 
+
+2017-09-04 11:16:01: Expect: Delete sharedisk id is 2
+
+2017-09-04 11:16:01: Actual: sharedisk 1 is deleted 
+
+2017-09-04 11:16:01: Expect: Delete sharedisk id is 1
+
+2017-09-04 11:16:01: Actual: sharedisk 0 is deleted 
+
+2017-09-04 11:15:59: Expect: Delete sharedisk id is 0
+
+2017-09-04 11:15:59: To delete sharedisk by aip
+2017-09-04 11:15:59: 'result': 'p'
+2017-09-04 11:15:59: Actual: The sharedisk id is 23
+
+2017-09-04 11:15:59: Expect: To list sharedisk that id is 23
+
+2017-09-04 11:15:59: Actual: The sharedisk id is 10
+
+2017-09-04 11:15:59: Expect: To list sharedisk that id is 10
+
+2017-09-04 11:15:59: Actual: The sharedisk id is 1
+
+2017-09-04 11:15:59: Expect: To list sharedisk that id is 1
+
+2017-09-04 11:15:59: To verify parameters: search/page/page_size 
+
+2017-09-04 11:15:59: 'result': 'p'
+2017-09-04 11:15:59: Actual: {"name": "TestName", "total_capacity": 2000000000000}
+
+2017-09-04 11:15:58: Expect: {"capacity": "2TB", "name": "TestName"}
+
+2017-09-04 11:15:58: Actual: {"name": "123455", "total_capacity": 2000000000}
+
+2017-09-04 11:15:57: Expect: {"capacity": "2GB", "name": "123455"}
+
+2017-09-04 11:15:57: Actual: {"name": "name_2", "total_capacity": 2000000000}
+
+2017-09-04 11:15:56: Expect: {"capacity": "2GB", "name": "name_2"}
+
+2017-09-04 11:15:56: Actual: {"name": "n", "total_capacity": 1000000000}
+
+2017-09-04 11:15:55: Expect: {"capacity": "1GB", "name": "n"}
+
+2017-09-04 11:15:55: To modify sharedisk by api
+
+2017-09-04 11:15:55: 'result': 'p'
+2017-09-04 11:15:55: Actual: Un-Mounted
+
+2017-09-04 11:15:55: Expect: unmount
+
+2017-09-04 11:15:55: Actual: Mounted
+
+2017-09-04 11:15:54: Expect: mount
+
+2017-09-04 11:15:54: Actual: Un-Mounted
+
+2017-09-04 11:15:54: Expect: unmount
+
+2017-09-04 11:15:54: Actual: Un-Mounted
+
+2017-09-04 11:15:54: Expect: unmount
+
+2017-09-04 11:15:54: Actual: Mounted
+
+2017-09-04 11:15:53: Expect: mount
+
+2017-09-04 11:15:53: Actual: Un-Mounted
+
+2017-09-04 11:15:53: Expect: unmount
+
+2017-09-04 11:15:53: Actual: Mounted
+
+2017-09-04 11:15:53: Expect: mount
+
+2017-09-04 11:15:53: Actual: Mounted
+
+2017-09-04 11:15:52: Expect: mount
+
+2017-09-04 11:15:52: Mount/Un-mount sharedisk by api 
+
+2017-09-04 11:15:52: 'result': 'f'
+2017-09-04 11:15:52: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testSharedisk_24", "logbias": "throughput", "compress": "lz4", "sync": "disabled", "pool_id": 0}
+
+2017-09-04 11:15:51: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testSharedisk_2e", "logbias": "throughput", "compress": "zle", "sync": "disabled", "pool_id": 0}
+
+2017-09-04 11:15:50: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testSharedisk_29", "logbias": "throughput", "compress": "gzip-9", "sync": "disabled", "pool_id": 0}
+
+2017-09-04 11:15:49: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testSharedisk_21", "logbias": "throughput", "compress": "gzip-1", "sync": "disabled", "pool_id": 0}
+
+2017-09-04 11:15:49: Fail: parameters 1 KB != 1 MB
+2017-09-04 11:15:49: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "1 KB", "ratio": "1.00x", "name": "testSharedisk_2p", "total_capacity": 1000000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "gzip", "sync": "disabled", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 19}
+
+2017-09-04 11:15:48: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testSharedisk_2p", "logbias": "throughput", "compress": "gzip", "sync": "disabled", "pool_id": 0}
+
+2017-09-04 11:15:48: Fail: parameters 1 KB != 1 MB
+2017-09-04 11:15:48: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "1 KB", "ratio": "1.00x", "name": "testSharedisk_2b", "total_capacity": 1000000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "lzjb", "sync": "disabled", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 18}
+
+2017-09-04 11:15:47: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testSharedisk_2b", "logbias": "throughput", "compress": "lzjb", "sync": "disabled", "pool_id": 0}
+
+2017-09-04 11:15:47: Fail: parameters 1 KB != 1 MB
+2017-09-04 11:15:47: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "1 KB", "ratio": "1.00x", "name": "testSharedisk_2n", "total_capacity": 1000000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "on", "sync": "disabled", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 17}
+
+2017-09-04 11:15:46: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testSharedisk_2n", "logbias": "throughput", "compress": "on", "sync": "disabled", "pool_id": 0}
+
+2017-09-04 11:15:46: Fail: parameters 1 KB != 1 MB
+2017-09-04 11:15:46: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "1 KB", "ratio": "1.00x", "name": "testSharedisk_2f", "total_capacity": 1000000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "off", "sync": "disabled", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 16}
+
+2017-09-04 11:15:44: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testSharedisk_2f", "logbias": "throughput", "compress": "off", "sync": "disabled", "pool_id": 0}
+
+2017-09-04 11:15:44: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testSharedisk_14", "total_capacity": 2000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "lz4", "sync": "standard", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 15}
+
+2017-09-04 11:15:43: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testSharedisk_14", "logbias": "throughput", "compress": "lz4", "sync": "standard", "pool_id": 0}
+
+2017-09-04 11:15:43: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testSharedisk_1e", "total_capacity": 2000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "zle", "sync": "standard", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 14}
+
+2017-09-04 11:15:42: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testSharedisk_1e", "logbias": "throughput", "compress": "zle", "sync": "standard", "pool_id": 0}
+
+2017-09-04 11:15:42: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testSharedisk_19", "total_capacity": 2000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "gzip-9", "sync": "standard", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 13}
+
+2017-09-04 11:15:42: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testSharedisk_19", "logbias": "throughput", "compress": "gzip-9", "sync": "standard", "pool_id": 0}
+
+2017-09-04 11:15:42: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testSharedisk_11", "total_capacity": 2000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "gzip-1", "sync": "standard", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 12}
+
+2017-09-04 11:15:41: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testSharedisk_11", "logbias": "throughput", "compress": "gzip-1", "sync": "standard", "pool_id": 0}
+
+2017-09-04 11:15:41: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testSharedisk_1p", "total_capacity": 2000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "gzip", "sync": "standard", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 11}
+
+2017-09-04 11:15:41: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testSharedisk_1p", "logbias": "throughput", "compress": "gzip", "sync": "standard", "pool_id": 0}
+
+2017-09-04 11:15:41: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testSharedisk_1b", "total_capacity": 2000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "lzjb", "sync": "standard", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 10}
+
+2017-09-04 11:15:40: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testSharedisk_1b", "logbias": "throughput", "compress": "lzjb", "sync": "standard", "pool_id": 0}
+
+2017-09-04 11:15:40: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testSharedisk_1n", "total_capacity": 2000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "on", "sync": "standard", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 9}
+
+2017-09-04 11:15:40: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testSharedisk_1n", "logbias": "throughput", "compress": "on", "sync": "standard", "pool_id": 0}
+
+2017-09-04 11:15:40: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testSharedisk_1f", "total_capacity": 2000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "off", "sync": "standard", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 8}
+
+2017-09-04 11:15:39: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testSharedisk_1f", "logbias": "throughput", "compress": "off", "sync": "standard", "pool_id": 0}
+
+2017-09-04 11:15:39: Fail: parameters 999948288 != 1000000000
+2017-09-04 11:15:39: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testSharedisk_04", "total_capacity": 999948288, "perm_edit": "Ready", "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "lz4", "sync": "always", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 7}
+
+2017-09-04 11:15:39: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testSharedisk_04", "logbias": "latency", "compress": "lz4", "sync": "always", "pool_id": 0}
+
+2017-09-04 11:15:39: Fail: parameters 999948288 != 1000000000
+2017-09-04 11:15:39: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testSharedisk_0e", "total_capacity": 999948288, "perm_edit": "Ready", "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "zle", "sync": "always", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 6}
+
+2017-09-04 11:15:38: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testSharedisk_0e", "logbias": "latency", "compress": "zle", "sync": "always", "pool_id": 0}
+
+2017-09-04 11:15:38: Fail: parameters 999948288 != 1000000000
+2017-09-04 11:15:38: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testSharedisk_09", "total_capacity": 999948288, "perm_edit": "Ready", "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "gzip-9", "sync": "always", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 5}
+
+2017-09-04 11:15:38: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testSharedisk_09", "logbias": "latency", "compress": "gzip-9", "sync": "always", "pool_id": 0}
+
+2017-09-04 11:15:38: Fail: parameters 999948288 != 1000000000
+2017-09-04 11:15:38: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testSharedisk_01", "total_capacity": 999948288, "perm_edit": "Ready", "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "gzip-1", "sync": "always", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 4}
+
+2017-09-04 11:15:37: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testSharedisk_01", "logbias": "latency", "compress": "gzip-1", "sync": "always", "pool_id": 0}
+
+2017-09-04 11:15:37: Fail: parameters 999948288 != 1000000000
+2017-09-04 11:15:37: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testSharedisk_0p", "total_capacity": 999948288, "perm_edit": "Ready", "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "gzip", "sync": "always", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 3}
+
+2017-09-04 11:15:37: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testSharedisk_0p", "logbias": "latency", "compress": "gzip", "sync": "always", "pool_id": 0}
+
+2017-09-04 11:15:37: Fail: parameters 999948288 != 1000000000
+2017-09-04 11:15:37: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testSharedisk_0b", "total_capacity": 999948288, "perm_edit": "Ready", "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "lzjb", "sync": "always", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 2}
+
+2017-09-04 11:15:36: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testSharedisk_0b", "logbias": "latency", "compress": "lzjb", "sync": "always", "pool_id": 0}
+
+2017-09-04 11:15:36: Fail: parameters 999948288 != 1000000000
+2017-09-04 11:15:36: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testSharedisk_0n", "total_capacity": 999948288, "perm_edit": "Ready", "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "on", "sync": "always", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 1}
+
+2017-09-04 11:15:35: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testSharedisk_0n", "logbias": "latency", "compress": "on", "sync": "always", "pool_id": 0}
+
+2017-09-04 11:15:35: Fail: parameters 999948288 != 1000000000
+2017-09-04 11:15:35: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testSharedisk_0f", "total_capacity": 999948288, "perm_edit": "Ready", "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "off", "sync": "always", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 0}
+
+2017-09-04 11:15:34: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testSharedisk_0f", "logbias": "latency", "compress": "off", "sync": "always", "pool_id": 0}
+
+2017-09-04 11:15:34: To add sharedisk by api 
+
+2017-09-04 11:10:17: 'result': 'p'
+2017-09-04 11:10:17: Actual: name contain only alphanumeric characters and underscores
+
+2017-09-04 11:10:17: Expect: name contain only alphanumeric characters and underscores
+
+2017-09-04 11:10:17: Actual: invalid compress (on|off|lzjb|gzip|gzip-1|gzip-2|gzip-3|gzip-4|gzip-5|gzip-6|gzip-7|gzip-8|gzip-9|zle|lz4)
+
+2017-09-04 11:10:17: Expect: invalid compress
+
+2017-09-04 11:10:17: Actual: invalid logbias (latency|throughput)
+
+2017-09-04 11:10:17: Expect: invalid logbias
+
+2017-09-04 11:10:17: Actual: invalid sync (standard|always|disabled)
+
+2017-09-04 11:10:17: Expect: invalid sync
+
+2017-09-04 11:10:17: Actual: invalid recsize (512b|1kb|2kb|4kb|8kb|16kb|32kb|64kb|128kb|256kb|512kb|1mb)
+
+2017-09-04 11:10:17: Expect: invalid recsize
+
+2017-09-04 11:10:17: Actual: Incorrect parameters: [capacity] must between 1GB to 1PB. (0x4100104)
+
+2017-09-04 11:10:17: Expect: [capacity] must between 1GB to 1PB
+
+2017-09-04 11:10:17: Actual: Empty query result, please check input parameters. Pool id=[5] is not existed. (0x4100102)
+
+2017-09-04 11:10:16: Expect: Empty query result, please check input parameters. Pool id=[5] is not existed
+
+2017-09-04 11:10:16: 'result': 'p'
+2017-09-04 11:10:16: Actual: sharedisk 23 is deleted 
+
+2017-09-04 11:10:15: Expect: Delete sharedisk id is 23
+
+2017-09-04 11:10:15: Actual: sharedisk 22 is deleted 
+
+2017-09-04 11:10:14: Expect: Delete sharedisk id is 22
+
+2017-09-04 11:10:14: Actual: sharedisk 21 is deleted 
+
+2017-09-04 11:10:13: Expect: Delete sharedisk id is 21
+
+2017-09-04 11:10:13: Actual: sharedisk 20 is deleted 
+
+2017-09-04 11:10:12: Expect: Delete sharedisk id is 20
+
+2017-09-04 11:10:12: Actual: sharedisk 19 is deleted 
+
+2017-09-04 11:10:12: Expect: Delete sharedisk id is 19
+
+2017-09-04 11:10:11: Actual: sharedisk 18 is deleted 
+
+2017-09-04 11:10:10: Expect: Delete sharedisk id is 18
+
+2017-09-04 11:10:10: Actual: sharedisk 17 is deleted 
+
+2017-09-04 11:10:09: Expect: Delete sharedisk id is 17
+
+2017-09-04 11:10:09: Actual: sharedisk 16 is deleted 
+
+2017-09-04 11:10:08: Expect: Delete sharedisk id is 16
+
+2017-09-04 11:10:08: Actual: sharedisk 15 is deleted 
+
+2017-09-04 11:10:07: Expect: Delete sharedisk id is 15
+
+2017-09-04 11:10:07: Actual: sharedisk 14 is deleted 
+
+2017-09-04 11:10:06: Expect: Delete sharedisk id is 14
+
+2017-09-04 11:10:06: Actual: sharedisk 13 is deleted 
+
+2017-09-04 11:10:05: Expect: Delete sharedisk id is 13
+
+2017-09-04 11:10:05: Actual: sharedisk 12 is deleted 
+
+2017-09-04 11:10:04: Expect: Delete sharedisk id is 12
+
+2017-09-04 11:10:04: Actual: sharedisk 11 is deleted 
+
+2017-09-04 11:10:03: Expect: Delete sharedisk id is 11
+
+2017-09-04 11:10:03: Actual: sharedisk 10 is deleted 
+
+2017-09-04 11:10:02: Expect: Delete sharedisk id is 10
+
+2017-09-04 11:10:02: Actual: sharedisk 9 is deleted 
+
+2017-09-04 11:10:01: Expect: Delete sharedisk id is 9
+
+2017-09-04 11:10:01: Actual: sharedisk 8 is deleted 
+
+2017-09-04 11:10:00: Expect: Delete sharedisk id is 8
+
+2017-09-04 11:10:00: Actual: sharedisk 7 is deleted 
+
+2017-09-04 11:09:58: Expect: Delete sharedisk id is 7
+
+2017-09-04 11:09:58: Actual: sharedisk 6 is deleted 
+
+2017-09-04 11:09:57: Expect: Delete sharedisk id is 6
+
+2017-09-04 11:09:57: Actual: sharedisk 5 is deleted 
+
+2017-09-04 11:09:56: Expect: Delete sharedisk id is 5
+
+2017-09-04 11:09:56: Actual: sharedisk 4 is deleted 
+
+2017-09-04 11:09:55: Expect: Delete sharedisk id is 4
+
+2017-09-04 11:09:55: Actual: sharedisk 3 is deleted 
+
+2017-09-04 11:09:55: Expect: Delete sharedisk id is 3
+
+2017-09-04 11:09:55: Actual: sharedisk 2 is deleted 
+
+2017-09-04 11:09:54: Expect: Delete sharedisk id is 2
+
+2017-09-04 11:09:54: Actual: sharedisk 1 is deleted 
+
+2017-09-04 11:09:53: Expect: Delete sharedisk id is 1
+
+2017-09-04 11:09:53: Actual: sharedisk 0 is deleted 
+
+2017-09-04 11:09:52: Expect: Delete sharedisk id is 0
+
+2017-09-04 11:09:52: To delete sharedisk by aip
+2017-09-04 11:09:52: 'result': 'p'
+2017-09-04 11:09:52: Actual: The sharedisk id is 23
+
+2017-09-04 11:09:52: Expect: To list sharedisk that id is 23
+
+2017-09-04 11:09:52: Actual: The sharedisk id is 10
+
+2017-09-04 11:09:52: Expect: To list sharedisk that id is 10
+
+2017-09-04 11:09:52: Actual: The sharedisk id is 1
+
+2017-09-04 11:09:52: Expect: To list sharedisk that id is 1
+
+2017-09-04 11:09:52: To verify parameters: search/page/page_size 
+
+2017-09-04 11:09:52: 'result': 'p'
+2017-09-04 11:09:52: Actual: {"name": "TestName", "total_capacity": 2000000000000}
+2017-09-04 11:09:51: Expect: {"capacity": "2TB", "name": "TestName"}
+
+2017-09-04 11:09:51: Actual: {"name": "123455", "total_capacity": 2000000000}
+2017-09-04 11:09:50: Expect: {"capacity": "2GB", "name": "123455"}
+
+2017-09-04 11:09:49: Actual: {"name": "name_2", "total_capacity": 2000000000}
+2017-09-04 11:09:48: Expect: {"capacity": "2GB", "name": "name_2"}
+
+2017-09-04 11:09:48: Actual: {"name": "n", "total_capacity": 1000000000}
+2017-09-04 11:09:47: Expect: {"capacity": "1GB", "name": "n"}
+
+2017-09-04 11:09:47: To modify sharedisk by api
+
+2017-09-04 11:09:47: 'result': 'p'
+2017-09-04 11:09:47: Actual: Un-Mounted
+
+2017-09-04 11:09:47: Expect: /unmount
+
+2017-09-04 11:09:47: Actual: Mounted
+
+2017-09-04 11:09:46: Expect: /mount
+
+2017-09-04 11:09:46: Actual: Un-Mounted
+
+2017-09-04 11:09:46: Expect: /unmount
+
+2017-09-04 11:09:46: Actual: Un-Mounted
+
+2017-09-04 11:09:46: Expect: /unmount
+
+2017-09-04 11:09:46: Actual: Mounted
+
+2017-09-04 11:09:45: Expect: /mount
+
+2017-09-04 11:09:45: Actual: Un-Mounted
+
+2017-09-04 11:09:45: Expect: /unmount
+
+2017-09-04 11:09:45: Actual: Mounted
+
+2017-09-04 11:09:45: Expect: /mount
+
+2017-09-04 11:09:44: Actual: Mounted
+
+2017-09-04 11:09:44: Expect: /mount
+
+2017-09-04 11:09:44: Mount/Un-mount sharedisk by api 
+
+2017-09-04 11:09:44: 'result': 'f'
+2017-09-04 11:09:43: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testSharedisk_24", "logbias": "throughput", "compress": "lz4", "sync": "disabled", "pool_id": 0}
+
+2017-09-04 11:09:42: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testSharedisk_2e", "logbias": "throughput", "compress": "zle", "sync": "disabled", "pool_id": 0}
+
+2017-09-04 11:09:41: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testSharedisk_29", "logbias": "throughput", "compress": "gzip-9", "sync": "disabled", "pool_id": 0}
+
+2017-09-04 11:09:40: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testSharedisk_21", "logbias": "throughput", "compress": "gzip-1", "sync": "disabled", "pool_id": 0}
+
+2017-09-04 11:09:40: Fail: parameters 1 KB != 1 MB
+2017-09-04 11:09:40: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "1 KB", "ratio": "1.00x", "name": "testSharedisk_2p", "total_capacity": 1000000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "gzip", "sync": "disabled", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 19}
+
+2017-09-04 11:09:39: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testSharedisk_2p", "logbias": "throughput", "compress": "gzip", "sync": "disabled", "pool_id": 0}
+
+2017-09-04 11:09:39: Fail: parameters 1 KB != 1 MB
+2017-09-04 11:09:39: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "1 KB", "ratio": "1.00x", "name": "testSharedisk_2b", "total_capacity": 1000000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "lzjb", "sync": "disabled", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 18}
+
+2017-09-04 11:09:38: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testSharedisk_2b", "logbias": "throughput", "compress": "lzjb", "sync": "disabled", "pool_id": 0}
+
+2017-09-04 11:09:38: Fail: parameters 1 KB != 1 MB
+2017-09-04 11:09:38: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "1 KB", "ratio": "1.00x", "name": "testSharedisk_2n", "total_capacity": 1000000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "on", "sync": "disabled", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 17}
+
+2017-09-04 11:09:37: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testSharedisk_2n", "logbias": "throughput", "compress": "on", "sync": "disabled", "pool_id": 0}
+
+2017-09-04 11:09:37: Fail: parameters 1 KB != 1 MB
+2017-09-04 11:09:37: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "1 KB", "ratio": "1.00x", "name": "testSharedisk_2f", "total_capacity": 1000000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "off", "sync": "disabled", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 16}
+
+2017-09-04 11:09:36: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testSharedisk_2f", "logbias": "throughput", "compress": "off", "sync": "disabled", "pool_id": 0}
+
+2017-09-04 11:09:36: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testSharedisk_14", "total_capacity": 2000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "lz4", "sync": "standard", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 15}
+
+2017-09-04 11:09:35: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testSharedisk_14", "logbias": "throughput", "compress": "lz4", "sync": "standard", "pool_id": 0}
+
+2017-09-04 11:09:35: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testSharedisk_1e", "total_capacity": 2000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "zle", "sync": "standard", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 14}
+
+2017-09-04 11:09:35: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testSharedisk_1e", "logbias": "throughput", "compress": "zle", "sync": "standard", "pool_id": 0}
+
+2017-09-04 11:09:34: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testSharedisk_19", "total_capacity": 2000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "gzip-9", "sync": "standard", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 13}
+
+2017-09-04 11:09:34: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testSharedisk_19", "logbias": "throughput", "compress": "gzip-9", "sync": "standard", "pool_id": 0}
+
+2017-09-04 11:09:34: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testSharedisk_11", "total_capacity": 2000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "gzip-1", "sync": "standard", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 12}
+
+2017-09-04 11:09:33: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testSharedisk_11", "logbias": "throughput", "compress": "gzip-1", "sync": "standard", "pool_id": 0}
+
+2017-09-04 11:09:33: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testSharedisk_1p", "total_capacity": 2000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "gzip", "sync": "standard", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 11}
+
+2017-09-04 11:09:33: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testSharedisk_1p", "logbias": "throughput", "compress": "gzip", "sync": "standard", "pool_id": 0}
+
+2017-09-04 11:09:33: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testSharedisk_1b", "total_capacity": 2000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "lzjb", "sync": "standard", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 10}
+
+2017-09-04 11:09:32: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testSharedisk_1b", "logbias": "throughput", "compress": "lzjb", "sync": "standard", "pool_id": 0}
+
+2017-09-04 11:09:32: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testSharedisk_1n", "total_capacity": 2000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "on", "sync": "standard", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 9}
+
+2017-09-04 11:09:31: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testSharedisk_1n", "logbias": "throughput", "compress": "on", "sync": "standard", "pool_id": 0}
+
+2017-09-04 11:09:31: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testSharedisk_1f", "total_capacity": 2000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "off", "sync": "standard", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 8}
+
+2017-09-04 11:09:31: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testSharedisk_1f", "logbias": "throughput", "compress": "off", "sync": "standard", "pool_id": 0}
+
+2017-09-04 11:09:31: Fail: parameters 999948288 != 1000000000
+2017-09-04 11:09:31: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testSharedisk_04", "total_capacity": 999948288, "perm_edit": "Ready", "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "lz4", "sync": "always", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 7}
+
+2017-09-04 11:09:30: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testSharedisk_04", "logbias": "latency", "compress": "lz4", "sync": "always", "pool_id": 0}
+
+2017-09-04 11:09:30: Fail: parameters 999948288 != 1000000000
+2017-09-04 11:09:30: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testSharedisk_0e", "total_capacity": 999948288, "perm_edit": "Ready", "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "zle", "sync": "always", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 6}
+
+2017-09-04 11:09:29: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testSharedisk_0e", "logbias": "latency", "compress": "zle", "sync": "always", "pool_id": 0}
+
+2017-09-04 11:09:29: Fail: parameters 999948288 != 1000000000
+2017-09-04 11:09:29: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testSharedisk_09", "total_capacity": 999948288, "perm_edit": "Ready", "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "gzip-9", "sync": "always", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 5}
+
+2017-09-04 11:09:29: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testSharedisk_09", "logbias": "latency", "compress": "gzip-9", "sync": "always", "pool_id": 0}
+
+2017-09-04 11:09:29: Fail: parameters 999948288 != 1000000000
+2017-09-04 11:09:29: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testSharedisk_01", "total_capacity": 999948288, "perm_edit": "Ready", "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "gzip-1", "sync": "always", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 4}
+
+2017-09-04 11:09:28: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testSharedisk_01", "logbias": "latency", "compress": "gzip-1", "sync": "always", "pool_id": 0}
+
+2017-09-04 11:09:28: Fail: parameters 999948288 != 1000000000
+2017-09-04 11:09:28: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testSharedisk_0p", "total_capacity": 999948288, "perm_edit": "Ready", "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "gzip", "sync": "always", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 3}
+
+2017-09-04 11:09:27: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testSharedisk_0p", "logbias": "latency", "compress": "gzip", "sync": "always", "pool_id": 0}
+
+2017-09-04 11:09:27: Fail: parameters 999948288 != 1000000000
+2017-09-04 11:09:27: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testSharedisk_0b", "total_capacity": 999948288, "perm_edit": "Ready", "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "lzjb", "sync": "always", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 2}
+
+2017-09-04 11:09:25: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testSharedisk_0b", "logbias": "latency", "compress": "lzjb", "sync": "always", "pool_id": 0}
+
+2017-09-04 11:09:25: Fail: parameters 999948288 != 1000000000
+2017-09-04 11:09:25: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testSharedisk_0n", "total_capacity": 999948288, "perm_edit": "Ready", "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "on", "sync": "always", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 1}
+
+2017-09-04 11:09:25: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testSharedisk_0n", "logbias": "latency", "compress": "on", "sync": "always", "pool_id": 0}
+
+2017-09-04 11:09:25: Fail: parameters 999948288 != 1000000000
+2017-09-04 11:09:25: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testSharedisk_0f", "total_capacity": 999948288, "perm_edit": "Ready", "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "off", "sync": "always", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 0}
+
+2017-09-04 11:09:24: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testSharedisk_0f", "logbias": "latency", "compress": "off", "sync": "always", "pool_id": 0}
+
+2017-09-04 11:09:24: To add sharedisk by api 
+
+2017-09-04 10:59:19: 'result': 'p'
+2017-09-04 10:59:19: Actual: name contain only alphanumeric characters and underscores
+
+2017-09-04 10:59:19: Expect: name contain only alphanumeric characters and underscores
+
+2017-09-04 10:59:19: Actual: invalid compress (on|off|lzjb|gzip|gzip-1|gzip-2|gzip-3|gzip-4|gzip-5|gzip-6|gzip-7|gzip-8|gzip-9|zle|lz4)
+
+2017-09-04 10:59:19: Expect: invalid compress
+
+2017-09-04 10:59:19: Actual: invalid logbias (latency|throughput)
+
+2017-09-04 10:59:19: Expect: invalid logbias
+
+2017-09-04 10:59:19: Actual: invalid sync (standard|always|disabled)
+
+2017-09-04 10:59:19: Expect: invalid sync
+
+2017-09-04 10:59:19: Actual: invalid recsize (512b|1kb|2kb|4kb|8kb|16kb|32kb|64kb|128kb|256kb|512kb|1mb)
+
+2017-09-04 10:59:19: Expect: invalid recsize
+
+2017-09-04 10:59:19: Actual: Incorrect parameters: [capacity] must between 1GB to 1PB. (0x4100104)
+
+2017-09-04 10:59:19: Expect: [capacity] must between 1GB to 1PB
+
+2017-09-04 10:59:19: Actual: Empty query result, please check input parameters. Pool id=[5] is not existed. (0x4100102)
+
+2017-09-04 10:59:19: Expect: Empty query result, please check input parameters. Pool id=[5] is not existed
+
+2017-09-04 10:56:15: 'result': 'p'
+2017-09-04 10:56:15: Actual: name contain only alphanumeric characters and underscores
+
+2017-09-04 10:56:15: Expect: name contain only alphanumeric characters and underscores
+
+2017-09-04 10:56:15: Checkpoint: name is special characters 
+
+2017-09-04 10:56:15: Actual: invalid compress (on|off|lzjb|gzip|gzip-1|gzip-2|gzip-3|gzip-4|gzip-5|gzip-6|gzip-7|gzip-8|gzip-9|zle|lz4)
+
+2017-09-04 10:56:15: Expect: invalid compress
+
+2017-09-04 10:56:15: Checkpoint: compress is wrong 
+
+2017-09-04 10:56:15: Actual: invalid logbias (latency|throughput)
+
+2017-09-04 10:56:15: Expect: invalid logbias
+
+2017-09-04 10:56:15: Checkpoint: logbias is wrong 
+
+2017-09-04 10:56:15: Actual: invalid sync (standard|always|disabled)
+
+2017-09-04 10:56:15: Expect: invalid sync
+
+2017-09-04 10:56:15: Checkpoint: sync is wrong 
+
+2017-09-04 10:56:15: Actual: invalid recsize (512b|1kb|2kb|4kb|8kb|16kb|32kb|64kb|128kb|256kb|512kb|1mb)
+
+2017-09-04 10:56:15: Expect: invalid recsize
+
+2017-09-04 10:56:15: Checkpoint: recsize is wrong 
+
+2017-09-04 10:56:14: Actual: Incorrect parameters: [capacity] must between 1GB to 1PB. (0x4100104)
+
+2017-09-04 10:56:14: Expect: [capacity] must between 1GB to 1PB
+
+2017-09-04 10:56:14: Checkpoint: capacity is wrong 
+
+2017-09-04 10:56:14: Actual: Empty query result, please check input parameters. Pool id=[5] is not existed. (0x4100102)
+
+2017-09-04 10:56:14: Expect: Empty query result, please check input parameters. Pool id=[5] is not existed
+
+2017-09-04 10:56:14: Checkpoint: pool id is not existed 
+
+2017-09-04 10:53:48: Expect: name contain only alphanumeric characters and underscores
+
+2017-09-04 10:53:48: Checkpoint: name is special characters 
+
+2017-09-04 10:53:47: Expect: invalid compress
+
+2017-09-04 10:53:47: Checkpoint: compress is wrong 
+
+2017-09-04 10:53:47: Expect: invalid logbias
+
+2017-09-04 10:53:47: Checkpoint: logbias is wrong 
+
+2017-09-04 10:53:47: Expect: invalid sync
+
+2017-09-04 10:53:47: Checkpoint: sync is wrong 
+
+2017-09-04 10:53:47: Expect: invalid recsize
+
+2017-09-04 10:53:47: Checkpoint: recsize is wrong 
+
+2017-09-04 10:53:47: Expect: [capacity] must between 1GB to 1PB
+
+2017-09-04 10:53:47: Checkpoint: capacity is wrong 
+
+2017-09-04 10:53:47: Expect: Empty query result, please check input parameters. Pool id=[5] is not existed
+
+2017-09-04 10:53:47: Checkpoint: pool id is not existed 
+
+2017-09-04 10:46:22: Actual: name contain only alphanumeric characters and underscores
+
+2017-09-04 10:46:22: Expect: name is special characters 
+
+2017-09-04 10:46:22: Actual: invalid compress (on|off|lzjb|gzip|gzip-1|gzip-2|gzip-3|gzip-4|gzip-5|gzip-6|gzip-7|gzip-8|gzip-9|zle|lz4)
+
+2017-09-04 10:46:22: Expect: compress is wrong 
+
+2017-09-04 10:46:22: Actual: invalid logbias (latency|throughput)
+
+2017-09-04 10:46:21: Expect: logbias is wrong 
+
+2017-09-04 10:46:21: Actual: invalid sync (standard|always|disabled)
+
+2017-09-04 10:46:21: Expect: sync is wrong 
+
+2017-09-04 10:46:21: Actual: invalid recsize (512b|1kb|2kb|4kb|8kb|16kb|32kb|64kb|128kb|256kb|512kb|1mb)
+
+2017-09-04 10:46:21: Expect: recsize is wrong 
+
+2017-09-04 10:46:21: Actual: Incorrect parameters: [capacity] must between 1GB to 1PB. (0x4100104)
+
+2017-09-04 10:46:21: Expect: capacity is wrong 
+
+2017-09-04 10:46:21: Actual: Empty query result, please check input parameters. Pool id=[5] is not existed. (0x4100102)
+
+2017-09-04 10:46:21: Expect: pool id is not existed 
+
+2017-09-04 10:43:10: Actual: name contain only alphanumeric characters and underscores
+
+2017-09-04 10:43:10: Expect: name is special characters 
+
+2017-09-04 10:43:10: Actual: invalid compress (on|off|lzjb|gzip|gzip-1|gzip-2|gzip-3|gzip-4|gzip-5|gzip-6|gzip-7|gzip-8|gzip-9|zle|lz4)
+
+2017-09-04 10:43:10: Expect: capacity is wrong 
+
+2017-09-04 10:43:10: Actual: invalid logbias (latency|throughput)
+
+2017-09-04 10:43:10: Expect: capacity is wrong 
+
+2017-09-04 10:43:10: Actual: invalid sync (standard|always|disabled)
+
+2017-09-04 10:43:10: Expect: capacity is wrong 
+
+2017-09-04 10:43:10: Actual: invalid recsize (512b|1kb|2kb|4kb|8kb|16kb|32kb|64kb|128kb|256kb|512kb|1mb)
+
+2017-09-04 10:43:10: Expect: capacity is wrong 
+
+2017-09-04 10:43:10: Actual: Incorrect parameters: [capacity] must between 1GB to 1PB. (0x4100104)
+
+2017-09-04 10:43:10: Expect: capacity is wrong 
+
+2017-09-04 10:43:10: Actual: Empty query result, please check input parameters. Pool id=[5] is not existed. (0x4100102)
+
+2017-09-04 10:43:10: Expect: pool id is not existed 
+
+2017-09-04 10:42:21: Actual: name contain only alphanumeric characters and underscores
+2017-09-04 10:42:21: Expect: name is special characters 
+
+2017-09-04 10:42:21: Actual: invalid compress (on|off|lzjb|gzip|gzip-1|gzip-2|gzip-3|gzip-4|gzip-5|gzip-6|gzip-7|gzip-8|gzip-9|zle|lz4)
+2017-09-04 10:42:21: Expect: capacity is wrong 
+
+2017-09-04 10:42:21: Actual: invalid logbias (latency|throughput)
+2017-09-04 10:42:21: Expect: capacity is wrong 
+
+2017-09-04 10:42:21: Actual: invalid sync (standard|always|disabled)
+2017-09-04 10:42:21: Expect: capacity is wrong 
+
+2017-09-04 10:42:21: Actual: invalid recsize (512b|1kb|2kb|4kb|8kb|16kb|32kb|64kb|128kb|256kb|512kb|1mb)
+2017-09-04 10:42:21: Expect: capacity is wrong 
+
+2017-09-04 10:42:21: Actual: Incorrect parameters: [capacity] must between 1GB to 1PB. (0x4100104)
+2017-09-04 10:42:21: Expect: capacity is wrong 
+
+2017-09-04 10:42:21: Actual: Empty query result, please check input parameters. Pool id=[5] is not existed. (0x4100102)
+2017-09-04 10:42:21: Expect: pool id is not existed 
+
+2017-09-04 10:38:53: Expect: pool id is not existed 
+
+2017-09-04 10:36:23: Empty query result, please check input parameters. Pool id=[5] is not existed. (0x4100102)
+2017-09-04 10:36:22: Expect: pool id is not existed 
+
+2017-09-04 10:34:01: Incorrect parameters: [capacity] must between 1GB to 1PB. (0x4100104)
+2017-09-04 10:34:00: Expect: capacity is wrong 
+
+2017-09-04 10:33:55: Empty query result, please check input parameters. Pool id=[5] is not existed. (0x4100102)
+2017-09-04 10:33:53: Expect: pool id is not existed 
+
+2017-09-04 10:27:38: name contain only alphanumeric characters and underscores
+2017-09-04 10:27:38: invalid compress (on|off|lzjb|gzip|gzip-1|gzip-2|gzip-3|gzip-4|gzip-5|gzip-6|gzip-7|gzip-8|gzip-9|zle|lz4)
+2017-09-04 10:27:38: invalid logbias (latency|throughput)
+2017-09-04 10:27:38: invalid sync (standard|always|disabled)
+2017-09-04 10:27:38: invalid recsize (512b|1kb|2kb|4kb|8kb|16kb|32kb|64kb|128kb|256kb|512kb|1mb)
+2017-09-04 10:27:38: Incorrect parameters: [capacity] must between 1GB to 1PB. (0x4100104)
+2017-09-04 10:27:37: Empty query result, please check input parameters. Pool id=[5] is not existed. (0x4100102)
+2017-09-04 10:18:12: Empty query result, please check input parameters. Pool id=[5] is not existed. (0x4100102)
+2017-09-04 10:17:16: invalid recsize (512b|1kb|2kb|4kb|8kb|16kb|32kb|64kb|128kb|256kb|512kb|1mb)
+2017-09-04 10:16:51: Incorrect parameters: [capacity] must between 1GB to 1PB. (0x4100104)
+2017-09-04 10:15:03: Empty query result, please check input parameters. Pool id=[54] is not existed. (0x4100102)
+2017-09-04 10:14:19: please specify name
+2017-09-04 10:03:35: 'result': 'p'
+2017-09-04 10:03:35: Incorrect parameters: Unsupported sort criteria: "name,pool_name". (0x4100104)
+2017-09-04 10:03:35: Actual: The sharedisk id is 23
+
+2017-09-04 10:03:35: Expect: To list sharedisk that id is 23
+
+2017-09-04 10:03:35: Actual: The sharedisk id is 10
+
+2017-09-04 10:03:35: Expect: To list sharedisk that id is 10
+
+2017-09-04 10:03:35: Actual: The sharedisk id is 1
+
+2017-09-04 10:03:35: Expect: To list sharedisk that id is 1
+
+2017-09-04 10:03:35: To verify parameters: search/page/page_size 
+
+2017-09-04 10:03:10: 'result': 'p'
+2017-09-04 10:03:10: Incorrect parameters: Unsupported sort criteria: "name,pool_name". (0x4100104)
+2017-09-04 10:03:10: Actual: The sharedisk id is 23
+
+2017-09-04 10:03:10: Expect: To list sharedisk that id is 23
+
+2017-09-04 10:03:10: Actual: The sharedisk id is 10
+
+2017-09-04 10:03:10: Expect: To list sharedisk that id is 10
+
+2017-09-04 10:03:10: Actual: The sharedisk id is 1
+
+2017-09-04 10:03:10: Expect: To list sharedisk that id is 1
+
+2017-09-04 10:03:10: To verify parameters: search/page/page_size 
+
+2017-09-04 10:02:06: 'result': 'p'
+2017-09-04 10:02:06: Incorrect parameters: Unsupported sort criteria: "name,ctrl_id". (0x4100104)
+2017-09-04 10:02:06: To verify parameters: search/page/page_size 
+
+2017-09-04 10:01:12: 'result': 'p'
+2017-09-04 10:01:12: Incorrect parameters: Unsupported sort criteria: "name". (0x4100104)
+2017-09-04 10:01:12: To verify parameters: search/page/page_size 
+
+2017-09-04 09:55:57: 'result': 'p'
+2017-09-04 09:55:57: Actual: The sharedisk id is 23
+
+2017-09-04 09:55:56: Expect: To list sharedisk that id is 23
+
+2017-09-04 09:55:56: Actual: The sharedisk id is 10
+
+2017-09-04 09:55:56: Expect: To list sharedisk that id is 10
+
+2017-09-04 09:55:56: Actual: The sharedisk id is 1
+
+2017-09-04 09:55:56: Expect: To list sharedisk that id is 1
+
+2017-09-04 09:55:56: To verify parameters: search/page/page_size 
+
+2017-09-04 09:55:36: 'result': 'p'
+2017-09-04 09:55:36: Actual: The sharedisk id is 23
+
+2017-09-04 09:55:36: Expect: To list sharedisk that id is 23
+
+2017-09-04 09:55:36: Actual: The sharedisk id is 10
+
+2017-09-04 09:55:36: Expect: To list sharedisk that id is 10
+
+2017-09-04 09:55:36: Actual: The sharedisk id is 1
+
+2017-09-04 09:55:36: Expect: To list sharedisk that id is 1
+
+2017-09-04 09:55:36: To verify parameters: search/page/page_size 
+
+2017-09-04 09:55:29: Incorrect parameters: Query is out of range. (0x4100104)
+2017-09-04 09:55:29: Expect: To list sharedisk that id is 1
+
+2017-09-04 09:55:29: To verify parameters: search/page/page_size 
+
+2017-09-04 09:55:04: Incorrect parameters: Query is out of range. (0x4100104)
+2017-09-04 09:55:04: Expect: To list sharedisk that id is 1
+
+2017-09-04 09:55:04: To verify parameters: search/page/page_size 
+
+2017-09-04 09:54:42: Incorrect parameters: Query is out of range. (0x4100104)
+2017-09-04 09:54:42: Expect: To list sharedisk that id is 1
+
+2017-09-04 09:54:42: To verify parameters: search/page/page_size 
+
+2017-09-04 09:53:50: Incorrect parameters: Query is out of range. (0x4100104)
+2017-09-04 09:53:50: Expect: To list sharedisk that id is 10
+
+2017-09-04 09:53:50: Actual: The sharedisk id is 1
+
+2017-09-04 09:53:50: Expect: To list sharedisk that id is 1
+
+2017-09-04 09:53:50: To verify parameters: search/page/page_size 
+
+2017-09-04 09:49:26: Expect: To list sharedisk that id is 1
+
+2017-09-04 09:49:26: To verify search function
+
+2017-09-04 09:44:11: 'result': 'p'
+2017-09-04 09:44:11: Actual: The sharedisk id is 23
+
+2017-09-04 09:44:11: Expect: To list sharedisk that id is 23
+
+2017-09-04 09:44:11: Actual: The sharedisk id is 10
+
+2017-09-04 09:44:11: Expect: To list sharedisk that id is 10
+
+2017-09-04 09:44:11: Actual: The sharedisk id is 1
+
+2017-09-04 09:44:11: Expect: To list sharedisk that id is 1
+
+2017-09-04 09:44:11: To verify search function
+
+2017-09-04 09:43:48: Expect: To list sharedisk that id is 1
+
+2017-09-04 09:43:48: To verify search function
+
+2017-09-04 09:24:52: 'result': 'f'
+2017-09-04 09:24:51: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testSharedisk_24", "logbias": "throughput", "compress": "lz4", "sync": "disabled", "pool_id": 0}
+
+2017-09-04 09:24:50: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testSharedisk_2e", "logbias": "throughput", "compress": "zle", "sync": "disabled", "pool_id": 0}
+
+2017-09-04 09:24:50: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testSharedisk_29", "logbias": "throughput", "compress": "gzip-9", "sync": "disabled", "pool_id": 0}
+
+2017-09-04 09:24:49: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testSharedisk_21", "logbias": "throughput", "compress": "gzip-1", "sync": "disabled", "pool_id": 0}
+
+2017-09-04 09:24:49: Fail: parameters 1 KB != 1 MB
+2017-09-04 09:24:49: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "1 KB", "ratio": "1.00x", "name": "testSharedisk_2p", "total_capacity": 1000000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "gzip", "sync": "disabled", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 19}
+
+2017-09-04 09:24:49: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testSharedisk_2p", "logbias": "throughput", "compress": "gzip", "sync": "disabled", "pool_id": 0}
+
+2017-09-04 09:24:49: Fail: parameters 1 KB != 1 MB
+2017-09-04 09:24:49: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "1 KB", "ratio": "1.00x", "name": "testSharedisk_2b", "total_capacity": 1000000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "lzjb", "sync": "disabled", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 18}
+
+2017-09-04 09:24:48: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testSharedisk_2b", "logbias": "throughput", "compress": "lzjb", "sync": "disabled", "pool_id": 0}
+
+2017-09-04 09:24:48: Fail: parameters 1 KB != 1 MB
+2017-09-04 09:24:48: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "1 KB", "ratio": "1.00x", "name": "testSharedisk_2n", "total_capacity": 1000000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "on", "sync": "disabled", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 17}
+
+2017-09-04 09:24:48: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testSharedisk_2n", "logbias": "throughput", "compress": "on", "sync": "disabled", "pool_id": 0}
+
+2017-09-04 09:24:48: Fail: parameters 1 KB != 1 MB
+2017-09-04 09:24:48: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "1 KB", "ratio": "1.00x", "name": "testSharedisk_2f", "total_capacity": 1000000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "off", "sync": "disabled", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 16}
+
+2017-09-04 09:24:47: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testSharedisk_2f", "logbias": "throughput", "compress": "off", "sync": "disabled", "pool_id": 0}
+
+2017-09-04 09:24:47: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testSharedisk_14", "total_capacity": 2000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "lz4", "sync": "standard", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 15}
+
+2017-09-04 09:24:47: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testSharedisk_14", "logbias": "throughput", "compress": "lz4", "sync": "standard", "pool_id": 0}
+
+2017-09-04 09:24:47: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testSharedisk_1e", "total_capacity": 2000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "zle", "sync": "standard", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 14}
+
+2017-09-04 09:24:46: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testSharedisk_1e", "logbias": "throughput", "compress": "zle", "sync": "standard", "pool_id": 0}
+
+2017-09-04 09:24:46: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testSharedisk_19", "total_capacity": 2000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "gzip-9", "sync": "standard", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 13}
+
+2017-09-04 09:24:46: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testSharedisk_19", "logbias": "throughput", "compress": "gzip-9", "sync": "standard", "pool_id": 0}
+
+2017-09-04 09:24:46: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testSharedisk_11", "total_capacity": 2000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "gzip-1", "sync": "standard", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 12}
+
+2017-09-04 09:24:45: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testSharedisk_11", "logbias": "throughput", "compress": "gzip-1", "sync": "standard", "pool_id": 0}
+
+2017-09-04 09:24:45: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testSharedisk_1p", "total_capacity": 2000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "gzip", "sync": "standard", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 11}
+
+2017-09-04 09:24:44: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testSharedisk_1p", "logbias": "throughput", "compress": "gzip", "sync": "standard", "pool_id": 0}
+
+2017-09-04 09:24:44: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testSharedisk_1b", "total_capacity": 2000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "lzjb", "sync": "standard", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 10}
+
+2017-09-04 09:24:44: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testSharedisk_1b", "logbias": "throughput", "compress": "lzjb", "sync": "standard", "pool_id": 0}
+
+2017-09-04 09:24:44: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testSharedisk_1n", "total_capacity": 2000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "on", "sync": "standard", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 9}
+
+2017-09-04 09:24:43: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testSharedisk_1n", "logbias": "throughput", "compress": "on", "sync": "standard", "pool_id": 0}
+
+2017-09-04 09:24:43: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testSharedisk_1f", "total_capacity": 2000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "off", "sync": "standard", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 8}
+
+2017-09-04 09:24:43: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testSharedisk_1f", "logbias": "throughput", "compress": "off", "sync": "standard", "pool_id": 0}
+
+2017-09-04 09:24:43: Fail: parameters 999948288 != 1000000000
+2017-09-04 09:24:43: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testSharedisk_04", "total_capacity": 999948288, "perm_edit": "Ready", "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "lz4", "sync": "always", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 7}
+
+2017-09-04 09:24:43: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testSharedisk_04", "logbias": "latency", "compress": "lz4", "sync": "always", "pool_id": 0}
+
+2017-09-04 09:24:43: Fail: parameters 999948288 != 1000000000
+2017-09-04 09:24:43: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testSharedisk_0e", "total_capacity": 999948288, "perm_edit": "Ready", "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "zle", "sync": "always", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 6}
+
+2017-09-04 09:24:42: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testSharedisk_0e", "logbias": "latency", "compress": "zle", "sync": "always", "pool_id": 0}
+
+2017-09-04 09:24:42: Fail: parameters 999948288 != 1000000000
+2017-09-04 09:24:42: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testSharedisk_09", "total_capacity": 999948288, "perm_edit": "Ready", "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "gzip-9", "sync": "always", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 5}
+
+2017-09-04 09:24:41: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testSharedisk_09", "logbias": "latency", "compress": "gzip-9", "sync": "always", "pool_id": 0}
+
+2017-09-04 09:24:41: Fail: parameters 999948288 != 1000000000
+2017-09-04 09:24:41: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testSharedisk_01", "total_capacity": 999948288, "perm_edit": "Ready", "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "gzip-1", "sync": "always", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 4}
+
+2017-09-04 09:24:41: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testSharedisk_01", "logbias": "latency", "compress": "gzip-1", "sync": "always", "pool_id": 0}
+
+2017-09-04 09:24:41: Fail: parameters 999948288 != 1000000000
+2017-09-04 09:24:41: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testSharedisk_0p", "total_capacity": 999948288, "perm_edit": "Ready", "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "gzip", "sync": "always", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 3}
+
+2017-09-04 09:24:40: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testSharedisk_0p", "logbias": "latency", "compress": "gzip", "sync": "always", "pool_id": 0}
+
+2017-09-04 09:24:40: Fail: parameters 999948288 != 1000000000
+2017-09-04 09:24:40: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testSharedisk_0b", "total_capacity": 999948288, "perm_edit": "Ready", "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "lzjb", "sync": "always", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 2}
+
+2017-09-04 09:24:40: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testSharedisk_0b", "logbias": "latency", "compress": "lzjb", "sync": "always", "pool_id": 0}
+
+2017-09-04 09:24:40: Fail: parameters 999948288 != 1000000000
+2017-09-04 09:24:39: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testSharedisk_0n", "total_capacity": 999948288, "perm_edit": "Ready", "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "on", "sync": "always", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 1}
+
+2017-09-04 09:24:39: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testSharedisk_0n", "logbias": "latency", "compress": "on", "sync": "always", "pool_id": 0}
+
+2017-09-04 09:24:39: Fail: parameters 999948288 != 1000000000
+2017-09-04 09:24:39: Actual: {"ctrl_id": 2, "pool_name": "testSharediskApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testSharedisk_0f", "total_capacity": 999948288, "perm_edit": "Ready", "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "off", "sync": "always", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 0}
+
+2017-09-04 09:24:39: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testSharedisk_0f", "logbias": "latency", "compress": "off", "sync": "always", "pool_id": 0}
+
+2017-09-04 09:24:39: To add sharedisk by api 
+
 2017-09-01 17:00:07: 'result': 'p'
 2017-09-01 17:00:07: Actual: sharedisk 23 is deleted 
 
