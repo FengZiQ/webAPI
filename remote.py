@@ -12,7 +12,7 @@ formatter = logging.Formatter('%(asctime)s %(levelname)s %(message)s')
 handler.setFormatter(formatter)
 logger.addHandler(handler)
 
-serverip="10.84.2.164"
+serverIp = "10.84.2.164"
 
 class Server(object):
     addition_info = None
@@ -23,15 +23,12 @@ class Server(object):
         response_obj = response["response"].json()
         self.addition_info = response_obj[0]
 
-        # logger.debug("addition_info = %s" % self.addition_info)
-
-
     def webapi(self, method, service, parameters=None):
-        url = "https://"+serverip+"/service/" + service
+        url = "https://"+serverIp+"/service/" + service
         header = dict()
         header["Content-Type"] = "application/json"
         header["additioninfo"] = self.addition_info
-        returninfo=dict()
+        returninfo = dict()
         requests_function = getattr(requests, method)
 
         response = requests_function(url, json=parameters, headers=header, verify=False)
@@ -42,6 +39,7 @@ class Server(object):
         returninfo["text"] = response.text
         returninfo["parameters"] = parameters
         returninfo["response"] = response
+
         try:
             if response.text != "":
                 setattr(response, "data", response.json())
@@ -52,7 +50,7 @@ class Server(object):
         return returninfo
 
     def webapiurl(self, method, service, urlparameter):
-        url = "https://" + serverip + "/service/" + service + '/' + urlparameter
+        url = "https://" + serverIp + "/service/" + service + '/' + urlparameter
         header = dict()
         header["Content-Type"] = "application/json"
         header["additioninfo"] = self.addition_info
@@ -66,6 +64,7 @@ class Server(object):
         returninfo["text"] = response.text
         returninfo["parameters"] = urlparameter
         returninfo["response"] = response
+
         try:
             if response.text != "":
                 setattr(response, "data", response.json())
@@ -74,5 +73,4 @@ class Server(object):
 
         return returninfo
 
-#
 server = Server()
