@@ -1,0 +1,811 @@
+2017-09-05 16:43:34: 'result': 'p'
+2017-09-05 16:43:34: Actual: name contain only alphanumeric characters and underscores
+
+2017-09-05 16:43:34: Expect: name contain only alphanumeric characters and underscores
+
+2017-09-05 16:43:34: Actual: invalid compress (on|off|lzjb|gzip|gzip-1|gzip-2|gzip-3|gzip-4|gzip-5|gzip-6|gzip-7|gzip-8|gzip-9|zle|lz4)
+
+2017-09-05 16:43:34: Expect: invalid compress
+
+2017-09-05 16:43:34: Actual: invalid logbias (latency|throughput)
+
+2017-09-05 16:43:34: Expect: invalid logbias
+
+2017-09-05 16:43:34: Actual: invalid sync (standard|always|disabled)
+
+2017-09-05 16:43:34: Expect: invalid sync
+
+2017-09-05 16:43:34: Actual: invalid recsize (512b|1kb|2kb|4kb|8kb|16kb|32kb|64kb|128kb|256kb|512kb|1mb)
+
+2017-09-05 16:43:34: Expect: invalid recsize
+
+2017-09-05 16:43:34: Actual: Incorrect parameters: [capacity] must between 1GB to 1PB. (0x4100104)
+
+2017-09-05 16:43:34: Expect: [capacity] must between 1GB to 1PB
+
+2017-09-05 16:43:34: Actual: Empty query result, please check input parameters. Pool id=[5] is not existed. (0x4100102)
+
+2017-09-05 16:43:33: Expect: Empty query result, please check input parameters. Pool id=[5] is not existed
+
+2017-09-05 16:43:33: 'result': 'p'
+2017-09-05 16:43:33: Actual: NASShare 23 is deleted 
+
+2017-09-05 16:43:32: Expect: Delete NASShare id is 23
+
+2017-09-05 16:43:32: Actual: NASShare 22 is deleted 
+
+2017-09-05 16:43:31: Expect: Delete NASShare id is 22
+
+2017-09-05 16:43:31: Actual: NASShare 21 is deleted 
+
+2017-09-05 16:43:30: Expect: Delete NASShare id is 21
+
+2017-09-05 16:43:30: Actual: NASShare 20 is deleted 
+
+2017-09-05 16:43:29: Expect: Delete NASShare id is 20
+
+2017-09-05 16:43:29: Actual: NASShare 19 is deleted 
+
+2017-09-05 16:43:29: Expect: Delete NASShare id is 19
+
+2017-09-05 16:43:29: Actual: NASShare 18 is deleted 
+
+2017-09-05 16:43:28: Expect: Delete NASShare id is 18
+
+2017-09-05 16:43:28: Actual: NASShare 17 is deleted 
+
+2017-09-05 16:43:27: Expect: Delete NASShare id is 17
+
+2017-09-05 16:43:27: Actual: NASShare 16 is deleted 
+
+2017-09-05 16:43:27: Expect: Delete NASShare id is 16
+
+2017-09-05 16:43:27: Actual: NASShare 15 is deleted 
+
+2017-09-05 16:43:26: Expect: Delete NASShare id is 15
+
+2017-09-05 16:43:26: Actual: NASShare 14 is deleted 
+
+2017-09-05 16:43:25: Expect: Delete NASShare id is 14
+
+2017-09-05 16:43:25: Actual: NASShare 13 is deleted 
+
+2017-09-05 16:43:23: Expect: Delete NASShare id is 13
+
+2017-09-05 16:43:23: Actual: NASShare 12 is deleted 
+
+2017-09-05 16:43:22: Expect: Delete NASShare id is 12
+
+2017-09-05 16:43:22: Actual: NASShare 11 is deleted 
+
+2017-09-05 16:43:22: Expect: Delete NASShare id is 11
+
+2017-09-05 16:43:22: Actual: NASShare 10 is deleted 
+
+2017-09-05 16:43:21: Expect: Delete NASShare id is 10
+
+2017-09-05 16:43:21: Actual: NASShare 9 is deleted 
+
+2017-09-05 16:43:20: Expect: Delete NASShare id is 9
+
+2017-09-05 16:43:20: Actual: NASShare 8 is deleted 
+
+2017-09-05 16:43:19: Expect: Delete NASShare id is 8
+
+2017-09-05 16:43:19: Actual: NASShare 7 is deleted 
+
+2017-09-05 16:43:18: Expect: Delete NASShare id is 7
+
+2017-09-05 16:43:18: Actual: NASShare 6 is deleted 
+
+2017-09-05 16:43:17: Expect: Delete NASShare id is 6
+
+2017-09-05 16:43:17: Actual: NASShare 5 is deleted 
+
+2017-09-05 16:43:17: Expect: Delete NASShare id is 5
+
+2017-09-05 16:43:17: Actual: NASShare 4 is deleted 
+
+2017-09-05 16:43:16: Expect: Delete NASShare id is 4
+
+2017-09-05 16:43:16: Actual: NASShare 3 is deleted 
+
+2017-09-05 16:43:15: Expect: Delete NASShare id is 3
+
+2017-09-05 16:43:15: Actual: NASShare 2 is deleted 
+
+2017-09-05 16:43:15: Expect: Delete NASShare id is 2
+
+2017-09-05 16:43:15: Actual: NASShare 1 is deleted 
+
+2017-09-05 16:43:13: Expect: Delete NASShare id is 1
+
+2017-09-05 16:43:13: Actual: NASShare 0 is deleted 
+
+2017-09-05 16:43:12: Expect: Delete NASShare id is 0
+
+2017-09-05 16:43:12: To delete NASShare by aip
+2017-09-05 16:43:12: 'result': 'p'
+2017-09-05 16:43:12: Actual: The NASShare id is 23
+
+2017-09-05 16:43:12: Expect: To list NASShare that id is 23
+
+2017-09-05 16:43:12: Actual: The NASShare id is 10
+
+2017-09-05 16:43:12: Expect: To list NASShare that id is 10
+
+2017-09-05 16:43:12: Actual: The NASShare id is 1
+
+2017-09-05 16:43:12: Expect: To list NASShare that id is 1
+
+2017-09-05 16:43:12: To verify parameters: search/page/page_size 
+
+2017-09-05 16:43:12: 'result': 'p'
+2017-09-05 16:43:12: Actual: {"name": "TestName", "total_capacity": 2000000000000}
+
+2017-09-05 16:43:11: Expect: {"capacity": "2TB", "name": "TestName"}
+
+2017-09-05 16:43:11: Actual: {"name": "123455", "total_capacity": 2000000000}
+
+2017-09-05 16:43:10: Expect: {"capacity": "2GB", "name": "123455"}
+
+2017-09-05 16:43:10: Actual: {"name": "name_2", "total_capacity": 2000000000}
+
+2017-09-05 16:43:09: Expect: {"capacity": "2GB", "name": "name_2"}
+
+2017-09-05 16:43:09: Actual: {"name": "n", "total_capacity": 1000000000}
+
+2017-09-05 16:43:08: Expect: {"capacity": "1GB", "name": "n"}
+
+2017-09-05 16:43:08: To modify NASShare by api
+
+2017-09-05 16:43:08: 'result': 'p'
+2017-09-05 16:43:08: Actual: Un-Mounted
+
+2017-09-05 16:43:08: Expect: unmount
+
+2017-09-05 16:43:08: Actual: Mounted
+
+2017-09-05 16:43:08: Expect: mount
+
+2017-09-05 16:43:08: Actual: Un-Mounted
+
+2017-09-05 16:43:07: Expect: unmount
+
+2017-09-05 16:43:07: Actual: Un-Mounted
+
+2017-09-05 16:43:07: Expect: unmount
+
+2017-09-05 16:43:07: Actual: Mounted
+
+2017-09-05 16:43:07: Expect: mount
+
+2017-09-05 16:43:07: Actual: Un-Mounted
+
+2017-09-05 16:43:06: Expect: unmount
+
+2017-09-05 16:43:06: Actual: Mounted
+
+2017-09-05 16:43:06: Expect: mount
+
+2017-09-05 16:43:06: Actual: Mounted
+
+2017-09-05 16:43:04: Expect: mount
+
+2017-09-05 16:43:04: Mount/Un-mount NASShare by api 
+
+2017-09-05 16:43:04: 'result': 'f'
+2017-09-05 16:43:04: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_24", "logbias": "throughput", "compress": "lz4", "sync": "disabled", "pool_id": 0}
+
+2017-09-05 16:43:03: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_2e", "logbias": "throughput", "compress": "zle", "sync": "disabled", "pool_id": 0}
+
+2017-09-05 16:43:03: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_29", "logbias": "throughput", "compress": "gzip-9", "sync": "disabled", "pool_id": 0}
+
+2017-09-05 16:43:02: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_21", "logbias": "throughput", "compress": "gzip-1", "sync": "disabled", "pool_id": 0}
+
+2017-09-05 16:43:02: Fail: parameters 999999668224 != 1000000000000
+2017-09-05 16:43:02: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "1 MB", "ratio": "1.00x", "name": "testNASShare_2p", "total_capacity": 999999668224, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "gzip", "sync": "disabled", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 19}
+
+2017-09-05 16:43:02: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_2p", "logbias": "throughput", "compress": "gzip", "sync": "disabled", "pool_id": 0}
+
+2017-09-05 16:43:02: Fail: parameters 999999668224 != 1000000000000
+2017-09-05 16:43:02: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "1 MB", "ratio": "1.00x", "name": "testNASShare_2b", "total_capacity": 999999668224, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "lzjb", "sync": "disabled", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 18}
+
+2017-09-05 16:43:01: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_2b", "logbias": "throughput", "compress": "lzjb", "sync": "disabled", "pool_id": 0}
+
+2017-09-05 16:43:01: Fail: parameters 999999668224 != 1000000000000
+2017-09-05 16:43:01: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "1 MB", "ratio": "1.00x", "name": "testNASShare_2n", "total_capacity": 999999668224, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "on", "sync": "disabled", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 17}
+
+2017-09-05 16:43:00: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_2n", "logbias": "throughput", "compress": "on", "sync": "disabled", "pool_id": 0}
+
+2017-09-05 16:43:00: Fail: parameters 999999668224 != 1000000000000
+2017-09-05 16:43:00: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "1 MB", "ratio": "1.00x", "name": "testNASShare_2f", "total_capacity": 999999668224, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "off", "sync": "disabled", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 16}
+
+2017-09-05 16:43:00: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_2f", "logbias": "throughput", "compress": "off", "sync": "disabled", "pool_id": 0}
+
+2017-09-05 16:43:00: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testNASShare_14", "total_capacity": 2000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "lz4", "sync": "standard", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 15}
+
+2017-09-05 16:42:59: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_14", "logbias": "throughput", "compress": "lz4", "sync": "standard", "pool_id": 0}
+
+2017-09-05 16:42:59: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testNASShare_1e", "total_capacity": 2000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "zle", "sync": "standard", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 14}
+
+2017-09-05 16:42:58: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_1e", "logbias": "throughput", "compress": "zle", "sync": "standard", "pool_id": 0}
+
+2017-09-05 16:42:58: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testNASShare_19", "total_capacity": 2000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "gzip-9", "sync": "standard", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 13}
+
+2017-09-05 16:42:56: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_19", "logbias": "throughput", "compress": "gzip-9", "sync": "standard", "pool_id": 0}
+
+2017-09-05 16:42:56: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testNASShare_11", "total_capacity": 2000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "gzip-1", "sync": "standard", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 12}
+
+2017-09-05 16:42:56: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_11", "logbias": "throughput", "compress": "gzip-1", "sync": "standard", "pool_id": 0}
+
+2017-09-05 16:42:56: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testNASShare_1p", "total_capacity": 2000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "gzip", "sync": "standard", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 11}
+
+2017-09-05 16:42:55: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_1p", "logbias": "throughput", "compress": "gzip", "sync": "standard", "pool_id": 0}
+
+2017-09-05 16:42:55: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testNASShare_1b", "total_capacity": 2000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "lzjb", "sync": "standard", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 10}
+
+2017-09-05 16:42:55: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_1b", "logbias": "throughput", "compress": "lzjb", "sync": "standard", "pool_id": 0}
+
+2017-09-05 16:42:55: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testNASShare_1n", "total_capacity": 2000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "on", "sync": "standard", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 9}
+
+2017-09-05 16:42:54: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_1n", "logbias": "throughput", "compress": "on", "sync": "standard", "pool_id": 0}
+
+2017-09-05 16:42:54: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testNASShare_1f", "total_capacity": 2000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "off", "sync": "standard", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 8}
+
+2017-09-05 16:42:54: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_1f", "logbias": "throughput", "compress": "off", "sync": "standard", "pool_id": 0}
+
+2017-09-05 16:42:54: Fail: parameters 999948288 != 1000000000
+2017-09-05 16:42:54: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testNASShare_04", "total_capacity": 999948288, "perm_edit": "Ready", "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "lz4", "sync": "always", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 7}
+
+2017-09-05 16:42:53: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_04", "logbias": "latency", "compress": "lz4", "sync": "always", "pool_id": 0}
+
+2017-09-05 16:42:53: Fail: parameters 999948288 != 1000000000
+2017-09-05 16:42:53: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testNASShare_0e", "total_capacity": 999948288, "perm_edit": "Ready", "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "zle", "sync": "always", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 6}
+
+2017-09-05 16:42:53: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_0e", "logbias": "latency", "compress": "zle", "sync": "always", "pool_id": 0}
+
+2017-09-05 16:42:53: Fail: parameters 999948288 != 1000000000
+2017-09-05 16:42:53: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testNASShare_09", "total_capacity": 999948288, "perm_edit": "Ready", "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "gzip-9", "sync": "always", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 5}
+
+2017-09-05 16:42:52: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_09", "logbias": "latency", "compress": "gzip-9", "sync": "always", "pool_id": 0}
+
+2017-09-05 16:42:52: Fail: parameters 999948288 != 1000000000
+2017-09-05 16:42:52: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testNASShare_01", "total_capacity": 999948288, "perm_edit": "Ready", "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "gzip-1", "sync": "always", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 4}
+
+2017-09-05 16:42:51: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_01", "logbias": "latency", "compress": "gzip-1", "sync": "always", "pool_id": 0}
+
+2017-09-05 16:42:51: Fail: parameters 999948288 != 1000000000
+2017-09-05 16:42:51: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testNASShare_0p", "total_capacity": 999948288, "perm_edit": "Ready", "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "gzip", "sync": "always", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 3}
+
+2017-09-05 16:42:50: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_0p", "logbias": "latency", "compress": "gzip", "sync": "always", "pool_id": 0}
+
+2017-09-05 16:42:50: Fail: parameters 999948288 != 1000000000
+2017-09-05 16:42:50: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testNASShare_0b", "total_capacity": 999948288, "perm_edit": "Ready", "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "lzjb", "sync": "always", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 2}
+
+2017-09-05 16:42:49: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_0b", "logbias": "latency", "compress": "lzjb", "sync": "always", "pool_id": 0}
+
+2017-09-05 16:42:49: Fail: parameters 999948288 != 1000000000
+2017-09-05 16:42:49: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testNASShare_0n", "total_capacity": 999948288, "perm_edit": "Ready", "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "on", "sync": "always", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 1}
+
+2017-09-05 16:42:49: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_0n", "logbias": "latency", "compress": "on", "sync": "always", "pool_id": 0}
+
+2017-09-05 16:42:49: Fail: parameters 999948288 != 1000000000
+2017-09-05 16:42:49: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testNASShare_0f", "total_capacity": 999948288, "perm_edit": "Ready", "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "off", "sync": "always", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 0}
+
+2017-09-05 16:42:48: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_0f", "logbias": "latency", "compress": "off", "sync": "always", "pool_id": 0}
+
+2017-09-05 16:42:48: To add NASShare by api 
+
+2017-09-05 16:42:35: 'result': 'p'
+2017-09-05 16:42:35: Actual: DSUser test_name is deleted 
+
+2017-09-05 16:42:35: Expect: To delete DSUser test_name
+
+2017-09-05 16:42:35: Actual: DSUser nnnnnnnnnnnnnnnnnnnnnnnnnnnnnn is deleted 
+
+2017-09-05 16:42:35: Expect: To delete DSUser nnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+2017-09-05 16:42:35: Actual: DSUser a is deleted 
+
+2017-09-05 16:42:34: Expect: To delete DSUser a
+
+2017-09-05 16:42:34: Actual: DSUser 123 is deleted 
+
+2017-09-05 16:42:34: Expect: To delete DSUser 123
+
+2017-09-05 16:42:34: Delete DSUser by api 
+
+2017-09-05 16:42:34: 'result': 'p'
+2017-09-05 16:42:34: Actual: {"status": 0, "display_name": "ttttttttttttttttttttttttttttttt", "telephone": "1111111111111111111111111111111", "group_name": "users", "_uid": 1001, "department": "ppppppppppppppppppppppppppppppp", "user_name": "a", "email": "a@a.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"}
+
+2017-09-05 16:42:34: Expect: {"department": "ppppppppppppppppppppppppppppppp", "phone": "1111111111111111111111111111111", "display_name": "ttttttttttttttttttttttttttttttt", "email": "a@a.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"}
+
+2017-09-05 16:42:34: Actual: {"status": 0, "display_name": "1", "telephone": "111111111111111111111111111111", "group_name": "users", "_uid": 1001, "department": "dddddddddddddddddddddddddddddd", "user_name": "a", "email": "1@1.11"}
+
+2017-09-05 16:42:34: Expect: {"department": "dddddddddddddddddddddddddddddd", "phone": "111111111111111111111111111111", "display_name": "1", "email": "1@1.11"}
+
+2017-09-05 16:42:34: Actual: {"status": 0, "display_name": "a", "telephone": "1", "group_name": "users", "_uid": 1001, "department": "1_d", "user_name": "a", "email": ""}
+
+2017-09-05 16:42:34: Expect: {"department": "1_d", "phone": "1", "display_name": "a", "email": ""}
+
+2017-09-05 16:42:34: Actual: {"status": 0, "display_name": "", "telephone": "", "group_name": "users", "_uid": 1001, "department": "", "user_name": "a", "email": ""}
+
+2017-09-05 16:42:34: Expect: {"department": "", "phone": "", "display_name": "", "email": ""}
+
+2017-09-05 16:42:34: Modify DSUser by api 
+
+2017-09-05 16:42:34: 'result': 'p'
+2017-09-05 16:42:34: Actual: The DSUser 123 is listed 
+
+2017-09-05 16:42:34: Expect: To list DSUser 123
+
+2017-09-05 16:42:34: Actual: The DSUser test_name is listed 
+
+2017-09-05 16:42:34: Expect: To list DSUser test_name
+
+2017-09-05 16:42:34: Actual: The DSUser nnnnnnnnnnnnnnnnnnnnnnnnnnnnnn is listed 
+
+2017-09-05 16:42:34: Expect: To list DSUser nnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+2017-09-05 16:42:34: Actual: The DSUser a is listed 
+
+2017-09-05 16:42:34: Expect: To list DSUser a
+
+2017-09-05 16:42:34: To list specify DSUser 
+
+2017-09-05 16:42:34: Actual: 
+{"dm_type": "LOCAL", "display_name": "mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm", "telephone": "1111111111111111111111111111111", "email": "1@1.1111111111111111111111111111111111111111111", "_uid": 1004, "department": "ppppppppppppppppppppppppppppppp", "id": "123"}
+{"dm_type": "LOCAL", "display_name": "", "telephone": "", "email": "", "_uid": 1001, "department": "", "id": "a"}
+{"dm_type": "LOCAL", "display_name": "display_name1", "telephone": "1", "email": "1@11.11", "_uid": 1002, "department": "1_d", "id": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnn"}
+{"dm_type": "LOCAL", "display_name": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnn", "telephone": "111111111111111111111111111111", "email": "a@aa.aac", "_uid": 1003, "department": "dddddddddddddddddddddddddddddd", "id": "test_name"}
+
+
+2017-09-05 16:42:34: Expect: list all of DSUser 
+
+2017-09-05 16:42:34: 'result': 'p'
+2017-09-05 16:42:34: Actual: {"status": 0, "display_name": "mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm", "telephone": "1111111111111111111111111111111", "group_name": "users", "_uid": 1004, "department": "ppppppppppppppppppppppppppppppp", "user_name": "123", "email": "1@1.1111111111111111111111111111111111111111111"}
+
+2017-09-05 16:42:33: Expect: {"display_name": "mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm", "email": "1@1.1111111111111111111111111111111111111111111", "phone": "1111111111111111111111111111111", "department": "ppppppppppppppppppppppppppppppp", "password": "wwwwwwwwwwwwwwww", "id": "123"}
+
+2017-09-05 16:42:33: Actual: {"status": 0, "display_name": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnn", "telephone": "111111111111111111111111111111", "group_name": "users", "_uid": 1003, "department": "dddddddddddddddddddddddddddddd", "user_name": "test_name", "email": "a@aa.aac"}
+
+2017-09-05 16:42:33: Expect: {"display_name": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnn", "email": "a@aa.aac", "phone": "111111111111111111111111111111", "department": "dddddddddddddddddddddddddddddd", "password": "ppppppppppppppp", "id": "test_name"}
+
+2017-09-05 16:42:33: Actual: {"status": 0, "display_name": "display_name1", "telephone": "1", "group_name": "users", "_uid": 1002, "department": "1_d", "user_name": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnn", "email": "1@11.11"}
+
+2017-09-05 16:42:33: Expect: {"display_name": "display_name1", "email": "1@11.11", "phone": "1", "department": "1_d", "password": "1111111", "id": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnn"}
+
+2017-09-05 16:42:33: Actual: {"status": 0, "display_name": "", "telephone": "", "group_name": "users", "_uid": 1001, "department": "", "user_name": "a", "email": ""}
+
+2017-09-05 16:42:32: Expect: {"display_name": "", "email": "", "phone": "", "department": "", "password": "111111", "id": "a"}
+
+2017-09-05 16:42:32: Add DSUser by api 
+
+2017-09-05 16:42:32: 'result': 'p'
+2017-09-05 16:42:32: Actual: snmpuser test_1 is deleted 
+
+2017-09-05 16:42:32: Expect: To delete snmpuser test_1
+
+2017-09-05 16:42:32: Actual: snmpuser 1T is deleted 
+
+2017-09-05 16:42:32: Expect: To delete snmpuser 1T
+
+2017-09-05 16:42:32: Actual: snmpuser BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB is deleted 
+
+2017-09-05 16:42:32: Expect: To delete snmpuser BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+
+2017-09-05 16:42:32: Actual: snmpuser b is deleted 
+
+2017-09-05 16:42:32: Expect: To delete snmpuser b
+
+2017-09-05 16:42:32: Delete SNMPUser by api 
+
+2017-09-05 16:42:32: 'result': 'p'
+2017-09-05 16:42:32: Actual: {"permission": "READ_ONLY", "type": "SNMP", "priv_passwd": "ttttttttttttttttttttttttttttttt", "auth": "SHA", "auth_passwd": "ttttttttttttttttttttttttttttttt", "id": "b", "priv": "AES"}
+
+2017-09-05 16:42:32: Expect: {"priv_passwd": "ttttttttttttttttttttttttttttttt", "auth_passwd": "ttttttttttttttttttttttttttttttt", "id": "b", "auth": "SHA", "priv": "AES"}
+
+2017-09-05 16:42:32: Actual: {"permission": "READ_ONLY", "type": "SNMP", "priv_passwd": "ttttttttttttttttttttttttttttttt", "auth": "SHA", "auth_passwd": "ttttttttttttttttttttttttttttttt", "id": "b", "priv": "DES"}
+
+2017-09-05 16:42:32: Expect: {"priv_passwd": "ttttttttttttttttttttttttttttttt", "auth_passwd": "ttttttttttttttttttttttttttttttt", "id": "b", "auth": "SHA", "priv": "DES"}
+
+2017-09-05 16:42:32: Actual: {"permission": "READ_ONLY", "type": "SNMP", "priv_passwd": "aaaaaaaa", "auth": "MD5", "auth_passwd": "aaaaaaaa", "id": "b", "priv": "AES"}
+
+2017-09-05 16:42:32: Expect: {"priv_passwd": "aaaaaaaa", "auth_passwd": "aaaaaaaa", "id": "b", "auth": "MD5", "priv": "AES"}
+
+2017-09-05 16:42:32: Actual: {"permission": "READ_ONLY", "type": "SNMP", "priv_passwd": "aaaaaaaa", "auth": "MD5", "auth_passwd": "aaaaaaaa", "id": "b", "priv": "DES"}
+
+2017-09-05 16:42:32: Expect: {"priv_passwd": "aaaaaaaa", "auth_passwd": "aaaaaaaa", "id": "b", "auth": "MD5", "priv": "DES"}
+
+2017-09-05 16:42:32: Modify SNMPUser by api 
+
+2017-09-05 16:42:32: 'result': 'p'
+2017-09-05 16:42:32: Actual: The snmpuser test_1 is listed 
+
+2017-09-05 16:42:32: Expect: To list snmpuser test_1
+
+2017-09-05 16:42:32: Actual: The snmpuser 1T is listed 
+
+2017-09-05 16:42:32: Expect: To list snmpuser 1T
+
+2017-09-05 16:42:32: Actual: The snmpuser BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB is listed 
+
+2017-09-05 16:42:31: Expect: To list snmpuser BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+
+2017-09-05 16:42:31: Actual: The snmpuser b is listed 
+
+2017-09-05 16:42:31: Expect: To list snmpuser b
+
+2017-09-05 16:42:31: To list specify snmpuser 
+
+2017-09-05 16:42:31: Actual: 
+{"priv_passwd": "11111111", "permission": "READ_ONLY", "type": "SNMP", "engine_id": "0x80001f88807c16905d22b7ad5900000000", "auth": "MD5", "auth_passwd": "11111111", "id": "b", "priv": "DES"}
+{"priv_passwd": "1111111111111111111111111111111", "permission": "READ_ONLY", "type": "SNMP", "engine_id": "0x80001f88807c16905d22b7ad5900000000", "auth": "MD5", "auth_passwd": "1111111111111111111111111111111", "id": "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB", "priv": "AES"}
+{"priv_passwd": "aaaaaaaaa", "permission": "READ_ONLY", "type": "SNMP", "engine_id": "0x80001f88807c16905d22b7ad5900000000", "auth": "SHA", "auth_passwd": "@@@@@@@@@", "id": "1T", "priv": "DES"}
+{"priv_passwd": "******************************", "permission": "READ_ONLY", "type": "SNMP", "engine_id": "0x80001f88807c16905d22b7ad5900000000", "auth": "SHA", "auth_passwd": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb", "id": "test_1", "priv": "AES"}
+
+
+2017-09-05 16:42:31: Expect: list all of snmpuser 
+
+2017-09-05 16:42:31: 'result': 'p'
+2017-09-05 16:42:31: Actual: {"permission": "READ_ONLY", "type": "SNMP", "priv_passwd": "******************************", "auth": "SHA", "auth_passwd": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb", "id": "test_1", "priv": "AES"}
+
+2017-09-05 16:42:31: Expect: {"priv_passwd": "******************************", "auth_passwd": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb", "id": "test_1", "auth": "SHA", "priv": "AES"}
+
+2017-09-05 16:42:31: Actual: {"permission": "READ_ONLY", "type": "SNMP", "priv_passwd": "aaaaaaaaa", "auth": "SHA", "auth_passwd": "@@@@@@@@@", "id": "1T", "priv": "DES"}
+
+2017-09-05 16:42:31: Expect: {"priv_passwd": "aaaaaaaaa", "auth_passwd": "@@@@@@@@@", "id": "1T", "auth": "SHA", "priv": "DES"}
+
+2017-09-05 16:42:31: Actual: {"permission": "READ_ONLY", "type": "SNMP", "priv_passwd": "1111111111111111111111111111111", "auth": "MD5", "auth_passwd": "1111111111111111111111111111111", "id": "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB", "priv": "AES"}
+
+2017-09-05 16:42:31: Expect: {"priv_passwd": "1111111111111111111111111111111", "auth_passwd": "1111111111111111111111111111111", "id": "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB", "auth": "MD5", "priv": "AES"}
+
+2017-09-05 16:42:31: Actual: {"permission": "READ_ONLY", "type": "SNMP", "priv_passwd": "11111111", "auth": "MD5", "auth_passwd": "11111111", "id": "b", "priv": "DES"}
+
+2017-09-05 16:42:31: Expect: {"priv_passwd": "11111111", "auth_passwd": "11111111", "id": "b", "auth": "MD5", "priv": "DES"}
+
+2017-09-05 16:42:31: Add SNMPUser by api 
+
+2017-09-05 16:42:31: 'result': 'p'
+2017-09-05 16:42:31: Actual: user 111111111111111111111111111111 is deleted 
+
+2017-09-05 16:42:25: Expect: To delete user 111111111111111111111111111111
+
+2017-09-05 16:42:25: Actual: user test_name is deleted 
+
+2017-09-05 16:42:18: Expect: To delete user test_name
+
+2017-09-05 16:42:18: Actual: user nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn is deleted 
+
+2017-09-05 16:42:12: Expect: To delete user nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+2017-09-05 16:42:12: Actual: user a is deleted 
+
+2017-09-05 16:42:07: Expect: To delete user a
+
+2017-09-05 16:42:07: Delete user by api 
+
+2017-09-05 16:42:07: 'result': 'p'
+2017-09-05 16:42:07: Actual: {"status": 1, "display_name": "ttttttttttttttttttttttttttttttt", "id": "a", "location": "Local", "privilege": "Super", "email": "a@a.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"}
+
+2017-09-05 16:42:01: Expect: {"status": 1, "privilege": "Super", "display_name": "ttttttttttttttttttttttttttttttt", "email": "a@a.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"}
+
+2017-09-05 16:42:01: Actual: {"status": 1, "display_name": "1", "id": "a", "location": "Local", "privilege": "Power", "email": "1@1.11"}
+
+2017-09-05 16:41:54: Expect: {"status": 1, "privilege": "Power", "display_name": "1", "email": "1@1.11"}
+
+2017-09-05 16:41:54: Actual: {"status": 0, "display_name": "a", "id": "a", "location": "Local", "privilege": "Maintenance", "email": ""}
+
+2017-09-05 16:41:48: Expect: {"status": 0, "privilege": "Maintenance", "display_name": "a", "email": ""}
+
+2017-09-05 16:41:48: Actual: {"status": 0, "display_name": "", "id": "a", "location": "Local", "privilege": "View", "email": ""}
+
+2017-09-05 16:41:43: Expect: {"status": 0, "privilege": "View", "display_name": "", "email": ""}
+
+2017-09-05 16:41:43: Modify user by api 
+
+2017-09-05 16:41:43: 'result': 'p'
+2017-09-05 16:41:43: Actual: The user 111111111111111111111111111111 is listed 
+
+2017-09-05 16:41:43: Expect: To list user 111111111111111111111111111111
+
+2017-09-05 16:41:43: Actual: The user test_name is listed 
+
+2017-09-05 16:41:43: Expect: To list user test_name
+
+2017-09-05 16:41:43: Actual: The user nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn is listed 
+
+2017-09-05 16:41:43: Expect: To list user nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+2017-09-05 16:41:43: Actual: The user a is listed 
+
+2017-09-05 16:41:43: Expect: To list user a
+
+2017-09-05 16:41:43: To list specify user 
+
+2017-09-05 16:41:43: Actual: 
+{"status": 1, "display_name": "Super user", "id": "administrator", "location": "Local", "privilege": "Super", "email": "admin@yourcompany.com"}
+{"status": 1, "display_name": "", "id": "a", "location": "Local", "privilege": "View", "email": ""}
+{"status": 0, "display_name": "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN", "id": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn", "location": "Local", "privilege": "Maintenance", "email": "1@11.11"}
+{"status": 0, "display_name": "111111111111111111111111111111", "id": "test_name", "location": "Local", "privilege": "Power", "email": "a@aa.aac"}
+{"status": 1, "display_name": "123_test", "id": "111111111111111111111111111111", "location": "Local", "privilege": "Super", "email": "1@1.1111111111111111111111111111111111111111111"}
+
+
+2017-09-05 16:41:43: Expect: list all of user 
+
+2017-09-05 16:41:43: 'result': 'p'
+2017-09-05 16:41:43: Actual: {"status": 1, "display_name": "123_test", "id": "111111111111111111111111111111", "location": "Local", "privilege": "Super", "email": "1@1.1111111111111111111111111111111111111111111"}
+
+2017-09-05 16:41:37: Expect: {"status": 1, "display_name": "123_test", "passwd": "ppppppppppppppppppppppppppppppp", "email": "1@1.1111111111111111111111111111111111111111111", "privilege": "Super", "id": "111111111111111111111111111111"}
+
+2017-09-05 16:41:37: Actual: {"status": 0, "display_name": "111111111111111111111111111111", "id": "test_name", "location": "Local", "privilege": "Power", "email": "a@aa.aac"}
+
+2017-09-05 16:41:31: Expect: {"status": 0, "display_name": "111111111111111111111111111111", "passwd": "111111111111111111111111111111", "email": "a@aa.aac", "privilege": "Power", "id": "test_name"}
+
+2017-09-05 16:41:31: Actual: {"status": 0, "display_name": "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN", "id": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn", "location": "Local", "privilege": "Maintenance", "email": "1@11.11"}
+
+2017-09-05 16:41:25: Expect: {"status": 0, "display_name": "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN", "passwd": "pass_word", "email": "1@11.11", "privilege": "Maintenance", "id": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn"}
+
+2017-09-05 16:41:25: Actual: {"status": 1, "display_name": "", "id": "a", "location": "Local", "privilege": "View", "email": ""}
+
+2017-09-05 16:41:22: Expect: {"status": 1, "display_name": "", "passwd": "", "email": "", "privilege": "View", "id": "a"}
+
+2017-09-05 16:41:21: Add user by api 
+
+2017-09-05 16:24:37: 'result': 'p'
+2017-09-05 16:24:37: Actual: DSUser test_name is deleted 
+
+2017-09-05 16:24:34: Expect: To delete DSUser test_name
+
+2017-09-05 16:24:34: Actual: DSUser nnnnnnnnnnnnnnnnnnnnnnnnnnnnnn is deleted 
+
+2017-09-05 16:24:28: Expect: To delete DSUser nnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+2017-09-05 16:24:28: Actual: DSUser a is deleted 
+
+2017-09-05 16:24:28: Expect: To delete DSUser a
+
+2017-09-05 16:24:28: Actual: DSUser 123 is deleted 
+
+2017-09-05 16:24:27: Expect: To delete DSUser 123
+
+2017-09-05 16:24:27: Delete DSUser by api 
+
+2017-09-05 16:24:27: 'result': 'p'
+2017-09-05 16:24:27: Actual: {"status": 0, "display_name": "ttttttttttttttttttttttttttttttt", "telephone": "1111111111111111111111111111111", "group_name": "users", "_uid": 1001, "department": "ppppppppppppppppppppppppppppppp", "user_name": "a", "email": "a@a.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"}
+
+2017-09-05 16:24:23: Expect: {"department": "ppppppppppppppppppppppppppppppp", "phone": "1111111111111111111111111111111", "display_name": "ttttttttttttttttttttttttttttttt", "email": "a@a.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"}
+
+2017-09-05 16:24:23: Actual: {"status": 0, "display_name": "1", "telephone": "111111111111111111111111111111", "group_name": "users", "_uid": 1001, "department": "dddddddddddddddddddddddddddddd", "user_name": "a", "email": "1@1.11"}
+
+2017-09-05 16:24:23: Expect: {"department": "dddddddddddddddddddddddddddddd", "phone": "111111111111111111111111111111", "display_name": "1", "email": "1@1.11"}
+
+2017-09-05 16:24:23: Actual: {"status": 0, "display_name": "a", "telephone": "1", "group_name": "users", "_uid": 1001, "department": "1_d", "user_name": "a", "email": ""}
+
+2017-09-05 16:24:23: Expect: {"department": "1_d", "phone": "1", "display_name": "a", "email": ""}
+
+2017-09-05 16:24:23: Actual: {"status": 0, "display_name": "", "telephone": "", "group_name": "users", "_uid": 1001, "department": "", "user_name": "a", "email": ""}
+
+2017-09-05 16:24:23: Expect: {"department": "", "phone": "", "display_name": "", "email": ""}
+
+2017-09-05 16:24:23: Modify DSUser by api 
+
+2017-09-05 16:24:23: 'result': 'p'
+2017-09-05 16:24:23: Actual: The DSUser 123 is listed 
+
+2017-09-05 16:24:23: Expect: To list DSUser 123
+
+2017-09-05 16:24:23: Actual: The DSUser test_name is listed 
+
+2017-09-05 16:24:23: Expect: To list DSUser test_name
+
+2017-09-05 16:24:23: Actual: The DSUser nnnnnnnnnnnnnnnnnnnnnnnnnnnnnn is listed 
+
+2017-09-05 16:24:23: Expect: To list DSUser nnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+2017-09-05 16:24:23: Actual: The DSUser a is listed 
+
+2017-09-05 16:24:23: Expect: To list DSUser a
+
+2017-09-05 16:24:23: To list specify DSUser 
+
+2017-09-05 16:24:23: Actual: 
+{"dm_type": "LOCAL", "display_name": "mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm", "telephone": "1111111111111111111111111111111", "email": "1@1.1111111111111111111111111111111111111111111", "_uid": 1004, "department": "ppppppppppppppppppppppppppppppp", "id": "123"}
+{"dm_type": "LOCAL", "display_name": "", "telephone": "", "email": "", "_uid": 1001, "department": "", "id": "a"}
+{"dm_type": "LOCAL", "display_name": "display_name1", "telephone": "1", "email": "1@11.11", "_uid": 1002, "department": "1_d", "id": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnn"}
+{"dm_type": "LOCAL", "display_name": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnn", "telephone": "111111111111111111111111111111", "email": "a@aa.aac", "_uid": 1003, "department": "dddddddddddddddddddddddddddddd", "id": "test_name"}
+
+
+2017-09-05 16:24:23: Expect: list all of DSUser 
+
+2017-09-05 16:24:23: 'result': 'p'
+2017-09-05 16:24:23: Actual: {"status": 0, "display_name": "mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm", "telephone": "1111111111111111111111111111111", "group_name": "users", "_uid": 1004, "department": "ppppppppppppppppppppppppppppppp", "user_name": "123", "email": "1@1.1111111111111111111111111111111111111111111"}
+
+2017-09-05 16:24:23: Expect: {"display_name": "mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm", "email": "1@1.1111111111111111111111111111111111111111111", "phone": "1111111111111111111111111111111", "department": "ppppppppppppppppppppppppppppppp", "password": "wwwwwwwwwwwwwwww", "id": "123"}
+
+2017-09-05 16:24:23: Actual: {"status": 0, "display_name": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnn", "telephone": "111111111111111111111111111111", "group_name": "users", "_uid": 1003, "department": "dddddddddddddddddddddddddddddd", "user_name": "test_name", "email": "a@aa.aac"}
+
+2017-09-05 16:24:23: Expect: {"display_name": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnn", "email": "a@aa.aac", "phone": "111111111111111111111111111111", "department": "dddddddddddddddddddddddddddddd", "password": "ppppppppppppppp", "id": "test_name"}
+
+2017-09-05 16:24:23: Actual: {"status": 0, "display_name": "display_name1", "telephone": "1", "group_name": "users", "_uid": 1002, "department": "1_d", "user_name": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnn", "email": "1@11.11"}
+
+2017-09-05 16:24:22: Expect: {"display_name": "display_name1", "email": "1@11.11", "phone": "1", "department": "1_d", "password": "1111111", "id": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnn"}
+
+2017-09-05 16:24:22: Actual: {"status": 0, "display_name": "", "telephone": "", "group_name": "users", "_uid": 1001, "department": "", "user_name": "a", "email": ""}
+
+2017-09-05 16:24:20: Expect: {"display_name": "", "email": "", "phone": "", "department": "", "password": "111111", "id": "a"}
+
+2017-09-05 16:24:20: Add DSUser by api 
+
+2017-09-05 16:24:20: 'result': 'p'
+2017-09-05 16:24:20: Actual: snmpuser test_1 is deleted 
+
+2017-09-05 16:24:19: Expect: To delete snmpuser test_1
+
+2017-09-05 16:24:19: Actual: snmpuser 1T is deleted 
+
+2017-09-05 16:24:19: Expect: To delete snmpuser 1T
+
+2017-09-05 16:24:19: Actual: snmpuser BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB is deleted 
+
+2017-09-05 16:24:19: Expect: To delete snmpuser BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+
+2017-09-05 16:24:19: Actual: snmpuser b is deleted 
+
+2017-09-05 16:24:19: Expect: To delete snmpuser b
+
+2017-09-05 16:24:19: Delete SNMPUser by api 
+
+2017-09-05 16:24:19: 'result': 'p'
+2017-09-05 16:24:19: Actual: {"permission": "READ_ONLY", "type": "SNMP", "priv_passwd": "ttttttttttttttttttttttttttttttt", "auth": "SHA", "auth_passwd": "ttttttttttttttttttttttttttttttt", "id": "b", "priv": "AES"}
+
+2017-09-05 16:24:19: Expect: {"priv_passwd": "ttttttttttttttttttttttttttttttt", "auth_passwd": "ttttttttttttttttttttttttttttttt", "id": "b", "auth": "SHA", "priv": "AES"}
+
+2017-09-05 16:24:19: Actual: {"permission": "READ_ONLY", "type": "SNMP", "priv_passwd": "ttttttttttttttttttttttttttttttt", "auth": "SHA", "auth_passwd": "ttttttttttttttttttttttttttttttt", "id": "b", "priv": "DES"}
+
+2017-09-05 16:24:19: Expect: {"priv_passwd": "ttttttttttttttttttttttttttttttt", "auth_passwd": "ttttttttttttttttttttttttttttttt", "id": "b", "auth": "SHA", "priv": "DES"}
+
+2017-09-05 16:24:19: Actual: {"permission": "READ_ONLY", "type": "SNMP", "priv_passwd": "aaaaaaaa", "auth": "MD5", "auth_passwd": "aaaaaaaa", "id": "b", "priv": "AES"}
+
+2017-09-05 16:24:19: Expect: {"priv_passwd": "aaaaaaaa", "auth_passwd": "aaaaaaaa", "id": "b", "auth": "MD5", "priv": "AES"}
+
+2017-09-05 16:24:19: Actual: {"permission": "READ_ONLY", "type": "SNMP", "priv_passwd": "aaaaaaaa", "auth": "MD5", "auth_passwd": "aaaaaaaa", "id": "b", "priv": "DES"}
+
+2017-09-05 16:24:18: Expect: {"priv_passwd": "aaaaaaaa", "auth_passwd": "aaaaaaaa", "id": "b", "auth": "MD5", "priv": "DES"}
+
+2017-09-05 16:24:18: Modify SNMPUser by api 
+
+2017-09-05 16:24:18: 'result': 'p'
+2017-09-05 16:24:18: Actual: The snmpuser test_1 is listed 
+
+2017-09-05 16:24:18: Expect: To list snmpuser test_1
+
+2017-09-05 16:24:18: Actual: The snmpuser 1T is listed 
+
+2017-09-05 16:24:18: Expect: To list snmpuser 1T
+
+2017-09-05 16:24:18: Actual: The snmpuser BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB is listed 
+
+2017-09-05 16:24:18: Expect: To list snmpuser BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+
+2017-09-05 16:24:18: Actual: The snmpuser b is listed 
+
+2017-09-05 16:24:18: Expect: To list snmpuser b
+
+2017-09-05 16:24:18: To list specify snmpuser 
+
+2017-09-05 16:24:18: Actual: 
+{"priv_passwd": "11111111", "permission": "READ_ONLY", "type": "SNMP", "engine_id": "0x80001f88802cd2c356f6b2ad5900000000", "auth": "MD5", "auth_passwd": "11111111", "id": "b", "priv": "DES"}
+{"priv_passwd": "1111111111111111111111111111111", "permission": "READ_ONLY", "type": "SNMP", "engine_id": "0x80001f88802cd2c356f6b2ad5900000000", "auth": "MD5", "auth_passwd": "1111111111111111111111111111111", "id": "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB", "priv": "AES"}
+{"priv_passwd": "aaaaaaaaa", "permission": "READ_ONLY", "type": "SNMP", "engine_id": "0x80001f88802cd2c356f6b2ad5900000000", "auth": "SHA", "auth_passwd": "@@@@@@@@@", "id": "1T", "priv": "DES"}
+{"priv_passwd": "******************************", "permission": "READ_ONLY", "type": "SNMP", "engine_id": "0x80001f88802cd2c356f6b2ad5900000000", "auth": "SHA", "auth_passwd": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb", "id": "test_1", "priv": "AES"}
+
+
+2017-09-05 16:24:18: Expect: list all of snmpuser 
+
+2017-09-05 16:24:18: 'result': 'p'
+2017-09-05 16:24:18: Actual: {"permission": "READ_ONLY", "type": "SNMP", "priv_passwd": "******************************", "auth": "SHA", "auth_passwd": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb", "id": "test_1", "priv": "AES"}
+
+2017-09-05 16:24:18: Expect: {"priv_passwd": "******************************", "auth_passwd": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb", "id": "test_1", "auth": "SHA", "priv": "AES"}
+
+2017-09-05 16:24:18: Actual: {"permission": "READ_ONLY", "type": "SNMP", "priv_passwd": "aaaaaaaaa", "auth": "SHA", "auth_passwd": "@@@@@@@@@", "id": "1T", "priv": "DES"}
+
+2017-09-05 16:24:18: Expect: {"priv_passwd": "aaaaaaaaa", "auth_passwd": "@@@@@@@@@", "id": "1T", "auth": "SHA", "priv": "DES"}
+
+2017-09-05 16:24:18: Actual: {"permission": "READ_ONLY", "type": "SNMP", "priv_passwd": "1111111111111111111111111111111", "auth": "MD5", "auth_passwd": "1111111111111111111111111111111", "id": "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB", "priv": "AES"}
+
+2017-09-05 16:24:18: Expect: {"priv_passwd": "1111111111111111111111111111111", "auth_passwd": "1111111111111111111111111111111", "id": "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB", "auth": "MD5", "priv": "AES"}
+
+2017-09-05 16:24:18: Actual: {"permission": "READ_ONLY", "type": "SNMP", "priv_passwd": "11111111", "auth": "MD5", "auth_passwd": "11111111", "id": "b", "priv": "DES"}
+
+2017-09-05 16:24:18: Expect: {"priv_passwd": "11111111", "auth_passwd": "11111111", "id": "b", "auth": "MD5", "priv": "DES"}
+
+2017-09-05 16:24:18: Add SNMPUser by api 
+
+2017-09-05 16:24:18: 'result': 'p'
+2017-09-05 16:24:18: Actual: user 111111111111111111111111111111 is deleted 
+
+2017-09-05 16:24:16: Expect: To delete user 111111111111111111111111111111
+
+2017-09-05 16:24:16: Actual: user test_name is deleted 
+
+2017-09-05 16:24:13: Expect: To delete user test_name
+
+2017-09-05 16:24:13: Actual: user nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn is deleted 
+
+2017-09-05 16:24:11: Expect: To delete user nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+2017-09-05 16:24:11: Actual: user a is deleted 
+
+2017-09-05 16:24:09: Expect: To delete user a
+
+2017-09-05 16:24:09: Delete user by api 
+
+2017-09-05 16:24:09: 'result': 'p'
+2017-09-05 16:24:09: Actual: {"status": 1, "display_name": "ttttttttttttttttttttttttttttttt", "id": "a", "location": "Local", "privilege": "Super", "email": "a@a.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"}
+
+2017-09-05 16:24:07: Expect: {"status": 1, "privilege": "Super", "display_name": "ttttttttttttttttttttttttttttttt", "email": "a@a.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"}
+
+2017-09-05 16:24:07: Actual: {"status": 1, "display_name": "1", "id": "a", "location": "Local", "privilege": "Power", "email": "1@1.11"}
+
+2017-09-05 16:24:05: Expect: {"status": 1, "privilege": "Power", "display_name": "1", "email": "1@1.11"}
+
+2017-09-05 16:24:05: Actual: {"status": 0, "display_name": "a", "id": "a", "location": "Local", "privilege": "Maintenance", "email": ""}
+
+2017-09-05 16:24:03: Expect: {"status": 0, "privilege": "Maintenance", "display_name": "a", "email": ""}
+
+2017-09-05 16:24:03: Actual: {"status": 0, "display_name": "", "id": "a", "location": "Local", "privilege": "View", "email": ""}
+
+2017-09-05 16:24:00: Expect: {"status": 0, "privilege": "View", "display_name": "", "email": ""}
+
+2017-09-05 16:24:00: Modify user by api 
+
+2017-09-05 16:24:00: 'result': 'f'
+2017-09-05 16:24:00: Fail: To list user 123 is failed
+2017-09-05 16:24:00: Expect: To list user 123
+
+2017-09-05 16:24:00: Actual: The user test_name is listed 
+
+2017-09-05 16:24:00: Expect: To list user test_name
+
+2017-09-05 16:24:00: Actual: The user nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn is listed 
+
+2017-09-05 16:24:00: Expect: To list user nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+2017-09-05 16:24:00: Actual: The user a is listed 
+
+2017-09-05 16:24:00: Expect: To list user a
+
+2017-09-05 16:24:00: To list specify user 
+
+2017-09-05 16:24:00: Fail: The user 123 is not listed
+2017-09-05 16:24:00: Actual: 
+{"status": 1, "display_name": "Super user", "id": "administrator", "location": "Local", "privilege": "Super", "email": "admin@yourcompany.com"}
+{"status": 1, "display_name": "", "id": "a", "location": "Local", "privilege": "View", "email": ""}
+{"status": 0, "display_name": "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN", "id": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn", "location": "Local", "privilege": "Maintenance", "email": "1@11.11"}
+{"status": 0, "display_name": "111111111111111111111111111111", "id": "test_name", "location": "Local", "privilege": "Power", "email": "a@aa.aac"}
+{"status": 1, "display_name": "123_test", "id": "111111111111111111111111111111", "location": "Local", "privilege": "Super", "email": "1@1.1111111111111111111111111111111111111111111"}
+
+
+2017-09-05 16:24:00: Expect: list all of user 
+
+2017-09-05 16:24:00: 'result': 'p'
+2017-09-05 16:24:00: Actual: {"status": 1, "display_name": "123_test", "id": "111111111111111111111111111111", "location": "Local", "privilege": "Super", "email": "1@1.1111111111111111111111111111111111111111111"}
+
+2017-09-05 16:23:58: Expect: {"status": 1, "display_name": "123_test", "passwd": "ppppppppppppppppppppppppppppppp", "email": "1@1.1111111111111111111111111111111111111111111", "privilege": "Super", "id": "111111111111111111111111111111"}
+
+2017-09-05 16:23:58: Actual: {"status": 0, "display_name": "111111111111111111111111111111", "id": "test_name", "location": "Local", "privilege": "Power", "email": "a@aa.aac"}
+
+2017-09-05 16:23:56: Expect: {"status": 0, "display_name": "111111111111111111111111111111", "passwd": "111111111111111111111111111111", "email": "a@aa.aac", "privilege": "Power", "id": "test_name"}
+
+2017-09-05 16:23:56: Actual: {"status": 0, "display_name": "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN", "id": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn", "location": "Local", "privilege": "Maintenance", "email": "1@11.11"}
+
+2017-09-05 16:23:53: Expect: {"status": 0, "display_name": "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN", "passwd": "pass_word", "email": "1@11.11", "privilege": "Maintenance", "id": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn"}
+
+2017-09-05 16:23:53: Actual: {"status": 1, "display_name": "", "id": "a", "location": "Local", "privilege": "View", "email": ""}
+
+2017-09-05 16:23:51: Expect: {"status": 1, "display_name": "", "passwd": "", "email": "", "privilege": "View", "id": "a"}
+
+2017-09-05 16:23:51: Add user by api 
+

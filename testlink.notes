@@ -1,0 +1,29 @@
+Expect: Empty query result, please check input parameters. Pool id=[5] is not existed
+
+Actual: Empty query result, please check input parameters. Pool id=[5] is not existed. (0x4100102)
+
+Expect: [capacity] must between 1GB to 1PB
+
+Actual: Incorrect parameters: [capacity] must between 1GB to 1PB. (0x4100104)
+
+Expect: invalid recsize
+
+Actual: invalid recsize (512b|1kb|2kb|4kb|8kb|16kb|32kb|64kb|128kb|256kb|512kb|1mb)
+
+Expect: invalid sync
+
+Actual: invalid sync (standard|always|disabled)
+
+Expect: invalid logbias
+
+Actual: invalid logbias (latency|throughput)
+
+Expect: invalid compress
+
+Actual: invalid compress (on|off|lzjb|gzip|gzip-1|gzip-2|gzip-3|gzip-4|gzip-5|gzip-6|gzip-7|gzip-8|gzip-9|zle|lz4)
+
+Expect: name contain only alphanumeric characters and underscores
+
+Actual: name contain only alphanumeric characters and underscores
+
+'result': 'p'

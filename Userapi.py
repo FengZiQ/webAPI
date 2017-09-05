@@ -55,7 +55,7 @@ def addUser():
 def getUser():
     Failflag = False
     # test data
-    userId = ['a', 'n'*31, 'test_name', '123']
+    userId = ['a', 'n'*31, 'test_name', '1'*30]
 
     listUserResponse = server.webapi('get', 'user')
     userInfo = json.loads(listUserResponse["text"])
