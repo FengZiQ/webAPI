@@ -1,3 +1,302 @@
+2017-09-08 09:39:57: 'result': 'p'
+2017-09-08 09:39:57: Actual: name contain only alphanumeric characters and underscores
+
+2017-09-08 09:39:57: Expect: name contain only alphanumeric characters and underscores
+
+2017-09-08 09:39:57: Actual: invalid compress (on|off|lzjb|gzip|gzip-1|gzip-2|gzip-3|gzip-4|gzip-5|gzip-6|gzip-7|gzip-8|gzip-9|zle|lz4)
+
+2017-09-08 09:39:57: Expect: invalid compress
+
+2017-09-08 09:39:57: Actual: invalid logbias (latency|throughput)
+
+2017-09-08 09:39:57: Expect: invalid logbias
+
+2017-09-08 09:39:57: Actual: invalid sync (standard|always|disabled)
+
+2017-09-08 09:39:57: Expect: invalid sync
+
+2017-09-08 09:39:57: Actual: invalid recsize (512b|1kb|2kb|4kb|8kb|16kb|32kb|64kb|128kb|256kb|512kb|1mb)
+
+2017-09-08 09:39:56: Expect: invalid recsize
+
+2017-09-08 09:39:56: Actual: Incorrect parameters: [capacity] must between 1GB to 1PB. (0x4100104)
+
+2017-09-08 09:39:56: Expect: [capacity] must between 1GB to 1PB
+
+2017-09-08 09:39:56: Actual: Empty query result, please check input parameters. Pool id=[5] is not existed. (0x4100102)
+
+2017-09-08 09:39:56: Expect: Empty query result, please check input parameters. Pool id=[5] is not existed
+
+2017-09-08 09:39:56: 'result': 'p'
+2017-09-08 09:39:56: Actual: NASShare 23 is deleted 
+
+2017-09-08 09:39:55: Expect: Delete NASShare id is 23
+
+2017-09-08 09:39:55: Actual: NASShare 22 is deleted 
+
+2017-09-08 09:39:53: Expect: Delete NASShare id is 22
+
+2017-09-08 09:39:53: Actual: NASShare 21 is deleted 
+
+2017-09-08 09:39:52: Expect: Delete NASShare id is 21
+
+2017-09-08 09:39:52: Actual: NASShare 20 is deleted 
+
+2017-09-08 09:39:52: Expect: Delete NASShare id is 20
+
+2017-09-08 09:39:52: Actual: NASShare 19 is deleted 
+
+2017-09-08 09:39:51: Expect: Delete NASShare id is 19
+
+2017-09-08 09:39:51: Actual: NASShare 18 is deleted 
+
+2017-09-08 09:39:50: Expect: Delete NASShare id is 18
+
+2017-09-08 09:39:50: Actual: NASShare 17 is deleted 
+
+2017-09-08 09:39:49: Expect: Delete NASShare id is 17
+
+2017-09-08 09:39:49: Actual: NASShare 16 is deleted 
+
+2017-09-08 09:39:48: Expect: Delete NASShare id is 16
+
+2017-09-08 09:39:48: Actual: NASShare 15 is deleted 
+
+2017-09-08 09:39:47: Expect: Delete NASShare id is 15
+
+2017-09-08 09:39:47: Actual: NASShare 14 is deleted 
+
+2017-09-08 09:39:46: Expect: Delete NASShare id is 14
+
+2017-09-08 09:39:46: Actual: NASShare 13 is deleted 
+
+2017-09-08 09:39:45: Expect: Delete NASShare id is 13
+
+2017-09-08 09:39:45: Actual: NASShare 12 is deleted 
+
+2017-09-08 09:39:43: Expect: Delete NASShare id is 12
+
+2017-09-08 09:39:43: Actual: NASShare 11 is deleted 
+
+2017-09-08 09:39:42: Expect: Delete NASShare id is 11
+
+2017-09-08 09:39:42: Actual: NASShare 10 is deleted 
+
+2017-09-08 09:39:41: Expect: Delete NASShare id is 10
+
+2017-09-08 09:39:41: Actual: NASShare 9 is deleted 
+
+2017-09-08 09:39:39: Expect: Delete NASShare id is 9
+
+2017-09-08 09:39:39: Actual: NASShare 8 is deleted 
+
+2017-09-08 09:39:39: Expect: Delete NASShare id is 8
+
+2017-09-08 09:39:39: Actual: NASShare 7 is deleted 
+
+2017-09-08 09:39:38: Expect: Delete NASShare id is 7
+
+2017-09-08 09:39:38: Actual: NASShare 6 is deleted 
+
+2017-09-08 09:39:38: Expect: Delete NASShare id is 6
+
+2017-09-08 09:39:38: Actual: NASShare 5 is deleted 
+
+2017-09-08 09:39:37: Expect: Delete NASShare id is 5
+
+2017-09-08 09:39:37: Actual: NASShare 4 is deleted 
+
+2017-09-08 09:39:36: Expect: Delete NASShare id is 4
+
+2017-09-08 09:39:36: Actual: NASShare 3 is deleted 
+
+2017-09-08 09:39:34: Expect: Delete NASShare id is 3
+
+2017-09-08 09:39:34: Actual: NASShare 2 is deleted 
+
+2017-09-08 09:39:33: Expect: Delete NASShare id is 2
+
+2017-09-08 09:39:33: Actual: NASShare 1 is deleted 
+
+2017-09-08 09:39:32: Expect: Delete NASShare id is 1
+
+2017-09-08 09:39:32: Actual: NASShare 0 is deleted 
+
+2017-09-08 09:39:31: Expect: Delete NASShare id is 0
+
+2017-09-08 09:39:31: To delete NASShare by aip
+2017-09-08 09:39:31: 'result': 'p'
+2017-09-08 09:39:31: Actual: The NASShare id is 23
+
+2017-09-08 09:39:31: Expect: To list NASShare that id is 23
+
+2017-09-08 09:39:31: Actual: The NASShare id is 10
+
+2017-09-08 09:39:31: Expect: To list NASShare that id is 10
+
+2017-09-08 09:39:31: Actual: The NASShare id is 1
+
+2017-09-08 09:39:31: Expect: To list NASShare that id is 1
+
+2017-09-08 09:39:31: To verify parameters: search/page/page_size 
+
+2017-09-08 09:39:31: 'result': 'p'
+2017-09-08 09:39:31: Actual: {"name": "TestName", "total_capacity": 2000000000000}
+
+2017-09-08 09:39:30: Expect: {"capacity": "2TB", "name": "TestName"}
+
+2017-09-08 09:39:30: Actual: {"name": "123455", "total_capacity": 2000000000}
+
+2017-09-08 09:39:29: Expect: {"capacity": "2GB", "name": "123455"}
+
+2017-09-08 09:39:29: Actual: {"name": "name_2", "total_capacity": 2000000000}
+
+2017-09-08 09:39:28: Expect: {"capacity": "2GB", "name": "name_2"}
+
+2017-09-08 09:39:28: Actual: {"name": "n", "total_capacity": 1000000000}
+
+2017-09-08 09:39:27: Expect: {"capacity": "1GB", "name": "n"}
+
+2017-09-08 09:39:27: To modify NASShare by api
+
+2017-09-08 09:39:27: 'result': 'p'
+2017-09-08 09:39:27: Actual: Un-Mounted
+
+2017-09-08 09:39:27: Expect: unmount
+
+2017-09-08 09:39:27: Actual: Mounted
+
+2017-09-08 09:39:26: Expect: mount
+
+2017-09-08 09:39:26: Actual: Un-Mounted
+
+2017-09-08 09:39:26: Expect: unmount
+
+2017-09-08 09:39:26: Actual: Un-Mounted
+
+2017-09-08 09:39:26: Expect: unmount
+
+2017-09-08 09:39:26: Actual: Mounted
+
+2017-09-08 09:39:21: Expect: mount
+
+2017-09-08 09:39:21: Actual: Un-Mounted
+
+2017-09-08 09:39:21: Expect: unmount
+
+2017-09-08 09:39:21: Actual: Mounted
+
+2017-09-08 09:39:21: Expect: mount
+
+2017-09-08 09:39:21: Actual: Mounted
+
+2017-09-08 09:39:20: Expect: mount
+
+2017-09-08 09:39:20: Mount/Un-mount NASShare by api 
+
+2017-09-08 09:39:20: 'result': 'f'
+2017-09-08 09:39:20: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_24", "logbias": "throughput", "compress": "lz4", "sync": "disabled", "pool_id": 0}
+
+2017-09-08 09:39:19: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_2e", "logbias": "throughput", "compress": "zle", "sync": "disabled", "pool_id": 0}
+
+2017-09-08 09:39:19: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_29", "logbias": "throughput", "compress": "gzip-9", "sync": "disabled", "pool_id": 0}
+
+2017-09-08 09:39:18: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_21", "logbias": "throughput", "compress": "gzip-1", "sync": "disabled", "pool_id": 0}
+
+2017-09-08 09:39:18: Fail: parameters 999999668224 != 1000000000000
+2017-09-08 09:39:18: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "1 MB", "ratio": "1.00x", "name": "testNASShare_2p", "total_capacity": 999999668224, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "gzip", "sync": "disabled", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 19}
+
+2017-09-08 09:39:18: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_2p", "logbias": "throughput", "compress": "gzip", "sync": "disabled", "pool_id": 0}
+
+2017-09-08 09:39:18: Fail: parameters 999999668224 != 1000000000000
+2017-09-08 09:39:18: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "1 MB", "ratio": "1.00x", "name": "testNASShare_2b", "total_capacity": 999999668224, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "lzjb", "sync": "disabled", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 18}
+
+2017-09-08 09:39:17: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_2b", "logbias": "throughput", "compress": "lzjb", "sync": "disabled", "pool_id": 0}
+
+2017-09-08 09:39:17: Fail: parameters 999999668224 != 1000000000000
+2017-09-08 09:39:17: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "1 MB", "ratio": "1.00x", "name": "testNASShare_2n", "total_capacity": 999999668224, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "on", "sync": "disabled", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 17}
+
+2017-09-08 09:39:17: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_2n", "logbias": "throughput", "compress": "on", "sync": "disabled", "pool_id": 0}
+
+2017-09-08 09:39:17: Fail: parameters 999999668224 != 1000000000000
+2017-09-08 09:39:17: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "1 MB", "ratio": "1.00x", "name": "testNASShare_2f", "total_capacity": 999999668224, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "off", "sync": "disabled", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 16}
+
+2017-09-08 09:39:16: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_2f", "logbias": "throughput", "compress": "off", "sync": "disabled", "pool_id": 0}
+
+2017-09-08 09:39:16: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testNASShare_14", "total_capacity": 2000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "lz4", "sync": "standard", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 15}
+
+2017-09-08 09:39:16: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_14", "logbias": "throughput", "compress": "lz4", "sync": "standard", "pool_id": 0}
+
+2017-09-08 09:39:16: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testNASShare_1e", "total_capacity": 2000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "zle", "sync": "standard", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 14}
+
+2017-09-08 09:39:15: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_1e", "logbias": "throughput", "compress": "zle", "sync": "standard", "pool_id": 0}
+
+2017-09-08 09:39:15: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testNASShare_19", "total_capacity": 2000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "gzip-9", "sync": "standard", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 13}
+
+2017-09-08 09:39:15: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_19", "logbias": "throughput", "compress": "gzip-9", "sync": "standard", "pool_id": 0}
+
+2017-09-08 09:39:15: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testNASShare_11", "total_capacity": 2000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "gzip-1", "sync": "standard", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 12}
+
+2017-09-08 09:39:14: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_11", "logbias": "throughput", "compress": "gzip-1", "sync": "standard", "pool_id": 0}
+
+2017-09-08 09:39:14: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testNASShare_1p", "total_capacity": 2000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "gzip", "sync": "standard", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 11}
+
+2017-09-08 09:39:13: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_1p", "logbias": "throughput", "compress": "gzip", "sync": "standard", "pool_id": 0}
+
+2017-09-08 09:39:13: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testNASShare_1b", "total_capacity": 2000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "lzjb", "sync": "standard", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 10}
+
+2017-09-08 09:39:13: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_1b", "logbias": "throughput", "compress": "lzjb", "sync": "standard", "pool_id": 0}
+
+2017-09-08 09:39:13: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testNASShare_1n", "total_capacity": 2000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "on", "sync": "standard", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 9}
+
+2017-09-08 09:39:12: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_1n", "logbias": "throughput", "compress": "on", "sync": "standard", "pool_id": 0}
+
+2017-09-08 09:39:12: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testNASShare_1f", "total_capacity": 2000000000, "perm_edit": "Ready", "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "off", "sync": "standard", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 8}
+
+2017-09-08 09:39:12: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_1f", "logbias": "throughput", "compress": "off", "sync": "standard", "pool_id": 0}
+
+2017-09-08 09:39:12: Fail: parameters 999948288 != 1000000000
+2017-09-08 09:39:12: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testNASShare_04", "total_capacity": 999948288, "perm_edit": "Ready", "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "lz4", "sync": "always", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 7}
+
+2017-09-08 09:39:11: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_04", "logbias": "latency", "compress": "lz4", "sync": "always", "pool_id": 0}
+
+2017-09-08 09:39:11: Fail: parameters 999948288 != 1000000000
+2017-09-08 09:39:11: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testNASShare_0e", "total_capacity": 999948288, "perm_edit": "Ready", "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "zle", "sync": "always", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 6}
+
+2017-09-08 09:39:11: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_0e", "logbias": "latency", "compress": "zle", "sync": "always", "pool_id": 0}
+
+2017-09-08 09:39:11: Fail: parameters 999948288 != 1000000000
+2017-09-08 09:39:11: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testNASShare_09", "total_capacity": 999948288, "perm_edit": "Ready", "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "gzip-9", "sync": "always", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 5}
+
+2017-09-08 09:39:10: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_09", "logbias": "latency", "compress": "gzip-9", "sync": "always", "pool_id": 0}
+
+2017-09-08 09:39:10: Fail: parameters 999948288 != 1000000000
+2017-09-08 09:39:10: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testNASShare_01", "total_capacity": 999948288, "perm_edit": "Ready", "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "gzip-1", "sync": "always", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 4}
+
+2017-09-08 09:39:10: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_01", "logbias": "latency", "compress": "gzip-1", "sync": "always", "pool_id": 0}
+
+2017-09-08 09:39:10: Fail: parameters 999948288 != 1000000000
+2017-09-08 09:39:10: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testNASShare_0p", "total_capacity": 999948288, "perm_edit": "Ready", "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "gzip", "sync": "always", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 3}
+
+2017-09-08 09:39:09: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_0p", "logbias": "latency", "compress": "gzip", "sync": "always", "pool_id": 0}
+
+2017-09-08 09:39:09: Fail: parameters 999948288 != 1000000000
+2017-09-08 09:39:09: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testNASShare_0b", "total_capacity": 999948288, "perm_edit": "Ready", "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "lzjb", "sync": "always", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 2}
+
+2017-09-08 09:39:09: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_0b", "logbias": "latency", "compress": "lzjb", "sync": "always", "pool_id": 0}
+
+2017-09-08 09:39:09: Fail: parameters 999948288 != 1000000000
+2017-09-08 09:39:09: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testNASShare_0n", "total_capacity": 999948288, "perm_edit": "Ready", "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "on", "sync": "always", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 1}
+
+2017-09-08 09:39:08: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_0n", "logbias": "latency", "compress": "on", "sync": "always", "pool_id": 0}
+
+2017-09-08 09:39:08: Fail: parameters 999948288 != 1000000000
+2017-09-08 09:39:08: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testNASShare_0f", "total_capacity": 999948288, "perm_edit": "Ready", "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "off", "sync": "always", "qt_edit": "Ready", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "266.81 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 0}
+
+2017-09-08 09:39:08: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_0f", "logbias": "latency", "compress": "off", "sync": "always", "pool_id": 0}
+
+2017-09-08 09:39:08: To add NASShare by api 
+
 2017-09-05 16:43:34: 'result': 'p'
 2017-09-05 16:43:34: Actual: name contain only alphanumeric characters and underscores
 

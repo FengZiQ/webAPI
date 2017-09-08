@@ -82,7 +82,7 @@ def NASShareApiPost():
             tolog('Expect: ' + json.dumps(expectResult) + '\r\n')
             server.webapi('post', 'nasshare', expectResult)
 
-            check = server.webapi('get', 'nasshare')
+            check = server.webapi('get', 'nasshare?page=1&page_size=50')
             result = json.loads(check["text"])
 
             for r in result:
