@@ -241,12 +241,11 @@ def NASShareApiDelete():
             if r["id"] == i:
                 Failflag = True
                 tolog('Fail: NASShare ' + str(i) + ' is not deleted')
-        if not Failflag:
-            tolog('Actual: NASShare ' + str(i) + ' is deleted \r\n')
 
     if Failflag:
         tolog(Fail)
     else:
+        tolog('Actual: NASShare ' + str(i) + ' is deleted \r\n')
         tolog(Pass)
 
 def NASShareApiFailedTest():
@@ -302,9 +301,9 @@ def NASShareApiFailedTest():
 
 
 if __name__ == '__main__':
-    NASShareApiPost()
-    NASShareApiMountAndUnmount()
-    NASShareApiModify()
-    NASShareApiList()
+    # NASShareApiPost()
+    # NASShareApiMountAndUnmount()
+    # NASShareApiModify()
+    # NASShareApiList()
     NASShareApiDelete()
-    NASShareApiFailedTest()
+    # NASShareApiFailedTest()
