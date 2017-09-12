@@ -4,6 +4,7 @@
 from remote import server
 import json
 from to_log import tolog
+import time
 
 Pass = "'result': 'p'"
 Fail = "'result': 'f'"
@@ -28,33 +29,47 @@ def findPlId():
             pdId.append(pd['id'])
 
     # to create pool
-    plId = None
-    createPool = server.webapi('post', 'pool', {
-            'name': 'testVolumeApi',
+    plId = []
+    createPool1 = server.webapi('post', 'pool', {
+            'name': 'testVolumeApi1',
             'sector': '512B',
             'raid_level': 'RAID5',
             'force_sync': 0,
             'pds': [pdId[3], pdId[5], pdId[6]]
         })
 
-    if isinstance(createPool, str):
-        tolog(createPool)
+    if isinstance(createPool1, str):
+        tolog(createPool1)
         tolog('Fail: To create pool is failed')
     else:
-        plId = 0
+        plId.append(0)
+
+    createPool2 = server.webapi('post', 'pool', {
+        'name': 'testVolumeApi2',
+        'sector': '512B',
+        'raid_level': 'RAID0',
+        'force_sync': 0,
+        'pds': [pdId[1]]
+    })
+
+    if isinstance(createPool2, str):
+        tolog(createPool2)
+        tolog('Fail: To create pool is failed')
+    else:
+        plId.append(1)
 
     return plId
 
 def addVolume():
     FailFlag = False
-    tolog('add volume by api \r\n')
+    tolog('add volume by api use all of settings \r\n')
 
     # test data
     plId = findPlId()
 
     settingsList = [
         ['n', '12', 'Name_11', '1_name', '1'*31, '2'*32, 'a', '1', 'b'*31, 'T'*32],
-        [plId for i in range(10)],
+        [plId[0] for i in range(10)],
         ['1GB', '2GB', '3GB', '4GB', '5GB', '6GB', '9GB', '10GB', '1TB', '2TB'],
         ['512b', '1kb', '2kb', '4kb', '8kb', '16kb', '32kb', '64kb', '128kb', '512b'],
         ['512b', '1kb', '2kb', '4kb', '512b', '1kb', '2kb', '4kb', '512b', '1kb'],
@@ -99,27 +114,98 @@ def addVolume():
                 tolog('Actual: ' + json.dumps(cr) + '\r\n')
                 if settings["name"] != cr["name"]:
                     FailFlag = True
-                    tolog('Fail: please check out parameter: name')
+                    tolog('Fail: please check out parameter name')
 
                 if settings["pool_id"] != cr["pool_id"]:
                     FailFlag = True
-                    tolog('Fail: please check out parameter: pool_id')
+                    tolog('Fail: please check out parameter pool_id')
 
                 if settings["sync"] != cr["sync"]:
                     FailFlag = True
-                    tolog('Fail: please check out parameter: sync')
+                    tolog('Fail: please check out parameter sync')
 
                 if cr["sector"] != checkpoint[0][i]:
                     FailFlag = True
-                    tolog('Fail: please check out parameter: sector ')
+                    tolog('Fail: please check out parameter sector ')
 
                 if cr["thin_prov"] != checkpoint[1][i]:
                     FailFlag = True
-                    tolog('Fail: please check out parameter: thin_prov')
+                    tolog('Fail: please check out parameter thin_prov')
 
                 if cr["block"] != checkpoint[2][i]:
                     FailFlag = True
-                    tolog('Fail: please check out parameter: block')
+                    tolog('Fail: please check out parameter block')
+
+    tolog('add volume by api use must settings \r\n')
+
+    # test data
+    mustParameters = {
+        "name": 'Must_parameters',
+        "capacity": '1GB',
+        "pool_id": 0
+    }
+
+    defaultValues = {
+        "block": '8 KB',
+        "sector": '512 Bytes',
+        "compress": 'off',
+        "sync": 'always'
+    }
+
+    tolog('Expect: ' + json.dumps(dict(mustParameters.items() + defaultValues.items())) + '\r\n')
+
+    mustsettings = server.webapi('post', 'volume', mustParameters)
+
+    if isinstance(mustsettings, str):
+        FailFlag = True
+        tolog('Fail: ' + mustsettings + '\r\n')
+
+    check2 = server.webapi('get', "volume?page=1&page_size=50&search=name+like+'%Must_parameters%'")
+    checkResult2 = json.loads(check2["text"])[0]
+
+    tolog('Actual: ' + json.dumps(checkResult2) + '\r\n')
+
+    if isinstance(check2, dict):
+        if checkResult2["name"] != mustParameters["name"]:
+            FailFlag = True
+            tolog('Fail: please check out parameter name \r\n')
+
+        if checkResult2["pool_id"] != mustParameters["pool_id"]:
+            FailFlag = True
+            tolog('Fail: please check out parameter pool_id \r\n')
+
+        for key in defaultValues:
+            if key != 'compress':
+                if defaultValues[key] != checkResult2[key]:
+                    FailFlag = True
+                    tolog('Fail: please check out parameter ' + key + '\r\n')
+
+    tolog('Verify parameter: max_capacity \r\n')
+
+    tolog('Expect: To add volume use the max available capacity of pool \r\n')
+
+    result3 = server.webapi('post', 'volume', {
+        "name": 'max_capacity',
+        "max_capacity": 1,
+        "pool_id": 1,
+        "thin_prov": 0
+    })
+
+    check3 = server.webapi('get', "volume?page=1&page_size=50&search=name+like+'%max_capacity%'")
+
+    if isinstance(result3, str):
+        FailFlag = True
+        tolog('Fail: ' + result3 + '\r\n')
+
+    if isinstance(check3, str):
+        FailFlag = True
+        tolog('Fail ' + check3 + '\r\n')
+    else:
+        checkResult3 = json.loads(check3["text"])[0]
+
+        if checkResult3["pool_avail"] != 0:
+            FailFlag = True
+            tolog('Fail: ' + str(checkResult3["pool_avail"]) + '\r\n')
 
     if FailFlag:
         tolog(Fail)
@@ -211,7 +297,103 @@ def exportVolume():
     FailFlag = False
     tolog('Export volume \r\n')
 
+    volumeResponse = server.webapi('get', 'volume/1')
+    volumeInfo = json.loads(volumeResponse["text"])[0]
 
+    if volumeInfo["status"] == "Exported":
+
+        # precondition
+        server.webapiurl('post', 'volume/1', 'unexport')
+        time.sleep(1)
+
+        tolog('Expect: export volume \r\n')
+        result = server.webapiurl('post', 'volume/1', 'export')
+
+        if isinstance(result, str):
+            FailFlag = True
+            tolog('Fail: ' + result + '\r\n')
+
+        check = server.webapi('get', 'volume/1')
+        checkResult = json.loads(check["text"])[0]
+
+        if checkResult["status"] != 'Exported':
+            FailFlag = True
+            tolog('Fail: To export volume is failed\r\n')
+        else:
+            tolog('Actual: volume export successfully \r\n')
+
+    else:
+        tolog('Expect: export volume \r\n')
+        result = server.webapiurl('post', 'volume/1', 'export')
+
+        if isinstance(result, str):
+            FailFlag = True
+            tolog('Fail: ' + result + '\r\n')
+
+        check = server.webapi('get', 'volume/1')
+        checkResult = json.loads(check["text"])[0]
+
+        if checkResult["status"] != 'Exported':
+            FailFlag = True
+            tolog('Fail: To export volume is failed\r\n')
+        else:
+            tolog('Actual: volume export successfully \r\n')
+
+    if FailFlag:
+        tolog(Fail)
+    else:
+        tolog(Pass)
+
+def unexportVolume():
+    FailFlag = False
+    tolog('Un-Export volume \r\n')
+
+    volumeResponse = server.webapi('get', 'volume/1')
+    volumeInfo = json.loads(volumeResponse["text"])[0]
+
+    if volumeInfo["status"] == "Un-Exported":
+
+        # precondition
+        server.webapiurl('post', 'volume/1', 'export')
+        time.sleep(1)
+
+        tolog('Expect: un-export volume \r\n')
+        result = server.webapiurl('post', 'volume/1', 'unexport')
+
+        if isinstance(result, str):
+            FailFlag = True
+            tolog('Fail: ' + result + '\r\n')
+
+        check = server.webapi('get', 'volume/1')
+        checkResult = json.loads(check["text"])[0]
+
+        if checkResult["status"] != 'Un-Exported':
+            FailFlag = True
+            tolog('Fail: To un-export volume is failed\r\n')
+        else:
+            tolog('Actual: volume un-export successfully \r\n')
+
+    else:
+        tolog('Expect: un-export volume \r\n')
+        result = server.webapiurl('post', 'volume/1', 'unexport')
+
+        if isinstance(result, str):
+            FailFlag = True
+            tolog('Fail: ' + result + '\r\n')
+
+        check = server.webapi('get', 'volume/1')
+        checkResult = json.loads(check["text"])[0]
+
+        if checkResult["status"] != 'Un-Exported':
+            FailFlag = True
+            tolog('Fail: To un-export volume is failed\r\n')
+        else:
+            tolog('Actual: un-volume export successfully \r\n')
+
+    if FailFlag:
+        tolog(Fail)
+    else:
+        tolog(Pass)
 
 def deleteVolume():
     FailFlag = False
@@ -251,8 +433,10 @@ def deleteVolume():
 
 
 if __name__ == "__main__":
-    # addVolume()
+    addVolume()
     # listVolume()
-    modifyVolume()
+    # modifyVolume()
+    # exportVolume()
+    # unexportVolume()
     # deleteVolume()
 

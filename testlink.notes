@@ -2158,3 +2158,249 @@ Expect: To modify name 00
 Actual: after modification name is 00
 
 'result': 'p'
+add volume by api 
+
+Expect: {"sector": "512b", "thin_prov": 0, "capacity": "1GB", "name": "n", "quantity": 1, "compress": "on", "pool_id": 0, "block": "512b", "sync": "standard"}
+
+Actual: {"sector": "512 Bytes", "create_date": "2017-09-11 20:35:30", "logbias": "latency", "sync": "standard", "snapshots": [], "_raw_written_capacity": 512, "redundant_md": "all", "id": 0, "ctrl_id": 2, "export_id": 0, "_raw_pool_avail": 512, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 512, "_raw_used_child": 512, "used_capacity": 1000000000, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "2277000155900137", "name": "n", "total_capacity": 1000000000, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 512, "used_child": "0 Byte", "_raw_sector": 512, "pool_avail": "7.34 TB", "written_capacity_value": 8192, "block": "512 Bytes"}
+
+Expect: {"sector": "1kb", "thin_prov": 1, "capacity": "2GB", "name": "12", "quantity": 1, "compress": "off", "pool_id": 0, "block": "1kb", "sync": "always"}
+
+Actual: {"sector": "1 KB", "create_date": "2017-09-11 20:35:31", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 1024, "redundant_md": "all", "id": 1, "ctrl_id": 2, "export_id": 1, "_raw_pool_avail": 1024, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 1024, "_raw_used_child": 1024, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "2221000155f02e63", "name": "12", "total_capacity": 2000000000, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 1024, "used_child": "0 Byte", "_raw_sector": 1024, "pool_avail": "7.34 TB", "written_capacity_value": 8192, "block": "1 KB"}
+
+Expect: {"sector": "2kb", "thin_prov": 0, "capacity": "3GB", "name": "Name_11", "quantity": 1, "compress": "lzjb", "pool_id": 0, "block": "2kb", "sync": "disabled"}
+
+Actual: {"sector": "2 KB", "create_date": "2017-09-11 20:35:31", "logbias": "latency", "sync": "disabled", "snapshots": [], "_raw_written_capacity": 2048, "redundant_md": "all", "id": 2, "ctrl_id": 2, "export_id": 2, "_raw_pool_avail": 2048, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 2048, "_raw_used_child": 2048, "used_capacity": 2999998464, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "229b000155692732", "name": "Name_11", "total_capacity": 2999998464, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 2048, "used_child": "0 Byte", "_raw_sector": 2048, "pool_avail": "7.33 TB", "written_capacity_value": 8192, "block": "2 KB"}
+
+Expect: {"sector": "4kb", "thin_prov": 1, "capacity": "4GB", "name": "1_name", "quantity": 1, "compress": "gzip", "pool_id": 0, "block": "4kb", "sync": "standard"}
+
+Actual: {"sector": "4 KB", "create_date": "2017-09-11 20:35:32", "logbias": "latency", "sync": "standard", "snapshots": [], "_raw_written_capacity": 4096, "redundant_md": "all", "id": 3, "ctrl_id": 2, "export_id": 3, "_raw_pool_avail": 4096, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 4096, "_raw_used_child": 4096, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "224d0001557bf93c", "name": "1_name", "total_capacity": 3999997952, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 4096, "used_child": "0 Byte", "_raw_sector": 4096, "pool_avail": "7.33 TB", "written_capacity_value": 8192, "block": "4 KB"}
+
+Expect: {"sector": "512b", "thin_prov": 0, "capacity": "5GB", "name": "1111111111111111111111111111111", "quantity": 1, "compress": "gzip-1", "pool_id": 0, "block": "8kb", "sync": "always"}
+
+Actual: {"sector": "512 Bytes", "create_date": "2017-09-11 20:35:32", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 8192, "redundant_md": "all", "id": 4, "ctrl_id": 2, "export_id": 4, "_raw_pool_avail": 512, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 8192, "_raw_used_child": 8192, "used_capacity": 4999995392, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22ee000155e59da9", "name": "1111111111111111111111111111111", "total_capacity": 4999995392, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 512, "used_child": "0 Byte", "_raw_sector": 512, "pool_avail": "7.33 TB", "written_capacity_value": 8192, "block": "8 KB"}
+
+Expect: {"sector": "1kb", "thin_prov": 1, "capacity": "6GB", "name": "22222222222222222222222222222222", "quantity": 1, "compress": "gzip-2", "pool_id": 0, "block": "16kb", "sync": "disabled"}
+
+Actual: {"sector": "1 KB", "create_date": "2017-09-11 20:35:33", "logbias": "latency", "sync": "disabled", "snapshots": [], "_raw_written_capacity": 16384, "redundant_md": "all", "id": 5, "ctrl_id": 2, "export_id": 5, "_raw_pool_avail": 1024, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 16384, "_raw_used_child": 16384, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22b800015585b2fd", "name": "22222222222222222222222222222222", "total_capacity": 5999984640, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 1024, "used_child": "0 Byte", "_raw_sector": 1024, "pool_avail": "7.33 TB", "written_capacity_value": 8192, "block": "16 KB"}
+
+Expect: {"sector": "2kb", "thin_prov": 0, "capacity": "9GB", "name": "a", "quantity": 1, "compress": "gzip-8", "pool_id": 0, "block": "32kb", "sync": "standard"}
+
+Actual: {"sector": "2 KB", "create_date": "2017-09-11 20:35:33", "logbias": "latency", "sync": "standard", "snapshots": [], "_raw_written_capacity": 32768, "redundant_md": "all", "id": 6, "ctrl_id": 2, "export_id": 6, "_raw_pool_avail": 2048, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 32768, "_raw_used_child": 32768, "used_capacity": 8999993344, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22020001551cbbac", "name": "a", "total_capacity": 8999993344, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 2048, "used_child": "0 Byte", "_raw_sector": 2048, "pool_avail": "7.32 TB", "written_capacity_value": 8192, "block": "32 KB"}
+
+Expect: {"sector": "4kb", "thin_prov": 1, "capacity": "10GB", "name": "1", "quantity": 1, "compress": "gzip-9", "pool_id": 0, "block": "64kb", "sync": "always"}
+
+Actual: {"sector": "4 KB", "create_date": "2017-09-11 20:35:34", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 65536, "redundant_md": "all", "id": 7, "ctrl_id": 2, "export_id": 7, "_raw_pool_avail": 4096, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 65536, "_raw_used_child": 65536, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22d400015552c431", "name": "1", "total_capacity": 9999941632, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 4096, "used_child": "0 Byte", "_raw_sector": 4096, "pool_avail": "7.32 TB", "written_capacity_value": 8192, "block": "64 KB"}
+
+Expect: {"sector": "512b", "thin_prov": 0, "capacity": "1TB", "name": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb", "quantity": 1, "compress": "zle", "pool_id": 0, "block": "128kb", "sync": "disabled"}
+
+Actual: {"sector": "512 Bytes", "create_date": "2017-09-11 20:35:35", "logbias": "latency", "sync": "disabled", "snapshots": [], "_raw_written_capacity": 131072, "redundant_md": "all", "id": 8, "ctrl_id": 2, "export_id": 8, "_raw_pool_avail": 512, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 131072, "_raw_used_child": 131072, "used_capacity": 999999930368, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "2285000155d55348", "name": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb", "total_capacity": 999999930368, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 512, "used_child": "0 Byte", "_raw_sector": 512, "pool_avail": "6.29 TB", "written_capacity_value": 8192, "block": "128 KB"}
+
+Expect: {"sector": "1kb", "thin_prov": 1, "capacity": "2TB", "name": "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT", "quantity": 1, "compress": "lz4", "pool_id": 0, "block": "512b", "sync": "always"}
+
+Actual: {"sector": "1 KB", "create_date": "2017-09-11 20:35:36", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 512, "redundant_md": "all", "id": 9, "ctrl_id": 2, "export_id": 9, "_raw_pool_avail": 1024, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 512, "_raw_used_child": 512, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22530001557ece60", "name": "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT", "total_capacity": 2000000000000, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 1024, "used_child": "0 Byte", "_raw_sector": 1024, "pool_avail": "6.29 TB", "written_capacity_value": 8192, "block": "512 Bytes"}
+
+'result': 'p'
+Export volume 
+
+Expect: export volume 
+
+Actual: volume export successfully 
+
+'result': 'p'
+Export volume 
+
+Expect: export volume 
+
+Actual: volume export successfully 
+
+'result': 'p'
+Export volume 
+
+Expect: export volume 
+
+Actual: volume export successfully 
+
+'result': 'p'
+Export volume 
+
+Expect: export volume(volume 1 status is Exported) 
+
+Actual: volume export successfully 
+
+'result': 'p'
+Export volume 
+
+Expect: export volume(volume 1 status is Exported) 
+
+Actual: volume export successfully 
+
+'result': 'p'
+Export volume 
+
+Expect: export volume(volume 1 status is Un-Exported 
+
+Actual: volume export successfully 
+
+'result': 'p'
+Un-Export volume 
+
+Expect: un-export volume 
+
+Actual: un-volume export successfully 
+
+'result': 'p'
+add volume by api use all of settings 
+
+Expect: {"sector": "512b", "thin_prov": 0, "capacity": "1GB", "name": "n", "quantity": 1, "compress": "on", "pool_id": 0, "block": "512b", "sync": "standard"}
+
+Actual: {"sector": "512 Bytes", "create_date": "2017-09-11 22:02:06", "logbias": "latency", "sync": "standard", "snapshots": [], "_raw_written_capacity": 512, "redundant_md": "all", "id": 0, "ctrl_id": 2, "export_id": 0, "_raw_pool_avail": 512, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 512, "_raw_used_child": 512, "used_capacity": 1000000000, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "222b000155d24d79", "name": "n", "total_capacity": 1000000000, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 512, "used_child": "0 Byte", "_raw_sector": 512, "pool_avail": "7.34 TB", "written_capacity_value": 8192, "block": "512 Bytes"}
+
+Expect: {"sector": "1kb", "thin_prov": 1, "capacity": "2GB", "name": "12", "quantity": 1, "compress": "off", "pool_id": 0, "block": "1kb", "sync": "always"}
+
+Actual: {"sector": "1 KB", "create_date": "2017-09-11 22:02:07", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 1024, "redundant_md": "all", "id": 1, "ctrl_id": 2, "export_id": 1, "_raw_pool_avail": 1024, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 1024, "_raw_used_child": 1024, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "227d000155b2622d", "name": "12", "total_capacity": 2000000000, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 1024, "used_child": "0 Byte", "_raw_sector": 1024, "pool_avail": "7.34 TB", "written_capacity_value": 8192, "block": "1 KB"}
+
+Expect: {"sector": "2kb", "thin_prov": 0, "capacity": "3GB", "name": "Name_11", "quantity": 1, "compress": "lzjb", "pool_id": 0, "block": "2kb", "sync": "disabled"}
+
+Actual: {"sector": "2 KB", "create_date": "2017-09-11 22:02:07", "logbias": "latency", "sync": "disabled", "snapshots": [], "_raw_written_capacity": 2048, "redundant_md": "all", "id": 2, "ctrl_id": 2, "export_id": 2, "_raw_pool_avail": 2048, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 2048, "_raw_used_child": 2048, "used_capacity": 2999998464, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22c70001552b6b7c", "name": "Name_11", "total_capacity": 2999998464, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 2048, "used_child": "0 Byte", "_raw_sector": 2048, "pool_avail": "7.33 TB", "written_capacity_value": 8192, "block": "2 KB"}
+
+Expect: {"sector": "4kb", "thin_prov": 1, "capacity": "4GB", "name": "1_name", "quantity": 1, "compress": "gzip", "pool_id": 0, "block": "4kb", "sync": "standard"}
+
+Actual: {"sector": "4 KB", "create_date": "2017-09-11 22:02:08", "logbias": "latency", "sync": "standard", "snapshots": [], "_raw_written_capacity": 4096, "redundant_md": "all", "id": 3, "ctrl_id": 2, "export_id": 3, "_raw_pool_avail": 4096, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 4096, "_raw_used_child": 4096, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "2293000155a19e8c", "name": "1_name", "total_capacity": 3999997952, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 4096, "used_child": "0 Byte", "_raw_sector": 4096, "pool_avail": "7.33 TB", "written_capacity_value": 8192, "block": "4 KB"}
+
+Expect: {"sector": "512b", "thin_prov": 0, "capacity": "5GB", "name": "1111111111111111111111111111111", "quantity": 1, "compress": "gzip-1", "pool_id": 0, "block": "8kb", "sync": "always"}
+
+Actual: {"sector": "512 Bytes", "create_date": "2017-09-11 22:02:08", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 8192, "redundant_md": "all", "id": 4, "ctrl_id": 2, "export_id": 4, "_raw_pool_avail": 512, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 8192, "_raw_used_child": 8192, "used_capacity": 4999995392, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22300001553ffa19", "name": "1111111111111111111111111111111", "total_capacity": 4999995392, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 512, "used_child": "0 Byte", "_raw_sector": 512, "pool_avail": "7.33 TB", "written_capacity_value": 8192, "block": "8 KB"}
+
+Expect: {"sector": "1kb", "thin_prov": 1, "capacity": "6GB", "name": "22222222222222222222222222222222", "quantity": 1, "compress": "gzip-2", "pool_id": 0, "block": "16kb", "sync": "disabled"}
+
+Actual: {"sector": "1 KB", "create_date": "2017-09-11 22:02:09", "logbias": "latency", "sync": "disabled", "snapshots": [], "_raw_written_capacity": 16384, "redundant_md": "all", "id": 5, "ctrl_id": 2, "export_id": 5, "_raw_pool_avail": 1024, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 16384, "_raw_used_child": 16384, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22660001555fd54d", "name": "22222222222222222222222222222222", "total_capacity": 5999984640, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 1024, "used_child": "0 Byte", "_raw_sector": 1024, "pool_avail": "7.33 TB", "written_capacity_value": 8192, "block": "16 KB"}
+
+Expect: {"sector": "2kb", "thin_prov": 0, "capacity": "9GB", "name": "a", "quantity": 1, "compress": "gzip-8", "pool_id": 0, "block": "32kb", "sync": "standard"}
+
+Actual: {"sector": "2 KB", "create_date": "2017-09-11 22:02:09", "logbias": "latency", "sync": "standard", "snapshots": [], "_raw_written_capacity": 32768, "redundant_md": "all", "id": 6, "ctrl_id": 2, "export_id": 6, "_raw_pool_avail": 2048, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 32768, "_raw_used_child": 32768, "used_capacity": 8999993344, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22dc000155c6dc1c", "name": "a", "total_capacity": 8999993344, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 2048, "used_child": "0 Byte", "_raw_sector": 2048, "pool_avail": "7.32 TB", "written_capacity_value": 8192, "block": "32 KB"}
+
+Expect: {"sector": "4kb", "thin_prov": 1, "capacity": "10GB", "name": "1", "quantity": 1, "compress": "gzip-9", "pool_id": 0, "block": "64kb", "sync": "always"}
+
+Actual: {"sector": "4 KB", "create_date": "2017-09-11 22:02:10", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 65536, "redundant_md": "all", "id": 7, "ctrl_id": 2, "export_id": 7, "_raw_pool_avail": 4096, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 65536, "_raw_used_child": 65536, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "220a00015588a381", "name": "1", "total_capacity": 9999941632, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 4096, "used_child": "0 Byte", "_raw_sector": 4096, "pool_avail": "7.32 TB", "written_capacity_value": 8192, "block": "64 KB"}
+
+Expect: {"sector": "512b", "thin_prov": 0, "capacity": "1TB", "name": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb", "quantity": 1, "compress": "zle", "pool_id": 0, "block": "128kb", "sync": "disabled"}
+
+Actual: {"sector": "512 Bytes", "create_date": "2017-09-11 22:02:10", "logbias": "latency", "sync": "disabled", "snapshots": [], "_raw_written_capacity": 131072, "redundant_md": "all", "id": 8, "ctrl_id": 2, "export_id": 8, "_raw_pool_avail": 512, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 131072, "_raw_used_child": 131072, "used_capacity": 999999930368, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "229b000155181c9c", "name": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb", "total_capacity": 999999930368, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 512, "used_child": "0 Byte", "_raw_sector": 512, "pool_avail": "6.29 TB", "written_capacity_value": 8192, "block": "128 KB"}
+
+Expect: {"sector": "1kb", "thin_prov": 1, "capacity": "2TB", "name": "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT", "quantity": 1, "compress": "lz4", "pool_id": 0, "block": "512b", "sync": "always"}
+
+Actual: {"sector": "1 KB", "create_date": "2017-09-11 22:02:11", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 512, "redundant_md": "all", "id": 9, "ctrl_id": 2, "export_id": 9, "_raw_pool_avail": 1024, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 512, "_raw_used_child": 512, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22cd0001557833c8", "name": "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT", "total_capacity": 2000000000000, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 1024, "used_child": "0 Byte", "_raw_sector": 1024, "pool_avail": "6.29 TB", "written_capacity_value": 8192, "block": "512 Bytes"}
+
+add volume by api use must settings 
+
+Expect: {"sector": "512 Bytes", "capacity": "1GB", "name": "Must_parameters", "compress": "off", "sync": "always", "pool_id": 0, "block": "8 KB"}
+
+Actual: {"sector": "512 Bytes", "create_date": "2017-09-11 22:02:11", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 8192, "redundant_md": "all", "id": 10, "ctrl_id": 2, "export_id": 10, "_raw_pool_avail": 512, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 8192, "_raw_used_child": 8192, "used_capacity": 999997440, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "2277000155e13a99", "name": "Must_parameters", "total_capacity": 999997440, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 512, "used_child": "0 Byte", "_raw_sector": 512, "pool_avail": "6.29 TB", "written_capacity_value": 8192, "block": "8 KB"}
+
+add volume by api use all of settings 
+
+Expect: {"sector": "512b", "thin_prov": 0, "capacity": "1GB", "name": "n", "quantity": 1, "compress": "on", "pool_id": 0, "block": "512b", "sync": "standard"}
+
+Actual: {"sector": "512 Bytes", "create_date": "2017-09-11 22:03:29", "logbias": "latency", "sync": "standard", "snapshots": [], "_raw_written_capacity": 512, "redundant_md": "all", "id": 0, "ctrl_id": 2, "export_id": 0, "_raw_pool_avail": 512, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 512, "_raw_used_child": 512, "used_capacity": 1000000000, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "228e0001554ffe1e", "name": "n", "total_capacity": 1000000000, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 512, "used_child": "0 Byte", "_raw_sector": 512, "pool_avail": "7.34 TB", "written_capacity_value": 8192, "block": "512 Bytes"}
+
+Expect: {"sector": "1kb", "thin_prov": 1, "capacity": "2GB", "name": "12", "quantity": 1, "compress": "off", "pool_id": 0, "block": "1kb", "sync": "always"}
+
+Actual: {"sector": "1 KB", "create_date": "2017-09-11 22:03:29", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 1024, "redundant_md": "all", "id": 1, "ctrl_id": 2, "export_id": 1, "_raw_pool_avail": 1024, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 1024, "_raw_used_child": 1024, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "221800015538f92e", "name": "12", "total_capacity": 2000000000, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 1024, "used_child": "0 Byte", "_raw_sector": 1024, "pool_avail": "7.34 TB", "written_capacity_value": 8192, "block": "1 KB"}
+
+Expect: {"sector": "2kb", "thin_prov": 0, "capacity": "3GB", "name": "Name_11", "quantity": 1, "compress": "lzjb", "pool_id": 0, "block": "2kb", "sync": "disabled"}
+
+Actual: {"sector": "2 KB", "create_date": "2017-09-11 22:03:30", "logbias": "latency", "sync": "disabled", "snapshots": [], "_raw_written_capacity": 2048, "redundant_md": "all", "id": 2, "ctrl_id": 2, "export_id": 2, "_raw_pool_avail": 2048, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 2048, "_raw_used_child": 2048, "used_capacity": 2999998464, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22e20001559888d2", "name": "Name_11", "total_capacity": 2999998464, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 2048, "used_child": "0 Byte", "_raw_sector": 2048, "pool_avail": "7.33 TB", "written_capacity_value": 8192, "block": "2 KB"}
+
+Expect: {"sector": "4kb", "thin_prov": 1, "capacity": "4GB", "name": "1_name", "quantity": 1, "compress": "gzip", "pool_id": 0, "block": "4kb", "sync": "standard"}
+
+Actual: {"sector": "4 KB", "create_date": "2017-09-11 22:03:30", "logbias": "latency", "sync": "standard", "snapshots": [], "_raw_written_capacity": 4096, "redundant_md": "all", "id": 3, "ctrl_id": 2, "export_id": 3, "_raw_pool_avail": 4096, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 4096, "_raw_used_child": 4096, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "2274000155ef8fe2", "name": "1_name", "total_capacity": 3999997952, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 4096, "used_child": "0 Byte", "_raw_sector": 4096, "pool_avail": "7.33 TB", "written_capacity_value": 8192, "block": "4 KB"}
+
+Expect: {"sector": "512b", "thin_prov": 0, "capacity": "5GB", "name": "1111111111111111111111111111111", "quantity": 1, "compress": "gzip-1", "pool_id": 0, "block": "8kb", "sync": "always"}
+
+Actual: {"sector": "512 Bytes", "create_date": "2017-09-11 22:03:31", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 8192, "redundant_md": "all", "id": 4, "ctrl_id": 2, "export_id": 4, "_raw_pool_avail": 512, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 8192, "_raw_used_child": 8192, "used_capacity": 4999995392, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "221700015566c313", "name": "1111111111111111111111111111111", "total_capacity": 4999995392, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 512, "used_child": "0 Byte", "_raw_sector": 512, "pool_avail": "7.33 TB", "written_capacity_value": 8192, "block": "8 KB"}
+
+Expect: {"sector": "1kb", "thin_prov": 1, "capacity": "6GB", "name": "22222222222222222222222222222222", "quantity": 1, "compress": "gzip-2", "pool_id": 0, "block": "16kb", "sync": "disabled"}
+
+Actual: {"sector": "1 KB", "create_date": "2017-09-11 22:03:31", "logbias": "latency", "sync": "disabled", "snapshots": [], "_raw_written_capacity": 16384, "redundant_md": "all", "id": 5, "ctrl_id": 2, "export_id": 5, "_raw_pool_avail": 1024, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 16384, "_raw_used_child": 16384, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "228100015511c423", "name": "22222222222222222222222222222222", "total_capacity": 5999984640, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 1024, "used_child": "0 Byte", "_raw_sector": 1024, "pool_avail": "7.33 TB", "written_capacity_value": 8192, "block": "16 KB"}
+
+Expect: {"sector": "2kb", "thin_prov": 0, "capacity": "9GB", "name": "a", "quantity": 1, "compress": "gzip-8", "pool_id": 0, "block": "32kb", "sync": "standard"}
+
+Actual: {"sector": "2 KB", "create_date": "2017-09-11 22:03:32", "logbias": "latency", "sync": "standard", "snapshots": [], "_raw_written_capacity": 32768, "redundant_md": "all", "id": 6, "ctrl_id": 2, "export_id": 6, "_raw_pool_avail": 2048, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 32768, "_raw_used_child": 32768, "used_capacity": 8999993344, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "227b000155ed144c", "name": "a", "total_capacity": 8999993344, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 2048, "used_child": "0 Byte", "_raw_sector": 2048, "pool_avail": "7.32 TB", "written_capacity_value": 8192, "block": "32 KB"}
+
+Expect: {"sector": "4kb", "thin_prov": 1, "capacity": "10GB", "name": "1", "quantity": 1, "compress": "gzip-9", "pool_id": 0, "block": "64kb", "sync": "always"}
+
+Actual: {"sector": "4 KB", "create_date": "2017-09-11 22:03:33", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 65536, "redundant_md": "all", "id": 7, "ctrl_id": 2, "export_id": 7, "_raw_pool_avail": 4096, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 65536, "_raw_used_child": 65536, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "222d0001558d3b18", "name": "1", "total_capacity": 9999941632, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 4096, "used_child": "0 Byte", "_raw_sector": 4096, "pool_avail": "7.32 TB", "written_capacity_value": 8192, "block": "64 KB"}
+
+Expect: {"sector": "512b", "thin_prov": 0, "capacity": "1TB", "name": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb", "quantity": 1, "compress": "zle", "pool_id": 0, "block": "128kb", "sync": "disabled"}
+
+Actual: {"sector": "512 Bytes", "create_date": "2017-09-11 22:03:33", "logbias": "latency", "sync": "disabled", "snapshots": [], "_raw_written_capacity": 131072, "redundant_md": "all", "id": 8, "ctrl_id": 2, "export_id": 8, "_raw_pool_avail": 512, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 131072, "_raw_used_child": 131072, "used_capacity": 999999930368, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22bc0001551d8405", "name": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb", "total_capacity": 999999930368, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 512, "used_child": "0 Byte", "_raw_sector": 512, "pool_avail": "6.29 TB", "written_capacity_value": 8192, "block": "128 KB"}
+
+Expect: {"sector": "1kb", "thin_prov": 1, "capacity": "2TB", "name": "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT", "quantity": 1, "compress": "lz4", "pool_id": 0, "block": "512b", "sync": "always"}
+
+Actual: {"sector": "1 KB", "create_date": "2017-09-11 22:03:34", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 512, "redundant_md": "all", "id": 9, "ctrl_id": 2, "export_id": 9, "_raw_pool_avail": 1024, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 512, "_raw_used_child": 512, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "226a00015553fb98", "name": "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT", "total_capacity": 2000000000000, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 1024, "used_child": "0 Byte", "_raw_sector": 1024, "pool_avail": "6.29 TB", "written_capacity_value": 8192, "block": "512 Bytes"}
+
+add volume by api use must settings 
+
+Expect: {"sector": "512 Bytes", "capacity": "1GB", "name": "Must_parameters", "compress": "off", "sync": "always", "pool_id": 0, "block": "8 KB"}
+
+Actual: {"sector": "512 Bytes", "create_date": "2017-09-11 22:03:34", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 8192, "redundant_md": "all", "id": 10, "ctrl_id": 2, "export_id": 10, "_raw_pool_avail": 512, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 8192, "_raw_used_child": 8192, "used_capacity": 999997440, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22d0000155caf2c9", "name": "Must_parameters", "total_capacity": 999997440, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 512, "used_child": "0 Byte", "_raw_sector": 512, "pool_avail": "6.29 TB", "written_capacity_value": 8192, "block": "8 KB"}
+
+Verify parameter: max_capacity 
+
+Expect: To add volume use the max available capacity of pool 
+
+add volume by api use all of settings 
+
+Expect: {"sector": "512b", "thin_prov": 0, "capacity": "1GB", "name": "n", "quantity": 1, "compress": "on", "pool_id": 0, "block": "512b", "sync": "standard"}
+
+Actual: {"sector": "512 Bytes", "create_date": "2017-09-11 22:04:37", "logbias": "latency", "sync": "standard", "snapshots": [], "_raw_written_capacity": 512, "redundant_md": "all", "id": 0, "ctrl_id": 2, "export_id": 0, "_raw_pool_avail": 512, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 512, "_raw_used_child": 512, "used_capacity": 1000000000, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "2249000155d911ae", "name": "n", "total_capacity": 1000000000, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 512, "used_child": "0 Byte", "_raw_sector": 512, "pool_avail": "7.34 TB", "written_capacity_value": 8192, "block": "512 Bytes"}
+
+Expect: {"sector": "1kb", "thin_prov": 1, "capacity": "2GB", "name": "12", "quantity": 1, "compress": "off", "pool_id": 0, "block": "1kb", "sync": "always"}
+
+Actual: {"sector": "1 KB", "create_date": "2017-09-11 22:04:38", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 1024, "redundant_md": "all", "id": 1, "ctrl_id": 2, "export_id": 1, "_raw_pool_avail": 1024, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 1024, "_raw_used_child": 1024, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "229f000155976e33", "name": "12", "total_capacity": 2000000000, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 1024, "used_child": "0 Byte", "_raw_sector": 1024, "pool_avail": "7.34 TB", "written_capacity_value": 8192, "block": "1 KB"}
+
+Expect: {"sector": "2kb", "thin_prov": 0, "capacity": "3GB", "name": "Name_11", "quantity": 1, "compress": "lzjb", "pool_id": 0, "block": "2kb", "sync": "disabled"}
+
+Actual: {"sector": "2 KB", "create_date": "2017-09-11 22:04:38", "logbias": "latency", "sync": "disabled", "snapshots": [], "_raw_written_capacity": 2048, "redundant_md": "all", "id": 2, "ctrl_id": 2, "export_id": 2, "_raw_pool_avail": 2048, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 2048, "_raw_used_child": 2048, "used_capacity": 2999998464, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22250001550e6762", "name": "Name_11", "total_capacity": 2999998464, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 2048, "used_child": "0 Byte", "_raw_sector": 2048, "pool_avail": "7.33 TB", "written_capacity_value": 8192, "block": "2 KB"}
+
+Expect: {"sector": "4kb", "thin_prov": 1, "capacity": "4GB", "name": "1_name", "quantity": 1, "compress": "gzip", "pool_id": 0, "block": "4kb", "sync": "standard"}
+
+Actual: {"sector": "4 KB", "create_date": "2017-09-11 22:04:39", "logbias": "latency", "sync": "standard", "snapshots": [], "_raw_written_capacity": 4096, "redundant_md": "all", "id": 3, "ctrl_id": 2, "export_id": 3, "_raw_pool_avail": 4096, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 4096, "_raw_used_child": 4096, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22730001556e4836", "name": "1_name", "total_capacity": 3999997952, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 4096, "used_child": "0 Byte", "_raw_sector": 4096, "pool_avail": "7.33 TB", "written_capacity_value": 8192, "block": "4 KB"}
+
+Expect: {"sector": "512b", "thin_prov": 0, "capacity": "5GB", "name": "1111111111111111111111111111111", "quantity": 1, "compress": "gzip-1", "pool_id": 0, "block": "8kb", "sync": "always"}
+
+Actual: {"sector": "512 Bytes", "create_date": "2017-09-11 22:04:39", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 8192, "redundant_md": "all", "id": 4, "ctrl_id": 2, "export_id": 4, "_raw_pool_avail": 512, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 8192, "_raw_used_child": 8192, "used_capacity": 4999995392, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22d0000155f02ca3", "name": "1111111111111111111111111111111", "total_capacity": 4999995392, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 512, "used_child": "0 Byte", "_raw_sector": 512, "pool_avail": "7.33 TB", "written_capacity_value": 8192, "block": "8 KB"}
+
+Expect: {"sector": "1kb", "thin_prov": 1, "capacity": "6GB", "name": "22222222222222222222222222222222", "quantity": 1, "compress": "gzip-2", "pool_id": 0, "block": "16kb", "sync": "disabled"}
+
+Actual: {"sector": "1 KB", "create_date": "2017-09-11 22:04:40", "logbias": "latency", "sync": "disabled", "snapshots": [], "_raw_written_capacity": 16384, "redundant_md": "all", "id": 5, "ctrl_id": 2, "export_id": 5, "_raw_pool_avail": 1024, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 16384, "_raw_used_child": 16384, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22060001555bb18b", "name": "22222222222222222222222222222222", "total_capacity": 5999984640, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 1024, "used_child": "0 Byte", "_raw_sector": 1024, "pool_avail": "7.33 TB", "written_capacity_value": 8192, "block": "16 KB"}
+
+Expect: {"sector": "2kb", "thin_prov": 0, "capacity": "9GB", "name": "a", "quantity": 1, "compress": "gzip-8", "pool_id": 0, "block": "32kb", "sync": "standard"}
+
+Actual: {"sector": "2 KB", "create_date": "2017-09-11 22:04:40", "logbias": "latency", "sync": "standard", "snapshots": [], "_raw_written_capacity": 32768, "redundant_md": "all", "id": 6, "ctrl_id": 2, "export_id": 6, "_raw_pool_avail": 2048, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 32768, "_raw_used_child": 32768, "used_capacity": 8999993344, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22bc000155c2b8da", "name": "a", "total_capacity": 8999993344, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 2048, "used_child": "0 Byte", "_raw_sector": 2048, "pool_avail": "7.32 TB", "written_capacity_value": 8192, "block": "32 KB"}
+
+Expect: {"sector": "4kb", "thin_prov": 1, "capacity": "10GB", "name": "1", "quantity": 1, "compress": "gzip-9", "pool_id": 0, "block": "64kb", "sync": "always"}
+
+Actual: {"sector": "4 KB", "create_date": "2017-09-11 22:04:41", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 65536, "redundant_md": "all", "id": 7, "ctrl_id": 2, "export_id": 7, "_raw_pool_avail": 4096, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 65536, "_raw_used_child": 65536, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22ea000155a2978e", "name": "1", "total_capacity": 9999941632, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 4096, "used_child": "0 Byte", "_raw_sector": 4096, "pool_avail": "7.32 TB", "written_capacity_value": 8192, "block": "64 KB"}
+
+Expect: {"sector": "512b", "thin_prov": 0, "capacity": "1TB", "name": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb", "quantity": 1, "compress": "zle", "pool_id": 0, "block": "128kb", "sync": "disabled"}
+
+Actual: {"sector": "512 Bytes", "create_date": "2017-09-11 22:04:41", "logbias": "latency", "sync": "disabled", "snapshots": [], "_raw_written_capacity": 131072, "redundant_md": "all", "id": 8, "ctrl_id": 2, "export_id": 8, "_raw_pool_avail": 512, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 131072, "_raw_used_child": 131072, "used_capacity": 999999930368, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "227b000155322893", "name": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb", "total_capacity": 999999930368, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 512, "used_child": "0 Byte", "_raw_sector": 512, "pool_avail": "6.29 TB", "written_capacity_value": 8192, "block": "128 KB"}
+
+Expect: {"sector": "1kb", "thin_prov": 1, "capacity": "2TB", "name": "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT", "quantity": 1, "compress": "lz4", "pool_id": 0, "block": "512b", "sync": "always"}
+
+Actual: {"sector": "1 KB", "create_date": "2017-09-11 22:04:42", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 512, "redundant_md": "all", "id": 9, "ctrl_id": 2, "export_id": 9, "_raw_pool_avail": 1024, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 512, "_raw_used_child": 512, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22ad0001557c570e", "name": "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT", "total_capacity": 2000000000000, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 1024, "used_child": "0 Byte", "_raw_sector": 1024, "pool_avail": "6.29 TB", "written_capacity_value": 8192, "block": "512 Bytes"}
+
+add volume by api use must settings 
+
+Expect: {"sector": "512 Bytes", "capacity": "1GB", "name": "Must_parameters", "compress": "off", "sync": "always", "pool_id": 0, "block": "8 KB"}
+
+Actual: {"sector": "512 Bytes", "create_date": "2017-09-11 22:04:42", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 8192, "redundant_md": "all", "id": 10, "ctrl_id": 2, "export_id": 10, "_raw_pool_avail": 512, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 8192, "_raw_used_child": 8192, "used_capacity": 999997440, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "2217000155e55e5f", "name": "Must_parameters", "total_capacity": 999997440, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 512, "used_child": "0 Byte", "_raw_sector": 512, "pool_avail": "6.29 TB", "written_capacity_value": 8192, "block": "8 KB"}
+
+Verify parameter: max_capacity 
+
+Expect: To add volume use the max available capacity of pool 
+
+Fail: please specify capacity
+
