@@ -28,47 +28,47 @@ def findPlId():
             pdId.append(pd['id'])
 
     # to create pool
-    if len(pdId) >= 5:
-        server.webapi('post', 'pool', {
-            'name': 'testNASShareApi2',
+    plId = None
+    createPool = server.webapi('post', 'pool', {
+            'name': 'testVolumeApi',
             'sector': '512B',
             'raid_level': 'RAID5',
-            'ctrl_id': 1,
             'force_sync': 0,
-            'pds': [pdId[0], pdId[1], pdId[2], pdId[3], pdId[4]]
+            'pds': [pdId[3], pdId[5], pdId[6]]
         })
-    else:
-        tolog('lack of physical drive')
-        exit()
 
-    # get pool id
-    plResponseInfo = server.webapi('get', 'pool')
-    plInfo = json.loads(plResponseInfo['text'])
-    plId = []
-    for pl in plInfo:
-        plId.append(pl['id'])
+    if isinstance(createPool, str):
+        tolog(createPool)
+        tolog('Fail: To create pool is failed')
+    else:
+        plId = 0
 
     return plId
-
 
 def addVolume():
     FailFlag = False
     tolog('add volume by api \r\n')
 
     # test data
-    # findPlId()
+    plId = findPlId()
 
     settingsList = [
-        ['n', '12', 'Name_11', '1_name', '1'*31, '2'*32, 'N', '1', 'T'*31, 'T'*32],
-        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        ['n', '12', 'Name_11', '1_name', '1'*31, '2'*32, 'a', '1', 'b'*31, 'T'*32],
+        [plId for i in range(10)],
         ['1GB', '2GB', '3GB', '4GB', '5GB', '6GB', '9GB', '10GB', '1TB', '2TB'],
         ['512b', '1kb', '2kb', '4kb', '8kb', '16kb', '32kb', '64kb', '128kb', '512b'],
         ['512b', '1kb', '2kb', '4kb', '512b', '1kb', '2kb', '4kb', '512b', '1kb'],
         ['on', 'off', 'lzjb', 'gzip', 'gzip-1', 'gzip-2', 'gzip-8', 'gzip-9', 'zle', 'lz4'],
         ['standard', 'always', 'disabled', 'standard', 'always', 'disabled', 'standard', 'always', 'disabled', 'always'],
         [0, 1, 0, 1, 0, 1, 0, 1, 0, 1],
-        [1, 2, 1, 2, 1, 2, 1, 2, 1, 2],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
         [0, 1, 0, 1, 0, 1, 0, 1, 0, 1]
+    ]
+
+    checkpoint = [
+        ['512 Bytes', '1 KB', '2 KB', '4 KB', '512 Bytes', '1 KB', '2 KB', '4 KB', '512 Bytes', '1 KB'],
+        ['Disabled', 'Enabled', 'Disabled', 'Enabled', 'Disabled', 'Enabled', 'Disabled', 'Enabled', 'Disabled', 'Enabled'],
+        ['512 Bytes', '1 KB', '2 KB', '4 KB', '8 KB', '16 KB', '32 KB', '64 KB', '128 KB', '512 Bytes']
     ]
 
     for i in range(len(settingsList[5])):
@@ -96,16 +96,120 @@ def addVolume():
         checkResult = json.loads(check["text"])
         for cr in checkResult:
             if cr["id"] == i:
-                for key in settings:
-                    if settings[key] != 'capacity':
-                        if settings[key] != cr[key]:
-                            FailFlag = True
-                            tolog('Fail: please check out ' + str(settings[key]) + ' != ' + str(cr[key]))
+                tolog('Actual: ' + json.dumps(cr) + '\r\n')
+                if settings["name"] != cr["name"]:
+                    FailFlag = True
+                    tolog('Fail: please check out parameter: name')
+
+                if settings["pool_id"] != cr["pool_id"]:
+                    FailFlag = True
+                    tolog('Fail: please check out parameter: pool_id')
+
+                if settings["sync"] != cr["sync"]:
+                    FailFlag = True
+                    tolog('Fail: please check out parameter: sync')
+
+                if cr["sector"] != checkpoint[0][i]:
+                    FailFlag = True
+                    tolog('Fail: please check out parameter: sector ')
+
+                if cr["thin_prov"] != checkpoint[1][i]:
+                    FailFlag = True
+                    tolog('Fail: please check out parameter: thin_prov')
+
+                if cr["block"] != checkpoint[2][i]:
+                    FailFlag = True
+                    tolog('Fail: please check out parameter: block')
 
     if FailFlag:
         tolog(Fail)
     else:
         tolog(Pass)
+
+def listVolume():
+    FailFlag = False
+    tolog('Expect: List all of the volume \r\n')
+
+    allResult = server.webapi('get', "volume")
+
+    if isinstance(allResult, str):
+        FailFlag = True
+        tolog('Fail: ' + allResult)
+    else:
+        tolog('Actual: All of volume are listed \r\n')
+
+        tolog('To list specify the volume \r\n')
+        volumeId = []
+
+        result = json.loads(allResult["text"])
+
+        for r in result:
+            volumeId.append(r["id"])
+
+        if len(volumeId) > 0:
+            for i in volumeId:
+                tolog('Expect: list volume ' + str(i) + '\r\n')
+
+                oneResult = server.webapiurl('get', 'volume', str(i))
+                check = json.loads(oneResult["text"])[0]
+
+                if isinstance(oneResult, str) or check["id"] != i:
+                    FailFlag = True
+                    tolog('Fail: To list volume ' + str(i) + ' is failed \r\n')
+                else:
+                    tolog('Actual: volume ' + str(i) + ' is listed \r\n')
+
+    tolog('Expect: Search volume by volume name and pool_name \r\n')
+
+    searchResult = server.webapi('get', "volume?page=1&page_size=25&search=name+like+'%n%' and pool_name+like+'%t%'")
+
+    if isinstance(searchResult, str):
+        FailFlag = True
+        tolog('Fail: ' + searchResult + '\r\n')
+    else:
+        tolog('Actual: The qualified volume is listed \r\n')
+
+
+    if FailFlag:
+        tolog(Fail)
+    else:
+        tolog(Pass)
+
+def modifyVolume():
+    FailFlag = False
+
+    # test data
+    settingsList = [['5'*31, '6'*32, 'x', '00']]
+
+    for i in range(len(settingsList[0])):
+        settings = {"name": settingsList[0][i]}
+
+        tolog('Expect: To modify name ' + settings["name"] + '\r\n')
+
+        result = server.webapi('put', 'volume/0', settings)
+
+        check = server.webapi('get', 'volume/0')
+        checkResult = json.loads(check["text"])[0]
+
+        if isinstance(result, str):
+            FailFlag = True
+            tolog('Fail: ' + result + '\r\n')
+
+        if settings["name"] != checkResult["name"]:
+            FailFlag = True
+            tolog('Fail: name ' + settings["name"] + ' != ' + checkResult["name"] + '\r\n')
+        else:
+            tolog('Actual: after modification name is ' + checkResult["name"] + '\r\n')
+
+
+    if FailFlag:
+        tolog(Fail)
+    else:
+        tolog(Pass)
+
+def exportVolume():
+    FailFlag = False
+    tolog('Export volume \r\n')
 
 
 
@@ -134,13 +238,11 @@ def deleteVolume():
         checkResult = json.loads(checkResponse["text"])
 
         for cR in checkResult:
-            if cR['id'] == i:
+            if cR['id'] != i:
                 FailFlag = True
                 tolog('Fail: The volume ' + str(i) + ' is not deleted \r\n')
             else:
                 tolog('Actual: the volume ' + str(i) + ' is deleted \r\n')
-        else:
-            tolog('Actual: the volume ' + str(i) + ' is deleted \r\n')
 
     if FailFlag:
         tolog(Fail)
@@ -149,5 +251,8 @@ def deleteVolume():
 
 
 if __name__ == "__main__":
-    addVolume()
+    # addVolume()
+    # listVolume()
+    modifyVolume()
     # deleteVolume()
+
