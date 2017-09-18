@@ -180,33 +180,6 @@ def addVolume():
                     FailFlag = True
                     tolog('Fail: please check out parameter ' + key + '\r\n')
 
-    tolog('Verify parameter: max_capacity \r\n')
-
-    tolog('Expect: To add volume use the max available capacity of pool \r\n')
-
-    result3 = server.webapi('post', 'volume', {
-        "name": 'max_capacity',
-        "max_capacity": 1,
-        "pool_id": 1,
-        "thin_prov": 0
-    })
-
-    check3 = server.webapi('get', "volume?page=1&page_size=50&search=name+like+'%max_capacity%'")
-
-    if isinstance(result3, str):
-        FailFlag = True
-        tolog('Fail: ' + result3 + '\r\n')
-
-    if isinstance(check3, str):
-        FailFlag = True
-        tolog('Fail ' + check3 + '\r\n')
-    else:
-        checkResult3 = json.loads(check3["text"])[0]
-
-        if checkResult3["pool_avail"] != 0:
-            FailFlag = True
-            tolog('Fail: ' + str(checkResult3["pool_avail"]) + '\r\n')
-
     if FailFlag:
         tolog(Fail)
     else:
@@ -395,6 +368,132 @@ def unexportVolume():
     else:
         tolog(Pass)
 
+def invalidSettingNameVolume():
+    FailFlag = False
+    tolog('Verify invalid setting name \r\n')
+
+    # test data
+    settingsNameList = [
+        ['a#', 0, '1GB', '512b', '512b', 'zip', 'always', 0, 1],
+        ['a'*33, 0, '1GB', '512b', '512b', 'zip', 'always', 0, 1],
+        ['', 0, '1GB', '512b', '512b', 'zip', 'always', 0, 1]
+    ]
+
+    for i in range(3):
+        settings = {
+            "name": settingsNameList[i][0],
+            "pool_id": settingsNameList[i][1],
+            "capacity": settingsNameList[i][2],
+            "block": settingsNameList[i][3],
+            "sector": settingsNameList[i][4],
+            "compress": settingsNameList[i][5],
+            "sync": settingsNameList[i][6],
+            "thin_prov": settingsNameList[i][7],
+            "quantity": settingsNameList[i][8]
+        }
+
+        tolog('Expect: hint naming rules \r\n')
+
+        result = server.webapi('post', 'volume', settings)
+
+        if isinstance(result, dict):
+            FailFlag = True
+            tolog("Fail: " + json.dumps(settings) + '\r\n')
+        else:
+            tolog('Actual: ' + result + '\r\n')
+
+    if FailFlag:
+        tolog(Fail)
+    else:
+        tolog(Pass)
+
+def invalidSettingVolume():
+    FailFlag = False
+    tolog('Verify invalid setting \r\n')
+
+    # test data
+    settingsList = [
+        # invalid setting pool_id
+        ['legal_name', 100, '1GB', '512b', '512b', 'off', 'always', 0, 1],
+        ['legal_name', 'test', '1GB', '512b', '512b', 'off', 'always', 0, 1],
+
+        # invalid setting capacity
+        ['legal_name', 0, '1B', '512b', '512b', 'off', 'always', 0, 1],
+        ['legal_name', 0, 0, '512b', '512b', 'off', 'always', 0, 1],
+
+        # invalid setting block
+        ['legal_name', 0, '1GB', '512GB', '512b', 'off', 'always', 0, 1],
+        ['legal_name', 0, '1GB', 0, '512b', 'off', 'always', 0, 1],
+
+        # invalid setting sector
+        ['legal_name', 0, '1GB', '512b', '512GB', 'off', 'always', 0, 1],
+        ['legal_name', 0, '1GB', '512b', 0, 'off', 'always', 0, 1],
+
+        # invalid setting compress
+        ['legal_name', 0, '1GB', '512b', '512b', 'test', 'always', 0, 1],
+        ['legal_name', 0, '1GB', '512b', '512b', 0, 'always', 0, 1],
+
+        # invalid setting sync
+        ['legal_name', 0, '1GB', '512b', '512b', 'off', 'test', 0, 1],
+        ['legal_name', 0, '1GB', '512b', '512b', 'off', 0, 0, 1],
+
+        # invalid setting thin_prov
+        ['legal_name', 0, '1GB', '512b', '512b', 'off', 'always', 2, 1],
+        ['legal_name', 0, '1GB', '512b', '512b', 'off', 'always', 'test', 1],
+
+        # invalid setting quantity
+        ['legal_name', 0, '1GB', '512b', '512b', 'off', 'always', 0, 0],
+        ['legal_name', 0, '1GB', '512b', '512b', 'off', 'always', 0, -1],
+        ['legal_name', 0, '1GB', '512b', '512b', 'off', 'always', 0, 'test']
+    ]
+
+    expectResult = [
+        'invalid setting pool_id',
+        'invalid setting pool_id',
+        'invalid setting capacity',
+        'invalid setting capacity',
+        'invalid setting block',
+        'invalid setting block',
+        'invalid setting sector',
+        'invalid setting sector',
+        'invalid setting compress',
+        'invalid setting compress',
+        'invalid setting sync',
+        'invalid setting sync',
+        'invalid setting thin_prov',
+        'invalid setting thin_prov',
+        'invalid setting quantity',
+        'invalid setting quantity'
+    ]
+
+    for i in range(len(settingsList)):
+        settings = {
+            "name": settingsList[i][0],
+            "pool_id": settingsList[i][1],
+            "capacity": settingsList[i][2],
+            "block": settingsList[i][3],
+            "sector": settingsList[i][4],
+            "compress": settingsList[i][5],
+            "sync": settingsList[i][6],
+            "thin_prov": settingsList[i][7],
+            "quantity": settingsList[i][8]
+        }
+
+        tolog('Expect: ' + expectResult[i] + '\r\n')
+
+        result = server.webapi('post', 'volume', settings)
+
+        if isinstance(result, dict):
+            FailFlag = True
+            tolog("Fail: " + json.dumps(settings) + '\r\n')
+        else:
+            tolog('Actual: ' + result + '\r\n')
+
+    if FailFlag:
+        tolog(Fail)
+    else:
+        tolog(Pass)
+
 def deleteVolume():
     FailFlag = False
     tolog('delete volume by api \r\n')
@@ -406,7 +505,7 @@ def deleteVolume():
 
     for info in volumeInfo:
         volumeId.append(info["id"])
-
+    print volumeId
     for i in volumeId:
         tolog('Expect: To delete volume ' + str(i) + '\r\n')
 
@@ -420,7 +519,8 @@ def deleteVolume():
         checkResult = json.loads(checkResponse["text"])
 
         for cR in checkResult:
-            if cR['id'] != i:
+            print cR['id']
+            if cR['id'] == i:
                 FailFlag = True
                 tolog('Fail: The volume ' + str(i) + ' is not deleted \r\n')
             else:
@@ -431,12 +531,17 @@ def deleteVolume():
     else:
         tolog(Pass)
 
+    # clean up environment
+    server.webapiurl('delete', 'pool', '0?force=1')
+    server.webapiurl('delete', 'pool', '1?force=1')
 
 if __name__ == "__main__":
     addVolume()
-    # listVolume()
-    # modifyVolume()
-    # exportVolume()
-    # unexportVolume()
-    # deleteVolume()
+    listVolume()
+    modifyVolume()
+    exportVolume()
+    unexportVolume()
+    invalidSettingNameVolume()
+    invalidSettingVolume()
+    deleteVolume()
 

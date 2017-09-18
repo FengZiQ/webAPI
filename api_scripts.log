@@ -1,3 +1,2503 @@
+2017-09-18 10:16:19: 'result': 'p'
+2017-09-18 10:16:19: Expect: To delete volume 11
+
+2017-09-18 10:16:19: Actual: the volume 10 is deleted 
+
+2017-09-18 10:16:18: Expect: To delete volume 10
+
+2017-09-18 10:16:18: Actual: the volume 9 is deleted 
+
+2017-09-18 10:16:18: Actual: the volume 9 is deleted 
+
+2017-09-18 10:16:18: Expect: To delete volume 9
+
+2017-09-18 10:16:18: Actual: the volume 8 is deleted 
+
+2017-09-18 10:16:18: Actual: the volume 8 is deleted 
+
+2017-09-18 10:16:18: Actual: the volume 8 is deleted 
+
+2017-09-18 10:16:17: Expect: To delete volume 8
+
+2017-09-18 10:16:17: Actual: the volume 7 is deleted 
+
+2017-09-18 10:16:17: Actual: the volume 7 is deleted 
+
+2017-09-18 10:16:17: Actual: the volume 7 is deleted 
+
+2017-09-18 10:16:17: Actual: the volume 7 is deleted 
+
+2017-09-18 10:16:17: Expect: To delete volume 7
+
+2017-09-18 10:16:17: Actual: the volume 6 is deleted 
+
+2017-09-18 10:16:17: Actual: the volume 6 is deleted 
+
+2017-09-18 10:16:17: Actual: the volume 6 is deleted 
+
+2017-09-18 10:16:17: Actual: the volume 6 is deleted 
+
+2017-09-18 10:16:17: Actual: the volume 6 is deleted 
+
+2017-09-18 10:16:16: Expect: To delete volume 6
+
+2017-09-18 10:16:16: Actual: the volume 5 is deleted 
+
+2017-09-18 10:16:16: Actual: the volume 5 is deleted 
+
+2017-09-18 10:16:16: Actual: the volume 5 is deleted 
+
+2017-09-18 10:16:16: Actual: the volume 5 is deleted 
+
+2017-09-18 10:16:16: Actual: the volume 5 is deleted 
+
+2017-09-18 10:16:16: Actual: the volume 5 is deleted 
+
+2017-09-18 10:16:16: Expect: To delete volume 5
+
+2017-09-18 10:16:16: Actual: the volume 4 is deleted 
+
+2017-09-18 10:16:16: Actual: the volume 4 is deleted 
+
+2017-09-18 10:16:16: Actual: the volume 4 is deleted 
+
+2017-09-18 10:16:16: Actual: the volume 4 is deleted 
+
+2017-09-18 10:16:16: Actual: the volume 4 is deleted 
+
+2017-09-18 10:16:16: Actual: the volume 4 is deleted 
+
+2017-09-18 10:16:16: Actual: the volume 4 is deleted 
+
+2017-09-18 10:16:15: Expect: To delete volume 4
+
+2017-09-18 10:16:15: Actual: the volume 3 is deleted 
+
+2017-09-18 10:16:15: Actual: the volume 3 is deleted 
+
+2017-09-18 10:16:15: Actual: the volume 3 is deleted 
+
+2017-09-18 10:16:15: Actual: the volume 3 is deleted 
+
+2017-09-18 10:16:15: Actual: the volume 3 is deleted 
+
+2017-09-18 10:16:15: Actual: the volume 3 is deleted 
+
+2017-09-18 10:16:15: Actual: the volume 3 is deleted 
+
+2017-09-18 10:16:15: Actual: the volume 3 is deleted 
+
+2017-09-18 10:16:14: Expect: To delete volume 3
+
+2017-09-18 10:16:14: Actual: the volume 2 is deleted 
+
+2017-09-18 10:16:14: Actual: the volume 2 is deleted 
+
+2017-09-18 10:16:14: Actual: the volume 2 is deleted 
+
+2017-09-18 10:16:14: Actual: the volume 2 is deleted 
+
+2017-09-18 10:16:14: Actual: the volume 2 is deleted 
+
+2017-09-18 10:16:14: Actual: the volume 2 is deleted 
+
+2017-09-18 10:16:14: Actual: the volume 2 is deleted 
+
+2017-09-18 10:16:14: Actual: the volume 2 is deleted 
+
+2017-09-18 10:16:14: Actual: the volume 2 is deleted 
+
+2017-09-18 10:16:14: Expect: To delete volume 2
+
+2017-09-18 10:16:14: Actual: the volume 1 is deleted 
+
+2017-09-18 10:16:14: Actual: the volume 1 is deleted 
+
+2017-09-18 10:16:14: Actual: the volume 1 is deleted 
+
+2017-09-18 10:16:14: Actual: the volume 1 is deleted 
+
+2017-09-18 10:16:14: Actual: the volume 1 is deleted 
+
+2017-09-18 10:16:14: Actual: the volume 1 is deleted 
+
+2017-09-18 10:16:14: Actual: the volume 1 is deleted 
+
+2017-09-18 10:16:14: Actual: the volume 1 is deleted 
+
+2017-09-18 10:16:14: Actual: the volume 1 is deleted 
+
+2017-09-18 10:16:14: Actual: the volume 1 is deleted 
+
+2017-09-18 10:16:14: Expect: To delete volume 1
+
+2017-09-18 10:16:14: Actual: the volume 0 is deleted 
+
+2017-09-18 10:16:14: Actual: the volume 0 is deleted 
+
+2017-09-18 10:16:14: Actual: the volume 0 is deleted 
+
+2017-09-18 10:16:14: Actual: the volume 0 is deleted 
+
+2017-09-18 10:16:14: Actual: the volume 0 is deleted 
+
+2017-09-18 10:16:14: Actual: the volume 0 is deleted 
+
+2017-09-18 10:16:14: Actual: the volume 0 is deleted 
+
+2017-09-18 10:16:14: Actual: the volume 0 is deleted 
+
+2017-09-18 10:16:14: Actual: the volume 0 is deleted 
+
+2017-09-18 10:16:14: Actual: the volume 0 is deleted 
+
+2017-09-18 10:16:14: Actual: the volume 0 is deleted 
+
+2017-09-18 10:16:13: Expect: To delete volume 0
+
+2017-09-18 10:16:13: delete volume by api 
+
+2017-09-18 10:16:13: 'result': 'f'
+2017-09-18 10:16:13: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/volume&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-18 10:16:13: Expect: invalid setting quantity
+
+2017-09-18 10:16:13: Fail: {"sector": "512b", "thin_prov": 0, "capacity": "1GB", "name": "legal_name", "quantity": -1, "compress": "off", "pool_id": 0, "block": "512b", "sync": "always"}
+
+2017-09-18 10:16:11: Expect: invalid setting quantity
+
+2017-09-18 10:16:11: Actual: invalid thin_prov (0,1)
+
+2017-09-18 10:16:11: Expect: invalid setting thin_prov
+
+2017-09-18 10:16:11: Actual: invalid thin_prov (0,1)
+
+2017-09-18 10:16:11: Expect: invalid setting thin_prov
+
+2017-09-18 10:16:11: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/volume&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-18 10:16:11: Expect: invalid setting sync
+
+2017-09-18 10:16:11: Actual: invalid sync (standard|always|disabled)
+
+2017-09-18 10:16:11: Expect: invalid setting sync
+
+2017-09-18 10:16:11: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/volume&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-18 10:16:11: Expect: invalid setting compress
+
+2017-09-18 10:16:11: Actual: invalid compress (on|off|lzjb|gzip|gzip-1|gzip-2|gzip-3|gzip-4|gzip-5|gzip-6|gzip-7|gzip-8|gzip-9|zle|lz4)
+
+2017-09-18 10:16:11: Expect: invalid setting compress
+
+2017-09-18 10:16:11: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/volume&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-18 10:16:11: Expect: invalid setting sector
+
+2017-09-18 10:16:11: Actual: invalid sector (512b|1kb|2kb|4kb)
+
+2017-09-18 10:16:11: Expect: invalid setting sector
+
+2017-09-18 10:16:11: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/volume&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-18 10:16:11: Expect: invalid setting block
+
+2017-09-18 10:16:11: Actual: invalid block (512b|1kb|2kb|4kb|8kb|16kb|32kb|64kb|128kb)
+
+2017-09-18 10:16:11: Expect: invalid setting block
+
+2017-09-18 10:16:11: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/volume&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-18 10:16:11: Expect: invalid setting capacity
+
+2017-09-18 10:16:11: Actual: Incorrect parameters: [capacity] must between 1GB to 1PB. (0x4100104)
+
+2017-09-18 10:16:11: Expect: invalid setting capacity
+
+2017-09-18 10:16:11: Actual: Incorrect parameters: The parameter [pool_id] is not integer. (0x4100104)
+
+2017-09-18 10:16:11: Expect: invalid setting pool_id
+
+2017-09-18 10:16:11: Actual: Empty query result, please check input parameters. Pool id=[100] is not existed. (0x4100102)
+
+2017-09-18 10:16:11: Expect: invalid setting pool_id
+
+2017-09-18 10:16:11: Verify invalid setting 
+
+2017-09-18 10:16:11: 'result': 'p'
+2017-09-18 10:16:11: Actual: name contain only alphanumeric characters and underscores
+
+2017-09-18 10:16:11: Expect: hint naming rules 
+
+2017-09-18 10:16:11: Actual: name shall not exceed 32 characters
+
+2017-09-18 10:16:11: Expect: hint naming rules 
+
+2017-09-18 10:16:11: Actual: name contain only alphanumeric characters and underscores
+
+2017-09-18 10:16:11: Expect: hint naming rules 
+
+2017-09-18 10:16:11: Verify invalid setting name 
+
+2017-09-18 10:16:11: 'result': 'p'
+2017-09-18 10:16:11: Actual: un-volume export successfully 
+
+2017-09-18 10:16:10: Expect: un-export volume 
+
+2017-09-18 10:16:10: Un-Export volume 
+
+2017-09-18 10:16:10: 'result': 'p'
+2017-09-18 10:16:10: Actual: volume export successfully 
+
+2017-09-18 10:16:10: Expect: export volume 
+
+2017-09-18 10:16:09: Export volume 
+
+2017-09-18 10:16:09: 'result': 'p'
+2017-09-18 10:16:09: Actual: after modification name is 00
+
+2017-09-18 10:16:08: Expect: To modify name 00
+
+2017-09-18 10:16:08: Actual: after modification name is x
+
+2017-09-18 10:16:08: Expect: To modify name x
+
+2017-09-18 10:16:08: Actual: after modification name is 66666666666666666666666666666666
+
+2017-09-18 10:16:08: Expect: To modify name 66666666666666666666666666666666
+
+2017-09-18 10:16:08: Actual: after modification name is 5555555555555555555555555555555
+
+2017-09-18 10:16:08: Expect: To modify name 5555555555555555555555555555555
+
+2017-09-18 10:16:08: 'result': 'p'
+2017-09-18 10:16:08: Actual: The qualified volume is listed 
+
+2017-09-18 10:16:07: Expect: Search volume by volume name and pool_name 
+
+2017-09-18 10:16:07: Actual: volume 10 is listed 
+
+2017-09-18 10:16:07: Expect: list volume 10
+
+2017-09-18 10:16:07: Actual: volume 9 is listed 
+
+2017-09-18 10:16:07: Expect: list volume 9
+
+2017-09-18 10:16:07: Actual: volume 8 is listed 
+
+2017-09-18 10:16:07: Expect: list volume 8
+
+2017-09-18 10:16:07: Actual: volume 7 is listed 
+
+2017-09-18 10:16:07: Expect: list volume 7
+
+2017-09-18 10:16:07: Actual: volume 6 is listed 
+
+2017-09-18 10:16:07: Expect: list volume 6
+
+2017-09-18 10:16:07: Actual: volume 5 is listed 
+
+2017-09-18 10:16:07: Expect: list volume 5
+
+2017-09-18 10:16:07: Actual: volume 4 is listed 
+
+2017-09-18 10:16:07: Expect: list volume 4
+
+2017-09-18 10:16:07: Actual: volume 3 is listed 
+
+2017-09-18 10:16:07: Expect: list volume 3
+
+2017-09-18 10:16:07: Actual: volume 2 is listed 
+
+2017-09-18 10:16:07: Expect: list volume 2
+
+2017-09-18 10:16:07: Actual: volume 1 is listed 
+
+2017-09-18 10:16:07: Expect: list volume 1
+
+2017-09-18 10:16:07: Actual: volume 0 is listed 
+
+2017-09-18 10:16:07: Expect: list volume 0
+
+2017-09-18 10:16:07: To list specify the volume 
+
+2017-09-18 10:16:07: Actual: All of volume are listed 
+
+2017-09-18 10:16:07: Expect: List all of the volume 
+
+2017-09-18 10:16:07: 'result': 'p'
+2017-09-18 10:16:07: Actual: {"sector": "512 Bytes", "create_date": "2017-09-17 14:15:24", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 8192, "redundant_md": "all", "id": 10, "ctrl_id": 2, "export_id": 10, "_raw_pool_avail": 512, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 8192, "_raw_used_child": 8192, "used_capacity": 999997440, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "2255000155034cfe", "name": "Must_parameters", "total_capacity": 999997440, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 512, "used_child": "0 Byte", "_raw_sector": 512, "pool_avail": "6.29 TB", "written_capacity_value": 8192, "block": "8 KB"}
+
+2017-09-18 10:16:06: Expect: {"sector": "512 Bytes", "capacity": "1GB", "name": "Must_parameters", "compress": "off", "sync": "always", "pool_id": 0, "block": "8 KB"}
+
+2017-09-18 10:16:06: add volume by api use must settings 
+
+2017-09-18 10:16:06: Actual: {"sector": "1 KB", "create_date": "2017-09-17 14:15:22", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 512, "redundant_md": "all", "id": 9, "ctrl_id": 2, "export_id": 9, "_raw_pool_avail": 1024, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 512, "_raw_used_child": 512, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22af000155ff9c91", "name": "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT", "total_capacity": 2000000000000, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 1024, "used_child": "0 Byte", "_raw_sector": 1024, "pool_avail": "6.29 TB", "written_capacity_value": 8192, "block": "512 Bytes"}
+
+2017-09-18 10:16:05: Expect: {"sector": "1kb", "thin_prov": 1, "capacity": "2TB", "name": "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT", "quantity": 1, "compress": "lz4", "pool_id": 0, "block": "512b", "sync": "always"}
+
+2017-09-18 10:16:05: Actual: {"sector": "512 Bytes", "create_date": "2017-09-17 14:15:21", "logbias": "latency", "sync": "disabled", "snapshots": [], "_raw_written_capacity": 131072, "redundant_md": "all", "id": 8, "ctrl_id": 2, "export_id": 8, "_raw_pool_avail": 512, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 131072, "_raw_used_child": 131072, "used_capacity": 999999930368, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22b9000155a6cb68", "name": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb", "total_capacity": 999999930368, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 512, "used_child": "0 Byte", "_raw_sector": 512, "pool_avail": "6.29 TB", "written_capacity_value": 8192, "block": "128 KB"}
+
+2017-09-18 10:16:04: Expect: {"sector": "512b", "thin_prov": 0, "capacity": "1TB", "name": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb", "quantity": 1, "compress": "zle", "pool_id": 0, "block": "128kb", "sync": "disabled"}
+
+2017-09-18 10:16:04: Actual: {"sector": "4 KB", "create_date": "2017-09-17 14:15:21", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 65536, "redundant_md": "all", "id": 7, "ctrl_id": 2, "export_id": 7, "_raw_pool_avail": 4096, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 65536, "_raw_used_child": 65536, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "2228000155367475", "name": "1", "total_capacity": 9999941632, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 4096, "used_child": "0 Byte", "_raw_sector": 4096, "pool_avail": "7.32 TB", "written_capacity_value": 8192, "block": "64 KB"}
+
+2017-09-18 10:16:04: Expect: {"sector": "4kb", "thin_prov": 1, "capacity": "10GB", "name": "1", "quantity": 1, "compress": "gzip-9", "pool_id": 0, "block": "64kb", "sync": "always"}
+
+2017-09-18 10:16:04: Actual: {"sector": "2 KB", "create_date": "2017-09-17 14:15:20", "logbias": "latency", "sync": "standard", "snapshots": [], "_raw_written_capacity": 32768, "redundant_md": "all", "id": 6, "ctrl_id": 2, "export_id": 6, "_raw_pool_avail": 2048, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 32768, "_raw_used_child": 32768, "used_capacity": 8999993344, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "227e000155565b21", "name": "a", "total_capacity": 8999993344, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 2048, "used_child": "0 Byte", "_raw_sector": 2048, "pool_avail": "7.32 TB", "written_capacity_value": 8192, "block": "32 KB"}
+
+2017-09-18 10:16:03: Expect: {"sector": "2kb", "thin_prov": 0, "capacity": "9GB", "name": "a", "quantity": 1, "compress": "gzip-8", "pool_id": 0, "block": "32kb", "sync": "standard"}
+
+2017-09-18 10:16:03: Actual: {"sector": "1 KB", "create_date": "2017-09-17 14:15:20", "logbias": "latency", "sync": "disabled", "snapshots": [], "_raw_written_capacity": 16384, "redundant_md": "all", "id": 5, "ctrl_id": 2, "export_id": 5, "_raw_pool_avail": 1024, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 16384, "_raw_used_child": 16384, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22c4000155cf5270", "name": "22222222222222222222222222222222", "total_capacity": 5999984640, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 1024, "used_child": "0 Byte", "_raw_sector": 1024, "pool_avail": "7.33 TB", "written_capacity_value": 8192, "block": "16 KB"}
+
+2017-09-18 10:16:03: Expect: {"sector": "1kb", "thin_prov": 1, "capacity": "6GB", "name": "22222222222222222222222222222222", "quantity": 1, "compress": "gzip-2", "pool_id": 0, "block": "16kb", "sync": "disabled"}
+
+2017-09-18 10:16:03: Actual: {"sector": "512 Bytes", "create_date": "2017-09-17 14:15:19", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 8192, "redundant_md": "all", "id": 4, "ctrl_id": 2, "export_id": 4, "_raw_pool_avail": 512, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 8192, "_raw_used_child": 8192, "used_capacity": 4999995392, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "221200015564cf58", "name": "1111111111111111111111111111111", "total_capacity": 4999995392, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 512, "used_child": "0 Byte", "_raw_sector": 512, "pool_avail": "7.33 TB", "written_capacity_value": 8192, "block": "8 KB"}
+
+2017-09-18 10:16:02: Expect: {"sector": "512b", "thin_prov": 0, "capacity": "5GB", "name": "1111111111111111111111111111111", "quantity": 1, "compress": "gzip-1", "pool_id": 0, "block": "8kb", "sync": "always"}
+
+2017-09-18 10:16:02: Actual: {"sector": "4 KB", "create_date": "2017-09-17 14:15:19", "logbias": "latency", "sync": "standard", "snapshots": [], "_raw_written_capacity": 4096, "redundant_md": "all", "id": 3, "ctrl_id": 2, "export_id": 3, "_raw_pool_avail": 4096, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 4096, "_raw_used_child": 4096, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22b1000155faabcd", "name": "1_name", "total_capacity": 3999997952, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 4096, "used_child": "0 Byte", "_raw_sector": 4096, "pool_avail": "7.33 TB", "written_capacity_value": 8192, "block": "4 KB"}
+
+2017-09-18 10:16:02: Expect: {"sector": "4kb", "thin_prov": 1, "capacity": "4GB", "name": "1_name", "quantity": 1, "compress": "gzip", "pool_id": 0, "block": "4kb", "sync": "standard"}
+
+2017-09-18 10:16:02: Actual: {"sector": "2 KB", "create_date": "2017-09-17 14:15:18", "logbias": "latency", "sync": "disabled", "snapshots": [], "_raw_written_capacity": 2048, "redundant_md": "all", "id": 2, "ctrl_id": 2, "export_id": 2, "_raw_pool_avail": 2048, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 2048, "_raw_used_child": 2048, "used_capacity": 2999998464, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22e70001559a8499", "name": "Name_11", "total_capacity": 2999998464, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 2048, "used_child": "0 Byte", "_raw_sector": 2048, "pool_avail": "7.33 TB", "written_capacity_value": 8192, "block": "2 KB"}
+
+2017-09-18 10:16:00: Expect: {"sector": "2kb", "thin_prov": 0, "capacity": "3GB", "name": "Name_11", "quantity": 1, "compress": "lzjb", "pool_id": 0, "block": "2kb", "sync": "disabled"}
+
+2017-09-18 10:16:00: Actual: {"sector": "1 KB", "create_date": "2017-09-17 14:15:16", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 1024, "redundant_md": "all", "id": 1, "ctrl_id": 2, "export_id": 1, "_raw_pool_avail": 1024, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 1024, "_raw_used_child": 1024, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22dd0001552ddd01", "name": "12", "total_capacity": 2000000000, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 1024, "used_child": "0 Byte", "_raw_sector": 1024, "pool_avail": "7.34 TB", "written_capacity_value": 8192, "block": "1 KB"}
+
+2017-09-18 10:15:59: Expect: {"sector": "1kb", "thin_prov": 1, "capacity": "2GB", "name": "12", "quantity": 1, "compress": "off", "pool_id": 0, "block": "1kb", "sync": "always"}
+
+2017-09-18 10:15:59: Actual: {"sector": "512 Bytes", "create_date": "2017-09-17 14:15:16", "logbias": "latency", "sync": "standard", "snapshots": [], "_raw_written_capacity": 512, "redundant_md": "all", "id": 0, "ctrl_id": 2, "export_id": 0, "_raw_pool_avail": 512, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 512, "_raw_used_child": 512, "used_capacity": 1000000000, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "224b0001555ada31", "name": "n", "total_capacity": 1000000000, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 512, "used_child": "0 Byte", "_raw_sector": 512, "pool_avail": "7.34 TB", "written_capacity_value": 8192, "block": "512 Bytes"}
+
+2017-09-18 10:15:59: Expect: {"sector": "512b", "thin_prov": 0, "capacity": "1GB", "name": "n", "quantity": 1, "compress": "on", "pool_id": 0, "block": "512b", "sync": "standard"}
+
+2017-09-18 10:15:45: add volume by api use all of settings 
+
+2017-09-18 10:14:42: 'result': 'f'
+2017-09-18 10:14:41: Expect: To delete volume 1
+
+2017-09-18 10:14:41: Fail: The volume 0 is not deleted 
+
+2017-09-18 10:14:41: Expect: To delete volume 0
+
+2017-09-18 10:14:41: delete volume by api 
+
+2017-09-18 10:11:53: 'result': 'f'
+2017-09-18 10:11:52: Expect: To delete volume 10
+
+2017-09-18 10:11:52: Fail: The volume 9 is not deleted 
+
+2017-09-18 10:11:51: Expect: To delete volume 9
+
+2017-09-18 10:11:51: Fail: The volume 8 is not deleted 
+
+2017-09-18 10:11:51: Fail: The volume 8 is not deleted 
+
+2017-09-18 10:11:51: Expect: To delete volume 8
+
+2017-09-18 10:11:51: Fail: The volume 7 is not deleted 
+
+2017-09-18 10:11:51: Fail: The volume 7 is not deleted 
+
+2017-09-18 10:11:51: Fail: The volume 7 is not deleted 
+
+2017-09-18 10:11:50: Expect: To delete volume 7
+
+2017-09-18 10:11:50: Fail: The volume 6 is not deleted 
+
+2017-09-18 10:11:50: Fail: The volume 6 is not deleted 
+
+2017-09-18 10:11:50: Fail: The volume 6 is not deleted 
+
+2017-09-18 10:11:50: Fail: The volume 6 is not deleted 
+
+2017-09-18 10:11:50: Expect: To delete volume 6
+
+2017-09-18 10:11:50: Fail: The volume 5 is not deleted 
+
+2017-09-18 10:11:50: Fail: The volume 5 is not deleted 
+
+2017-09-18 10:11:50: Fail: The volume 5 is not deleted 
+
+2017-09-18 10:11:50: Fail: The volume 5 is not deleted 
+
+2017-09-18 10:11:50: Fail: The volume 5 is not deleted 
+
+2017-09-18 10:11:48: Expect: To delete volume 5
+
+2017-09-18 10:11:48: Fail: The volume 4 is not deleted 
+
+2017-09-18 10:11:48: Fail: The volume 4 is not deleted 
+
+2017-09-18 10:11:48: Fail: The volume 4 is not deleted 
+
+2017-09-18 10:11:48: Fail: The volume 4 is not deleted 
+
+2017-09-18 10:11:48: Fail: The volume 4 is not deleted 
+
+2017-09-18 10:11:48: Fail: The volume 4 is not deleted 
+
+2017-09-18 10:11:48: Expect: To delete volume 4
+
+2017-09-18 10:11:48: Fail: The volume 3 is not deleted 
+
+2017-09-18 10:11:48: Fail: The volume 3 is not deleted 
+
+2017-09-18 10:11:48: Fail: The volume 3 is not deleted 
+
+2017-09-18 10:11:48: Fail: The volume 3 is not deleted 
+
+2017-09-18 10:11:48: Fail: The volume 3 is not deleted 
+
+2017-09-18 10:11:48: Fail: The volume 3 is not deleted 
+
+2017-09-18 10:11:48: Fail: The volume 3 is not deleted 
+
+2017-09-18 10:11:47: Expect: To delete volume 3
+
+2017-09-18 10:11:47: Fail: The volume 2 is not deleted 
+
+2017-09-18 10:11:47: Fail: The volume 2 is not deleted 
+
+2017-09-18 10:11:47: Fail: The volume 2 is not deleted 
+
+2017-09-18 10:11:47: Fail: The volume 2 is not deleted 
+
+2017-09-18 10:11:47: Fail: The volume 2 is not deleted 
+
+2017-09-18 10:11:47: Fail: The volume 2 is not deleted 
+
+2017-09-18 10:11:47: Fail: The volume 2 is not deleted 
+
+2017-09-18 10:11:47: Fail: The volume 2 is not deleted 
+
+2017-09-18 10:11:47: Expect: To delete volume 2
+
+2017-09-18 10:11:47: Fail: The volume 1 is not deleted 
+
+2017-09-18 10:11:47: Fail: The volume 1 is not deleted 
+
+2017-09-18 10:11:47: Fail: The volume 1 is not deleted 
+
+2017-09-18 10:11:47: Fail: The volume 1 is not deleted 
+
+2017-09-18 10:11:47: Fail: The volume 1 is not deleted 
+
+2017-09-18 10:11:47: Fail: The volume 1 is not deleted 
+
+2017-09-18 10:11:47: Fail: The volume 1 is not deleted 
+
+2017-09-18 10:11:47: Fail: The volume 1 is not deleted 
+
+2017-09-18 10:11:47: Fail: The volume 1 is not deleted 
+
+2017-09-18 10:11:47: Expect: To delete volume 1
+
+2017-09-18 10:11:47: Fail: The volume 0 is not deleted 
+
+2017-09-18 10:11:47: Fail: The volume 0 is not deleted 
+
+2017-09-18 10:11:47: Fail: The volume 0 is not deleted 
+
+2017-09-18 10:11:47: Fail: The volume 0 is not deleted 
+
+2017-09-18 10:11:47: Fail: The volume 0 is not deleted 
+
+2017-09-18 10:11:47: Fail: The volume 0 is not deleted 
+
+2017-09-18 10:11:47: Fail: The volume 0 is not deleted 
+
+2017-09-18 10:11:47: Fail: The volume 0 is not deleted 
+
+2017-09-18 10:11:47: Fail: The volume 0 is not deleted 
+
+2017-09-18 10:11:47: Fail: The volume 0 is not deleted 
+
+2017-09-18 10:11:46: Expect: To delete volume 0
+
+2017-09-18 10:11:46: delete volume by api 
+
+2017-09-18 10:11:37: 'result': 'p'
+2017-09-18 10:11:37: Actual: {"sector": "512 Bytes", "create_date": "2017-09-17 14:10:54", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 8192, "redundant_md": "all", "id": 10, "ctrl_id": 2, "export_id": 10, "_raw_pool_avail": 512, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 8192, "_raw_used_child": 8192, "used_capacity": 999997440, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "220a0001551b31fe", "name": "Must_parameters", "total_capacity": 999997440, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 512, "used_child": "0 Byte", "_raw_sector": 512, "pool_avail": "6.29 TB", "written_capacity_value": 8192, "block": "8 KB"}
+
+2017-09-18 10:11:37: Expect: {"sector": "512 Bytes", "capacity": "1GB", "name": "Must_parameters", "compress": "off", "sync": "always", "pool_id": 0, "block": "8 KB"}
+
+2017-09-18 10:11:37: add volume by api use must settings 
+
+2017-09-18 10:11:37: Actual: {"sector": "1 KB", "create_date": "2017-09-17 14:10:53", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 512, "redundant_md": "all", "id": 9, "ctrl_id": 2, "export_id": 9, "_raw_pool_avail": 1024, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 512, "_raw_used_child": 512, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22f0000155bb4002", "name": "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT", "total_capacity": 2000000000000, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 1024, "used_child": "0 Byte", "_raw_sector": 1024, "pool_avail": "6.29 TB", "written_capacity_value": 8192, "block": "512 Bytes"}
+
+2017-09-18 10:11:36: Expect: {"sector": "1kb", "thin_prov": 1, "capacity": "2TB", "name": "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT", "quantity": 1, "compress": "lz4", "pool_id": 0, "block": "512b", "sync": "always"}
+
+2017-09-18 10:11:36: Actual: {"sector": "512 Bytes", "create_date": "2017-09-17 14:10:53", "logbias": "latency", "sync": "disabled", "snapshots": [], "_raw_written_capacity": 131072, "redundant_md": "all", "id": 8, "ctrl_id": 2, "export_id": 8, "_raw_pool_avail": 512, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 131072, "_raw_used_child": 131072, "used_capacity": 999999930368, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "2266000155cc4732", "name": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb", "total_capacity": 999999930368, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 512, "used_child": "0 Byte", "_raw_sector": 512, "pool_avail": "6.29 TB", "written_capacity_value": 8192, "block": "128 KB"}
+
+2017-09-18 10:11:36: Expect: {"sector": "512b", "thin_prov": 0, "capacity": "1TB", "name": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb", "quantity": 1, "compress": "zle", "pool_id": 0, "block": "128kb", "sync": "disabled"}
+
+2017-09-18 10:11:36: Actual: {"sector": "4 KB", "create_date": "2017-09-17 14:10:52", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 65536, "redundant_md": "all", "id": 7, "ctrl_id": 2, "export_id": 7, "_raw_pool_avail": 4096, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 65536, "_raw_used_child": 65536, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22370001554bd04b", "name": "1", "total_capacity": 9999941632, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 4096, "used_child": "0 Byte", "_raw_sector": 4096, "pool_avail": "7.32 TB", "written_capacity_value": 8192, "block": "64 KB"}
+
+2017-09-18 10:11:35: Expect: {"sector": "4kb", "thin_prov": 1, "capacity": "10GB", "name": "1", "quantity": 1, "compress": "gzip-9", "pool_id": 0, "block": "64kb", "sync": "always"}
+
+2017-09-18 10:11:35: Actual: {"sector": "2 KB", "create_date": "2017-09-17 14:10:52", "logbias": "latency", "sync": "standard", "snapshots": [], "_raw_written_capacity": 32768, "redundant_md": "all", "id": 6, "ctrl_id": 2, "export_id": 6, "_raw_pool_avail": 2048, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 32768, "_raw_used_child": 32768, "used_capacity": 8999993344, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22a10001553cd77b", "name": "a", "total_capacity": 8999993344, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 2048, "used_child": "0 Byte", "_raw_sector": 2048, "pool_avail": "7.32 TB", "written_capacity_value": 8192, "block": "32 KB"}
+
+2017-09-18 10:11:35: Expect: {"sector": "2kb", "thin_prov": 0, "capacity": "9GB", "name": "a", "quantity": 1, "compress": "gzip-8", "pool_id": 0, "block": "32kb", "sync": "standard"}
+
+2017-09-18 10:11:35: Actual: {"sector": "1 KB", "create_date": "2017-09-17 14:10:51", "logbias": "latency", "sync": "disabled", "snapshots": [], "_raw_written_capacity": 16384, "redundant_md": "all", "id": 5, "ctrl_id": 2, "export_id": 5, "_raw_pool_avail": 1024, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 16384, "_raw_used_child": 16384, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "225b000155c00714", "name": "22222222222222222222222222222222", "total_capacity": 5999984640, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 1024, "used_child": "0 Byte", "_raw_sector": 1024, "pool_avail": "7.33 TB", "written_capacity_value": 8192, "block": "16 KB"}
+
+2017-09-18 10:11:33: Expect: {"sector": "1kb", "thin_prov": 1, "capacity": "6GB", "name": "22222222222222222222222222222222", "quantity": 1, "compress": "gzip-2", "pool_id": 0, "block": "16kb", "sync": "disabled"}
+
+2017-09-18 10:11:33: Actual: {"sector": "512 Bytes", "create_date": "2017-09-17 14:10:49", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 8192, "redundant_md": "all", "id": 4, "ctrl_id": 2, "export_id": 4, "_raw_pool_avail": 512, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 8192, "_raw_used_child": 8192, "used_capacity": 4999995392, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "224d0001559950ed", "name": "1111111111111111111111111111111", "total_capacity": 4999995392, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 512, "used_child": "0 Byte", "_raw_sector": 512, "pool_avail": "7.33 TB", "written_capacity_value": 8192, "block": "8 KB"}
+
+2017-09-18 10:11:33: Expect: {"sector": "512b", "thin_prov": 0, "capacity": "5GB", "name": "1111111111111111111111111111111", "quantity": 1, "compress": "gzip-1", "pool_id": 0, "block": "8kb", "sync": "always"}
+
+2017-09-18 10:11:33: Actual: {"sector": "4 KB", "create_date": "2017-09-17 14:10:49", "logbias": "latency", "sync": "standard", "snapshots": [], "_raw_written_capacity": 4096, "redundant_md": "all", "id": 3, "ctrl_id": 2, "export_id": 3, "_raw_pool_avail": 4096, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 4096, "_raw_used_child": 4096, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22ee000155073478", "name": "1_name", "total_capacity": 3999997952, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 4096, "used_child": "0 Byte", "_raw_sector": 4096, "pool_avail": "7.33 TB", "written_capacity_value": 8192, "block": "4 KB"}
+
+2017-09-18 10:11:32: Expect: {"sector": "4kb", "thin_prov": 1, "capacity": "4GB", "name": "1_name", "quantity": 1, "compress": "gzip", "pool_id": 0, "block": "4kb", "sync": "standard"}
+
+2017-09-18 10:11:32: Actual: {"sector": "2 KB", "create_date": "2017-09-17 14:10:48", "logbias": "latency", "sync": "disabled", "snapshots": [], "_raw_written_capacity": 2048, "redundant_md": "all", "id": 2, "ctrl_id": 2, "export_id": 2, "_raw_pool_avail": 2048, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 2048, "_raw_used_child": 2048, "used_capacity": 2999998464, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "2278000155703348", "name": "Name_11", "total_capacity": 2999998464, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 2048, "used_child": "0 Byte", "_raw_sector": 2048, "pool_avail": "7.33 TB", "written_capacity_value": 8192, "block": "2 KB"}
+
+2017-09-18 10:11:32: Expect: {"sector": "2kb", "thin_prov": 0, "capacity": "3GB", "name": "Name_11", "quantity": 1, "compress": "lzjb", "pool_id": 0, "block": "2kb", "sync": "disabled"}
+
+2017-09-18 10:11:32: Actual: {"sector": "1 KB", "create_date": "2017-09-17 14:10:48", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 1024, "redundant_md": "all", "id": 1, "ctrl_id": 2, "export_id": 1, "_raw_pool_avail": 1024, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 1024, "_raw_used_child": 1024, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "2202000155fe127d", "name": "12", "total_capacity": 2000000000, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 1024, "used_child": "0 Byte", "_raw_sector": 1024, "pool_avail": "7.34 TB", "written_capacity_value": 8192, "block": "1 KB"}
+
+2017-09-18 10:11:31: Expect: {"sector": "1kb", "thin_prov": 1, "capacity": "2GB", "name": "12", "quantity": 1, "compress": "off", "pool_id": 0, "block": "1kb", "sync": "always"}
+
+2017-09-18 10:11:31: Actual: {"sector": "512 Bytes", "create_date": "2017-09-17 14:10:48", "logbias": "latency", "sync": "standard", "snapshots": [], "_raw_written_capacity": 512, "redundant_md": "all", "id": 0, "ctrl_id": 2, "export_id": 0, "_raw_pool_avail": 512, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 512, "_raw_used_child": 512, "used_capacity": 1000000000, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "229400015589154d", "name": "n", "total_capacity": 1000000000, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 512, "used_child": "0 Byte", "_raw_sector": 512, "pool_avail": "7.34 TB", "written_capacity_value": 8192, "block": "512 Bytes"}
+
+2017-09-18 10:11:31: Expect: {"sector": "512b", "thin_prov": 0, "capacity": "1GB", "name": "n", "quantity": 1, "compress": "on", "pool_id": 0, "block": "512b", "sync": "standard"}
+
+2017-09-18 10:11:14: add volume by api use all of settings 
+
+2017-09-18 09:44:01: 'result': 'f'
+2017-09-18 09:44:00: Expect: To delete volume 11
+
+2017-09-18 09:44:00: Fail: The volume 10 is not deleted 
+
+2017-09-18 09:43:59: Expect: To delete volume 10
+
+2017-09-18 09:43:59: Fail: The volume 9 is not deleted 
+
+2017-09-18 09:43:59: Fail: The volume 9 is not deleted 
+
+2017-09-18 09:43:58: Expect: To delete volume 9
+
+2017-09-18 09:43:58: Fail: The volume 8 is not deleted 
+
+2017-09-18 09:43:58: Fail: The volume 8 is not deleted 
+
+2017-09-18 09:43:58: Fail: The volume 8 is not deleted 
+
+2017-09-18 09:43:58: Expect: To delete volume 8
+
+2017-09-18 09:43:58: Fail: The volume 7 is not deleted 
+
+2017-09-18 09:43:58: Fail: The volume 7 is not deleted 
+
+2017-09-18 09:43:58: Fail: The volume 7 is not deleted 
+
+2017-09-18 09:43:58: Fail: The volume 7 is not deleted 
+
+2017-09-18 09:43:58: Expect: To delete volume 7
+
+2017-09-18 09:43:58: Fail: The volume 6 is not deleted 
+
+2017-09-18 09:43:58: Fail: The volume 6 is not deleted 
+
+2017-09-18 09:43:58: Fail: The volume 6 is not deleted 
+
+2017-09-18 09:43:58: Fail: The volume 6 is not deleted 
+
+2017-09-18 09:43:58: Fail: The volume 6 is not deleted 
+
+2017-09-18 09:43:57: Expect: To delete volume 6
+
+2017-09-18 09:43:57: Fail: The volume 5 is not deleted 
+
+2017-09-18 09:43:57: Fail: The volume 5 is not deleted 
+
+2017-09-18 09:43:57: Fail: The volume 5 is not deleted 
+
+2017-09-18 09:43:57: Fail: The volume 5 is not deleted 
+
+2017-09-18 09:43:57: Fail: The volume 5 is not deleted 
+
+2017-09-18 09:43:57: Fail: The volume 5 is not deleted 
+
+2017-09-18 09:43:57: Expect: To delete volume 5
+
+2017-09-18 09:43:57: Fail: The volume 4 is not deleted 
+
+2017-09-18 09:43:57: Fail: The volume 4 is not deleted 
+
+2017-09-18 09:43:57: Fail: The volume 4 is not deleted 
+
+2017-09-18 09:43:57: Fail: The volume 4 is not deleted 
+
+2017-09-18 09:43:57: Fail: The volume 4 is not deleted 
+
+2017-09-18 09:43:57: Fail: The volume 4 is not deleted 
+
+2017-09-18 09:43:56: Fail: The volume 4 is not deleted 
+
+2017-09-18 09:43:55: Expect: To delete volume 4
+
+2017-09-18 09:43:55: Fail: The volume 3 is not deleted 
+
+2017-09-18 09:43:55: Fail: The volume 3 is not deleted 
+
+2017-09-18 09:43:55: Fail: The volume 3 is not deleted 
+
+2017-09-18 09:43:55: Fail: The volume 3 is not deleted 
+
+2017-09-18 09:43:55: Fail: The volume 3 is not deleted 
+
+2017-09-18 09:43:55: Fail: The volume 3 is not deleted 
+
+2017-09-18 09:43:55: Fail: The volume 3 is not deleted 
+
+2017-09-18 09:43:55: Fail: The volume 3 is not deleted 
+
+2017-09-18 09:43:55: Expect: To delete volume 3
+
+2017-09-18 09:43:55: Fail: The volume 2 is not deleted 
+
+2017-09-18 09:43:55: Fail: The volume 2 is not deleted 
+
+2017-09-18 09:43:55: Fail: The volume 2 is not deleted 
+
+2017-09-18 09:43:55: Fail: The volume 2 is not deleted 
+
+2017-09-18 09:43:55: Fail: The volume 2 is not deleted 
+
+2017-09-18 09:43:55: Fail: The volume 2 is not deleted 
+
+2017-09-18 09:43:55: Fail: The volume 2 is not deleted 
+
+2017-09-18 09:43:55: Fail: The volume 2 is not deleted 
+
+2017-09-18 09:43:55: Fail: The volume 2 is not deleted 
+
+2017-09-18 09:43:54: Expect: To delete volume 2
+
+2017-09-18 09:43:54: Fail: The volume 1 is not deleted 
+
+2017-09-18 09:43:54: Fail: The volume 1 is not deleted 
+
+2017-09-18 09:43:54: Fail: The volume 1 is not deleted 
+
+2017-09-18 09:43:54: Fail: The volume 1 is not deleted 
+
+2017-09-18 09:43:54: Fail: The volume 1 is not deleted 
+
+2017-09-18 09:43:54: Fail: The volume 1 is not deleted 
+
+2017-09-18 09:43:54: Fail: The volume 1 is not deleted 
+
+2017-09-18 09:43:54: Fail: The volume 1 is not deleted 
+
+2017-09-18 09:43:54: Fail: The volume 1 is not deleted 
+
+2017-09-18 09:43:54: Fail: The volume 1 is not deleted 
+
+2017-09-18 09:43:54: Expect: To delete volume 1
+
+2017-09-18 09:43:54: Fail: The volume 0 is not deleted 
+
+2017-09-18 09:43:54: Fail: The volume 0 is not deleted 
+
+2017-09-18 09:43:54: Fail: The volume 0 is not deleted 
+
+2017-09-18 09:43:54: Fail: The volume 0 is not deleted 
+
+2017-09-18 09:43:54: Fail: The volume 0 is not deleted 
+
+2017-09-18 09:43:54: Fail: The volume 0 is not deleted 
+
+2017-09-18 09:43:54: Fail: The volume 0 is not deleted 
+
+2017-09-18 09:43:54: Fail: The volume 0 is not deleted 
+
+2017-09-18 09:43:54: Fail: The volume 0 is not deleted 
+
+2017-09-18 09:43:54: Fail: The volume 0 is not deleted 
+
+2017-09-18 09:43:54: Fail: The volume 0 is not deleted 
+
+2017-09-18 09:43:53: Expect: To delete volume 0
+
+2017-09-18 09:43:53: delete volume by api 
+
+2017-09-18 09:43:53: 'result': 'f'
+2017-09-18 09:43:53: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/volume&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-18 09:43:53: Expect: invalid setting quantity
+
+2017-09-18 09:43:53: Fail: {"sector": "512b", "thin_prov": 0, "capacity": "1GB", "name": "legal_name", "quantity": -1, "compress": "off", "pool_id": 0, "block": "512b", "sync": "always"}
+
+2017-09-18 09:43:52: Expect: invalid setting quantity
+
+2017-09-18 09:43:52: Actual: invalid thin_prov (0,1)
+
+2017-09-18 09:43:52: Expect: invalid setting thin_prov
+
+2017-09-18 09:43:52: Actual: invalid thin_prov (0,1)
+
+2017-09-18 09:43:52: Expect: invalid setting thin_prov
+
+2017-09-18 09:43:52: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/volume&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-18 09:43:52: Expect: invalid setting sync
+
+2017-09-18 09:43:52: Actual: invalid sync (standard|always|disabled)
+
+2017-09-18 09:43:52: Expect: invalid setting sync
+
+2017-09-18 09:43:52: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/volume&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-18 09:43:52: Expect: invalid setting compress
+
+2017-09-18 09:43:52: Actual: invalid compress (on|off|lzjb|gzip|gzip-1|gzip-2|gzip-3|gzip-4|gzip-5|gzip-6|gzip-7|gzip-8|gzip-9|zle|lz4)
+
+2017-09-18 09:43:52: Expect: invalid setting compress
+
+2017-09-18 09:43:52: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/volume&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-18 09:43:52: Expect: invalid setting sector
+
+2017-09-18 09:43:52: Actual: invalid sector (512b|1kb|2kb|4kb)
+
+2017-09-18 09:43:52: Expect: invalid setting sector
+
+2017-09-18 09:43:52: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/volume&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-18 09:43:52: Expect: invalid setting block
+
+2017-09-18 09:43:52: Actual: invalid block (512b|1kb|2kb|4kb|8kb|16kb|32kb|64kb|128kb)
+
+2017-09-18 09:43:52: Expect: invalid setting block
+
+2017-09-18 09:43:52: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/volume&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-18 09:43:52: Expect: invalid setting capacity
+
+2017-09-18 09:43:52: Actual: Incorrect parameters: [capacity] must between 1GB to 1PB. (0x4100104)
+
+2017-09-18 09:43:52: Expect: invalid setting capacity
+
+2017-09-18 09:43:52: Actual: Incorrect parameters: The parameter [pool_id] is not integer. (0x4100104)
+
+2017-09-18 09:43:52: Expect: invalid setting pool_id
+
+2017-09-18 09:43:52: Actual: Empty query result, please check input parameters. Pool id=[100] is not existed. (0x4100102)
+
+2017-09-18 09:43:52: Expect: invalid setting pool_id
+
+2017-09-18 09:43:52: Verify invalid setting 
+
+2017-09-18 09:43:52: 'result': 'p'
+2017-09-18 09:43:52: Actual: name contain only alphanumeric characters and underscores
+
+2017-09-18 09:43:52: Expect: hint naming rules 
+
+2017-09-18 09:43:52: Actual: name shall not exceed 32 characters
+
+2017-09-18 09:43:52: Expect: hint naming rules 
+
+2017-09-18 09:43:52: Actual: name contain only alphanumeric characters and underscores
+
+2017-09-18 09:43:52: Expect: hint naming rules 
+
+2017-09-18 09:43:52: Verify invalid setting name 
+
+2017-09-18 09:43:51: 'result': 'p'
+2017-09-18 09:43:51: Actual: un-volume export successfully 
+
+2017-09-18 09:43:51: Expect: un-export volume 
+
+2017-09-18 09:43:51: Un-Export volume 
+
+2017-09-18 09:43:51: 'result': 'p'
+2017-09-18 09:43:51: Actual: volume export successfully 
+
+2017-09-18 09:43:51: Expect: export volume 
+
+2017-09-18 09:43:49: Export volume 
+
+2017-09-18 09:43:49: 'result': 'p'
+2017-09-18 09:43:49: Actual: after modification name is 00
+
+2017-09-18 09:43:49: Expect: To modify name 00
+
+2017-09-18 09:43:49: Actual: after modification name is x
+
+2017-09-18 09:43:49: Expect: To modify name x
+
+2017-09-18 09:43:49: Actual: after modification name is 66666666666666666666666666666666
+
+2017-09-18 09:43:49: Expect: To modify name 66666666666666666666666666666666
+
+2017-09-18 09:43:49: Actual: after modification name is 5555555555555555555555555555555
+
+2017-09-18 09:43:48: Expect: To modify name 5555555555555555555555555555555
+
+2017-09-18 09:43:48: 'result': 'p'
+2017-09-18 09:43:48: Actual: The qualified volume is listed 
+
+2017-09-18 09:43:48: Expect: Search volume by volume name and pool_name 
+
+2017-09-18 09:43:48: Actual: volume 10 is listed 
+
+2017-09-18 09:43:48: Expect: list volume 10
+
+2017-09-18 09:43:48: Actual: volume 9 is listed 
+
+2017-09-18 09:43:48: Expect: list volume 9
+
+2017-09-18 09:43:48: Actual: volume 8 is listed 
+
+2017-09-18 09:43:48: Expect: list volume 8
+
+2017-09-18 09:43:48: Actual: volume 7 is listed 
+
+2017-09-18 09:43:48: Expect: list volume 7
+
+2017-09-18 09:43:48: Actual: volume 6 is listed 
+
+2017-09-18 09:43:48: Expect: list volume 6
+
+2017-09-18 09:43:48: Actual: volume 5 is listed 
+
+2017-09-18 09:43:48: Expect: list volume 5
+
+2017-09-18 09:43:48: Actual: volume 4 is listed 
+
+2017-09-18 09:43:48: Expect: list volume 4
+
+2017-09-18 09:43:48: Actual: volume 3 is listed 
+
+2017-09-18 09:43:47: Expect: list volume 3
+
+2017-09-18 09:43:47: Actual: volume 2 is listed 
+
+2017-09-18 09:43:47: Expect: list volume 2
+
+2017-09-18 09:43:47: Actual: volume 1 is listed 
+
+2017-09-18 09:43:47: Expect: list volume 1
+
+2017-09-18 09:43:47: Actual: volume 0 is listed 
+
+2017-09-18 09:43:47: Expect: list volume 0
+
+2017-09-18 09:43:47: To list specify the volume 
+
+2017-09-18 09:43:47: Actual: All of volume are listed 
+
+2017-09-18 09:43:47: Expect: List all of the volume 
+
+2017-09-18 09:43:47: 'result': 'p'
+2017-09-18 09:43:47: Actual: {"sector": "512 Bytes", "create_date": "2017-09-17 13:43:04", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 8192, "redundant_md": "all", "id": 10, "ctrl_id": 2, "export_id": 10, "_raw_pool_avail": 512, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 8192, "_raw_used_child": 8192, "used_capacity": 999997440, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22cb000155867b88", "name": "Must_parameters", "total_capacity": 999997440, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 512, "used_child": "0 Byte", "_raw_sector": 512, "pool_avail": "6.29 TB", "written_capacity_value": 8192, "block": "8 KB"}
+
+2017-09-18 09:43:47: Expect: {"sector": "512 Bytes", "capacity": "1GB", "name": "Must_parameters", "compress": "off", "sync": "always", "pool_id": 0, "block": "8 KB"}
+
+2017-09-18 09:43:47: add volume by api use must settings 
+
+2017-09-18 09:43:47: Actual: {"sector": "1 KB", "create_date": "2017-09-17 13:43:03", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 512, "redundant_md": "all", "id": 9, "ctrl_id": 2, "export_id": 9, "_raw_pool_avail": 1024, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 512, "_raw_used_child": 512, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "2231000155c3e8c1", "name": "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT", "total_capacity": 2000000000000, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 1024, "used_child": "0 Byte", "_raw_sector": 1024, "pool_avail": "6.29 TB", "written_capacity_value": 8192, "block": "512 Bytes"}
+
+2017-09-18 09:43:46: Expect: {"sector": "1kb", "thin_prov": 1, "capacity": "2TB", "name": "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT", "quantity": 1, "compress": "lz4", "pool_id": 0, "block": "512b", "sync": "always"}
+
+2017-09-18 09:43:46: Actual: {"sector": "512 Bytes", "create_date": "2017-09-17 13:43:03", "logbias": "latency", "sync": "disabled", "snapshots": [], "_raw_written_capacity": 131072, "redundant_md": "all", "id": 8, "ctrl_id": 2, "export_id": 8, "_raw_pool_avail": 512, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 131072, "_raw_used_child": 131072, "used_capacity": 999999930368, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22a7000155b4eff1", "name": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb", "total_capacity": 999999930368, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 512, "used_child": "0 Byte", "_raw_sector": 512, "pool_avail": "6.29 TB", "written_capacity_value": 8192, "block": "128 KB"}
+
+2017-09-18 09:43:46: Expect: {"sector": "512b", "thin_prov": 0, "capacity": "1TB", "name": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb", "quantity": 1, "compress": "zle", "pool_id": 0, "block": "128kb", "sync": "disabled"}
+
+2017-09-18 09:43:46: Actual: {"sector": "4 KB", "create_date": "2017-09-17 13:43:02", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 65536, "redundant_md": "all", "id": 7, "ctrl_id": 2, "export_id": 7, "_raw_pool_avail": 4096, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 65536, "_raw_used_child": 65536, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22f6000155337888", "name": "1", "total_capacity": 9999941632, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 4096, "used_child": "0 Byte", "_raw_sector": 4096, "pool_avail": "7.32 TB", "written_capacity_value": 8192, "block": "64 KB"}
+
+2017-09-18 09:43:45: Expect: {"sector": "4kb", "thin_prov": 1, "capacity": "10GB", "name": "1", "quantity": 1, "compress": "gzip-9", "pool_id": 0, "block": "64kb", "sync": "always"}
+
+2017-09-18 09:43:45: Actual: {"sector": "2 KB", "create_date": "2017-09-17 13:43:01", "logbias": "latency", "sync": "standard", "snapshots": [], "_raw_written_capacity": 32768, "redundant_md": "all", "id": 6, "ctrl_id": 2, "export_id": 6, "_raw_pool_avail": 2048, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 32768, "_raw_used_child": 32768, "used_capacity": 8999993344, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22200001557d0715", "name": "a", "total_capacity": 8999993344, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 2048, "used_child": "0 Byte", "_raw_sector": 2048, "pool_avail": "7.32 TB", "written_capacity_value": 8192, "block": "32 KB"}
+
+2017-09-18 09:43:44: Expect: {"sector": "2kb", "thin_prov": 0, "capacity": "9GB", "name": "a", "quantity": 1, "compress": "gzip-8", "pool_id": 0, "block": "32kb", "sync": "standard"}
+
+2017-09-18 09:43:44: Actual: {"sector": "1 KB", "create_date": "2017-09-17 13:43:01", "logbias": "latency", "sync": "disabled", "snapshots": [], "_raw_written_capacity": 16384, "redundant_md": "all", "id": 5, "ctrl_id": 2, "export_id": 5, "_raw_pool_avail": 1024, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 16384, "_raw_used_child": 16384, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "229a000155e40e44", "name": "22222222222222222222222222222222", "total_capacity": 5999984640, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 1024, "used_child": "0 Byte", "_raw_sector": 1024, "pool_avail": "7.33 TB", "written_capacity_value": 8192, "block": "16 KB"}
+
+2017-09-18 09:43:44: Expect: {"sector": "1kb", "thin_prov": 1, "capacity": "6GB", "name": "22222222222222222222222222222222", "quantity": 1, "compress": "gzip-2", "pool_id": 0, "block": "16kb", "sync": "disabled"}
+
+2017-09-18 09:43:44: Actual: {"sector": "512 Bytes", "create_date": "2017-09-17 13:42:59", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 8192, "redundant_md": "all", "id": 4, "ctrl_id": 2, "export_id": 4, "_raw_pool_avail": 512, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 8192, "_raw_used_child": 8192, "used_capacity": 4999995392, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "228c000155e1f82e", "name": "1111111111111111111111111111111", "total_capacity": 4999995392, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 512, "used_child": "0 Byte", "_raw_sector": 512, "pool_avail": "7.33 TB", "written_capacity_value": 8192, "block": "8 KB"}
+
+2017-09-18 09:43:42: Expect: {"sector": "512b", "thin_prov": 0, "capacity": "5GB", "name": "1111111111111111111111111111111", "quantity": 1, "compress": "gzip-1", "pool_id": 0, "block": "8kb", "sync": "always"}
+
+2017-09-18 09:43:42: Actual: {"sector": "4 KB", "create_date": "2017-09-17 13:42:58", "logbias": "latency", "sync": "standard", "snapshots": [], "_raw_written_capacity": 4096, "redundant_md": "all", "id": 3, "ctrl_id": 2, "export_id": 3, "_raw_pool_avail": 4096, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 4096, "_raw_used_child": 4096, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22ef00015568b4df", "name": "1_name", "total_capacity": 3999997952, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 4096, "used_child": "0 Byte", "_raw_sector": 4096, "pool_avail": "7.33 TB", "written_capacity_value": 8192, "block": "4 KB"}
+
+2017-09-18 09:43:40: Expect: {"sector": "4kb", "thin_prov": 1, "capacity": "4GB", "name": "1_name", "quantity": 1, "compress": "gzip", "pool_id": 0, "block": "4kb", "sync": "standard"}
+
+2017-09-18 09:43:40: Actual: {"sector": "2 KB", "create_date": "2017-09-17 13:42:57", "logbias": "latency", "sync": "disabled", "snapshots": [], "_raw_written_capacity": 2048, "redundant_md": "all", "id": 2, "ctrl_id": 2, "export_id": 2, "_raw_pool_avail": 2048, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 2048, "_raw_used_child": 2048, "used_capacity": 2999998464, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "223900015526cb42", "name": "Name_11", "total_capacity": 2999998464, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 2048, "used_child": "0 Byte", "_raw_sector": 2048, "pool_avail": "7.33 TB", "written_capacity_value": 8192, "block": "2 KB"}
+
+2017-09-18 09:43:40: Expect: {"sector": "2kb", "thin_prov": 0, "capacity": "3GB", "name": "Name_11", "quantity": 1, "compress": "lzjb", "pool_id": 0, "block": "2kb", "sync": "disabled"}
+
+2017-09-18 09:43:40: Actual: {"sector": "1 KB", "create_date": "2017-09-17 13:42:56", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 1024, "redundant_md": "all", "id": 1, "ctrl_id": 2, "export_id": 1, "_raw_pool_avail": 1024, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 1024, "_raw_used_child": 1024, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "2243000155a8ea77", "name": "12", "total_capacity": 2000000000, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 1024, "used_child": "0 Byte", "_raw_sector": 1024, "pool_avail": "7.34 TB", "written_capacity_value": 8192, "block": "1 KB"}
+
+2017-09-18 09:43:39: Expect: {"sector": "1kb", "thin_prov": 1, "capacity": "2GB", "name": "12", "quantity": 1, "compress": "off", "pool_id": 0, "block": "1kb", "sync": "always"}
+
+2017-09-18 09:43:39: Actual: {"sector": "512 Bytes", "create_date": "2017-09-17 13:42:56", "logbias": "latency", "sync": "standard", "snapshots": [], "_raw_written_capacity": 512, "redundant_md": "all", "id": 0, "ctrl_id": 2, "export_id": 0, "_raw_pool_avail": 512, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 512, "_raw_used_child": 512, "used_capacity": 1000000000, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22d5000155dfed47", "name": "n", "total_capacity": 1000000000, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 512, "used_child": "0 Byte", "_raw_sector": 512, "pool_avail": "7.34 TB", "written_capacity_value": 8192, "block": "512 Bytes"}
+
+2017-09-18 09:43:39: Expect: {"sector": "512b", "thin_prov": 0, "capacity": "1GB", "name": "n", "quantity": 1, "compress": "on", "pool_id": 0, "block": "512b", "sync": "standard"}
+
+2017-09-18 09:43:24: add volume by api use all of settings 
+
+2017-09-15 15:58:43: 'result': 'f'
+2017-09-15 15:58:43: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/volume&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-15 15:58:43: Expect: invalid setting quantity
+
+2017-09-15 15:58:43: Fail: {"sector": "512b", "thin_prov": 0, "capacity": "1GB", "name": "legal_name", "quantity": -1, "compress": "off", "pool_id": 0, "block": "512b", "sync": "always"}
+
+2017-09-15 15:58:42: Expect: invalid setting quantity
+
+2017-09-15 15:58:42: Actual: invalid thin_prov (0,1)
+
+2017-09-15 15:58:42: Expect: invalid setting thin_prov
+
+2017-09-15 15:58:42: Actual: invalid thin_prov (0,1)
+
+2017-09-15 15:58:42: Expect: invalid setting thin_prov
+
+2017-09-15 15:58:42: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/volume&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-15 15:58:42: Expect: invalid setting sync
+
+2017-09-15 15:58:42: Actual: invalid sync (standard|always|disabled)
+
+2017-09-15 15:58:42: Expect: invalid setting sync
+
+2017-09-15 15:58:42: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/volume&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-15 15:58:42: Expect: invalid setting compress
+
+2017-09-15 15:58:42: Actual: invalid compress (on|off|lzjb|gzip|gzip-1|gzip-2|gzip-3|gzip-4|gzip-5|gzip-6|gzip-7|gzip-8|gzip-9|zle|lz4)
+
+2017-09-15 15:58:42: Expect: invalid setting compress
+
+2017-09-15 15:58:42: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/volume&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-15 15:58:42: Expect: invalid setting sector
+
+2017-09-15 15:58:42: Actual: invalid sector (512b|1kb|2kb|4kb)
+
+2017-09-15 15:58:42: Expect: invalid setting sector
+
+2017-09-15 15:58:42: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/volume&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-15 15:58:42: Expect: invalid setting block
+
+2017-09-15 15:58:42: Actual: invalid block (512b|1kb|2kb|4kb|8kb|16kb|32kb|64kb|128kb)
+
+2017-09-15 15:58:42: Expect: invalid setting block
+
+2017-09-15 15:58:42: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/volume&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-15 15:58:42: Expect: invalid setting capacity
+
+2017-09-15 15:58:42: Actual: Incorrect parameters: [capacity] must between 1GB to 1PB. (0x4100104)
+
+2017-09-15 15:58:42: Expect: invalid setting capacity
+
+2017-09-15 15:58:42: Actual: Incorrect parameters: The parameter [pool_id] is not integer. (0x4100104)
+
+2017-09-15 15:58:42: Expect: invalid setting pool_id
+
+2017-09-15 15:58:42: Actual: Empty query result, please check input parameters. Pool id=[100] is not existed. (0x4100102)
+
+2017-09-15 15:58:42: Expect: invalid setting pool_id
+
+2017-09-15 15:58:42: Verify invalid setting 
+
+2017-09-15 15:46:15: 'result': 'f'
+2017-09-15 15:46:15: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/volume&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-15 15:46:15: Expect: invalid setting quantity
+
+2017-09-15 15:46:15: Fail: {"sector": "512b", "thin_prov": 0, "capacity": "1GB", "name": "legal_name", "quantity": 0, "compress": "off", "pool_id": 0, "block": "512b", "sync": "always"}
+
+2017-09-15 15:46:14: Expect: invalid setting quantity
+
+2017-09-15 15:46:14: Actual: invalid thin_prov (0,1)
+
+2017-09-15 15:46:14: Expect: invalid setting thin_prov
+
+2017-09-15 15:46:14: Actual: invalid thin_prov (0,1)
+
+2017-09-15 15:46:14: Expect: invalid setting thin_prov
+
+2017-09-15 15:46:14: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/volume&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-15 15:46:14: Expect: invalid setting sync
+
+2017-09-15 15:46:14: Actual: invalid sync (standard|always|disabled)
+
+2017-09-15 15:46:14: Expect: invalid setting sync
+
+2017-09-15 15:46:14: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/volume&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-15 15:46:14: Expect: invalid setting compress
+
+2017-09-15 15:46:14: Actual: invalid compress (on|off|lzjb|gzip|gzip-1|gzip-2|gzip-3|gzip-4|gzip-5|gzip-6|gzip-7|gzip-8|gzip-9|zle|lz4)
+
+2017-09-15 15:46:14: Expect: invalid setting compress
+
+2017-09-15 15:46:14: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/volume&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-15 15:46:14: Expect: invalid setting sector
+
+2017-09-15 15:46:14: Actual: invalid sector (512b|1kb|2kb|4kb)
+
+2017-09-15 15:46:14: Expect: invalid setting sector
+
+2017-09-15 15:46:14: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/volume&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-15 15:46:14: Expect: invalid setting block
+
+2017-09-15 15:46:14: Actual: invalid block (512b|1kb|2kb|4kb|8kb|16kb|32kb|64kb|128kb)
+
+2017-09-15 15:46:14: Expect: invalid setting block
+
+2017-09-15 15:46:14: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/volume&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-15 15:46:14: Expect: invalid setting capacity
+
+2017-09-15 15:46:14: Actual: Incorrect parameters: [capacity] must between 1GB to 1PB. (0x4100104)
+
+2017-09-15 15:46:14: Expect: invalid setting capacity
+
+2017-09-15 15:46:14: Actual: Incorrect parameters: The parameter [pool_id] is not integer. (0x4100104)
+
+2017-09-15 15:46:13: Expect: invalid setting pool_id
+
+2017-09-15 15:46:13: Actual: Empty query result, please check input parameters. Pool id=[100] is not existed. (0x4100102)
+
+2017-09-15 15:46:13: Expect: invalid setting pool_id
+
+2017-09-15 15:46:13: Verify invalid setting 
+
+2017-09-15 15:44:05: 'result': 'f'
+2017-09-15 15:44:05: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/volume&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-15 15:44:05: Expect: invalid setting quantity
+
+2017-09-15 15:44:05: Fail: {"sector": "512b", "thin_prov": 0, "capacity": "1GB", "name": "legal_name", "quantity": -1, "compress": "off", "pool_id": 0, "block": "512b", "sync": "always"}
+
+2017-09-15 15:44:04: Expect: invalid setting quantity
+
+2017-09-15 15:44:04: Actual: invalid thin_prov (0,1)
+
+2017-09-15 15:44:04: Expect: invalid setting thin_prov
+
+2017-09-15 15:44:04: Actual: invalid thin_prov (0,1)
+
+2017-09-15 15:44:04: Expect: invalid setting thin_prov
+
+2017-09-15 15:44:04: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/volume&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-15 15:44:04: Expect: invalid setting sync
+
+2017-09-15 15:44:04: Actual: invalid sync (standard|always|disabled)
+
+2017-09-15 15:44:04: Expect: invalid setting sync
+
+2017-09-15 15:44:04: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/volume&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-15 15:44:04: Expect: invalid setting compress
+
+2017-09-15 15:44:04: Actual: invalid compress (on|off|lzjb|gzip|gzip-1|gzip-2|gzip-3|gzip-4|gzip-5|gzip-6|gzip-7|gzip-8|gzip-9|zle|lz4)
+
+2017-09-15 15:44:04: Expect: invalid setting compress
+
+2017-09-15 15:44:04: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/volume&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-15 15:44:04: Expect: invalid setting sector
+
+2017-09-15 15:44:04: Actual: invalid sector (512b|1kb|2kb|4kb)
+
+2017-09-15 15:44:04: Expect: invalid setting sector
+
+2017-09-15 15:44:04: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/volume&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-15 15:44:04: Expect: invalid setting block
+
+2017-09-15 15:44:04: Actual: invalid block (512b|1kb|2kb|4kb|8kb|16kb|32kb|64kb|128kb)
+
+2017-09-15 15:44:04: Expect: invalid setting block
+
+2017-09-15 15:44:04: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/volume&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-15 15:44:03: Expect: invalid setting capacity
+
+2017-09-15 15:44:03: Actual: Incorrect parameters: [capacity] must between 1GB to 1PB. (0x4100104)
+
+2017-09-15 15:44:03: Expect: invalid setting capacity
+
+2017-09-15 15:44:03: Actual: Incorrect parameters: The parameter [pool_id] is not integer. (0x4100104)
+
+2017-09-15 15:44:03: Expect: invalid setting pool_id
+
+2017-09-15 15:44:03: Actual: Empty query result, please check input parameters. Pool id=[100] is not existed. (0x4100102)
+
+2017-09-15 15:44:03: Expect: invalid setting pool_id
+
+2017-09-15 15:44:03: Verify invalid setting 
+
+2017-09-15 15:43:26: 'result': 'f'
+2017-09-15 15:43:25: Expect: To delete volume 11
+
+2017-09-15 15:43:25: Fail: The volume 10 is not deleted 
+
+2017-09-15 15:43:25: Expect: To delete volume 10
+
+2017-09-15 15:43:25: Fail: The volume 9 is not deleted 
+
+2017-09-15 15:43:25: Fail: The volume 9 is not deleted 
+
+2017-09-15 15:43:25: Expect: To delete volume 9
+
+2017-09-15 15:43:25: Fail: The volume 8 is not deleted 
+
+2017-09-15 15:43:25: Fail: The volume 8 is not deleted 
+
+2017-09-15 15:43:25: Fail: The volume 8 is not deleted 
+
+2017-09-15 15:43:24: Expect: To delete volume 8
+
+2017-09-15 15:43:24: Fail: The volume 7 is not deleted 
+
+2017-09-15 15:43:24: Fail: The volume 7 is not deleted 
+
+2017-09-15 15:43:24: Fail: The volume 7 is not deleted 
+
+2017-09-15 15:43:24: Fail: The volume 7 is not deleted 
+
+2017-09-15 15:43:23: Expect: To delete volume 7
+
+2017-09-15 15:43:23: Fail: The volume 6 is not deleted 
+
+2017-09-15 15:43:23: Fail: The volume 6 is not deleted 
+
+2017-09-15 15:43:23: Fail: The volume 6 is not deleted 
+
+2017-09-15 15:43:23: Fail: The volume 6 is not deleted 
+
+2017-09-15 15:43:23: Fail: The volume 6 is not deleted 
+
+2017-09-15 15:43:23: Expect: To delete volume 6
+
+2017-09-15 15:43:23: Fail: The volume 5 is not deleted 
+
+2017-09-15 15:43:23: Fail: The volume 5 is not deleted 
+
+2017-09-15 15:43:23: Fail: The volume 5 is not deleted 
+
+2017-09-15 15:43:23: Fail: The volume 5 is not deleted 
+
+2017-09-15 15:43:23: Fail: The volume 5 is not deleted 
+
+2017-09-15 15:43:23: Fail: The volume 5 is not deleted 
+
+2017-09-15 15:43:22: Expect: To delete volume 5
+
+2017-09-15 15:43:22: Fail: The volume 4 is not deleted 
+
+2017-09-15 15:43:22: Fail: The volume 4 is not deleted 
+
+2017-09-15 15:43:22: Fail: The volume 4 is not deleted 
+
+2017-09-15 15:43:22: Fail: The volume 4 is not deleted 
+
+2017-09-15 15:43:22: Fail: The volume 4 is not deleted 
+
+2017-09-15 15:43:22: Fail: The volume 4 is not deleted 
+
+2017-09-15 15:43:22: Fail: The volume 4 is not deleted 
+
+2017-09-15 15:43:21: Expect: To delete volume 4
+
+2017-09-15 15:43:21: Fail: The volume 3 is not deleted 
+
+2017-09-15 15:43:21: Fail: The volume 3 is not deleted 
+
+2017-09-15 15:43:21: Fail: The volume 3 is not deleted 
+
+2017-09-15 15:43:21: Fail: The volume 3 is not deleted 
+
+2017-09-15 15:43:21: Fail: The volume 3 is not deleted 
+
+2017-09-15 15:43:21: Fail: The volume 3 is not deleted 
+
+2017-09-15 15:43:21: Fail: The volume 3 is not deleted 
+
+2017-09-15 15:43:21: Fail: The volume 3 is not deleted 
+
+2017-09-15 15:43:21: Expect: To delete volume 3
+
+2017-09-15 15:43:21: Fail: The volume 2 is not deleted 
+
+2017-09-15 15:43:21: Fail: The volume 2 is not deleted 
+
+2017-09-15 15:43:21: Fail: The volume 2 is not deleted 
+
+2017-09-15 15:43:21: Fail: The volume 2 is not deleted 
+
+2017-09-15 15:43:21: Fail: The volume 2 is not deleted 
+
+2017-09-15 15:43:21: Fail: The volume 2 is not deleted 
+
+2017-09-15 15:43:21: Fail: The volume 2 is not deleted 
+
+2017-09-15 15:43:21: Fail: The volume 2 is not deleted 
+
+2017-09-15 15:43:21: Fail: The volume 2 is not deleted 
+
+2017-09-15 15:43:20: Expect: To delete volume 2
+
+2017-09-15 15:43:20: Fail: The volume 1 is not deleted 
+
+2017-09-15 15:43:20: Fail: The volume 1 is not deleted 
+
+2017-09-15 15:43:20: Fail: The volume 1 is not deleted 
+
+2017-09-15 15:43:20: Fail: The volume 1 is not deleted 
+
+2017-09-15 15:43:20: Fail: The volume 1 is not deleted 
+
+2017-09-15 15:43:20: Fail: The volume 1 is not deleted 
+
+2017-09-15 15:43:20: Fail: The volume 1 is not deleted 
+
+2017-09-15 15:43:20: Fail: The volume 1 is not deleted 
+
+2017-09-15 15:43:20: Fail: The volume 1 is not deleted 
+
+2017-09-15 15:43:20: Fail: The volume 1 is not deleted 
+
+2017-09-15 15:43:20: Expect: To delete volume 1
+
+2017-09-15 15:43:20: Fail: The volume 0 is not deleted 
+
+2017-09-15 15:43:20: Fail: The volume 0 is not deleted 
+
+2017-09-15 15:43:20: Fail: The volume 0 is not deleted 
+
+2017-09-15 15:43:20: Fail: The volume 0 is not deleted 
+
+2017-09-15 15:43:20: Fail: The volume 0 is not deleted 
+
+2017-09-15 15:43:20: Fail: The volume 0 is not deleted 
+
+2017-09-15 15:43:20: Fail: The volume 0 is not deleted 
+
+2017-09-15 15:43:20: Fail: The volume 0 is not deleted 
+
+2017-09-15 15:43:20: Fail: The volume 0 is not deleted 
+
+2017-09-15 15:43:20: Fail: The volume 0 is not deleted 
+
+2017-09-15 15:43:20: Fail: The volume 0 is not deleted 
+
+2017-09-15 15:43:19: Expect: To delete volume 0
+
+2017-09-15 15:43:19: delete volume by api 
+
+2017-09-15 15:40:29: 'result': 'f'
+2017-09-15 15:40:29: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/volume&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-15 15:40:29: Expect: invalid setting quantity
+
+2017-09-15 15:40:29: Fail: {"sector": "512b", "thin_prov": 0, "capacity": "1GB", "name": "legal_name", "quantity": -1, "compress": "off", "pool_id": 0, "block": "512b", "sync": "always"}
+
+2017-09-15 15:40:28: Expect: invalid setting quantity
+
+2017-09-15 15:40:28: Actual: invalid thin_prov (0,1)
+
+2017-09-15 15:40:28: Expect: invalid setting thin_prov
+
+2017-09-15 15:40:28: Actual: invalid thin_prov (0,1)
+
+2017-09-15 15:40:28: Expect: invalid setting thin_prov
+
+2017-09-15 15:40:28: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/volume&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-15 15:40:27: Expect: invalid setting sync
+
+2017-09-15 15:40:27: Actual: invalid sync (standard|always|disabled)
+
+2017-09-15 15:40:27: Expect: invalid setting sync
+
+2017-09-15 15:40:27: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/volume&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-15 15:40:27: Expect: invalid setting compress
+
+2017-09-15 15:40:27: Actual: invalid compress (on|off|lzjb|gzip|gzip-1|gzip-2|gzip-3|gzip-4|gzip-5|gzip-6|gzip-7|gzip-8|gzip-9|zle|lz4)
+
+2017-09-15 15:40:27: Expect: invalid setting compress
+
+2017-09-15 15:40:27: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/volume&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-15 15:40:27: Expect: invalid setting sector
+
+2017-09-15 15:40:27: Actual: invalid sector (512b|1kb|2kb|4kb)
+
+2017-09-15 15:40:27: Expect: invalid setting sector
+
+2017-09-15 15:40:27: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/volume&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-15 15:40:27: Expect: invalid setting block
+
+2017-09-15 15:40:27: Actual: invalid block (512b|1kb|2kb|4kb|8kb|16kb|32kb|64kb|128kb)
+
+2017-09-15 15:40:27: Expect: invalid setting block
+
+2017-09-15 15:40:27: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/volume&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-15 15:40:27: Expect: invalid setting capacity
+
+2017-09-15 15:40:27: Actual: Incorrect parameters: [capacity] must between 1GB to 1PB. (0x4100104)
+
+2017-09-15 15:40:27: Expect: invalid setting capacity
+
+2017-09-15 15:40:27: Actual: Incorrect parameters: The parameter [pool_id] is not integer. (0x4100104)
+
+2017-09-15 15:40:27: Expect: invalid setting pool_id
+
+2017-09-15 15:40:27: Actual: Empty query result, please check input parameters. Pool id=[100] is not existed. (0x4100102)
+
+2017-09-15 15:40:27: Expect: invalid setting pool_id
+
+2017-09-15 15:40:27: Verify invalid setting 
+
+2017-09-15 15:33:57: Actual: invalid compress (on|off|lzjb|gzip|gzip-1|gzip-2|gzip-3|gzip-4|gzip-5|gzip-6|gzip-7|gzip-8|gzip-9|zle|lz4)
+
+2017-09-15 15:33:57: Expect: invalid setting quantity
+
+2017-09-15 15:33:57: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/volume&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-15 15:33:57: Expect: invalid setting thin_prov
+
+2017-09-15 15:33:57: Actual: invalid sector (512b|1kb|2kb|4kb)
+
+2017-09-15 15:33:57: Expect: invalid setting sync
+
+2017-09-15 15:33:57: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/volume&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-15 15:33:57: Expect: invalid setting compress
+
+2017-09-15 15:33:57: Actual: invalid block (512b|1kb|2kb|4kb|8kb|16kb|32kb|64kb|128kb)
+
+2017-09-15 15:33:57: Expect: invalid setting sector
+
+2017-09-15 15:33:57: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/volume&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-15 15:33:57: Expect: invalid setting block
+
+2017-09-15 15:33:57: Actual: Incorrect parameters: Volume name is duplicated. (0x4100104)
+
+2017-09-15 15:33:57: Expect: invalid setting capacity
+
+2017-09-15 15:33:57: Actual: Incorrect parameters: The parameter [pool_id] is not integer. (0x4100104)
+
+2017-09-15 15:33:57: Expect: invalid setting pool_id
+
+2017-09-15 15:33:57: Actual: Incorrect parameters: Volume name is duplicated. (0x4100104)
+
+2017-09-15 15:33:57: Expect: invalid setting capacity
+
+2017-09-15 15:33:57: Verify invalid setting 
+
+2017-09-15 15:25:00: 'result': 'f'
+2017-09-15 15:25:00: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/volume&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-15 15:25:00: Expect: hint naming rules 
+
+2017-09-15 15:25:00: Fail: {"sector": "512b", "thin_prov": 0, "capacity": "1GB", "name": "legal_name", "quantity": -1, "compress": "off", "pool_id": 0, "block": "512b", "sync": "always"}
+
+2017-09-15 15:24:59: Expect: hint naming rules 
+
+2017-09-15 15:24:59: Actual: invalid thin_prov (0,1)
+
+2017-09-15 15:24:59: Expect: hint naming rules 
+
+2017-09-15 15:24:59: Actual: invalid thin_prov (0,1)
+
+2017-09-15 15:24:59: Expect: hint naming rules 
+
+2017-09-15 15:24:59: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/volume&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-15 15:24:59: Expect: hint naming rules 
+
+2017-09-15 15:24:59: Actual: invalid sync (standard|always|disabled)
+
+2017-09-15 15:24:59: Expect: hint naming rules 
+
+2017-09-15 15:24:59: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/volume&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-15 15:24:59: Expect: hint naming rules 
+
+2017-09-15 15:24:59: Actual: invalid compress (on|off|lzjb|gzip|gzip-1|gzip-2|gzip-3|gzip-4|gzip-5|gzip-6|gzip-7|gzip-8|gzip-9|zle|lz4)
+
+2017-09-15 15:24:59: Expect: hint naming rules 
+
+2017-09-15 15:24:59: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/volume&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-15 15:24:59: Expect: hint naming rules 
+
+2017-09-15 15:24:59: Actual: invalid sector (512b|1kb|2kb|4kb)
+
+2017-09-15 15:24:59: Expect: hint naming rules 
+
+2017-09-15 15:24:59: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/volume&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-15 15:24:59: Expect: hint naming rules 
+
+2017-09-15 15:24:59: Actual: invalid block (512b|1kb|2kb|4kb|8kb|16kb|32kb|64kb|128kb)
+
+2017-09-15 15:24:59: Expect: hint naming rules 
+
+2017-09-15 15:24:59: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/volume&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-15 15:24:59: Expect: hint naming rules 
+
+2017-09-15 15:24:59: Actual: Incorrect parameters: [capacity] must between 1GB to 1PB. (0x4100104)
+
+2017-09-15 15:24:59: Expect: hint naming rules 
+
+2017-09-15 15:24:59: Actual: Incorrect parameters: The parameter [pool_id] is not integer. (0x4100104)
+
+2017-09-15 15:24:59: Expect: hint naming rules 
+
+2017-09-15 15:24:59: Actual: Empty query result, please check input parameters. Pool id=[100] is not existed. (0x4100102)
+
+2017-09-15 15:24:59: Expect: hint naming rules 
+
+2017-09-15 15:24:59: Verify invalid setting 
+
+2017-09-15 15:09:36: 'result': 'p'
+2017-09-15 15:09:36: Actual: Empty query result, please check input parameters. Pool id=[100] is not existed. (0x4100102)
+
+2017-09-15 15:09:36: Expect: 
+2017-09-15 15:09:36: Verify invalid setting pool_id 
+
+2017-09-15 15:09:16: 'result': 'p'
+2017-09-15 15:09:16: Actual: invalid compress (on|off|lzjb|gzip|gzip-1|gzip-2|gzip-3|gzip-4|gzip-5|gzip-6|gzip-7|gzip-8|gzip-9|zle|lz4)
+
+2017-09-15 15:09:16: Expect: 
+2017-09-15 15:09:16: Verify invalid setting pool_id 
+
+2017-09-15 15:00:37: 'result': 'p'
+2017-09-15 15:00:37: Actual: name contain only alphanumeric characters and underscores
+
+2017-09-15 15:00:37: Expect: hint naming rules 
+
+2017-09-15 15:00:37: Actual: name shall not exceed 32 characters
+
+2017-09-15 15:00:37: Expect: hint naming rules 
+
+2017-09-15 15:00:37: Actual: name contain only alphanumeric characters and underscores
+
+2017-09-15 15:00:37: Expect: hint naming rules 
+
+2017-09-15 15:00:36: Verify invalid setting name 
+
+2017-09-15 12:03:01: 'result': 'p'
+2017-09-15 12:03:01: Actual: name contain only alphanumeric characters and underscores
+
+2017-09-15 12:03:01: Expect: hint naming rules 
+
+2017-09-15 12:03:01: Actual: name shall not exceed 32 characters
+
+2017-09-15 12:03:01: Expect: hint naming rules 
+
+2017-09-15 12:03:01: Actual: name contain only alphanumeric characters and underscores
+
+2017-09-15 12:03:01: Expect: hint naming rules 
+
+2017-09-15 12:03:01: Verify invalid setting 
+
+2017-09-15 11:59:28: 'result': 'p'
+2017-09-15 11:59:28: Actual: name contain only alphanumeric characters and underscores
+
+2017-09-15 11:59:28: Actual: name shall not exceed 32 characters
+
+2017-09-15 11:59:28: Actual: name contain only alphanumeric characters and underscores
+
+2017-09-15 11:59:27: Expect: hint error information contains invalid setting 
+
+2017-09-15 11:59:27: Verify invalid setting 
+
+2017-09-15 11:58:16: 'result': 'p'
+2017-09-15 11:58:16: Actual: name contain only alphanumeric characters and underscores
+
+2017-09-15 11:58:16: Actual: name shall not exceed 32 characters
+
+2017-09-15 11:58:16: Actual: name contain only alphanumeric characters and underscores
+
+2017-09-15 11:58:16: Expect: hint error information contains invild setting
+2017-09-15 11:58:16: Verify invalid setting 
+
+2017-09-15 11:13:58: 'result': 'p'
+2017-09-15 11:13:58: Verify parameter: max_capacity 
+
+2017-09-15 11:13:58: Actual: {"sector": "512 Bytes", "create_date": "2017-09-14 15:13:19", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 8192, "redundant_md": "all", "id": 10, "ctrl_id": 2, "export_id": 10, "_raw_pool_avail": 512, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 8192, "_raw_used_child": 8192, "used_capacity": 999997440, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "2204000155d7e39f", "name": "Must_parameters", "total_capacity": 999997440, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 512, "used_child": "0 Byte", "_raw_sector": 512, "pool_avail": "6.29 TB", "written_capacity_value": 8192, "block": "8 KB"}
+
+2017-09-15 11:13:57: Expect: {"sector": "512 Bytes", "capacity": "1GB", "name": "Must_parameters", "compress": "off", "sync": "always", "pool_id": 0, "block": "8 KB"}
+
+2017-09-15 11:13:57: add volume by api use must settings 
+
+2017-09-15 11:13:57: Actual: {"sector": "1 KB", "create_date": "2017-09-14 15:13:19", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 512, "redundant_md": "all", "id": 9, "ctrl_id": 2, "export_id": 9, "_raw_pool_avail": 1024, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 512, "_raw_used_child": 512, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22be0001554eeace", "name": "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT", "total_capacity": 2000000000000, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 1024, "used_child": "0 Byte", "_raw_sector": 1024, "pool_avail": "6.29 TB", "written_capacity_value": 8192, "block": "512 Bytes"}
+
+2017-09-15 11:13:57: Expect: {"sector": "1kb", "thin_prov": 1, "capacity": "2TB", "name": "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT", "quantity": 1, "compress": "lz4", "pool_id": 0, "block": "512b", "sync": "always"}
+
+2017-09-15 11:13:57: Actual: {"sector": "512 Bytes", "create_date": "2017-09-14 15:13:18", "logbias": "latency", "sync": "disabled", "snapshots": [], "_raw_written_capacity": 131072, "redundant_md": "all", "id": 8, "ctrl_id": 2, "export_id": 8, "_raw_pool_avail": 512, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 131072, "_raw_used_child": 131072, "used_capacity": 999999930368, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22e80001552ec59a", "name": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb", "total_capacity": 999999930368, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 512, "used_child": "0 Byte", "_raw_sector": 512, "pool_avail": "6.29 TB", "written_capacity_value": 8192, "block": "128 KB"}
+
+2017-09-15 11:13:56: Expect: {"sector": "512b", "thin_prov": 0, "capacity": "1TB", "name": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb", "quantity": 1, "compress": "zle", "pool_id": 0, "block": "128kb", "sync": "disabled"}
+
+2017-09-15 11:13:56: Actual: {"sector": "4 KB", "create_date": "2017-09-14 15:13:18", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 65536, "redundant_md": "all", "id": 7, "ctrl_id": 2, "export_id": 7, "_raw_pool_avail": 4096, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 65536, "_raw_used_child": 65536, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "2279000155be7a87", "name": "1", "total_capacity": 9999941632, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 4096, "used_child": "0 Byte", "_raw_sector": 4096, "pool_avail": "7.32 TB", "written_capacity_value": 8192, "block": "64 KB"}
+
+2017-09-15 11:13:56: Expect: {"sector": "4kb", "thin_prov": 1, "capacity": "10GB", "name": "1", "quantity": 1, "compress": "gzip-9", "pool_id": 0, "block": "64kb", "sync": "always"}
+
+2017-09-15 11:13:56: Actual: {"sector": "2 KB", "create_date": "2017-09-14 15:13:17", "logbias": "latency", "sync": "standard", "snapshots": [], "_raw_written_capacity": 32768, "redundant_md": "all", "id": 6, "ctrl_id": 2, "export_id": 6, "_raw_pool_avail": 2048, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 32768, "_raw_used_child": 32768, "used_capacity": 8999993344, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22af000155f0051a", "name": "a", "total_capacity": 8999993344, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 2048, "used_child": "0 Byte", "_raw_sector": 2048, "pool_avail": "7.32 TB", "written_capacity_value": 8192, "block": "32 KB"}
+
+2017-09-15 11:13:54: Expect: {"sector": "2kb", "thin_prov": 0, "capacity": "9GB", "name": "a", "quantity": 1, "compress": "gzip-8", "pool_id": 0, "block": "32kb", "sync": "standard"}
+
+2017-09-15 11:13:54: Actual: {"sector": "1 KB", "create_date": "2017-09-14 15:13:16", "logbias": "latency", "sync": "disabled", "snapshots": [], "_raw_written_capacity": 16384, "redundant_md": "all", "id": 5, "ctrl_id": 2, "export_id": 5, "_raw_pool_avail": 1024, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 16384, "_raw_used_child": 16384, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22d50001557e242f", "name": "22222222222222222222222222222222", "total_capacity": 5999984640, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 1024, "used_child": "0 Byte", "_raw_sector": 1024, "pool_avail": "7.33 TB", "written_capacity_value": 8192, "block": "16 KB"}
+
+2017-09-15 11:13:54: Expect: {"sector": "1kb", "thin_prov": 1, "capacity": "6GB", "name": "22222222222222222222222222222222", "quantity": 1, "compress": "gzip-2", "pool_id": 0, "block": "16kb", "sync": "disabled"}
+
+2017-09-15 11:13:54: Actual: {"sector": "512 Bytes", "create_date": "2017-09-14 15:13:15", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 8192, "redundant_md": "all", "id": 4, "ctrl_id": 2, "export_id": 4, "_raw_pool_avail": 512, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 8192, "_raw_used_child": 8192, "used_capacity": 4999995392, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22030001556cfa21", "name": "1111111111111111111111111111111", "total_capacity": 4999995392, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 512, "used_child": "0 Byte", "_raw_sector": 512, "pool_avail": "7.33 TB", "written_capacity_value": 8192, "block": "8 KB"}
+
+2017-09-15 11:13:53: Expect: {"sector": "512b", "thin_prov": 0, "capacity": "5GB", "name": "1111111111111111111111111111111", "quantity": 1, "compress": "gzip-1", "pool_id": 0, "block": "8kb", "sync": "always"}
+
+2017-09-15 11:13:53: Actual: {"sector": "4 KB", "create_date": "2017-09-14 15:13:15", "logbias": "latency", "sync": "standard", "snapshots": [], "_raw_written_capacity": 4096, "redundant_md": "all", "id": 3, "ctrl_id": 2, "export_id": 3, "_raw_pool_avail": 4096, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 4096, "_raw_used_child": 4096, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22a0000155f29eb4", "name": "1_name", "total_capacity": 3999997952, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 4096, "used_child": "0 Byte", "_raw_sector": 4096, "pool_avail": "7.33 TB", "written_capacity_value": 8192, "block": "4 KB"}
+
+2017-09-15 11:13:53: Expect: {"sector": "4kb", "thin_prov": 1, "capacity": "4GB", "name": "1_name", "quantity": 1, "compress": "gzip", "pool_id": 0, "block": "4kb", "sync": "standard"}
+
+2017-09-15 11:13:53: Actual: {"sector": "2 KB", "create_date": "2017-09-14 15:13:14", "logbias": "latency", "sync": "disabled", "snapshots": [], "_raw_written_capacity": 2048, "redundant_md": "all", "id": 2, "ctrl_id": 2, "export_id": 2, "_raw_pool_avail": 2048, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 2048, "_raw_used_child": 2048, "used_capacity": 2999998464, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22f600015592b1e0", "name": "Name_11", "total_capacity": 2999998464, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 2048, "used_child": "0 Byte", "_raw_sector": 2048, "pool_avail": "7.33 TB", "written_capacity_value": 8192, "block": "2 KB"}
+
+2017-09-15 11:13:52: Expect: {"sector": "2kb", "thin_prov": 0, "capacity": "3GB", "name": "Name_11", "quantity": 1, "compress": "lzjb", "pool_id": 0, "block": "2kb", "sync": "disabled"}
+
+2017-09-15 11:13:52: Actual: {"sector": "1 KB", "create_date": "2017-09-14 15:13:14", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 1024, "redundant_md": "all", "id": 1, "ctrl_id": 2, "export_id": 1, "_raw_pool_avail": 1024, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 1024, "_raw_used_child": 1024, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "224c0001550bb8b1", "name": "12", "total_capacity": 2000000000, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 1024, "used_child": "0 Byte", "_raw_sector": 1024, "pool_avail": "7.34 TB", "written_capacity_value": 8192, "block": "1 KB"}
+
+2017-09-15 11:13:52: Expect: {"sector": "1kb", "thin_prov": 1, "capacity": "2GB", "name": "12", "quantity": 1, "compress": "off", "pool_id": 0, "block": "1kb", "sync": "always"}
+
+2017-09-15 11:13:52: Actual: {"sector": "512 Bytes", "create_date": "2017-09-14 15:13:13", "logbias": "latency", "sync": "standard", "snapshots": [], "_raw_written_capacity": 512, "redundant_md": "all", "id": 0, "ctrl_id": 2, "export_id": 0, "_raw_pool_avail": 512, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 512, "_raw_used_child": 512, "used_capacity": 1000000000, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "229a00015545c72c", "name": "n", "total_capacity": 1000000000, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 512, "used_child": "0 Byte", "_raw_sector": 512, "pool_avail": "7.34 TB", "written_capacity_value": 8192, "block": "512 Bytes"}
+
+2017-09-15 11:13:50: Expect: {"sector": "512b", "thin_prov": 0, "capacity": "1GB", "name": "n", "quantity": 1, "compress": "on", "pool_id": 0, "block": "512b", "sync": "standard"}
+
+2017-09-15 11:13:34: add volume by api use all of settings 
+
+2017-09-15 11:12:23: Fail: invalid setting: 
+
+2017-09-15 11:12:23: Expect: To add volume use the max available capacity of pool 
+
+2017-09-15 11:12:23: Verify parameter: max_capacity 
+
+2017-09-15 11:12:23: Actual: {"sector": "512 Bytes", "create_date": "2017-09-14 15:11:45", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 8192, "redundant_md": "all", "id": 10, "ctrl_id": 2, "export_id": 10, "_raw_pool_avail": 512, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 8192, "_raw_used_child": 8192, "used_capacity": 999997440, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22c900015572d47a", "name": "Must_parameters", "total_capacity": 999997440, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 512, "used_child": "0 Byte", "_raw_sector": 512, "pool_avail": "6.29 TB", "written_capacity_value": 8192, "block": "8 KB"}
+
+2017-09-15 11:12:23: Expect: {"sector": "512 Bytes", "capacity": "1GB", "name": "Must_parameters", "compress": "off", "sync": "always", "pool_id": 0, "block": "8 KB"}
+
+2017-09-15 11:12:23: add volume by api use must settings 
+
+2017-09-15 11:12:23: Actual: {"sector": "1 KB", "create_date": "2017-09-14 15:11:44", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 512, "redundant_md": "all", "id": 9, "ctrl_id": 2, "export_id": 9, "_raw_pool_avail": 1024, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 512, "_raw_used_child": 512, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22b3000155fcf54f", "name": "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT", "total_capacity": 2000000000000, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 1024, "used_child": "0 Byte", "_raw_sector": 1024, "pool_avail": "6.29 TB", "written_capacity_value": 8192, "block": "512 Bytes"}
+
+2017-09-15 11:12:22: Expect: {"sector": "1kb", "thin_prov": 1, "capacity": "2TB", "name": "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT", "quantity": 1, "compress": "lz4", "pool_id": 0, "block": "512b", "sync": "always"}
+
+2017-09-15 11:12:22: Actual: {"sector": "512 Bytes", "create_date": "2017-09-14 15:11:44", "logbias": "latency", "sync": "disabled", "snapshots": [], "_raw_written_capacity": 131072, "redundant_md": "all", "id": 8, "ctrl_id": 2, "export_id": 8, "_raw_pool_avail": 512, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 131072, "_raw_used_child": 131072, "used_capacity": 999999930368, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22250001558bf27f", "name": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb", "total_capacity": 999999930368, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 512, "used_child": "0 Byte", "_raw_sector": 512, "pool_avail": "6.29 TB", "written_capacity_value": 8192, "block": "128 KB"}
+
+2017-09-15 11:12:21: Expect: {"sector": "512b", "thin_prov": 0, "capacity": "1TB", "name": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb", "quantity": 1, "compress": "zle", "pool_id": 0, "block": "128kb", "sync": "disabled"}
+
+2017-09-15 11:12:21: Actual: {"sector": "4 KB", "create_date": "2017-09-14 15:11:42", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 65536, "redundant_md": "all", "id": 7, "ctrl_id": 2, "export_id": 7, "_raw_pool_avail": 4096, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 65536, "_raw_used_child": 65536, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "2275000155790854", "name": "1", "total_capacity": 9999941632, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 4096, "used_child": "0 Byte", "_raw_sector": 4096, "pool_avail": "7.32 TB", "written_capacity_value": 8192, "block": "64 KB"}
+
+2017-09-15 11:12:20: Expect: {"sector": "4kb", "thin_prov": 1, "capacity": "10GB", "name": "1", "quantity": 1, "compress": "gzip-9", "pool_id": 0, "block": "64kb", "sync": "always"}
+
+2017-09-15 11:12:20: Actual: {"sector": "2 KB", "create_date": "2017-09-14 15:11:42", "logbias": "latency", "sync": "standard", "snapshots": [], "_raw_written_capacity": 32768, "redundant_md": "all", "id": 6, "ctrl_id": 2, "export_id": 6, "_raw_pool_avail": 2048, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 32768, "_raw_used_child": 32768, "used_capacity": 8999993344, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22e30001550e0f64", "name": "a", "total_capacity": 8999993344, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 2048, "used_child": "0 Byte", "_raw_sector": 2048, "pool_avail": "7.32 TB", "written_capacity_value": 8192, "block": "32 KB"}
+
+2017-09-15 11:12:20: Expect: {"sector": "2kb", "thin_prov": 0, "capacity": "9GB", "name": "a", "quantity": 1, "compress": "gzip-8", "pool_id": 0, "block": "32kb", "sync": "standard"}
+
+2017-09-15 11:12:20: Actual: {"sector": "1 KB", "create_date": "2017-09-14 15:11:41", "logbias": "latency", "sync": "disabled", "snapshots": [], "_raw_written_capacity": 16384, "redundant_md": "all", "id": 5, "ctrl_id": 2, "export_id": 5, "_raw_pool_avail": 1024, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 16384, "_raw_used_child": 16384, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "2219000155ae7e98", "name": "22222222222222222222222222222222", "total_capacity": 5999984640, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 1024, "used_child": "0 Byte", "_raw_sector": 1024, "pool_avail": "7.33 TB", "written_capacity_value": 8192, "block": "16 KB"}
+
+2017-09-15 11:12:20: Expect: {"sector": "1kb", "thin_prov": 1, "capacity": "6GB", "name": "22222222222222222222222222222222", "quantity": 1, "compress": "gzip-2", "pool_id": 0, "block": "16kb", "sync": "disabled"}
+
+2017-09-15 11:12:20: Actual: {"sector": "512 Bytes", "create_date": "2017-09-14 15:11:41", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 8192, "redundant_md": "all", "id": 4, "ctrl_id": 2, "export_id": 4, "_raw_pool_avail": 512, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 8192, "_raw_used_child": 8192, "used_capacity": 4999995392, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "228f000155d979a8", "name": "1111111111111111111111111111111", "total_capacity": 4999995392, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 512, "used_child": "0 Byte", "_raw_sector": 512, "pool_avail": "7.33 TB", "written_capacity_value": 8192, "block": "8 KB"}
+
+2017-09-15 11:12:19: Expect: {"sector": "512b", "thin_prov": 0, "capacity": "5GB", "name": "1111111111111111111111111111111", "quantity": 1, "compress": "gzip-1", "pool_id": 0, "block": "8kb", "sync": "always"}
+
+2017-09-15 11:12:19: Actual: {"sector": "4 KB", "create_date": "2017-09-14 15:11:41", "logbias": "latency", "sync": "standard", "snapshots": [], "_raw_written_capacity": 4096, "redundant_md": "all", "id": 3, "ctrl_id": 2, "export_id": 3, "_raw_pool_avail": 4096, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 4096, "_raw_used_child": 4096, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "222c000155471d3d", "name": "1_name", "total_capacity": 3999997952, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 4096, "used_child": "0 Byte", "_raw_sector": 4096, "pool_avail": "7.33 TB", "written_capacity_value": 8192, "block": "4 KB"}
+
+2017-09-15 11:12:19: Expect: {"sector": "4kb", "thin_prov": 1, "capacity": "4GB", "name": "1_name", "quantity": 1, "compress": "gzip", "pool_id": 0, "block": "4kb", "sync": "standard"}
+
+2017-09-15 11:12:19: Actual: {"sector": "2 KB", "create_date": "2017-09-14 15:11:40", "logbias": "latency", "sync": "disabled", "snapshots": [], "_raw_written_capacity": 2048, "redundant_md": "all", "id": 2, "ctrl_id": 2, "export_id": 2, "_raw_pool_avail": 2048, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 2048, "_raw_used_child": 2048, "used_capacity": 2999998464, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "227a000155273269", "name": "Name_11", "total_capacity": 2999998464, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 2048, "used_child": "0 Byte", "_raw_sector": 2048, "pool_avail": "7.33 TB", "written_capacity_value": 8192, "block": "2 KB"}
+
+2017-09-15 11:12:17: Expect: {"sector": "2kb", "thin_prov": 0, "capacity": "3GB", "name": "Name_11", "quantity": 1, "compress": "lzjb", "pool_id": 0, "block": "2kb", "sync": "disabled"}
+
+2017-09-15 11:12:17: Actual: {"sector": "1 KB", "create_date": "2017-09-14 15:11:39", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 1024, "redundant_md": "all", "id": 1, "ctrl_id": 2, "export_id": 1, "_raw_pool_avail": 1024, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 1024, "_raw_used_child": 1024, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "2280000155dbe206", "name": "12", "total_capacity": 2000000000, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 1024, "used_child": "0 Byte", "_raw_sector": 1024, "pool_avail": "7.34 TB", "written_capacity_value": 8192, "block": "1 KB"}
+
+2017-09-15 11:12:17: Expect: {"sector": "1kb", "thin_prov": 1, "capacity": "2GB", "name": "12", "quantity": 1, "compress": "off", "pool_id": 0, "block": "1kb", "sync": "always"}
+
+2017-09-15 11:12:17: Actual: {"sector": "512 Bytes", "create_date": "2017-09-14 15:11:38", "logbias": "latency", "sync": "standard", "snapshots": [], "_raw_written_capacity": 512, "redundant_md": "all", "id": 0, "ctrl_id": 2, "export_id": 0, "_raw_pool_avail": 512, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 512, "_raw_used_child": 512, "used_capacity": 1000000000, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22d6000155bbcd52", "name": "n", "total_capacity": 1000000000, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 512, "used_child": "0 Byte", "_raw_sector": 512, "pool_avail": "7.34 TB", "written_capacity_value": 8192, "block": "512 Bytes"}
+
+2017-09-15 11:12:16: Expect: {"sector": "512b", "thin_prov": 0, "capacity": "1GB", "name": "n", "quantity": 1, "compress": "on", "pool_id": 0, "block": "512b", "sync": "standard"}
+
+2017-09-15 11:12:01: add volume by api use all of settings 
+
 2017-09-12 18:05:21: Fail: please specify capacity
 
 2017-09-12 18:05:21: Expect: To add volume use the max available capacity of pool 
