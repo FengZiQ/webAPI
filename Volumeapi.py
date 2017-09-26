@@ -190,17 +190,18 @@ def listVolume():
     tolog('Expect: List all of the volume \r\n')
 
     allResult = server.webapi('get', "volume")
+    result = json.loads(allResult["text"])
 
     if isinstance(allResult, str):
         FailFlag = True
         tolog('Fail: ' + allResult)
     else:
-        tolog('Actual: All of volume are listed \r\n')
+        allVolumeInfo = str(result).replace('{', '').replace('u', '').replace('}', '\r\n')
+
+        tolog('Actual: All of volumes \r\n' + allVolumeInfo + '\r\n')
 
         tolog('To list specify the volume \r\n')
         volumeId = []
-
-        result = json.loads(allResult["text"])
 
         for r in result:
             volumeId.append(r["id"])
@@ -216,9 +217,10 @@ def listVolume():
                     FailFlag = True
                     tolog('Fail: To list volume ' + str(i) + ' is failed \r\n')
                 else:
-                    tolog('Actual: volume ' + str(i) + ' is listed \r\n')
+                    specifyResult = str(check).replace('u', '')
+                    tolog('Actual: \r\n' + specifyResult + '\r\n')
 
-    tolog('Expect: Search volume by volume name and pool_name \r\n')
+    tolog('Expect: Searching volume by volume name contains "n" and pool_name contains "t" \r\n')
 
     searchResult = server.webapi('get', "volume?page=1&page_size=25&search=name+like+'%n%' and pool_name+like+'%t%'")
 
@@ -226,8 +228,8 @@ def listVolume():
         FailFlag = True
         tolog('Fail: ' + searchResult + '\r\n')
     else:
-        tolog('Actual: The qualified volume is listed \r\n')
-
+        search = str(json.loads(searchResult["text"]))
+        tolog('Actual:\r\n' + search.replace('u', ''))
 
     if FailFlag:
         tolog(Fail)
@@ -414,37 +416,37 @@ def invalidSettingVolume():
     # test data
     settingsList = [
         # invalid setting pool_id
-        ['legal_name', 100, '1GB', '512b', '512b', 'off', 'always', 0, 1],
-        ['legal_name', 'test', '1GB', '512b', '512b', 'off', 'always', 0, 1],
+        ['legal_name1', 100, '1GB', '512b', '512b', 'off', 'always', 0, 1],
+        ['legal_name2', 'test', '1GB', '512b', '512b', 'off', 'always', 0, 1],
 
         # invalid setting capacity
-        ['legal_name', 0, '1B', '512b', '512b', 'off', 'always', 0, 1],
-        ['legal_name', 0, 0, '512b', '512b', 'off', 'always', 0, 1],
+        ['legal_name3', 0, '1B', '512b', '512b', 'off', 'always', 0, 1],
+        ['legal_name4', 0, 0, '512b', '512b', 'off', 'always', 0, 1],
 
         # invalid setting block
-        ['legal_name', 0, '1GB', '512GB', '512b', 'off', 'always', 0, 1],
-        ['legal_name', 0, '1GB', 0, '512b', 'off', 'always', 0, 1],
+        ['legal_name5', 0, '1GB', '512GB', '512b', 'off', 'always', 0, 1],
+        ['legal_name6', 0, '1GB', 0, '512b', 'off', 'always', 0, 1],
 
         # invalid setting sector
-        ['legal_name', 0, '1GB', '512b', '512GB', 'off', 'always', 0, 1],
-        ['legal_name', 0, '1GB', '512b', 0, 'off', 'always', 0, 1],
+        ['legal_name7', 0, '1GB', '512b', '512GB', 'off', 'always', 0, 1],
+        ['legal_name8', 0, '1GB', '512b', 0, 'off', 'always', 0, 1],
 
         # invalid setting compress
-        ['legal_name', 0, '1GB', '512b', '512b', 'test', 'always', 0, 1],
-        ['legal_name', 0, '1GB', '512b', '512b', 0, 'always', 0, 1],
+        ['legal_name9', 0, '1GB', '512b', '512b', 'test', 'always', 0, 1],
+        ['legal_name10', 0, '1GB', '512b', '512b', 0, 'always', 0, 1],
 
         # invalid setting sync
-        ['legal_name', 0, '1GB', '512b', '512b', 'off', 'test', 0, 1],
-        ['legal_name', 0, '1GB', '512b', '512b', 'off', 0, 0, 1],
+        ['legal_name11', 0, '1GB', '512b', '512b', 'off', 'test', 0, 1],
+        ['legal_name12', 0, '1GB', '512b', '512b', 'off', 0, 0, 1],
 
         # invalid setting thin_prov
-        ['legal_name', 0, '1GB', '512b', '512b', 'off', 'always', 2, 1],
-        ['legal_name', 0, '1GB', '512b', '512b', 'off', 'always', 'test', 1],
+        ['legal_name13', 0, '1GB', '512b', '512b', 'off', 'always', 2, 1],
+        ['legal_name14', 0, '1GB', '512b', '512b', 'off', 'always', 'test', 1],
 
         # invalid setting quantity
-        ['legal_name', 0, '1GB', '512b', '512b', 'off', 'always', 0, 0],
-        ['legal_name', 0, '1GB', '512b', '512b', 'off', 'always', 0, -1],
-        ['legal_name', 0, '1GB', '512b', '512b', 'off', 'always', 0, 'test']
+        ['legal_name15', 0, '1GB', '512b', '512b', 'off', 'always', 0, 0],
+        ['legal_name16', 0, '1GB', '512b', '512b', 'off', 'always', 0, -1],
+        ['legal_name17', 0, '1GB', '512b', '512b', 'off', 'always', 0, 'test']
     ]
 
     expectResult = [
@@ -462,6 +464,7 @@ def invalidSettingVolume():
         'invalid setting sync',
         'invalid setting thin_prov',
         'invalid setting thin_prov',
+        'invalid setting quantity',
         'invalid setting quantity',
         'invalid setting quantity'
     ]
@@ -505,7 +508,7 @@ def deleteVolume():
 
     for info in volumeInfo:
         volumeId.append(info["id"])
-    print volumeId
+
     for i in volumeId:
         tolog('Expect: To delete volume ' + str(i) + '\r\n')
 
@@ -519,12 +522,12 @@ def deleteVolume():
         checkResult = json.loads(checkResponse["text"])
 
         for cR in checkResult:
-            print cR['id']
             if cR['id'] == i:
                 FailFlag = True
                 tolog('Fail: The volume ' + str(i) + ' is not deleted \r\n')
-            else:
-                tolog('Actual: the volume ' + str(i) + ' is deleted \r\n')
+
+        if not FailFlag:
+            tolog('volume ' + str(i) + ' is deleted \r\n')
 
     if FailFlag:
         tolog(Fail)

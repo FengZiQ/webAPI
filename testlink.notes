@@ -1,159 +1,24 @@
-delete volume by api 
-
-Expect: To delete volume 0
-
-Actual: the volume 0 is deleted 
-
-Actual: the volume 0 is deleted 
-
-Actual: the volume 0 is deleted 
-
-Actual: the volume 0 is deleted 
-
-Actual: the volume 0 is deleted 
-
-Actual: the volume 0 is deleted 
-
-Actual: the volume 0 is deleted 
-
-Actual: the volume 0 is deleted 
-
-Actual: the volume 0 is deleted 
-
-Actual: the volume 0 is deleted 
-
-Actual: the volume 0 is deleted 
-
-Expect: To delete volume 1
-
-Actual: the volume 1 is deleted 
-
-Actual: the volume 1 is deleted 
-
-Actual: the volume 1 is deleted 
-
-Actual: the volume 1 is deleted 
-
-Actual: the volume 1 is deleted 
-
-Actual: the volume 1 is deleted 
-
-Actual: the volume 1 is deleted 
-
-Actual: the volume 1 is deleted 
-
-Actual: the volume 1 is deleted 
-
-Actual: the volume 1 is deleted 
-
-Expect: To delete volume 2
-
-Actual: the volume 2 is deleted 
-
-Actual: the volume 2 is deleted 
-
-Actual: the volume 2 is deleted 
-
-Actual: the volume 2 is deleted 
-
-Actual: the volume 2 is deleted 
-
-Actual: the volume 2 is deleted 
-
-Actual: the volume 2 is deleted 
-
-Actual: the volume 2 is deleted 
-
-Actual: the volume 2 is deleted 
-
-Expect: To delete volume 3
-
-Actual: the volume 3 is deleted 
-
-Actual: the volume 3 is deleted 
-
-Actual: the volume 3 is deleted 
-
-Actual: the volume 3 is deleted 
-
-Actual: the volume 3 is deleted 
-
-Actual: the volume 3 is deleted 
-
-Actual: the volume 3 is deleted 
-
-Actual: the volume 3 is deleted 
-
-Expect: To delete volume 4
-
-Actual: the volume 4 is deleted 
-
-Actual: the volume 4 is deleted 
-
-Actual: the volume 4 is deleted 
-
-Actual: the volume 4 is deleted 
-
-Actual: the volume 4 is deleted 
-
-Actual: the volume 4 is deleted 
-
-Actual: the volume 4 is deleted 
-
-Expect: To delete volume 5
-
-Actual: the volume 5 is deleted 
-
-Actual: the volume 5 is deleted 
-
-Actual: the volume 5 is deleted 
-
-Actual: the volume 5 is deleted 
-
-Actual: the volume 5 is deleted 
-
-Actual: the volume 5 is deleted 
-
-Expect: To delete volume 6
-
-Actual: the volume 6 is deleted 
-
-Actual: the volume 6 is deleted 
-
-Actual: the volume 6 is deleted 
-
-Actual: the volume 6 is deleted 
-
-Actual: the volume 6 is deleted 
-
-Expect: To delete volume 7
-
-Actual: the volume 7 is deleted 
-
-Actual: the volume 7 is deleted 
-
-Actual: the volume 7 is deleted 
-
-Actual: the volume 7 is deleted 
-
-Expect: To delete volume 8
-
-Actual: the volume 8 is deleted 
-
-Actual: the volume 8 is deleted 
-
-Actual: the volume 8 is deleted 
-
-Expect: To delete volume 9
-
-Actual: the volume 9 is deleted 
-
-Actual: the volume 9 is deleted 
-
-Expect: To delete volume 10
-
-Actual: the volume 10 is deleted 
-
-Expect: To delete volume 11
+Expect: delete spare drive that is inexistent
+
+Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/spare/1000&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
 
 'result': 'p'
