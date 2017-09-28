@@ -1,4 +1,8 @@
-Expect: delete spare drive that is inexistent
+Expect: {"sector": "512B", "ctrl_id": 1, "name": "1", "pds": [], "raid_level": "raid0", "stripe": "64KB", "axle": 2, "force_sync": 0}
+
+Actual: Incorrect parameters: The parameter [pd_list] is empty. (0x4100104)
+
+Expect: {"sector": "512B", "ctrl_id": 1, "name": "2", "pds": [100], "raid_level": "raid0", "stripe": "64KB", "axle": 2, "force_sync": 0}
 
 Actual: 
     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
@@ -14,11 +18,35 @@ Actual:
         </head>
         <body>
             <h1>Error: 500 Internal Server Error</h1>
-            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/spare/1000&#039;</tt>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool&#039;</tt>
                caused an error:</p>
             <pre>Internal Server Error</pre>
         </body>
     </html>
 
+
+Expect: {"sector": "512B", "ctrl_id": 1, "name": "3", "pds": [1], "raid_level": "test", "stripe": "64KB", "axle": 2, "force_sync": 0}
+
+Actual: invalid raid_level (raid0|raid1|raid5|raid6|raid10|raid50|raid60|all|unknown)
+
+Expect: {"sector": "512B", "ctrl_id": 1, "name": "4", "pds": [1, 2, 3, 4, 7, 8, 9, 11, 12, 13, 16], "raid_level": "raid50", "stripe": "64KB", "axle": 4, "force_sync": 0}
+
+Actual: Incorrect parameters: Number of PD list devides axle smaller than 3. RAID level 50 requires at least 3. (0x4100104)
+
+Expect: {"sector": "512B", "ctrl_id": 3, "name": "5", "pds": [1], "raid_level": "raid0", "stripe": "64KB", "axle": 2, "force_sync": 0}
+
+Actual: invalid ctrl_id (1,2)
+
+Expect: {"sector": "512B", "ctrl_id": 1, "name": "6", "pds": [], "raid_level": "raid", "stripe": "2MB", "axle": 2, "force_sync": 0}
+
+Actual: invalid raid_level (raid0|raid1|raid5|raid6|raid10|raid50|raid60|all|unknown)
+
+Expect: {"sector": "512KB", "ctrl_id": 1, "name": "7", "pds": [], "raid_level": "raid", "stripe": "64KB", "axle": 2, "force_sync": 0}
+
+Actual: invalid raid_level (raid0|raid1|raid5|raid6|raid10|raid50|raid60|all|unknown)
+
+Expect: {"sector": "512KB", "ctrl_id": 1, "name": "7", "pds": [], "raid_level": "raid", "stripe": "64KB", "axle": 2, "force_sync": -1}
+
+Actual: invalid force_sync (0,1)
 
 'result': 'p'

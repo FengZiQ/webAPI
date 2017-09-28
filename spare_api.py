@@ -4,6 +4,7 @@
 from remote import server
 import json
 from to_log import tolog
+import time
 
 Pass = "'result': 'p'"
 Fail = "'result': 'f'"
@@ -88,15 +89,15 @@ def post_global_spare_revertible_0():
                     FailFlag = True
                     tolog("Fail: please check out parameter " + str(value) + '\r\n')
 
-        # server.webapiurl('post', 'phydrv', str(pdId2[0]) + '/offline')
-        #
-        # time.sleep(3)
-        #
-        # rbResponse = server.webapi('get', 'rebuild')
-        #
-        # if isinstance(rbResponse, str):
-        #     FailFlag = True
-        #     tolog('Fail: ' + rbResponse + '\r\n')
+        server.webapiurl('post', 'phydrv', str(pdId2[0]) + '/offline')
+
+        time.sleep(3)
+
+        rbResponse = server.webapi('get', 'rebuild')
+
+        if isinstance(rbResponse, str):
+            FailFlag = True
+            tolog('Fail: ' + rbResponse + '\r\n')
 
     if FailFlag:
         tolog(Fail)
@@ -146,15 +147,15 @@ def post_global_spare_revertible_1():
                     FailFlag = True
                     tolog("Fail: please check out parameter " + str(value) + '\r\n')
 
-        # server.webapiurl('post', 'phydrv', str(pdId2[0]) + '/offline')
-        #
-        # time.sleep(3)
-        #
-        # rbResponse = server.webapi('get', 'rebuild')
-        #
-        # if isinstance(rbResponse, str):
-        #     FailFlag = True
-        #     tolog('Fail: ' + rbResponse + '\r\n')
+        server.webapiurl('post', 'phydrv', str(pdId2[0]) + '/offline')
+
+        time.sleep(3)
+
+        rbResponse = server.webapi('get', 'rebuild')
+
+        if isinstance(rbResponse, str):
+            FailFlag = True
+            tolog('Fail: ' + rbResponse + '\r\n')
 
     if FailFlag:
         tolog(Fail)
@@ -210,15 +211,15 @@ def post_dedicated_spare_revertible_0():
                     FailFlag = True
                     tolog("Fail: please check out parameter " + str(value) + '\r\n')
 
-        # server.webapiurl('post', 'phydrv', str(pdId2[0]) + '/offline')
-        #
-        # time.sleep(3)
-        #
-        # rbResponse = server.webapi('get', 'rebuild')
-        #
-        # if isinstance(rbResponse, str):
-        #     FailFlag = True
-        #     tolog('Fail: ' + rbResponse + '\r\n')
+        server.webapiurl('post', 'phydrv', str(pdId2[0]) + '/offline')
+
+        time.sleep(3)
+
+        rbResponse = server.webapi('get', 'rebuild')
+
+        if isinstance(rbResponse, str):
+            FailFlag = True
+            tolog('Fail: ' + rbResponse + '\r\n')
 
     if FailFlag:
         tolog(Fail)
@@ -268,15 +269,15 @@ def post_dedicated_spare_revertible_1():
                     FailFlag = True
                     tolog("Fail: please check out parameter " + str(value) + '\r\n')
 
-        # server.webapiurl('post', 'phydrv', str(pdId2[0]) + '/offline')
-        #
-        # time.sleep(3)
-        #
-        # rbResponse = server.webapi('get', 'rebuild')
-        #
-        # if isinstance(rbResponse, str):
-        #     FailFlag = True
-        #     tolog('Fail: ' + rbResponse + '\r\n')
+        server.webapiurl('post', 'phydrv', str(pdId2[0]) + '/offline')
+
+        time.sleep(3)
+
+        rbResponse = server.webapi('get', 'rebuild')
+
+        if isinstance(rbResponse, str):
+            FailFlag = True
+            tolog('Fail: ' + rbResponse + '\r\n')
 
     if FailFlag:
         tolog(Fail)

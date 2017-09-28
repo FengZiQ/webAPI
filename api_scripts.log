@@ -1,3 +1,1996 @@
+2017-09-28 10:00:36: 'result': 'p'
+2017-09-28 10:00:36: Actual: invalid force_sync (0,1)
+
+2017-09-28 10:00:36: Expect: {"sector": "512KB", "ctrl_id": 1, "name": "7", "pds": [], "raid_level": "raid", "stripe": "64KB", "axle": 2, "force_sync": -1}
+
+2017-09-28 10:00:36: Actual: invalid raid_level (raid0|raid1|raid5|raid6|raid10|raid50|raid60|all|unknown)
+
+2017-09-28 10:00:36: Expect: {"sector": "512KB", "ctrl_id": 1, "name": "7", "pds": [], "raid_level": "raid", "stripe": "64KB", "axle": 2, "force_sync": 0}
+
+2017-09-28 10:00:36: Actual: invalid raid_level (raid0|raid1|raid5|raid6|raid10|raid50|raid60|all|unknown)
+
+2017-09-28 10:00:36: Expect: {"sector": "512B", "ctrl_id": 1, "name": "6", "pds": [], "raid_level": "raid", "stripe": "2MB", "axle": 2, "force_sync": 0}
+
+2017-09-28 10:00:36: Actual: invalid ctrl_id (1,2)
+
+2017-09-28 10:00:36: Expect: {"sector": "512B", "ctrl_id": 3, "name": "5", "pds": [1], "raid_level": "raid0", "stripe": "64KB", "axle": 2, "force_sync": 0}
+
+2017-09-28 10:00:36: Actual: Incorrect parameters: Number of PD list devides axle smaller than 3. RAID level 50 requires at least 3. (0x4100104)
+
+2017-09-28 10:00:35: Expect: {"sector": "512B", "ctrl_id": 1, "name": "4", "pds": [1, 2, 3, 4, 7, 8, 9, 11, 12, 13, 16], "raid_level": "raid50", "stripe": "64KB", "axle": 4, "force_sync": 0}
+
+2017-09-28 10:00:35: Actual: invalid raid_level (raid0|raid1|raid5|raid6|raid10|raid50|raid60|all|unknown)
+
+2017-09-28 10:00:35: Expect: {"sector": "512B", "ctrl_id": 1, "name": "3", "pds": [1], "raid_level": "test", "stripe": "64KB", "axle": 2, "force_sync": 0}
+
+2017-09-28 10:00:35: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-28 10:00:35: Expect: {"sector": "512B", "ctrl_id": 1, "name": "2", "pds": [100], "raid_level": "raid0", "stripe": "64KB", "axle": 2, "force_sync": 0}
+
+2017-09-28 10:00:35: Actual: Incorrect parameters: The parameter [pd_list] is empty. (0x4100104)
+
+2017-09-28 10:00:35: Expect: {"sector": "512B", "ctrl_id": 1, "name": "1", "pds": [], "raid_level": "raid0", "stripe": "64KB", "axle": 2, "force_sync": 0}
+
+2017-09-28 10:00:35: 'result': 'p'
+2017-09-28 10:00:35: Actual: name contain only alphanumeric characters and underscores
+
+2017-09-28 10:00:35: Expect: hint error when pool name sets a#
+
+2017-09-28 10:00:35: Actual: name shall not exceed 32 characters
+
+2017-09-28 10:00:35: Expect: hint error when pool name sets 333333333333333333333333333333333
+
+2017-09-28 10:00:35: Actual: name contain only alphanumeric characters and underscores
+
+2017-09-28 10:00:35: Expect: hint error when pool name sets 
+
+2017-09-28 10:00:34: 'result': 'p'
+2017-09-28 10:00:34: Actual: pool 3 is deleted
+
+2017-09-28 10:00:33: Expect: delete pool 3
+
+2017-09-28 10:00:33: Actual: pool 2 is deleted
+
+2017-09-28 10:00:32: Expect: delete pool 2
+
+2017-09-28 10:00:32: Actual: pool 1 is deleted
+
+2017-09-28 10:00:32: Expect: delete pool 1
+
+2017-09-28 10:00:32: Actual: pool 0 is deleted
+
+2017-09-28 10:00:31: Expect: delete pool 0
+
+2017-09-28 10:00:20: 
+Lack of physical drive
+
+2017-09-28 10:00:20: 
+Lack of physical drive
+
+2017-09-28 10:00:20: 'result': 'p'
+2017-09-28 10:00:20: Actual 2,3,4,7,8,9,11,12,13,16
+
+2017-09-28 09:59:42: Expend pd list [8, 9, 11, 12, 13, 16]
+
+2017-09-28 09:59:36: 'result': 'p'
+2017-09-28 09:59:36: Actual 1,2,3,4,7,8,9,11,12,13,16
+
+2017-09-28 09:59:34: Expend pd list [7, 8, 9, 11, 12, 13, 16]
+
+2017-09-28 09:59:30: 'result': 'p'
+2017-09-28 09:59:30: Actual 1,2,3,4,7,8,9,11,12,13,16
+
+2017-09-28 09:59:27: Expend pd list [4, 7, 8, 9, 11, 12, 13, 16]
+
+2017-09-28 09:59:23: 'result': 'p'
+2017-09-28 09:59:23: Actual 1,2,12,13
+
+2017-09-28 09:59:21: Expend pd list [12, 13]
+
+2017-09-28 09:59:17: 'result': 'p'
+2017-09-28 09:59:17: Actual 1,2,3,4,7,8,9,11,12,13,16
+
+2017-09-28 09:59:15: Expend pd list [2, 3, 4, 7, 8, 9, 11, 12, 13, 16]
+
+2017-09-28 09:59:08: 'result': 'p'
+2017-09-28 09:59:08: Actual: pool transfer ctrl 1 to ctrl 2
+
+2017-09-28 09:59:07: Expect: transfer pool ctrl 2 from ctrl 1
+
+2017-09-28 09:59:07: Actual: pool transfer ctrl 1 to ctrl 2
+
+2017-09-28 09:59:07: Expect: transfer pool ctrl 2 from ctrl 1
+
+2017-09-28 09:59:07: 'result': 'p'
+2017-09-28 09:59:07: Actual {"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK", "name": "1_g", "total_capacity": 1930587799552, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}], "_raw_sector": 1, "pds": "1", "raid_level": 0, "owner": "Controller 2", "free_capacity": 1930587693056, "usage": 0, "_raw_stripe": 128, "pd_group": "(1)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 1834058303079, "used_capacity": 106496, "pool_reserved": 96529389977, "id": 0}
+
+2017-09-28 09:59:07: Expect: To modify name is 1_g
+
+2017-09-28 09:59:07: Actual {"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK", "name": "22222222222222222222222222222222", "total_capacity": 1930587799552, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}], "_raw_sector": 1, "pds": "1", "raid_level": 0, "owner": "Controller 2", "free_capacity": 1930587693056, "usage": 0, "_raw_stripe": 128, "pd_group": "(1)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 1834058303079, "used_capacity": 106496, "pool_reserved": 96529389977, "id": 0}
+
+2017-09-28 09:59:06: Expect: To modify name is 22222222222222222222222222222222
+
+2017-09-28 09:59:06: Actual {"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK", "name": "1111111111111111111111111111111", "total_capacity": 1930587799552, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}], "_raw_sector": 1, "pds": "1", "raid_level": 0, "owner": "Controller 2", "free_capacity": 1930587694592, "usage": 0, "_raw_stripe": 128, "pd_group": "(1)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 1834058304615, "used_capacity": 104960, "pool_reserved": 96529389977, "id": 0}
+
+2017-09-28 09:59:05: Expect: To modify name is 1111111111111111111111111111111
+
+2017-09-28 09:59:05: Actual {"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK", "name": "a_", "total_capacity": 1930587799552, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}], "_raw_sector": 1, "pds": "1", "raid_level": 0, "owner": "Controller 2", "free_capacity": 1930587694592, "usage": 0, "_raw_stripe": 128, "pd_group": "(1)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 1834058304615, "used_capacity": 104960, "pool_reserved": 96529389977, "id": 0}
+
+2017-09-28 09:59:05: Expect: To modify name is a_
+
+2017-09-28 09:59:05: Actual {"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK", "name": "a", "total_capacity": 1930587799552, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}], "_raw_sector": 1, "pds": "1", "raid_level": 0, "owner": "Controller 2", "free_capacity": 1930587694592, "usage": 0, "_raw_stripe": 128, "pd_group": "(1)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 1834058304615, "used_capacity": 104960, "pool_reserved": 96529389977, "id": 0}
+
+2017-09-28 09:59:05: Expect: To modify name is a
+
+2017-09-28 09:59:05: rename pool
+
+2017-09-28 09:59:05: 'result': 'p'
+2017-09-28 09:59:05: Actual: modified result is 95
+
+2017-09-28 09:59:04: Expect: modify pool global setting is 95
+
+2017-09-28 09:59:04: Actual: modified result is 94
+
+2017-09-28 09:59:04: Expect: modify pool global setting is 94
+
+2017-09-28 09:59:04: Actual: modified result is 76
+
+2017-09-28 09:59:04: Expect: modify pool global setting is 76
+
+2017-09-28 09:59:04: Actual: modified result is 75
+
+2017-09-28 09:59:04: Expect: modify pool global setting is 75
+
+2017-09-28 09:59:04: 'result': 'p'
+2017-09-28 09:59:04: Actual: capacity_threshold is 95
+
+2017-09-28 09:59:04: Expect: The value of capacity_threshold range is 75-95
+
+2017-09-28 09:59:04: 'result': 'f'
+2017-09-28 09:59:04: Actual: 'sector', 'prefer_ctrl_id', 'operational_stats', 'name', 'total_capacity', 'pd_info', '_raw_sector', 'pds', 'raid_level', 'owner', 'free_capacity', 'sage', '_raw_stripe', 'pd_grop', 'stripe', 'axle', 'force_sync', 'pool_avail', 'sed_capacity', 'pool_reserved', 'id'
+
+2017-09-28 09:59:04: Fail: please check out pref_ctrl in returned result
+
+2017-09-28 09:59:04: Expect: returned values contain 'name', 'raid_level', 'pref_ctrl', 'stripe', 'sector', 'force_sync', 'total_capacity', 'used_capacity', 'usage', 'pool_avail', 'pd_info', 'free_capacity', 'status', 'ctrl_id', 'pds', 'pd_group', 'pool_reserved'
+
+2017-09-28 09:59:04: 'result': 'p'
+2017-09-28 09:59:04: Actual {"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK", "name": "1_g", "total_capacity": 1930587799552, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}], "_raw_sector": 1, "pds": "1", "raid_level": 0, "owner": "Controller 2", "free_capacity": 1930587694592, "usage": 0, "_raw_stripe": 128, "pd_group": "(1)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 1834058304615, "used_capacity": 104960, "pool_reserved": 96529389977, "id": 0}
+
+2017-09-28 09:59:04: Expect: To modify name is 1_g
+
+2017-09-28 09:59:04: Actual {"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK", "name": "22222222222222222222222222222222", "total_capacity": 1930587799552, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}], "_raw_sector": 1, "pds": "1", "raid_level": 0, "owner": "Controller 2", "free_capacity": 1930587481088, "usage": 0, "_raw_stripe": 128, "pd_group": "(1)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 1834058091111, "used_capacity": 318464, "pool_reserved": 96529389977, "id": 0}
+
+2017-09-28 09:59:03: Expect: To modify name is 22222222222222222222222222222222
+
+2017-09-28 09:59:03: Actual {"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK", "name": "1111111111111111111111111111111", "total_capacity": 1930587799552, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}], "_raw_sector": 1, "pds": "1", "raid_level": 0, "owner": "Controller 2", "free_capacity": 1930587699200, "usage": 0, "_raw_stripe": 128, "pd_group": "(1)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 1834058309223, "used_capacity": 100352, "pool_reserved": 96529389977, "id": 0}
+
+2017-09-28 09:59:03: Expect: To modify name is 1111111111111111111111111111111
+
+2017-09-28 09:59:03: Actual {"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK", "name": "a_", "total_capacity": 1930587799552, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}], "_raw_sector": 1, "pds": "1", "raid_level": 0, "owner": "Controller 2", "free_capacity": 1930587699200, "usage": 0, "_raw_stripe": 128, "pd_group": "(1)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 1834058309223, "used_capacity": 100352, "pool_reserved": 96529389977, "id": 0}
+
+2017-09-28 09:59:03: Expect: To modify name is a_
+
+2017-09-28 09:59:03: Actual {"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK", "name": "a", "total_capacity": 1930587799552, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}], "_raw_sector": 1, "pds": "1", "raid_level": 0, "owner": "Controller 2", "free_capacity": 1930587699200, "usage": 0, "_raw_stripe": 128, "pd_group": "(1)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 1834058309223, "used_capacity": 100352, "pool_reserved": 96529389977, "id": 0}
+
+2017-09-28 09:59:02: Expect: To modify name is a
+
+2017-09-28 09:59:02: rename pool
+
+2017-09-28 09:59:02: 'result': 'p'
+2017-09-28 09:59:02: Actual: 
+{"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK, Synchronizing", "name": "test_list_2", "total_capacity": 70212648960, "pd_info": [{"status": "OK", "pd_id": 2, "da_id": 1, "seq_no": 0}, {"status": "OK", "pd_id": 3, "da_id": 1, "seq_no": 1}], "_raw_sector": 1, "pds": "2,3", "raid_level": 1, "owner": "Controller 2", "free_capacity": 70212550144, "usage": 0, "_raw_stripe": 128, "pd_group": "(2,3)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 66701917696, "used_capacity": 98816, "pool_reserved": 3510632448, "id": 1}
+
+2017-09-28 09:59:02: Expect: search of pool by name "test_list_2" 
+
+2017-09-28 09:59:02: 'result': 'p'
+2017-09-28 09:59:02: Actual: 
+{"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK", "name": "test_list_1", "total_capacity": 1930587799552, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}], "_raw_sector": 1, "pds": "1", "raid_level": 0, "owner": "Controller 2", "free_capacity": 1930587654656, "usage": 0, "_raw_stripe": 128, "pd_group": "(1)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 1834058264679, "used_capacity": 144896, "pool_reserved": 96529389977, "id": 0}
+{"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK, Synchronizing", "name": "test_list_2", "total_capacity": 70212648960, "pd_info": [{"status": "OK", "pd_id": 2, "da_id": 1, "seq_no": 0}, {"status": "OK", "pd_id": 3, "da_id": 1, "seq_no": 1}], "_raw_sector": 1, "pds": "2,3", "raid_level": 1, "owner": "Controller 2", "free_capacity": 70212550144, "usage": 0, "_raw_stripe": 128, "pd_group": "(2,3)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 66701917696, "used_capacity": 98816, "pool_reserved": 3510632448, "id": 1}
+{"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK, Synchronizing", "name": "test_list_3", "total_capacity": 3861175599104, "pd_info": [{"status": "OK", "pd_id": 4, "da_id": 2, "seq_no": 0}, {"status": "OK", "pd_id": 7, "da_id": 2, "seq_no": 1}, {"status": "OK", "pd_id": 8, "da_id": 2, "seq_no": 2}], "_raw_sector": 1, "pds": "4,7,8", "raid_level": 5, "owner": "Controller 2", "free_capacity": 3861175454208, "usage": 0, "_raw_stripe": 128, "pd_group": "(4,7,8)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 3668116674253, "used_capacity": 144896, "pool_reserved": 193058779955, "id": 2}
+{"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK, Synchronizing", "name": "test_list_4", "total_capacity": 280850595840, "pd_info": [{"status": "OK", "pd_id": 9, "da_id": 3, "seq_no": 0}, {"status": "OK", "pd_id": 11, "da_id": 3, "seq_no": 1}, {"status": "OK", "pd_id": 12, "da_id": 3, "seq_no": 2}, {"status": "OK", "pd_id": 13, "da_id": 3, "seq_no": 3}], "_raw_sector": 1, "pds": "9,11,12,13", "raid_level": 6, "owner": "Controller 2", "free_capacity": 280850450944, "usage": 0, "_raw_stripe": 128, "pd_group": "(9,11,12,13)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 266807921152, "used_capacity": 144896, "pool_reserved": 14042529792, "id": 3}
+
+2017-09-28 09:59:02: Expect: list all of pool 
+
+2017-09-28 09:58:52: 'result': 'p'
+2017-09-28 09:58:52: Actual: {"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK, Synchronizing", "name": "test_default", "total_capacity": 140425297920, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}, {"status": "OK", "pd_id": 2, "da_id": 0, "seq_no": 1}, {"status": "OK", "pd_id": 3, "da_id": 0, "seq_no": 2}], "_raw_sector": 1, "pds": "1,2,3", "raid_level": 5, "owner": "Controller 2", "free_capacity": 140425153024, "usage": 0, "_raw_stripe": 128, "pd_group": "(1,2,3)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 133403888128, "used_capacity": 144896, "pool_reserved": 7021264896, "id": 0}
+
+2017-09-28 09:58:49: Expect: {"pds": [1, 2, 3], "name": "test_default", "raid_level": "raid5"}
+
+2017-09-28 09:58:48: 'result': 'p'
+2017-09-28 09:58:48: Actual: {"sector": "512 Bytes", "prefer_ctrl_id": 2, "operational_status": "OK, Synchronizing", "name": "1_T", "total_capacity": 490968449024, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}, {"status": "OK", "pd_id": 2, "da_id": 0, "seq_no": 1}, {"status": "OK", "pd_id": 3, "da_id": 0, "seq_no": 2}, {"status": "OK", "pd_id": 4, "da_id": 0, "seq_no": 3}, {"status": "OK", "pd_id": 7, "da_id": 0, "seq_no": 4}, {"status": "OK", "pd_id": 8, "da_id": 0, "seq_no": 5}, {"status": "OK", "pd_id": 9, "da_id": 1, "seq_no": 6}, {"status": "OK", "pd_id": 11, "da_id": 1, "seq_no": 7}, {"status": "OK", "pd_id": 12, "da_id": 1, "seq_no": 8}, {"status": "OK", "pd_id": 13, "da_id": 1, "seq_no": 9}, {"status": "OK", "pd_id": 16, "da_id": 1, "seq_no": 10}], "_raw_sector": 1, "pds": "1,2,3,4,7,8,9,11,12,13,16", "raid_level": 60, "owner": "Controller 2", "free_capacity": 490968304128, "usage": 0, "_raw_stripe": 2048, "pd_group": "(1,2,3,4,7,8),(9,11,12,13,16)", "stripe": "1 MB", "axle": 2, "force_sync": "Disabled", "pool_avail": 466419881677, "used_capacity": 144896, "pool_reserved": 24548422451, "id": 0}
+
+2017-09-28 09:58:43: Expect: {"sector": "512B", "ctrl_id": 2, "name": "1_T", "axle": 2, "force_sync": 0, "pds": [1, 2, 3, 4, 7, 8, 9, 11, 12, 13, 16], "raid_level": "raid60", "stripe": "1MB"}
+
+2017-09-28 09:58:42: 'result': 'p'
+2017-09-28 09:58:42: Actual: {"sector": "4 KB", "prefer_ctrl_id": 2, "operational_status": "OK, Synchronizing", "name": "_1", "total_capacity": 6142306549760, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}, {"status": "OK", "pd_id": 2, "da_id": 0, "seq_no": 1}, {"status": "OK", "pd_id": 3, "da_id": 0, "seq_no": 2}, {"status": "OK", "pd_id": 4, "da_id": 0, "seq_no": 3}, {"status": "OK", "pd_id": 7, "da_id": 1, "seq_no": 4}, {"status": "OK", "pd_id": 8, "da_id": 1, "seq_no": 5}, {"status": "OK", "pd_id": 9, "da_id": 1, "seq_no": 6}, {"status": "OK", "pd_id": 11, "da_id": 1, "seq_no": 7}, {"status": "OK", "pd_id": 12, "da_id": 2, "seq_no": 8}, {"status": "OK", "pd_id": 13, "da_id": 2, "seq_no": 9}, {"status": "OK", "pd_id": 16, "da_id": 2, "seq_no": 10}], "_raw_sector": 4, "pds": "1,2,3,4,7,8,9,11,12,13,16", "raid_level": 50, "owner": "Controller 2", "free_capacity": 6142306144256, "usage": 0, "_raw_stripe": 1024, "pd_group": "(1,2,3,4),(7,8,9,11),(12,13,16)", "stripe": "512 KB", "axle": 3, "force_sync": "Disabled", "pool_avail": 5835190816768, "used_capacity": 405504, "pool_reserved": 307115327488, "id": 0}
+
+2017-09-28 09:58:36: Expect: {"sector": "4KB", "ctrl_id": 2, "name": "_1", "axle": 3, "force_sync": 0, "pds": [1, 2, 3, 4, 7, 8, 9, 11, 12, 13, 16], "raid_level": "raid50", "stripe": "512KB"}
+
+2017-09-28 09:58:34: 'result': 'p'
+2017-09-28 09:58:34: Actual: {"sector": "2 KB", "prefer_ctrl_id": 2, "operational_status": "OK, Synchronizing", "name": "Test_", "total_capacity": 7862776496128, "pd_info": [{"status": "OK", "pd_id": 2, "da_id": 0, "seq_no": 0}, {"status": "OK", "pd_id": 3, "da_id": 0, "seq_no": 1}, {"status": "OK", "pd_id": 4, "da_id": 1, "seq_no": 2}, {"status": "OK", "pd_id": 7, "da_id": 1, "seq_no": 3}, {"status": "OK", "pd_id": 8, "da_id": 2, "seq_no": 4}, {"status": "OK", "pd_id": 9, "da_id": 2, "seq_no": 5}, {"status": "OK", "pd_id": 11, "da_id": 3, "seq_no": 6}, {"status": "OK", "pd_id": 12, "da_id": 3, "seq_no": 7}, {"status": "OK", "pd_id": 13, "da_id": 4, "seq_no": 8}, {"status": "OK", "pd_id": 16, "da_id": 4, "seq_no": 9}], "_raw_sector": 3, "pds": "2,3,4,7,8,9,11,12,13,16", "raid_level": 10, "owner": "Controller 2", "free_capacity": 7862776272896, "usage": 0, "_raw_stripe": 128, "pd_group": "(2,3),(4,7),(8,9),(11,12),(13,16)", "stripe": "64 KB", "axle": 5, "force_sync": "Disabled", "pool_avail": 7469637448090, "used_capacity": 223232, "pool_reserved": 393138824806, "id": 0}
+
+2017-09-28 09:57:59: Expect: {"sector": "2KB", "ctrl_id": 2, "name": "Test_", "pds": [2, 3, 4, 7, 8, 9, 11, 12, 13, 16], "raid_level": "raid10", "stripe": "64KB", "force_sync": 0}
+
+2017-09-28 09:57:57: 'result': 'p'
+2017-09-28 09:57:57: Actual: {"sector": "4 KB", "prefer_ctrl_id": 2, "operational_status": "OK, Synchronizing", "name": "2222222222222222222222222222222", "total_capacity": 632433934336, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}, {"status": "OK", "pd_id": 2, "da_id": 0, "seq_no": 1}, {"status": "OK", "pd_id": 3, "da_id": 0, "seq_no": 2}, {"status": "OK", "pd_id": 4, "da_id": 0, "seq_no": 3}, {"status": "OK", "pd_id": 7, "da_id": 0, "seq_no": 4}, {"status": "OK", "pd_id": 8, "da_id": 0, "seq_no": 5}, {"status": "OK", "pd_id": 9, "da_id": 0, "seq_no": 6}, {"status": "OK", "pd_id": 11, "da_id": 0, "seq_no": 7}, {"status": "OK", "pd_id": 12, "da_id": 0, "seq_no": 8}, {"status": "OK", "pd_id": 13, "da_id": 0, "seq_no": 9}, {"status": "OK", "pd_id": 16, "da_id": 0, "seq_no": 10}], "_raw_sector": 4, "pds": "1,2,3,4,7,8,9,11,12,13,16", "raid_level": 6, "owner": "Controller 2", "free_capacity": 632433528832, "usage": 0, "_raw_stripe": 1024, "pd_group": "(1,2,3,4,7,8,9,11,12,13,16)", "stripe": "512 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 600811832116, "used_capacity": 405504, "pool_reserved": 31621696716, "id": 0}
+
+2017-09-28 09:57:55: Expect: {"sector": "4KB", "ctrl_id": 2, "name": "2222222222222222222222222222222", "pds": [1, 2, 3, 4, 7, 8, 9, 11, 12, 13, 16], "raid_level": "raid6", "stripe": "512KB", "force_sync": 0}
+
+2017-09-28 09:57:54: 'result': 'p'
+2017-09-28 09:57:54: Actual: {"sector": "2 KB", "prefer_ctrl_id": 2, "operational_status": "OK", "name": "1111111111111111111111111111111", "total_capacity": 703166676992, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}, {"status": "OK", "pd_id": 2, "da_id": 0, "seq_no": 1}, {"status": "OK", "pd_id": 3, "da_id": 0, "seq_no": 2}, {"status": "OK", "pd_id": 4, "da_id": 0, "seq_no": 3}, {"status": "OK", "pd_id": 7, "da_id": 0, "seq_no": 4}, {"status": "OK", "pd_id": 8, "da_id": 0, "seq_no": 5}, {"status": "OK", "pd_id": 9, "da_id": 0, "seq_no": 6}, {"status": "OK", "pd_id": 11, "da_id": 0, "seq_no": 7}, {"status": "OK", "pd_id": 12, "da_id": 0, "seq_no": 8}, {"status": "OK", "pd_id": 13, "da_id": 0, "seq_no": 9}, {"status": "OK", "pd_id": 16, "da_id": 0, "seq_no": 10}], "_raw_sector": 3, "pds": "1,2,3,4,7,8,9,11,12,13,16", "raid_level": 5, "owner": "Controller 2", "free_capacity": 703166453760, "usage": 0, "_raw_stripe": 512, "pd_group": "(1,2,3,4,7,8,9,11,12,13,16)", "stripe": "256 KB", "axle": 1, "force_sync": "Enabled", "pool_avail": 668008119911, "used_capacity": 223232, "pool_reserved": 35158333849, "id": 0}
+
+2017-09-28 09:57:52: Expect: {"sector": "2KB", "ctrl_id": 2, "name": "1111111111111111111111111111111", "pds": [1, 2, 3, 4, 7, 8, 9, 11, 12, 13, 16], "raid_level": "raid5", "stripe": "256KB", "force_sync": 1}
+
+2017-09-28 09:57:51: 'result': 'p'
+2017-09-28 09:57:51: Actual: {"sector": "1 KB", "prefer_ctrl_id": 2, "operational_status": "OK", "name": "TN", "total_capacity": 1930587799552, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}, {"status": "OK", "pd_id": 2, "da_id": 0, "seq_no": 1}], "_raw_sector": 2, "pds": "1,2", "raid_level": 1, "owner": "Controller 2", "free_capacity": 1930587658240, "usage": 0, "_raw_stripe": 256, "pd_group": "(1,2)", "stripe": "128 KB", "axle": 1, "force_sync": "Enabled", "pool_avail": 1834058268263, "used_capacity": 141312, "pool_reserved": 96529389977, "id": 0}
+
+2017-09-28 09:57:48: Expect: {"sector": "1KB", "ctrl_id": 2, "name": "TN", "pds": [1, 2], "raid_level": "raid1", "stripe": "128KB", "force_sync": 1}
+
+2017-09-28 09:57:47: 'result': 'p'
+2017-09-28 09:57:47: Actual: {"sector": "512 Bytes", "prefer_ctrl_id": 2, "operational_status": "OK", "name": "t", "total_capacity": 773899419648, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}, {"status": "OK", "pd_id": 2, "da_id": 0, "seq_no": 1}, {"status": "OK", "pd_id": 3, "da_id": 0, "seq_no": 2}, {"status": "OK", "pd_id": 4, "da_id": 0, "seq_no": 3}, {"status": "OK", "pd_id": 7, "da_id": 0, "seq_no": 4}, {"status": "OK", "pd_id": 8, "da_id": 0, "seq_no": 5}, {"status": "OK", "pd_id": 9, "da_id": 0, "seq_no": 6}, {"status": "OK", "pd_id": 11, "da_id": 0, "seq_no": 7}, {"status": "OK", "pd_id": 12, "da_id": 0, "seq_no": 8}, {"status": "OK", "pd_id": 13, "da_id": 0, "seq_no": 9}, {"status": "OK", "pd_id": 16, "da_id": 0, "seq_no": 10}], "_raw_sector": 1, "pds": "1,2,3,4,7,8,9,11,12,13,16", "raid_level": 0, "owner": "Controller 2", "free_capacity": 773899274752, "usage": 0, "_raw_stripe": 128, "pd_group": "(1,2,3,4,7,8,9,11,12,13,16)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 735204303770, "used_capacity": 144896, "pool_reserved": 38694970982, "id": 0}
+
+2017-09-28 09:57:45: Expect: {"sector": "512B", "ctrl_id": 2, "name": "t", "pds": [1, 2, 3, 4, 7, 8, 9, 11, 12, 13, 16], "raid_level": "raid0", "stripe": "64KB", "force_sync": 0}
+
+2017-09-28 09:17:46: 'result': 'p'
+2017-09-28 09:17:46: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-28 09:17:46: Expect: hint error 
+
+2017-09-27 18:04:56: 'result': 'p'
+2017-09-27 18:04:56: Actual: invalid force_sync (0,1)
+
+2017-09-27 18:04:56: Expect: {"sector": "512KB", "ctrl_id": 1, "name": "7", "pds": [], "raid_level": "raid", "stripe": "64KB", "axle": 2, "force_sync": -1}
+
+2017-09-27 18:04:56: Actual: invalid raid_level (raid0|raid1|raid5|raid6|raid10|raid50|raid60|all|unknown)
+
+2017-09-27 18:04:56: Expect: {"sector": "512KB", "ctrl_id": 1, "name": "7", "pds": [], "raid_level": "raid", "stripe": "64KB", "axle": 2, "force_sync": 0}
+
+2017-09-27 18:04:56: Actual: invalid raid_level (raid0|raid1|raid5|raid6|raid10|raid50|raid60|all|unknown)
+
+2017-09-27 18:04:56: Expect: {"sector": "512B", "ctrl_id": 1, "name": "6", "pds": [], "raid_level": "raid", "stripe": "2MB", "axle": 2, "force_sync": 0}
+
+2017-09-27 18:04:56: Actual: invalid ctrl_id (1,2)
+
+2017-09-27 18:04:56: Expect: {"sector": "512B", "ctrl_id": 3, "name": "5", "pds": [1], "raid_level": "raid0", "stripe": "64KB", "axle": 2, "force_sync": 0}
+
+2017-09-27 18:04:56: Actual: Incorrect parameters: Number of PD list devides axle smaller than 3. RAID level 50 requires at least 3. (0x4100104)
+
+2017-09-27 18:04:56: Expect: {"sector": "512B", "ctrl_id": 1, "name": "4", "pds": [1, 2, 3, 4, 7, 8, 9, 11, 12, 13, 16], "raid_level": "raid50", "stripe": "64KB", "axle": 4, "force_sync": 0}
+
+2017-09-27 18:04:56: Actual: invalid raid_level (raid0|raid1|raid5|raid6|raid10|raid50|raid60|all|unknown)
+
+2017-09-27 18:04:56: Expect: {"sector": "512B", "ctrl_id": 1, "name": "3", "pds": [1], "raid_level": "test", "stripe": "64KB", "axle": 2, "force_sync": 0}
+
+2017-09-27 18:04:56: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-27 18:04:56: Expect: {"sector": "512B", "ctrl_id": 1, "name": "2", "pds": [100], "raid_level": "raid0", "stripe": "64KB", "axle": 2, "force_sync": 0}
+
+2017-09-27 18:04:56: Actual: Incorrect parameters: The parameter [pd_list] is empty. (0x4100104)
+
+2017-09-27 18:04:56: Expect: {"sector": "512B", "ctrl_id": 1, "name": "1", "pds": [], "raid_level": "raid0", "stripe": "64KB", "axle": 2, "force_sync": 0}
+
+2017-09-27 18:01:28: 'result': 'f'
+2017-09-27 18:01:28: Actual: invalid force_sync (0,1)
+
+2017-09-27 18:01:28: Expect: {"sector": "512KB", "ctrl_id": 1, "name": "7", "pds": [], "raid_level": "raid", "stripe": "64KB", "axle": 2, "force_sync": -1}
+
+2017-09-27 18:01:28: Actual: invalid raid_level (raid0|raid1|raid5|raid6|raid10|raid50|raid60|all|unknown)
+
+2017-09-27 18:01:28: Expect: {"sector": "512KB", "ctrl_id": 1, "name": "7", "pds": [], "raid_level": "raid", "stripe": "64KB", "axle": 2, "force_sync": 0}
+
+2017-09-27 18:01:28: Actual: invalid raid_level (raid0|raid1|raid5|raid6|raid10|raid50|raid60|all|unknown)
+
+2017-09-27 18:01:28: Expect: {"sector": "512B", "ctrl_id": 1, "name": "6", "pds": [], "raid_level": "raid", "stripe": "2MB", "axle": 2, "force_sync": 0}
+
+2017-09-27 18:01:28: Fail parameters {"sector": "512B", "ctrl_id": 1, "name": "5", "pds": [1], "raid_level": "raid0", "stripe": "64KB", "axle": 3, "force_sync": 0} can be set
+
+2017-09-27 18:01:26: Expect: {"sector": "512B", "ctrl_id": 1, "name": "5", "pds": [1], "raid_level": "raid0", "stripe": "64KB", "axle": 3, "force_sync": 0}
+
+2017-09-27 18:01:26: Actual: Incorrect parameters: Number of PD list devides axle smaller than 3. RAID level 50 requires at least 3. (0x4100104)
+
+2017-09-27 18:01:26: Expect: {"sector": "512B", "ctrl_id": 1, "name": "4", "pds": [1, 2, 3, 4, 7, 8, 9, 11, 12, 13, 16], "raid_level": "raid50", "stripe": "64KB", "axle": 4, "force_sync": 0}
+
+2017-09-27 18:01:26: Actual: invalid raid_level (raid0|raid1|raid5|raid6|raid10|raid50|raid60|all|unknown)
+
+2017-09-27 18:01:26: Expect: {"sector": "512B", "ctrl_id": 1, "name": "3", "pds": [1], "raid_level": "test", "stripe": "64KB", "axle": 2, "force_sync": 0}
+
+2017-09-27 18:01:26: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-27 18:01:26: Expect: {"sector": "512B", "ctrl_id": 1, "name": "2", "pds": [100], "raid_level": "raid0", "stripe": "64KB", "axle": 2, "force_sync": 0}
+
+2017-09-27 18:01:26: Actual: Incorrect parameters: The parameter [pd_list] is empty. (0x4100104)
+
+2017-09-27 18:01:25: Expect: {"sector": "512B", "ctrl_id": 1, "name": "1", "pds": [], "raid_level": "raid0", "stripe": "64KB", "axle": 2, "force_sync": 0}
+
+2017-09-27 15:50:59: 'result': 'p'
+2017-09-27 15:50:59: Actual: name contain only alphanumeric characters and underscores
+
+2017-09-27 15:50:59: Expect: hint error when pool name sets a#
+
+2017-09-27 15:50:59: Actual: name shall not exceed 32 characters
+
+2017-09-27 15:50:59: Expect: hint error when pool name sets 333333333333333333333333333333333
+
+2017-09-27 15:50:59: Actual: name contain only alphanumeric characters and underscores
+
+2017-09-27 15:50:59: Expect: hint error when pool name sets 
+
+2017-09-27 15:50:22: 'result': 'p'
+2017-09-27 15:50:22: Actual: The pool name can not set a#
+
+2017-09-27 15:50:22: Expect: hint error when pool name sets a#
+
+2017-09-27 15:50:22: Actual: The pool name can not set 333333333333333333333333333333333
+
+2017-09-27 15:50:21: Expect: hint error when pool name sets 333333333333333333333333333333333
+
+2017-09-27 15:50:21: Actual: The pool name can not set 
+
+2017-09-27 15:50:21: Expect: hint error when pool name sets 
+
+2017-09-27 15:11:59: 'result': 'p'
+2017-09-27 15:11:59: Actual: pool 3 is deleted
+
+2017-09-27 15:11:58: Expect: delete pool 3
+
+2017-09-27 15:11:58: Actual: pool 2 is deleted
+
+2017-09-27 15:11:57: Expect: delete pool 2
+
+2017-09-27 15:11:57: Actual: pool 1 is deleted
+
+2017-09-27 15:11:56: Expect: delete pool 1
+
+2017-09-27 15:11:56: Actual: pool 0 is deleted
+
+2017-09-27 15:11:56: Expect: delete pool 0
+
+2017-09-27 15:00:15: 
+Lack of physical drive
+
+2017-09-27 15:00:15: 
+Lack of physical drive
+
+2017-09-27 14:53:54: 'result': 'f'
+2017-09-27 14:53:54: Fail: Incorrect parameters: Number of PD list devides axle smaller than 3. RAID level 50 requires at least 3. (0x4100104)
+
+2017-09-27 14:53:54: Expend pd list [9, 11, 12, 13, 16]
+
+2017-09-27 14:53:24: 'result': 'f'
+2017-09-27 14:53:24: Fail: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool/0/extend&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-27 14:53:23: Expend pd list [9, 11, 12, 13, 16]
+
+2017-09-27 14:52:45: 'result': 'f'
+2017-09-27 14:52:45: Fail: Empty query result, please check input parameters. Pool id=[0] is not existed. (0x4100102)
+
+2017-09-27 14:52:45: Expend pd list [9, 11, 12, 13, 16]
+
+2017-09-27 14:51:21: 'result': 'f'
+2017-09-27 14:51:21: Fail: Empty query result, please check input parameters. Pool id=[0] is not existed. (0x4100102)
+
+2017-09-27 14:51:21: Expend pd list [9, 11, 12, 13, 16]
+
+2017-09-27 14:50:41: 'result': 'f'
+2017-09-27 14:50:41: Fail: Empty query result, please check input parameters. Pool id=[0] is not existed. (0x4100102)
+
+2017-09-27 14:50:41: Expend pd list [9, 11, 12, 13, 16]
+
+2017-09-27 14:48:35: 'result': 'p'
+2017-09-27 14:48:35: Actual 2,3,4,7,8,9,11,12,13,16
+
+2017-09-27 14:48:01: Expend pd list [8, 9, 11, 12, 13, 16]
+
+2017-09-27 14:46:49: 'result': 'f'
+2017-09-27 14:46:49: Fail: Incorrect parameters: Extend RAID level 10 requires even number of physical drives. (0x4100104)
+
+2017-09-27 14:46:48: Expend pd list [7, 8, 9, 11, 12, 13, 16]
+
+2017-09-27 14:45:22: 'result': 'f'
+2017-09-27 14:45:22: Fail: Incorrect parameters: RAID level 10 requires at least 4 physical drives. (0x4100104)
+
+2017-09-27 14:45:22: Expect: {"sector": "2KB", "ctrl_id": 2, "name": "Test_", "pds": [2, 3], "raid_level": "raid10", "stripe": "64KB", "force_sync": 0}
+
+2017-09-27 14:43:19: 'result': 'p'
+2017-09-27 14:43:19: Actual 1,2,3,4,7,8,9,11,12,13,16
+
+2017-09-27 14:43:16: Expend pd list [7, 8, 9, 11, 12, 13, 16]
+
+2017-09-27 14:42:03: 'result': 'p'
+2017-09-27 14:42:03: Actual 1,2,3,4,7,8,9,11,12,13,16
+
+2017-09-27 14:42:00: Expend pd list [2, 3, 4, 7, 8, 9, 11, 12, 13, 16]
+
+2017-09-27 14:41:08: 'result': 'f'
+2017-09-27 14:41:08: Fail: please check out pds after extend
+
+2017-09-27 14:41:08: Actual 1,4,7,8,9,11,12,13,16
+
+2017-09-27 14:41:06: Expend pd list [4, 7, 8, 9, 11, 12, 13, 16]
+
+2017-09-27 14:39:59: 'result': 'f'
+2017-09-27 14:39:59: Fail: please check out pds after extend
+
+2017-09-27 14:39:59: Actual 1,4,7,8,9,11,12,13,16
+
+2017-09-27 14:39:56: Expend pd list [4, 7, 8, 9, 11, 12, 13, 16]
+
+2017-09-27 14:38:35: 'result': 'p'
+2017-09-27 14:38:35: Actual 1,2,12,13
+
+2017-09-27 14:38:33: Expend pd list [12, 13]
+
+2017-09-27 14:37:57: 'result': 'f'
+2017-09-27 14:37:57: Fail: please check out pds after extend
+
+2017-09-27 14:37:57: Actual 1,2,12,13
+
+2017-09-27 14:37:55: Expend pd list [12, 13]
+
+2017-09-27 14:37:12: Actual 1,2,12,13
+
+2017-09-27 14:37:09: Expend pd list [12, 13]
+
+2017-09-27 14:35:11: 'result': 'f'
+2017-09-27 14:35:11: Fail: please check out pds after extend
+
+2017-09-27 14:35:11: Actual 1,2,12,13
+
+2017-09-27 14:35:08: Expend pd list [12, 13]
+
+2017-09-27 14:34:36: 'result': 'f'
+2017-09-27 14:34:36: Fail: please check out pds after extend
+
+2017-09-27 14:34:36: Actual 1,2,12,13
+
+2017-09-27 14:34:33: Expend pd list [12, 13]
+
+2017-09-27 14:33:16: 'result': 'f'
+2017-09-27 14:33:16: Fail: Incorrect parameters: Extend RAID level 1 requires 2 physical drives. (0x4100104)
+
+2017-09-27 14:33:16: Expend pd list [7, 8, 9, 11, 12, 13, 16]
+
+2017-09-27 14:32:41: 'result': 'f'
+2017-09-27 14:32:41: Fail: Incorrect parameters: Extend RAID level 1 requires 2 physical drives. (0x4100104)
+
+2017-09-27 14:32:41: Expend pd list [4, 7, 8, 9, 11, 12, 13, 16]
+
+2017-09-27 14:25:04: 'result': 'f'
+2017-09-27 14:25:04: Fail: Incorrect parameters: RAID level 1 requires 2 physical drives. (0x4100104)
+
+2017-09-27 14:25:04: Expect: {"sector": "1KB", "ctrl_id": 2, "name": "TN", "pds": [2, 3, 4, 7, 8, 9, 11, 12, 13, 16], "raid_level": "raid1", "stripe": "128KB", "force_sync": 1}
+
+2017-09-27 14:20:43: 'result': 'p'
+2017-09-27 14:20:43: Actual 1,2,3,4,7,8,9,11,12,13,16
+
+2017-09-27 14:20:40: Expend pd list [4, 7, 8, 9, 11, 12, 13, 16]
+
+2017-09-27 13:57:58: 'result': 'p'
+2017-09-27 13:57:58: Actual: 
+2017-09-27 13:53:58: 'result': 'f'
+2017-09-27 13:53:58: Fail: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 405 Method Not Allowed</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 405 Method Not Allowed</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool/0/extend&#039;</tt>
+               caused an error:</p>
+            <pre>Method not allowed.</pre>
+        </body>
+    </html>
+
+
+2017-09-27 13:52:31: 'result': 'f'
+2017-09-27 13:52:31: Fail: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 405 Method Not Allowed</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 405 Method Not Allowed</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool/0/extend&#039;</tt>
+               caused an error:</p>
+            <pre>Method not allowed.</pre>
+        </body>
+    </html>
+
+
+2017-09-27 13:39:45: 'result': 'p'
+2017-09-27 13:39:45: Actual: pool transfer ctrl 1 to ctrl 2
+
+2017-09-27 13:39:45: Expect: transfer pool ctrl 2 from ctrl 1
+
+2017-09-27 13:39:45: Actual: pool transfer ctrl 1 to ctrl 2
+
+2017-09-27 13:39:44: Expect: transfer pool ctrl 2 from ctrl 1
+
+2017-09-27 13:38:59: 'result': 'f'
+2017-09-27 13:38:59: Fail: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 405 Method Not Allowed</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 405 Method Not Allowed</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool/3&#039;</tt>
+               caused an error:</p>
+            <pre>Method not allowed.</pre>
+        </body>
+    </html>
+
+
+2017-09-27 13:38:59: Expect: transfer pool ctrl 2 from ctrl 1
+
+2017-09-27 13:38:59: Fail: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 405 Method Not Allowed</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 405 Method Not Allowed</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool/3&#039;</tt>
+               caused an error:</p>
+            <pre>Method not allowed.</pre>
+        </body>
+    </html>
+
+
+2017-09-27 13:38:58: Expect: transfer pool ctrl 2 from ctrl 1
+
+2017-09-27 13:38:14: 'result': 'f'
+2017-09-27 13:38:14: Fail: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 405 Method Not Allowed</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 405 Method Not Allowed</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool&#039;</tt>
+               caused an error:</p>
+            <pre>Method not allowed.</pre>
+        </body>
+    </html>
+
+
+2017-09-27 13:38:14: Expect: transfer pool ctrl 2 from ctrl 1
+
+2017-09-27 13:38:14: Fail: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 405 Method Not Allowed</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 405 Method Not Allowed</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool&#039;</tt>
+               caused an error:</p>
+            <pre>Method not allowed.</pre>
+        </body>
+    </html>
+
+
+2017-09-27 13:38:14: Expect: transfer pool ctrl 2 from ctrl 1
+
+2017-09-27 13:37:55: 'result': 'f'
+2017-09-27 13:37:55: Fail: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 405 Method Not Allowed</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 405 Method Not Allowed</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool&#039;</tt>
+               caused an error:</p>
+            <pre>Method not allowed.</pre>
+        </body>
+    </html>
+
+
+2017-09-27 13:37:54: Expect: transfer pool ctrl 2 from ctrl 1
+
+2017-09-27 13:37:54: Fail: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 405 Method Not Allowed</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 405 Method Not Allowed</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool&#039;</tt>
+               caused an error:</p>
+            <pre>Method not allowed.</pre>
+        </body>
+    </html>
+
+
+2017-09-27 13:37:54: Expect: transfer pool ctrl 2 from ctrl 1
+
+2017-09-27 13:36:55: 'result': 'f'
+2017-09-27 13:36:55: Fail: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 405 Method Not Allowed</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 405 Method Not Allowed</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool&#039;</tt>
+               caused an error:</p>
+            <pre>Method not allowed.</pre>
+        </body>
+    </html>
+
+
+2017-09-27 13:36:55: Expect: transfer pool ctrl 2 from ctrl 1
+
+2017-09-27 13:36:55: Fail: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 405 Method Not Allowed</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 405 Method Not Allowed</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool&#039;</tt>
+               caused an error:</p>
+            <pre>Method not allowed.</pre>
+        </body>
+    </html>
+
+
+2017-09-27 13:36:55: Expect: transfer pool ctrl 2 from ctrl 1
+
+2017-09-27 13:32:13: 'result': 'p'
+2017-09-27 13:32:13: Expect: transfer pool ctrl 2 from ctrl 1
+
+2017-09-27 13:32:13: Expect: transfer pool ctrl 2 from ctrl 1
+
+2017-09-27 13:31:36: 'result': 'f'
+2017-09-27 13:31:36: Actual: 'sector', 'prefer_ctrl_id', 'operational_stats', 'name', 'total_capacity', 'pd_info', '_raw_sector', 'pds', 'raid_level', 'owner', 'free_capacity', 'sage', '_raw_stripe', 'pd_grop', 'stripe', 'axle', 'force_sync', 'pool_avail', 'sed_capacity', 'pool_reserved', 'id'
+
+2017-09-27 13:31:36: Fail: please check out pref_ctrl in returned result
+
+2017-09-27 13:31:36: Expect: returned values contain 'name', 'raid_level', 'pref_ctrl', 'stripe', 'sector', 'force_sync', 'total_capacity', 'used_capacity', 'usage', 'pool_avail', 'pd_info', 'free_capacity', 'status', 'ctrl_id', 'pds', 'pd_group', 'pool_reserved'
+
+2017-09-27 13:31:30: 'result': 'p'
+2017-09-27 13:31:30: Actual: 
+{"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK", "name": "test_list_1", "total_capacity": 1930587799552, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}], "_raw_sector": 1, "pds": "1", "raid_level": 0, "owner": "Controller 2", "free_capacity": 1930587654656, "usage": 0, "_raw_stripe": 128, "pd_group": "(1)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 1834058264679, "used_capacity": 144896, "pool_reserved": 96529389977, "id": 0}
+{"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK, Synchronizing", "name": "test_list_2", "total_capacity": 70212648960, "pd_info": [{"status": "OK", "pd_id": 2, "da_id": 1, "seq_no": 0}, {"status": "OK", "pd_id": 3, "da_id": 1, "seq_no": 1}], "_raw_sector": 1, "pds": "2,3", "raid_level": 1, "owner": "Controller 2", "free_capacity": 70212504064, "usage": 0, "_raw_stripe": 128, "pd_group": "(2,3)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 66701871616, "used_capacity": 144896, "pool_reserved": 3510632448, "id": 1}
+{"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK, Synchronizing", "name": "test_list_3", "total_capacity": 3861175599104, "pd_info": [{"status": "OK", "pd_id": 4, "da_id": 2, "seq_no": 0}, {"status": "OK", "pd_id": 7, "da_id": 2, "seq_no": 1}, {"status": "OK", "pd_id": 8, "da_id": 2, "seq_no": 2}], "_raw_sector": 1, "pds": "4,7,8", "raid_level": 5, "owner": "Controller 2", "free_capacity": 3861175500288, "usage": 0, "_raw_stripe": 128, "pd_group": "(4,7,8)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 3668116720333, "used_capacity": 98816, "pool_reserved": 193058779955, "id": 2}
+{"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK, Synchronizing", "name": "test_list_4", "total_capacity": 280850595840, "pd_info": [{"status": "OK", "pd_id": 9, "da_id": 3, "seq_no": 0}, {"status": "OK", "pd_id": 11, "da_id": 3, "seq_no": 1}, {"status": "OK", "pd_id": 12, "da_id": 3, "seq_no": 2}, {"status": "OK", "pd_id": 13, "da_id": 3, "seq_no": 3}], "_raw_sector": 1, "pds": "9,11,12,13", "raid_level": 6, "owner": "Controller 2", "free_capacity": 280850450944, "usage": 0, "_raw_stripe": 128, "pd_group": "(9,11,12,13)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 266807921152, "used_capacity": 144896, "pool_reserved": 14042529792, "id": 3}
+
+2017-09-27 13:31:30: Expect: list all of pool 
+
+2017-09-27 13:15:38: 'result': 'p'
+2017-09-27 13:15:38: Actual {"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK", "name": "1_g", "total_capacity": 1930587799552, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}], "_raw_sector": 1, "pds": "1", "raid_level": 0, "owner": "Controller 2", "free_capacity": 1930587688448, "usage": 0, "_raw_stripe": 128, "pd_group": "(1)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 1834058298471, "used_capacity": 111104, "pool_reserved": 96529389977, "id": 0}
+
+2017-09-27 13:15:37: Expect: To modify name is 1_g
+
+2017-09-27 13:15:37: Actual {"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK", "name": "22222222222222222222222222222222", "total_capacity": 1930587799552, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}], "_raw_sector": 1, "pds": "1", "raid_level": 0, "owner": "Controller 2", "free_capacity": 1930587688448, "usage": 0, "_raw_stripe": 128, "pd_group": "(1)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 1834058298471, "used_capacity": 111104, "pool_reserved": 96529389977, "id": 0}
+
+2017-09-27 13:15:37: Expect: To modify name is 22222222222222222222222222222222
+
+2017-09-27 13:15:37: Actual {"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK", "name": "1111111111111111111111111111111", "total_capacity": 1930587799552, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}], "_raw_sector": 1, "pds": "1", "raid_level": 0, "owner": "Controller 2", "free_capacity": 1930587688448, "usage": 0, "_raw_stripe": 128, "pd_group": "(1)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 1834058298471, "used_capacity": 111104, "pool_reserved": 96529389977, "id": 0}
+
+2017-09-27 13:15:37: Expect: To modify name is 1111111111111111111111111111111
+
+2017-09-27 13:15:37: Actual {"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK", "name": "a_", "total_capacity": 1930587799552, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}], "_raw_sector": 1, "pds": "1", "raid_level": 0, "owner": "Controller 2", "free_capacity": 1930587688448, "usage": 0, "_raw_stripe": 128, "pd_group": "(1)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 1834058298471, "used_capacity": 111104, "pool_reserved": 96529389977, "id": 0}
+
+2017-09-27 13:15:36: Expect: To modify name is a_
+
+2017-09-27 13:15:36: Actual {"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK", "name": "a", "total_capacity": 1930587799552, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}], "_raw_sector": 1, "pds": "1", "raid_level": 0, "owner": "Controller 2", "free_capacity": 1930587688448, "usage": 0, "_raw_stripe": 128, "pd_group": "(1)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 1834058298471, "used_capacity": 111104, "pool_reserved": 96529389977, "id": 0}
+
+2017-09-27 13:15:36: Expect: To modify name is a
+
+2017-09-27 13:15:36: rename pool
+
+2017-09-27 13:15:11: 'result': 'p'
+2017-09-27 13:15:11: Actual {"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK", "name": "1_g", "total_capacity": 1930587799552, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}], "_raw_sector": 1, "pds": "1", "raid_level": 0, "owner": "Controller 2", "free_capacity": 1930587688448, "usage": 0, "_raw_stripe": 128, "pd_group": "(1)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 1834058298471, "used_capacity": 111104, "pool_reserved": 96529389977, "id": 0}
+
+2017-09-27 13:15:10: Expect: To modify name is 1_g
+
+2017-09-27 13:15:10: Actual {"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK", "name": "22222222222222222222222222222222", "total_capacity": 1930587799552, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}], "_raw_sector": 1, "pds": "1", "raid_level": 0, "owner": "Controller 2", "free_capacity": 1930587688448, "usage": 0, "_raw_stripe": 128, "pd_group": "(1)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 1834058298471, "used_capacity": 111104, "pool_reserved": 96529389977, "id": 0}
+
+2017-09-27 13:15:10: Expect: To modify name is 22222222222222222222222222222222
+
+2017-09-27 13:15:10: Actual {"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK", "name": "1111111111111111111111111111111", "total_capacity": 1930587799552, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}], "_raw_sector": 1, "pds": "1", "raid_level": 0, "owner": "Controller 2", "free_capacity": 1930587688448, "usage": 0, "_raw_stripe": 128, "pd_group": "(1)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 1834058298471, "used_capacity": 111104, "pool_reserved": 96529389977, "id": 0}
+
+2017-09-27 13:15:10: Expect: To modify name is 1111111111111111111111111111111
+
+2017-09-27 13:15:10: Actual {"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK", "name": "a_", "total_capacity": 1930587799552, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}], "_raw_sector": 1, "pds": "1", "raid_level": 0, "owner": "Controller 2", "free_capacity": 1930587688448, "usage": 0, "_raw_stripe": 128, "pd_group": "(1)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 1834058298471, "used_capacity": 111104, "pool_reserved": 96529389977, "id": 0}
+
+2017-09-27 13:15:09: Expect: To modify name is a_
+
+2017-09-27 13:15:09: Actual {"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK", "name": "a", "total_capacity": 1930587799552, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}], "_raw_sector": 1, "pds": "1", "raid_level": 0, "owner": "Controller 2", "free_capacity": 1930587693056, "usage": 0, "_raw_stripe": 128, "pd_group": "(1)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 1834058303079, "used_capacity": 106496, "pool_reserved": 96529389977, "id": 0}
+
+2017-09-27 13:15:09: Expect: To modify name is a
+
+2017-09-27 13:15:09: rename pool
+
+2017-09-27 13:13:10: 'result': 'p'
+2017-09-27 13:13:10: Actual: modified result is 95
+
+2017-09-27 13:13:10: Expect: modify pool global setting is 95
+
+2017-09-27 13:13:10: Actual: modified result is 94
+
+2017-09-27 13:13:10: Expect: modify pool global setting is 94
+
+2017-09-27 13:13:10: Actual: modified result is 76
+
+2017-09-27 13:13:10: Expect: modify pool global setting is 76
+
+2017-09-27 13:13:10: Actual: modified result is 75
+
+2017-09-27 13:13:10: Expect: modify pool global setting is 75
+
+2017-09-27 11:28:55: Expect: To modify name is a
+
+2017-09-27 11:28:55: rename pool
+
+2017-09-27 11:28:27: Expect: To modify name is a
+
+2017-09-27 11:28:27: rename pool
+
+2017-09-27 11:28:19: Expect: To modify name is a
+
+2017-09-27 11:28:19: rename pool
+
+2017-09-27 11:28:03: Expect: To modify name is a
+
+2017-09-27 11:28:03: rename pool
+
+2017-09-27 11:19:16: 'result': 'p'
+2017-09-27 11:19:16: Actual: modified result is 95
+
+2017-09-27 11:19:16: Expect: modify pool global setting is 95
+
+2017-09-27 11:19:16: Actual: modified result is 94
+
+2017-09-27 11:19:16: Expect: modify pool global setting is 94
+
+2017-09-27 11:19:16: Actual: modified result is 76
+
+2017-09-27 11:19:16: Expect: modify pool global setting is 76
+
+2017-09-27 11:19:16: Actual: modified result is 75
+
+2017-09-27 11:19:16: Expect: modify pool global setting is 75
+
+2017-09-27 11:18:53: 'result': 'p'
+2017-09-27 11:18:53: Actual: modified result is 95
+
+2017-09-27 11:18:53: Actual: modify pool global setting is 95
+
+2017-09-27 11:18:53: Actual: modified result is 94
+
+2017-09-27 11:18:53: Actual: modify pool global setting is 94
+
+2017-09-27 11:18:53: Actual: modified result is 76
+
+2017-09-27 11:18:53: Actual: modify pool global setting is 76
+
+2017-09-27 11:18:53: Actual: modified result is 75
+
+2017-09-27 11:18:53: Actual: modify pool global setting is 75
+
+2017-09-27 11:07:33: 'result': 'p'
+2017-09-27 11:07:33: Actual: capacity_threshold is 95
+
+2017-09-27 11:07:33: Expect: The value of capacity_threshold range is 75-95
+
+2017-09-27 11:07:19: 'result': 'p'
+2017-09-27 11:07:19: Actual: capacity_threshold is 95
+
+2017-09-27 11:07:19: Expect: The value of capacity_threshold range is 75-95
+2017-09-27 11:06:53: Expect: The value of capacity_threshold range is 75-95
+2017-09-27 11:06:22: Expect: The value of capacity_threshold range is 75-95
+2017-09-27 11:05:57: Expect: The value of capacity_threshold range is 75-95
+2017-09-27 11:05:28: Expect: The value of capacity_threshold range is 75-95
+2017-09-27 11:04:55: Expect: The value of capacity_threshold range is 75-95
+2017-09-27 10:48:25: Fail: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool/global&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-27 10:44:42: Fail: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool/poolglobal&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-27 10:18:40: 'result': 'f'
+2017-09-27 10:18:40: Actual: 'sector', 'prefer_ctrl_id', 'operational_stats', 'name', 'total_capacity', 'pd_info', '_raw_sector', 'pds', 'raid_level', 'owner', 'free_capacity', 'sage', '_raw_stripe', 'pd_grop', 'stripe', 'axle', 'force_sync', 'pool_avail', 'sed_capacity', 'pool_reserved', 'id'
+
+2017-09-27 10:18:40: Fail: please check out pref_ctrl in returned result
+
+2017-09-27 10:18:39: Expect: returned values contain 'name', 'raid_level', 'pref_ctrl', 'stripe', 'sector', 'force_sync', 'total_capacity', 'used_capacity', 'usage', 'pool_avail', 'pd_info', 'free_capacity', 'status', 'ctrl_id', 'pds', 'pd_group', 'pool_reserved'
+
+2017-09-27 10:18:09: 'result': 'p'
+2017-09-27 10:18:09: Actual: 'sector', 'prefer_ctrl_id', 'operational_stats', 'name', 'total_capacity', 'pd_info', '_raw_sector', 'pds', 'raid_level', 'owner', 'free_capacity', 'sage', '_raw_stripe', 'pd_grop', 'stripe', 'axle', 'force_sync', 'pool_avail', 'sed_capacity', 'pool_reserved', 'id'
+
+2017-09-27 10:18:09: Expect: returned values contain 'name', 'raid_level', 'prefer_ctrl_id', 'stripe', 'sector', 'force_sync', 'total_capacity', 'used_capacity', 'usage', 'pool_avail', 'pd_info', 'free_capacity', 'status', 'ctrl_id', 'pds', 'pd_group', 'pool_reserved'
+
+2017-09-27 10:17:55: 'result': 'f'
+2017-09-27 10:17:55: Actual: 'sector', 'prefer_ctrl_id', 'operational_stats', 'name', 'total_capacity', 'pd_info', '_raw_sector', 'pds', 'raid_level', 'owner', 'free_capacity', 'sage', '_raw_stripe', 'pd_grop', 'stripe', 'axle', 'force_sync', 'pool_avail', 'sed_capacity', 'pool_reserved', 'id'
+
+2017-09-27 10:17:55: Fail: please check out pref_ctrl_id in returned result
+
+2017-09-27 10:17:55: Expect: returned values contain 'name', 'raid_level', 'pref_ctrl_id', 'stripe', 'sector', 'force_sync', 'total_capacity', 'used_capacity', 'usage', 'pool_avail', 'pd_info', 'free_capacity', 'status', 'ctrl_id', 'pds', 'pd_group', 'pool_reserved'
+
+2017-09-27 10:17:21: 'result': 'f'
+2017-09-27 10:17:21: Actual: 'sector', 'prefer_ctrl_id', 'operational_stats', 'name', 'total_capacity', 'pd_info', '_raw_sector', 'pds', 'raid_level', 'owner', 'free_capacity', 'sage', '_raw_stripe', 'pd_grop', 'stripe', 'axle', 'force_sync', 'pool_avail', 'sed_capacity', 'pool_reserved', 'id'
+
+2017-09-27 10:17:21: Fail: please check out pref_ctrl in returned result
+
+2017-09-27 10:17:21: Expect: returned values contain 'name', 'raid_level', 'pref_ctrl', 'stripe', 'sector', 'force_sync', 'total_capacity', 'used_capacity', 'usage', 'pool_avail', 'pd_info', 'free_capacity', 'status', 'ctrl_id', 'pds', 'pd_group', 'pool_reserved'
+
+2017-09-27 10:17:02: 'result': 'f'
+2017-09-27 10:17:02: Actual: 'sector', 'prefer_ctrl_id', 'operational_stats', 'name', 'total_capacity', 'pd_info', '_raw_sector', 'pds', 'raid_level', 'owner', 'free_capacity', 'sage', '_raw_stripe', 'pd_grop', 'stripe', 'axle', 'force_sync', 'pool_avail', 'sed_capacity', 'pool_reserved', 'id'
+
+2017-09-27 10:17:02: Actual: u'sector', u'prefer_ctrl_id', u'operational_status', u'name', u'total_capacity', u'pd_info', u'_raw_sector', u'pds', u'raid_level', u'owner', u'free_capacity', u'usage', u'_raw_stripe', u'pd_group', u'stripe', u'axle', u'force_sync', u'pool_avail', u'used_capacity', u'pool_reserved', u'id'
+
+2017-09-27 10:17:02: Fail: please check out pref_ctrl in returned result
+
+2017-09-27 10:17:02: Expect: returned values contain 'name', 'raid_level', 'pref_ctrl', 'stripe', 'sector', 'force_sync', 'total_capacity', 'used_capacity', 'usage', 'pool_avail', 'pd_info', 'free_capacity', 'status', 'ctrl_id', 'pds', 'pd_group', 'pool_reserved'
+
+2017-09-27 10:14:45: 'result': 'f'
+2017-09-27 10:14:45: Actual: 'sector', 'prefer_ctrl_id', 'operational_stats', 'name', 'total_capacity', 'pd_info', '_raw_sector', 'pds', 'raid_level', 'owner', 'free_capacity', 'sage', '_raw_stripe', 'pd_grop', 'stripe', 'axle', 'force_sync', 'pool_avail', 'sed_capacity', 'pool_reserved', 'id'
+
+2017-09-27 10:14:45: Actual: u'sector', u'prefer_ctrl_id', u'operational_status', u'name', u'total_capacity', u'pd_info', u'_raw_sector', u'pds', u'raid_level', u'owner', u'free_capacity', u'usage', u'_raw_stripe', u'pd_group', u'stripe', u'axle', u'force_sync', u'pool_avail', u'used_capacity', u'pool_reserved', u'id'
+
+2017-09-27 10:14:45: Fail: please check out pd_infofree_capacity in returned result
+
+2017-09-27 10:14:45: Actual: u'sector', u'prefer_ctrl_id', u'operational_status', u'name', u'total_capacity', u'pd_info', u'_raw_sector', u'pds', u'raid_level', u'owner', u'free_capacity', u'usage', u'_raw_stripe', u'pd_group', u'stripe', u'axle', u'force_sync', u'pool_avail', u'used_capacity', u'pool_reserved', u'id'
+
+2017-09-27 10:14:45: Fail: please check out pref_ctrl in returned result
+
+2017-09-27 10:14:45: Expect: returned values contain 'name', 'raid_level', 'pref_ctrl', 'stripe', 'sector', 'force_sync', 'total_capacity', 'used_capacity', 'usage', 'pool_avail', 'pd_infofree_capacity', 'status', 'ctrl_id', 'pds', 'pd_group', 'pool_reserved'
+
+2017-09-27 10:14:37: Actual: u'sector', u'prefer_ctrl_id', u'operational_status', u'name', u'total_capacity', u'pd_info', u'_raw_sector', u'pds', u'raid_level', u'owner', u'free_capacity', u'usage', u'_raw_stripe', u'pd_group', u'stripe', u'axle', u'force_sync', u'pool_avail', u'used_capacity', u'pool_reserved', u'id'
+
+2017-09-27 10:14:37: Fail: please check out pd_infofree_capacity in returned result
+
+2017-09-27 10:14:37: Actual: u'sector', u'prefer_ctrl_id', u'operational_status', u'name', u'total_capacity', u'pd_info', u'_raw_sector', u'pds', u'raid_level', u'owner', u'free_capacity', u'usage', u'_raw_stripe', u'pd_group', u'stripe', u'axle', u'force_sync', u'pool_avail', u'used_capacity', u'pool_reserved', u'id'
+
+2017-09-27 10:14:37: Fail: please check out pref_ctrl in returned result
+
+2017-09-27 10:14:37: Expect: returned values contain 'name', 'raid_level', 'pref_ctrl', 'stripe', 'sector', 'force_sync', 'total_capacity', 'used_capacity', 'usage', 'pool_avail', 'pd_infofree_capacity', 'status', 'ctrl_id', 'pds', 'pd_group', 'pool_reserved'
+
+2017-09-27 10:14:00: 'result': 'f'
+2017-09-27 10:14:00: Actual: u'sector', u'prefer_ctrl_id', u'operational_status', u'name', u'total_capacity', u'pd_info', u'_raw_sector', u'pds', u'raid_level', u'owner', u'free_capacity', u'usage', u'_raw_stripe', u'pd_group', u'stripe', u'axle', u'force_sync', u'pool_avail', u'used_capacity', u'pool_reserved', u'id'
+
+2017-09-27 10:14:00: Actual: u'sector', u'prefer_ctrl_id', u'operational_status', u'name', u'total_capacity', u'pd_info', u'_raw_sector', u'pds', u'raid_level', u'owner', u'free_capacity', u'usage', u'_raw_stripe', u'pd_group', u'stripe', u'axle', u'force_sync', u'pool_avail', u'used_capacity', u'pool_reserved', u'id'
+
+2017-09-27 10:14:00: Fail: please check out pd_infofree_capacity in returned result
+
+2017-09-27 10:14:00: Actual: u'sector', u'prefer_ctrl_id', u'operational_status', u'name', u'total_capacity', u'pd_info', u'_raw_sector', u'pds', u'raid_level', u'owner', u'free_capacity', u'usage', u'_raw_stripe', u'pd_group', u'stripe', u'axle', u'force_sync', u'pool_avail', u'used_capacity', u'pool_reserved', u'id'
+
+2017-09-27 10:14:00: Fail: please check out pref_ctrl in returned result
+
+2017-09-27 10:14:00: Expect: returned values contain 'name', 'raid_level', 'pref_ctrl', 'stripe', 'sector', 'force_sync', 'total_capacity', 'used_capacity', 'usage', 'pool_avail', 'pd_infofree_capacity', 'status', 'ctrl_id', 'pds', 'pd_group', 'pool_reserved'
+
+2017-09-27 10:13:31: 'result': 'f'
+2017-09-27 10:13:31: Actual: u'sector', u'prefer_ctrl_id', u'operational_status', u'name', u'total_capacity', u'pd_info', u'_raw_sector', u'pds', u'raid_level', u'owner', u'free_capacity', u'usage', u'_raw_stripe', u'pd_group', u'stripe', u'axle', u'force_sync', u'pool_avail', u'used_capacity', u'pool_reserved', u'id'
+
+2017-09-27 10:13:31: Actual: u'sector', u'prefer_ctrl_id', u'operational_status', u'name', u'total_capacity', u'pd_info', u'_raw_sector', u'pds', u'raid_level', u'owner', u'free_capacity', u'usage', u'_raw_stripe', u'pd_group', u'stripe', u'axle', u'force_sync', u'pool_avail', u'used_capacity', u'pool_reserved', u'id'
+
+2017-09-27 10:13:31: Actual: u'sector', u'prefer_ctrl_id', u'operational_status', u'name', u'total_capacity', u'pd_info', u'_raw_sector', u'pds', u'raid_level', u'owner', u'free_capacity', u'usage', u'_raw_stripe', u'pd_group', u'stripe', u'axle', u'force_sync', u'pool_avail', u'used_capacity', u'pool_reserved', u'id'
+
+2017-09-27 10:13:31: Actual: u'sector', u'prefer_ctrl_id', u'operational_status', u'name', u'total_capacity', u'pd_info', u'_raw_sector', u'pds', u'raid_level', u'owner', u'free_capacity', u'usage', u'_raw_stripe', u'pd_group', u'stripe', u'axle', u'force_sync', u'pool_avail', u'used_capacity', u'pool_reserved', u'id'
+
+2017-09-27 10:13:31: Actual: u'sector', u'prefer_ctrl_id', u'operational_status', u'name', u'total_capacity', u'pd_info', u'_raw_sector', u'pds', u'raid_level', u'owner', u'free_capacity', u'usage', u'_raw_stripe', u'pd_group', u'stripe', u'axle', u'force_sync', u'pool_avail', u'used_capacity', u'pool_reserved', u'id'
+
+2017-09-27 10:13:31: Actual: u'sector', u'prefer_ctrl_id', u'operational_status', u'name', u'total_capacity', u'pd_info', u'_raw_sector', u'pds', u'raid_level', u'owner', u'free_capacity', u'usage', u'_raw_stripe', u'pd_group', u'stripe', u'axle', u'force_sync', u'pool_avail', u'used_capacity', u'pool_reserved', u'id'
+
+2017-09-27 10:13:31: Fail: please check out pd_infofree_capacity in returned result
+
+2017-09-27 10:13:31: Actual: u'sector', u'prefer_ctrl_id', u'operational_status', u'name', u'total_capacity', u'pd_info', u'_raw_sector', u'pds', u'raid_level', u'owner', u'free_capacity', u'usage', u'_raw_stripe', u'pd_group', u'stripe', u'axle', u'force_sync', u'pool_avail', u'used_capacity', u'pool_reserved', u'id'
+
+2017-09-27 10:13:31: Actual: u'sector', u'prefer_ctrl_id', u'operational_status', u'name', u'total_capacity', u'pd_info', u'_raw_sector', u'pds', u'raid_level', u'owner', u'free_capacity', u'usage', u'_raw_stripe', u'pd_group', u'stripe', u'axle', u'force_sync', u'pool_avail', u'used_capacity', u'pool_reserved', u'id'
+
+2017-09-27 10:13:30: Actual: u'sector', u'prefer_ctrl_id', u'operational_status', u'name', u'total_capacity', u'pd_info', u'_raw_sector', u'pds', u'raid_level', u'owner', u'free_capacity', u'usage', u'_raw_stripe', u'pd_group', u'stripe', u'axle', u'force_sync', u'pool_avail', u'used_capacity', u'pool_reserved', u'id'
+
+2017-09-27 10:13:30: Actual: u'sector', u'prefer_ctrl_id', u'operational_status', u'name', u'total_capacity', u'pd_info', u'_raw_sector', u'pds', u'raid_level', u'owner', u'free_capacity', u'usage', u'_raw_stripe', u'pd_group', u'stripe', u'axle', u'force_sync', u'pool_avail', u'used_capacity', u'pool_reserved', u'id'
+
+2017-09-27 10:13:30: Actual: u'sector', u'prefer_ctrl_id', u'operational_status', u'name', u'total_capacity', u'pd_info', u'_raw_sector', u'pds', u'raid_level', u'owner', u'free_capacity', u'usage', u'_raw_stripe', u'pd_group', u'stripe', u'axle', u'force_sync', u'pool_avail', u'used_capacity', u'pool_reserved', u'id'
+
+2017-09-27 10:13:30: Actual: u'sector', u'prefer_ctrl_id', u'operational_status', u'name', u'total_capacity', u'pd_info', u'_raw_sector', u'pds', u'raid_level', u'owner', u'free_capacity', u'usage', u'_raw_stripe', u'pd_group', u'stripe', u'axle', u'force_sync', u'pool_avail', u'used_capacity', u'pool_reserved', u'id'
+
+2017-09-27 10:13:30: Actual: u'sector', u'prefer_ctrl_id', u'operational_status', u'name', u'total_capacity', u'pd_info', u'_raw_sector', u'pds', u'raid_level', u'owner', u'free_capacity', u'usage', u'_raw_stripe', u'pd_group', u'stripe', u'axle', u'force_sync', u'pool_avail', u'used_capacity', u'pool_reserved', u'id'
+
+2017-09-27 10:13:30: Actual: u'sector', u'prefer_ctrl_id', u'operational_status', u'name', u'total_capacity', u'pd_info', u'_raw_sector', u'pds', u'raid_level', u'owner', u'free_capacity', u'usage', u'_raw_stripe', u'pd_group', u'stripe', u'axle', u'force_sync', u'pool_avail', u'used_capacity', u'pool_reserved', u'id'
+
+2017-09-27 10:13:30: Fail: please check out pref_ctrl in returned result
+
+2017-09-27 10:13:30: Actual: u'sector', u'prefer_ctrl_id', u'operational_status', u'name', u'total_capacity', u'pd_info', u'_raw_sector', u'pds', u'raid_level', u'owner', u'free_capacity', u'usage', u'_raw_stripe', u'pd_group', u'stripe', u'axle', u'force_sync', u'pool_avail', u'used_capacity', u'pool_reserved', u'id'
+
+2017-09-27 10:13:30: Actual: u'sector', u'prefer_ctrl_id', u'operational_status', u'name', u'total_capacity', u'pd_info', u'_raw_sector', u'pds', u'raid_level', u'owner', u'free_capacity', u'usage', u'_raw_stripe', u'pd_group', u'stripe', u'axle', u'force_sync', u'pool_avail', u'used_capacity', u'pool_reserved', u'id'
+
+2017-09-27 10:13:30: Expect: returned values contain 'name', 'raid_level', 'pref_ctrl', 'stripe', 'sector', 'force_sync', 'total_capacity', 'used_capacity', 'usage', 'pool_avail', 'pd_infofree_capacity', 'status', 'ctrl_id', 'pds', 'pd_group', 'pool_reserved'
+
+2017-09-27 10:11:42: 'result': 'f'
+2017-09-27 10:11:42: Fail: please check out pd_infofree_capacity in returned result
+
+2017-09-27 10:11:42: Fail: please check out pref_ctrl in returned result
+
+2017-09-27 10:11:42: Expect: returned values contain 'name', 'raid_level', 'pref_ctrl', 'stripe', 'sector', 'force_sync', 'total_capacity', 'used_capacity', 'usage', 'pool_avail', 'pd_infofree_capacity', 'status', 'ctrl_id', 'pds', 'pd_group', 'pool_reserved'
+
+2017-09-27 10:10:26: Expect: returned values contain 'name', 'raid_level', 'pref_ctrl', 'stripe', 'sector', 'force_sync', 'total_capacity', 'used_capacity', 'usage', 'pool_avail', 'pd_infofree_capacity', 'status', 'ctrl_id', 'pds', 'pd_group', 'pool_reserved'
+
+2017-09-27 10:10:04: Expect: returned values contain 'name', 'raid_level', 'pref_ctrl', 'stripe', 'sector', 'force_sync', 'total_capacity', 'used_capacity', 'usage', 'pool_avail', 'pd_infofree_capacity', 'status', 'ctrl_id', 'pds', 'pd_group', 'pool_reserved'
+
+2017-09-27 10:07:29: 'result': 'f'
+2017-09-27 10:07:29: Fail: please check out axle in returned result
+
+2017-09-27 10:07:29: Fail: please check out _raw_stripe in returned result
+
+2017-09-27 10:07:29: Fail: please check out owner in returned result
+
+2017-09-27 10:07:29: Fail: please check out _raw_sector in returned result
+
+2017-09-27 10:07:29: Fail: please check out operational_status in returned result
+
+2017-09-27 10:07:29: Fail: please check out prefer_ctrl_id in returned result
+
+2017-09-27 10:07:29: Expect: returned values contain 'name', 'raid_level', 'pref_ctrl', 'stripe', 'sector', 'force_sync', 'total_capacity', 'used_capacity', 'usage', 'pool_avail', 'pd_infofree_capacity', 'status', 'ctrl_id', 'pds', 'pd_group', 'pool_reserved'
+
+2017-09-27 10:06:41: 'result': 'f'
+2017-09-27 10:06:41: Fail: please check out id in returned result
+
+2017-09-27 10:06:41: Fail: please check out axle in returned result
+
+2017-09-27 10:06:40: Fail: please check out _raw_stripe in returned result
+
+2017-09-27 10:06:40: Fail: please check out free_capacity in returned result
+
+2017-09-27 10:06:40: Fail: please check out owner in returned result
+
+2017-09-27 10:06:40: Fail: please check out _raw_sector in returned result
+
+2017-09-27 10:06:40: Fail: please check out pd_info in returned result
+
+2017-09-27 10:06:40: Fail: please check out operational_status in returned result
+
+2017-09-27 10:06:40: Fail: please check out prefer_ctrl_id in returned result
+
+2017-09-27 10:06:40: Expect: returned values contain 'name', 'raid_level', 'pref_ctrl', 'stripe', 'sector', 'force_sync', 'total_capacity', 'used_capacity', 'usage', 'pool_avail', 'pd_infofree_capacity', 'status', 'ctrl_id', 'pds', 'pd_group', 'pool_reserved'
+
+2017-09-27 10:05:22: Expect: 'name', 'raid_level', 'pref_ctrl', 'stripe', 'sector', 'force_sync', 'total_capacity', 'used_capacity', 'usage', 'pool_avail', 'pd_infofree_capacity', 'status', 'ctrl_id', 'pds', 'pd_group', 'pool_reserved'
+
+2017-09-27 09:31:06: 'result': 'p'
+2017-09-27 09:31:06: Actual {"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK", "name": "1_g", "total_capacity": 1930587799552, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}], "_raw_sector": 1, "pds": "1", "raid_level": 0, "owner": "Controller 2", "free_capacity": 1930587694592, "usage": 0, "_raw_stripe": 128, "pd_group": "(1)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 1834058304615, "used_capacity": 104960, "pool_reserved": 96529389977, "id": 0}
+
+2017-09-27 09:31:06: Expect: To modify name is 1_g
+
+2017-09-27 09:31:06: Actual {"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK", "name": "22222222222222222222222222222222", "total_capacity": 1930587799552, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}], "_raw_sector": 1, "pds": "1", "raid_level": 0, "owner": "Controller 2", "free_capacity": 1930587694592, "usage": 0, "_raw_stripe": 128, "pd_group": "(1)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 1834058304615, "used_capacity": 104960, "pool_reserved": 96529389977, "id": 0}
+
+2017-09-27 09:31:05: Expect: To modify name is 22222222222222222222222222222222
+
+2017-09-27 09:31:05: Actual {"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK", "name": "1111111111111111111111111111111", "total_capacity": 1930587799552, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}], "_raw_sector": 1, "pds": "1", "raid_level": 0, "owner": "Controller 2", "free_capacity": 1930587694592, "usage": 0, "_raw_stripe": 128, "pd_group": "(1)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 1834058304615, "used_capacity": 104960, "pool_reserved": 96529389977, "id": 0}
+
+2017-09-27 09:31:05: Expect: To modify name is 1111111111111111111111111111111
+
+2017-09-27 09:31:05: Actual {"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK", "name": "a_", "total_capacity": 1930587799552, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}], "_raw_sector": 1, "pds": "1", "raid_level": 0, "owner": "Controller 2", "free_capacity": 1930587694592, "usage": 0, "_raw_stripe": 128, "pd_group": "(1)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 1834058304615, "used_capacity": 104960, "pool_reserved": 96529389977, "id": 0}
+
+2017-09-27 09:31:05: Expect: To modify name is a_
+
+2017-09-27 09:31:05: Actual {"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK", "name": "a", "total_capacity": 1930587799552, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}], "_raw_sector": 1, "pds": "1", "raid_level": 0, "owner": "Controller 2", "free_capacity": 1930587694592, "usage": 0, "_raw_stripe": 128, "pd_group": "(1)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 1834058304615, "used_capacity": 104960, "pool_reserved": 96529389977, "id": 0}
+
+2017-09-27 09:31:04: Expect: To modify name is a
+
+2017-09-27 09:31:04: rename pool
+
+2017-09-27 09:20:05: 'result': 'f'
+2017-09-27 09:20:05: Actual {"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK", "name": "1_g", "total_capacity": 1930587799552, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}], "_raw_sector": 1, "pds": "1", "raid_level": 0, "owner": "Controller 2", "free_capacity": 1930587481088, "usage": 0, "_raw_stripe": 128, "pd_group": "(1)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 1834058091111, "used_capacity": 318464, "pool_reserved": 96529389977, "id": 0}
+
+2017-09-27 09:20:05: Expect: To modify name is 1_g
+
+2017-09-27 09:20:05: Actual {"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK", "name": "22222222222222222222222222222222", "total_capacity": 1930587799552, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}], "_raw_sector": 1, "pds": "1", "raid_level": 0, "owner": "Controller 2", "free_capacity": 1930587699200, "usage": 0, "_raw_stripe": 128, "pd_group": "(1)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 1834058309223, "used_capacity": 100352, "pool_reserved": 96529389977, "id": 0}
+
+2017-09-27 09:20:04: Expect: To modify name is 22222222222222222222222222222222
+
+2017-09-27 09:20:04: Fail: Incorrect parameters: The parameter [name] is invalid. (0x4100104)
+
+2017-09-27 09:20:04: Expect: To modify name is 1*31
+
+2017-09-27 09:20:04: Actual {"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK", "name": "a_", "total_capacity": 1930587799552, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}], "_raw_sector": 1, "pds": "1", "raid_level": 0, "owner": "Controller 2", "free_capacity": 1930587699200, "usage": 0, "_raw_stripe": 128, "pd_group": "(1)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 1834058309223, "used_capacity": 100352, "pool_reserved": 96529389977, "id": 0}
+
+2017-09-27 09:20:03: Expect: To modify name is a_
+
+2017-09-27 09:20:03: Actual {"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK", "name": "a", "total_capacity": 1930587799552, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}], "_raw_sector": 1, "pds": "1", "raid_level": 0, "owner": "Controller 2", "free_capacity": 1930587699200, "usage": 0, "_raw_stripe": 128, "pd_group": "(1)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 1834058309223, "used_capacity": 100352, "pool_reserved": 96529389977, "id": 0}
+
+2017-09-27 09:20:03: Expect: To modify name is a
+
+2017-09-27 09:20:03: rename pool
+
+2017-09-27 09:16:52: 'result': 'f'
+2017-09-27 09:16:52: Fail: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 405 Method Not Allowed</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 405 Method Not Allowed</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool/0/1_g&#039;</tt>
+               caused an error:</p>
+            <pre>Method not allowed.</pre>
+        </body>
+    </html>
+
+
+2017-09-27 09:16:52: Expect: To modify name is 1_g
+
+2017-09-27 09:16:52: Fail: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 405 Method Not Allowed</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 405 Method Not Allowed</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool/0/22222222222222222222222222222222&#039;</tt>
+               caused an error:</p>
+            <pre>Method not allowed.</pre>
+        </body>
+    </html>
+
+
+2017-09-27 09:16:52: Expect: To modify name is 22222222222222222222222222222222
+
+2017-09-27 09:16:52: Fail: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 405 Method Not Allowed</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 405 Method Not Allowed</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool/0/1%2A31&#039;</tt>
+               caused an error:</p>
+            <pre>Method not allowed.</pre>
+        </body>
+    </html>
+
+
+2017-09-27 09:16:52: Expect: To modify name is 1*31
+
+2017-09-27 09:16:52: Fail: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 405 Method Not Allowed</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 405 Method Not Allowed</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool/0/a_&#039;</tt>
+               caused an error:</p>
+            <pre>Method not allowed.</pre>
+        </body>
+    </html>
+
+
+2017-09-27 09:16:52: Expect: To modify name is a_
+
+2017-09-27 09:16:52: Fail: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 405 Method Not Allowed</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 405 Method Not Allowed</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool/0/a&#039;</tt>
+               caused an error:</p>
+            <pre>Method not allowed.</pre>
+        </body>
+    </html>
+
+
+2017-09-27 09:16:52: Expect: To modify name is a
+
+2017-09-27 09:16:52: rename pool
+
+2017-09-27 09:12:27: 'result': 'f'
+2017-09-27 09:12:27: Fail: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 405 Method Not Allowed</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 405 Method Not Allowed</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool/0/rename1_g&#039;</tt>
+               caused an error:</p>
+            <pre>Method not allowed.</pre>
+        </body>
+    </html>
+
+
+2017-09-27 09:12:27: Expect: To modify name is 1_g
+
+2017-09-27 09:12:27: Fail: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 405 Method Not Allowed</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 405 Method Not Allowed</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool/0/rename22222222222222222222222222222222&#039;</tt>
+               caused an error:</p>
+            <pre>Method not allowed.</pre>
+        </body>
+    </html>
+
+
+2017-09-27 09:12:27: Expect: To modify name is 22222222222222222222222222222222
+
+2017-09-27 09:12:27: Fail: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 405 Method Not Allowed</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 405 Method Not Allowed</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool/0/rename1%2A31&#039;</tt>
+               caused an error:</p>
+            <pre>Method not allowed.</pre>
+        </body>
+    </html>
+
+
+2017-09-27 09:12:27: Expect: To modify name is 1*31
+
+2017-09-27 09:12:27: Fail: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 405 Method Not Allowed</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 405 Method Not Allowed</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool/0/renamea_&#039;</tt>
+               caused an error:</p>
+            <pre>Method not allowed.</pre>
+        </body>
+    </html>
+
+
+2017-09-27 09:12:27: Expect: To modify name is a_
+
+2017-09-27 09:12:27: Fail: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 405 Method Not Allowed</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 405 Method Not Allowed</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool/0/renamea&#039;</tt>
+               caused an error:</p>
+            <pre>Method not allowed.</pre>
+        </body>
+    </html>
+
+
+2017-09-27 09:12:27: Expect: To modify name is a
+
+2017-09-27 09:12:27: rename pool
+
+2017-09-27 09:06:29: 'result': 'f'
+2017-09-27 09:06:29: Fail: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 405 Method Not Allowed</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 405 Method Not Allowed</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool/0/1_g&#039;</tt>
+               caused an error:</p>
+            <pre>Method not allowed.</pre>
+        </body>
+    </html>
+
+
+2017-09-27 09:06:29: Expect: To modify name is 1_g
+
+2017-09-27 09:06:29: Fail: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 405 Method Not Allowed</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 405 Method Not Allowed</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool/0/22222222222222222222222222222222&#039;</tt>
+               caused an error:</p>
+            <pre>Method not allowed.</pre>
+        </body>
+    </html>
+
+
+2017-09-27 09:06:29: Expect: To modify name is 22222222222222222222222222222222
+
+2017-09-27 09:06:29: Fail: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 405 Method Not Allowed</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 405 Method Not Allowed</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool/0/1%2A31&#039;</tt>
+               caused an error:</p>
+            <pre>Method not allowed.</pre>
+        </body>
+    </html>
+
+
+2017-09-27 09:06:29: Expect: To modify name is 1*31
+
+2017-09-27 09:06:29: Fail: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 405 Method Not Allowed</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 405 Method Not Allowed</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool/0/a_&#039;</tt>
+               caused an error:</p>
+            <pre>Method not allowed.</pre>
+        </body>
+    </html>
+
+
+2017-09-27 09:06:29: Expect: To modify name is a_
+
+2017-09-27 09:06:29: Fail: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 405 Method Not Allowed</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 405 Method Not Allowed</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool/0/a&#039;</tt>
+               caused an error:</p>
+            <pre>Method not allowed.</pre>
+        </body>
+    </html>
+
+
+2017-09-27 09:06:29: Expect: To modify name is a
+
+2017-09-27 09:06:29: rename pool
+
+2017-09-26 18:02:30: 'result': 'p'
+2017-09-26 18:02:30: Actual: 
+{"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK", "name": "test_list_2", "total_capacity": 70212648960, "pd_info": [{"status": "OK", "pd_id": 2, "da_id": 1, "seq_no": 0}, {"status": "OK", "pd_id": 3, "da_id": 1, "seq_no": 1}], "_raw_sector": 1, "pds": "2,3", "raid_level": 1, "owner": "Controller 2", "free_capacity": 70212548608, "usage": 0, "_raw_stripe": 128, "pd_group": "(2,3)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 66701916160, "used_capacity": 100352, "pool_reserved": 3510632448, "id": 1}
+
+2017-09-26 18:02:30: Expect: search of pool by name "test_list_2" 
+
+2017-09-26 18:01:55: 'result': 'p'
+2017-09-26 18:01:55: Actual: 
+{"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK", "name": "test_list_2", "total_capacity": 70212648960, "pd_info": [{"status": "OK", "pd_id": 2, "da_id": 1, "seq_no": 0}, {"status": "OK", "pd_id": 3, "da_id": 1, "seq_no": 1}], "_raw_sector": 1, "pds": "2,3", "raid_level": 1, "owner": "Controller 2", "free_capacity": 70212548608, "usage": 0, "_raw_stripe": 128, "pd_group": "(2,3)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 66701916160, "used_capacity": 100352, "pool_reserved": 3510632448, "id": 1}
+
+2017-09-26 18:01:55: Expect: search of pool 
+
+2017-09-26 18:00:21: Expect: search of pool 
+
+2017-09-26 17:59:23: 'result': 'f'
+2017-09-26 17:59:23: Fail: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&quot;http://10.84.2.164/service/pool/pool?page=1&amp;page_size=25&amp;search=name+like+&#039;%25test_list_2%25&#039;&quot;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-26 17:59:23: Expect: list all of pool 
+
+2017-09-26 17:57:33: 'result': 'f'
+2017-09-26 17:57:33: Fail: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 404 Not Found</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 404 Not Found</h1>
+            <p>Sorry, the requested URL <tt>&quot;http://10.84.2.164/service/pool/?page=1&amp;page_size=25&amp;search=name+like+&#039;%25test_list_2%25&#039;&quot;</tt>
+               caused an error:</p>
+            <pre>Not found: &#039;/service/pool/&#039;</pre>
+        </body>
+    </html>
+
+
+2017-09-26 17:57:33: Expect: list all of pool 
+
+2017-09-26 17:57:05: 'result': 'f'
+2017-09-26 17:57:05: Fail: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 404 Not Found</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 404 Not Found</h1>
+            <p>Sorry, the requested URL <tt>&quot;http://10.84.2.164/service/pool/?page=1&amp;page_size=10&amp;search=name+like+&#039;%25test_list_2%25&#039;&quot;</tt>
+               caused an error:</p>
+            <pre>Not found: &#039;/service/pool/&#039;</pre>
+        </body>
+    </html>
+
+
+2017-09-26 17:57:05: Expect: list all of pool 
+
+2017-09-26 17:56:26: 'result': 'f'
+2017-09-26 17:56:26: Fail: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 404 Not Found</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 404 Not Found</h1>
+            <p>Sorry, the requested URL <tt>&quot;http://10.84.2.164/service/pool/?page=1?page_size=10&amp;search=name+like+&#039;%25test_list_2%25&#039;&quot;</tt>
+               caused an error:</p>
+            <pre>Not found: &#039;/service/pool/&#039;</pre>
+        </body>
+    </html>
+
+
+2017-09-26 17:56:26: Expect: list all of pool 
+
+2017-09-26 17:49:03: 'result': 'p'
+2017-09-26 17:49:03: Actual: 
+{"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK", "name": "test_list_1", "total_capacity": 1930587799552, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}], "_raw_sector": 1, "pds": "1", "raid_level": 0, "owner": "Controller 2", "free_capacity": 1930587700736, "usage": 0, "_raw_stripe": 128, "pd_group": "(1)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 1834058310759, "used_capacity": 98816, "pool_reserved": 96529389977, "id": 0}
+{"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK, Synchronizing", "name": "test_list_2", "total_capacity": 70212648960, "pd_info": [{"status": "OK", "pd_id": 2, "da_id": 1, "seq_no": 0}, {"status": "OK", "pd_id": 3, "da_id": 1, "seq_no": 1}], "_raw_sector": 1, "pds": "2,3", "raid_level": 1, "owner": "Controller 2", "free_capacity": 70212550144, "usage": 0, "_raw_stripe": 128, "pd_group": "(2,3)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 66701917696, "used_capacity": 98816, "pool_reserved": 3510632448, "id": 1}
+{"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK, Synchronizing", "name": "test_list_3", "total_capacity": 3861175599104, "pd_info": [{"status": "OK", "pd_id": 4, "da_id": 2, "seq_no": 0}, {"status": "OK", "pd_id": 7, "da_id": 2, "seq_no": 1}, {"status": "OK", "pd_id": 8, "da_id": 2, "seq_no": 2}], "_raw_sector": 1, "pds": "4,7,8", "raid_level": 5, "owner": "Controller 2", "free_capacity": 3861175454208, "usage": 0, "_raw_stripe": 128, "pd_group": "(4,7,8)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 3668116674253, "used_capacity": 144896, "pool_reserved": 193058779955, "id": 2}
+{"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK, Synchronizing", "name": "test_list_4", "total_capacity": 280850595840, "pd_info": [{"status": "OK", "pd_id": 9, "da_id": 3, "seq_no": 0}, {"status": "OK", "pd_id": 11, "da_id": 3, "seq_no": 1}, {"status": "OK", "pd_id": 12, "da_id": 3, "seq_no": 2}, {"status": "OK", "pd_id": 13, "da_id": 3, "seq_no": 3}], "_raw_sector": 1, "pds": "9,11,12,13", "raid_level": 6, "owner": "Controller 2", "free_capacity": 280850450944, "usage": 0, "_raw_stripe": 128, "pd_group": "(9,11,12,13)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 266807921152, "used_capacity": 144896, "pool_reserved": 14042529792, "id": 3}
+
+2017-09-26 17:49:03: Expect: list all of pool 
+
+2017-09-26 17:47:43: 'result': 'p'
+2017-09-26 17:47:43: Actual: {"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK", "name": "test_list_1", "total_capacity": 1930587799552, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}], "_raw_sector": 1, "pds": "1", "raid_level": 0, "owner": "Controller 2", "free_capacity": 1930587653120, "usage": 0, "_raw_stripe": 128, "pd_group": "(1)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 1834058263143, "used_capacity": 146432, "pool_reserved": 96529389977, "id": 0}
+{"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK, Synchronizing", "name": "test_list_2", "total_capacity": 70212648960, "pd_info": [{"status": "OK", "pd_id": 2, "da_id": 1, "seq_no": 0}, {"status": "OK", "pd_id": 3, "da_id": 1, "seq_no": 1}], "_raw_sector": 1, "pds": "2,3", "raid_level": 1, "owner": "Controller 2", "free_capacity": 70212502528, "usage": 0, "_raw_stripe": 128, "pd_group": "(2,3)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 66701870080, "used_capacity": 146432, "pool_reserved": 3510632448, "id": 1}
+{"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK, Synchronizing", "name": "test_list_3", "total_capacity": 3861175599104, "pd_info": [{"status": "OK", "pd_id": 4, "da_id": 2, "seq_no": 0}, {"status": "OK", "pd_id": 7, "da_id": 2, "seq_no": 1}, {"status": "OK", "pd_id": 8, "da_id": 2, "seq_no": 2}], "_raw_sector": 1, "pds": "4,7,8", "raid_level": 5, "owner": "Controller 2", "free_capacity": 3861175454208, "usage": 0, "_raw_stripe": 128, "pd_group": "(4,7,8)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 3668116674253, "used_capacity": 144896, "pool_reserved": 193058779955, "id": 2}
+{"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK, Synchronizing", "name": "test_list_4", "total_capacity": 280850595840, "pd_info": [{"status": "OK", "pd_id": 9, "da_id": 3, "seq_no": 0}, {"status": "OK", "pd_id": 11, "da_id": 3, "seq_no": 1}, {"status": "OK", "pd_id": 12, "da_id": 3, "seq_no": 2}, {"status": "OK", "pd_id": 13, "da_id": 3, "seq_no": 3}], "_raw_sector": 1, "pds": "9,11,12,13", "raid_level": 6, "owner": "Controller 2", "free_capacity": 280850450944, "usage": 0, "_raw_stripe": 128, "pd_group": "(9,11,12,13)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 266807921152, "used_capacity": 144896, "pool_reserved": 14042529792, "id": 3}
+
+2017-09-26 17:47:43: Expect: list all of pool 
+
+2017-09-26 17:47:19: 'result': 'p'
+2017-09-26 17:47:19: Actual: {"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK, Synchronizing", "name": "test_default", "total_capacity": 140425297920, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}, {"status": "OK", "pd_id": 2, "da_id": 0, "seq_no": 1}, {"status": "OK", "pd_id": 3, "da_id": 0, "seq_no": 2}], "_raw_sector": 1, "pds": "1,2,3", "raid_level": 5, "owner": "Controller 2", "free_capacity": 140425153024, "usage": 0, "_raw_stripe": 128, "pd_group": "(1,2,3)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 133403888128, "used_capacity": 144896, "pool_reserved": 7021264896, "id": 0}
+
+2017-09-26 17:47:17: Expect: {"pds": [1, 2, 3], "name": "test_default", "raid_level": "raid5"}
+
+2017-09-26 17:43:05: 'result': 'f'
+2017-09-26 17:43:05: 1!=2
+
+2017-09-26 17:43:05: Fail: please check out parameter axle
+
+2017-09-26 17:43:05: Actual: {"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK, Synchronizing", "name": "test_default", "total_capacity": 140425297920, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}, {"status": "OK", "pd_id": 2, "da_id": 0, "seq_no": 1}, {"status": "OK", "pd_id": 3, "da_id": 0, "seq_no": 2}], "_raw_sector": 1, "pds": "1,2,3", "raid_level": 5, "owner": "Controller 2", "free_capacity": 140425199104, "usage": 0, "_raw_stripe": 128, "pd_group": "(1,2,3)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 133403934208, "used_capacity": 98816, "pool_reserved": 7021264896, "id": 0}
+
+2017-09-26 17:43:02: Expect: {"pds": [1, 2, 3], "name": "test_default", "raid_level": "raid5"}
+
+2017-09-26 17:41:17: 'result': 'f'
+2017-09-26 17:41:17: 1!=2
+
+2017-09-26 17:41:17: Fail: please check out parameter axle
+
+2017-09-26 17:41:17: 1!=2
+
+2017-09-26 17:41:17: Fail: please check out parameter prefer_ctrl_id
+
+2017-09-26 17:41:17: Actual: {"sector": "512 Bytes", "prefer_ctrl_id": 1, "operational_status": "OK, Synchronizing", "name": "test_default", "total_capacity": 140425297920, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}, {"status": "OK", "pd_id": 2, "da_id": 0, "seq_no": 1}, {"status": "OK", "pd_id": 3, "da_id": 0, "seq_no": 2}], "_raw_sector": 1, "pds": "1,2,3", "raid_level": 5, "owner": "Controller 2", "free_capacity": 140425153024, "usage": 0, "_raw_stripe": 128, "pd_group": "(1,2,3)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 133403888128, "used_capacity": 144896, "pool_reserved": 7021264896, "id": 0}
+
+2017-09-26 17:41:15: Expect: {"pds": [1, 2, 3], "name": "test_default", "raid_level": "raid5"}
+
+2017-09-26 17:41:06: 'result': 'p'
+2017-09-26 17:41:06: Actual: {"sector": "4 KB", "prefer_ctrl_id": 2, "operational_status": "OK, Synchronizing", "name": "_1", "total_capacity": 6142306549760, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}, {"status": "OK", "pd_id": 2, "da_id": 0, "seq_no": 1}, {"status": "OK", "pd_id": 3, "da_id": 0, "seq_no": 2}, {"status": "OK", "pd_id": 4, "da_id": 0, "seq_no": 3}, {"status": "OK", "pd_id": 7, "da_id": 1, "seq_no": 4}, {"status": "OK", "pd_id": 8, "da_id": 1, "seq_no": 5}, {"status": "OK", "pd_id": 9, "da_id": 1, "seq_no": 6}, {"status": "OK", "pd_id": 11, "da_id": 1, "seq_no": 7}, {"status": "OK", "pd_id": 12, "da_id": 2, "seq_no": 8}, {"status": "OK", "pd_id": 13, "da_id": 2, "seq_no": 9}, {"status": "OK", "pd_id": 16, "da_id": 2, "seq_no": 10}], "_raw_sector": 4, "pds": "1,2,3,4,7,8,9,11,12,13,16", "raid_level": 50, "owner": "Controller 2", "free_capacity": 6142306144256, "usage": 0, "_raw_stripe": 1024, "pd_group": "(1,2,3,4),(7,8,9,11),(12,13,16)", "stripe": "512 KB", "axle": 3, "force_sync": "Disabled", "pool_avail": 5835190816768, "used_capacity": 405504, "pool_reserved": 307115327488, "id": 0}
+
+2017-09-26 17:41:00: Expect: {"sector": "4KB", "ctrl_id": 2, "name": "_1", "axle": 3, "force_sync": 0, "pds": [1, 2, 3, 4, 7, 8, 9, 11, 12, 13, 16], "raid_level": "raid50", "stripe": "512KB"}
+
+2017-09-26 17:40:41: 'result': 'p'
+2017-09-26 17:40:41: Actual: {"sector": "512 Bytes", "prefer_ctrl_id": 2, "operational_status": "OK, Synchronizing", "name": "1_T", "total_capacity": 490968449024, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}, {"status": "OK", "pd_id": 2, "da_id": 0, "seq_no": 1}, {"status": "OK", "pd_id": 3, "da_id": 0, "seq_no": 2}, {"status": "OK", "pd_id": 4, "da_id": 0, "seq_no": 3}, {"status": "OK", "pd_id": 7, "da_id": 0, "seq_no": 4}, {"status": "OK", "pd_id": 8, "da_id": 0, "seq_no": 5}, {"status": "OK", "pd_id": 9, "da_id": 1, "seq_no": 6}, {"status": "OK", "pd_id": 11, "da_id": 1, "seq_no": 7}, {"status": "OK", "pd_id": 12, "da_id": 1, "seq_no": 8}, {"status": "OK", "pd_id": 13, "da_id": 1, "seq_no": 9}, {"status": "OK", "pd_id": 16, "da_id": 1, "seq_no": 10}], "_raw_sector": 1, "pds": "1,2,3,4,7,8,9,11,12,13,16", "raid_level": 60, "owner": "Controller 2", "free_capacity": 490968304128, "usage": 0, "_raw_stripe": 2048, "pd_group": "(1,2,3,4,7,8),(9,11,12,13,16)", "stripe": "1 MB", "axle": 2, "force_sync": "Disabled", "pool_avail": 466419881677, "used_capacity": 144896, "pool_reserved": 24548422451, "id": 0}
+
+2017-09-26 17:40:37: Expect: {"sector": "512B", "ctrl_id": 2, "name": "1_T", "axle": 2, "force_sync": 0, "pds": [1, 2, 3, 4, 7, 8, 9, 11, 12, 13, 16], "raid_level": "raid60", "stripe": "1MB"}
+
+2017-09-26 17:39:31: 'result': 'f'
+2017-09-26 17:39:31: 512 Bytes!=512 KB
+
+2017-09-26 17:39:31: Fail: please check out parameter sector
+
+2017-09-26 17:39:31: Actual: {"sector": "512 Bytes", "prefer_ctrl_id": 2, "operational_status": "OK, Synchronizing", "name": "1_T", "total_capacity": 490968449024, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}, {"status": "OK", "pd_id": 2, "da_id": 0, "seq_no": 1}, {"status": "OK", "pd_id": 3, "da_id": 0, "seq_no": 2}, {"status": "OK", "pd_id": 4, "da_id": 0, "seq_no": 3}, {"status": "OK", "pd_id": 7, "da_id": 0, "seq_no": 4}, {"status": "OK", "pd_id": 8, "da_id": 0, "seq_no": 5}, {"status": "OK", "pd_id": 9, "da_id": 1, "seq_no": 6}, {"status": "OK", "pd_id": 11, "da_id": 1, "seq_no": 7}, {"status": "OK", "pd_id": 12, "da_id": 1, "seq_no": 8}, {"status": "OK", "pd_id": 13, "da_id": 1, "seq_no": 9}, {"status": "OK", "pd_id": 16, "da_id": 1, "seq_no": 10}], "_raw_sector": 1, "pds": "1,2,3,4,7,8,9,11,12,13,16", "raid_level": 60, "owner": "Controller 2", "free_capacity": 490968304128, "usage": 0, "_raw_stripe": 2048, "pd_group": "(1,2,3,4,7,8),(9,11,12,13,16)", "stripe": "1 MB", "axle": 2, "force_sync": "Disabled", "pool_avail": 466419881677, "used_capacity": 144896, "pool_reserved": 24548422451, "id": 0}
+
+2017-09-26 17:39:26: Expect: {"sector": "512B", "ctrl_id": 2, "name": "1_T", "axle": 2, "force_sync": 0, "pds": [1, 2, 3, 4, 7, 8, 9, 11, 12, 13, 16], "raid_level": "raid60", "stripe": "1MB"}
+
+2017-09-26 17:06:35: 'result': 'f'
+2017-09-26 17:06:35: Fail: Incorrect parameters: Number of PD list devides axle smaller than 4. RAID level 50 requires at least 4. (0x4100104)
+
+2017-09-26 17:06:35: Expect: {"sector": "512B", "ctrl_id": 2, "name": "1_T", "axle": 5, "force_sync": 0, "pds": [1, 2, 3, 4, 7, 8, 9, 11, 12, 13, 16], "raid_level": "raid60", "stripe": "1MB"}
+
+2017-09-26 17:06:18: 'result': 'f'
+2017-09-26 17:06:18: Fail: Incorrect parameters: Number of PD list devides axle smaller than 4. RAID level 50 requires at least 4. (0x4100104)
+
+2017-09-26 17:06:18: Expect: {"sector": "512B", "ctrl_id": 2, "name": "1_T", "axle": 4, "force_sync": 0, "pds": [1, 2, 3, 4, 7, 8, 9, 11, 12, 13, 16], "raid_level": "raid60", "stripe": "1MB"}
+
+2017-09-26 17:05:56: 'result': 'f'
+2017-09-26 17:05:56: Fail: invalid axle (1,16)
+
+2017-09-26 17:05:56: Expect: {"sector": "512B", "ctrl_id": 2, "name": "1_T", "axle": 32, "force_sync": 0, "pds": [1, 2, 3, 4, 7, 8, 9, 11, 12, 13, 16], "raid_level": "raid60", "stripe": "1MB"}
+
+2017-09-26 17:04:46: 'result': 'f'
+2017-09-26 17:04:46: Fail: Incorrect parameters: Number of PD list devides axle smaller than 4. RAID level 50 requires at least 4. (0x4100104)
+
+2017-09-26 17:04:46: Expect: {"sector": "512B", "ctrl_id": 2, "name": "1_T", "axle": 3, "force_sync": 0, "pds": [1, 2, 3, 4, 7, 8, 9, 11, 12, 13, 16], "raid_level": "raid60", "stripe": "1MB"}
+
+2017-09-26 17:04:37: 'result': 'p'
+2017-09-26 17:04:37: Actual: {"sector": "4 KB", "prefer_ctrl_id": 2, "operational_status": "OK, Synchronizing", "name": "_1", "total_capacity": 632433934336, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}, {"status": "OK", "pd_id": 2, "da_id": 0, "seq_no": 1}, {"status": "OK", "pd_id": 3, "da_id": 0, "seq_no": 2}, {"status": "OK", "pd_id": 4, "da_id": 0, "seq_no": 3}, {"status": "OK", "pd_id": 7, "da_id": 0, "seq_no": 4}, {"status": "OK", "pd_id": 8, "da_id": 0, "seq_no": 5}, {"status": "OK", "pd_id": 9, "da_id": 1, "seq_no": 6}, {"status": "OK", "pd_id": 11, "da_id": 1, "seq_no": 7}, {"status": "OK", "pd_id": 12, "da_id": 1, "seq_no": 8}, {"status": "OK", "pd_id": 13, "da_id": 1, "seq_no": 9}, {"status": "OK", "pd_id": 16, "da_id": 1, "seq_no": 10}], "_raw_sector": 4, "pds": "1,2,3,4,7,8,9,11,12,13,16", "raid_level": 50, "owner": "Controller 2", "free_capacity": 632433516544, "usage": 0, "_raw_stripe": 1024, "pd_group": "(1,2,3,4,7,8),(9,11,12,13,16)", "stripe": "512 KB", "axle": 2, "force_sync": "Disabled", "pool_avail": 600811819828, "used_capacity": 417792, "pool_reserved": 31621696716, "id": 0}
+
+2017-09-26 17:04:33: Expect: {"sector": "4KB", "ctrl_id": 2, "name": "_1", "axle": 2, "force_sync": 0, "pds": [1, 2, 3, 4, 7, 8, 9, 11, 12, 13, 16], "raid_level": "raid50", "stripe": "512KB"}
+
+2017-09-26 17:03:59: 'result': 'p'
+2017-09-26 17:03:59: Actual: {"sector": "2 KB", "prefer_ctrl_id": 2, "operational_status": "OK, Synchronizing", "name": "Test_", "total_capacity": 7862776496128, "pd_info": [{"status": "OK", "pd_id": 2, "da_id": 0, "seq_no": 0}, {"status": "OK", "pd_id": 3, "da_id": 0, "seq_no": 1}, {"status": "OK", "pd_id": 4, "da_id": 1, "seq_no": 2}, {"status": "OK", "pd_id": 7, "da_id": 1, "seq_no": 3}, {"status": "OK", "pd_id": 8, "da_id": 2, "seq_no": 4}, {"status": "OK", "pd_id": 9, "da_id": 2, "seq_no": 5}, {"status": "OK", "pd_id": 11, "da_id": 3, "seq_no": 6}, {"status": "OK", "pd_id": 12, "da_id": 3, "seq_no": 7}, {"status": "OK", "pd_id": 13, "da_id": 4, "seq_no": 8}, {"status": "OK", "pd_id": 16, "da_id": 4, "seq_no": 9}], "_raw_sector": 3, "pds": "2,3,4,7,8,9,11,12,13,16", "raid_level": 10, "owner": "Controller 2", "free_capacity": 7862776229888, "usage": 0, "_raw_stripe": 128, "pd_group": "(2,3),(4,7),(8,9),(11,12),(13,16)", "stripe": "64 KB", "axle": 5, "force_sync": "Disabled", "pool_avail": 7469637405082, "used_capacity": 266240, "pool_reserved": 393138824806, "id": 0}
+
+2017-09-26 17:03:15: Expect: {"sector": "2KB", "ctrl_id": 2, "name": "Test_", "pds": [2, 3, 4, 7, 8, 9, 11, 12, 13, 16], "raid_level": "raid10", "stripe": "64KB", "force_sync": 0}
+
+2017-09-26 17:02:31: 'result': 'f'
+2017-09-26 17:02:31: Fail: Incorrect parameters: RAID level 10 requires even number of physical drives. (0x4100104)
+
+2017-09-26 17:02:31: Expect: {"sector": "2KB", "ctrl_id": 2, "name": "Test_", "pds": [1, 2, 3, 4, 7, 8, 9, 11, 12, 13, 16], "raid_level": "raid10", "stripe": "64KB", "force_sync": 0}
+
+2017-09-26 16:59:54: 'result': 'p'
+2017-09-26 16:59:54: Actual: {"sector": "4 KB", "prefer_ctrl_id": 2, "operational_status": "OK, Synchronizing", "name": "2222222222222222222222222222222", "total_capacity": 632433934336, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}, {"status": "OK", "pd_id": 2, "da_id": 0, "seq_no": 1}, {"status": "OK", "pd_id": 3, "da_id": 0, "seq_no": 2}, {"status": "OK", "pd_id": 4, "da_id": 0, "seq_no": 3}, {"status": "OK", "pd_id": 7, "da_id": 0, "seq_no": 4}, {"status": "OK", "pd_id": 8, "da_id": 0, "seq_no": 5}, {"status": "OK", "pd_id": 9, "da_id": 0, "seq_no": 6}, {"status": "OK", "pd_id": 11, "da_id": 0, "seq_no": 7}, {"status": "OK", "pd_id": 12, "da_id": 0, "seq_no": 8}, {"status": "OK", "pd_id": 13, "da_id": 0, "seq_no": 9}, {"status": "OK", "pd_id": 16, "da_id": 0, "seq_no": 10}], "_raw_sector": 4, "pds": "1,2,3,4,7,8,9,11,12,13,16", "raid_level": 6, "owner": "Controller 2", "free_capacity": 632433491968, "usage": 0, "_raw_stripe": 1024, "pd_group": "(1,2,3,4,7,8,9,11,12,13,16)", "stripe": "512 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 600811795252, "used_capacity": 442368, "pool_reserved": 31621696716, "id": 0}
+
+2017-09-26 16:59:52: Expect: {"sector": "4KB", "ctrl_id": 2, "name": "2222222222222222222222222222222", "pds": [1, 2, 3, 4, 7, 8, 9, 11, 12, 13, 16], "raid_level": "raid6", "stripe": "512KB", "force_sync": 0}
+
+2017-09-26 16:59:12: 'result': 'p'
+2017-09-26 16:59:12: Actual: {"sector": "2 KB", "prefer_ctrl_id": 2, "operational_status": "OK", "name": "1111111111111111111111111111111", "total_capacity": 703166676992, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}, {"status": "OK", "pd_id": 2, "da_id": 0, "seq_no": 1}, {"status": "OK", "pd_id": 3, "da_id": 0, "seq_no": 2}, {"status": "OK", "pd_id": 4, "da_id": 0, "seq_no": 3}, {"status": "OK", "pd_id": 7, "da_id": 0, "seq_no": 4}, {"status": "OK", "pd_id": 8, "da_id": 0, "seq_no": 5}, {"status": "OK", "pd_id": 9, "da_id": 0, "seq_no": 6}, {"status": "OK", "pd_id": 11, "da_id": 0, "seq_no": 7}, {"status": "OK", "pd_id": 12, "da_id": 0, "seq_no": 8}, {"status": "OK", "pd_id": 13, "da_id": 0, "seq_no": 9}, {"status": "OK", "pd_id": 16, "da_id": 0, "seq_no": 10}], "_raw_sector": 3, "pds": "1,2,3,4,7,8,9,11,12,13,16", "raid_level": 5, "owner": "Controller 2", "free_capacity": 703166410752, "usage": 0, "_raw_stripe": 512, "pd_group": "(1,2,3,4,7,8,9,11,12,13,16)", "stripe": "256 KB", "axle": 1, "force_sync": "Enabled", "pool_avail": 668008076903, "used_capacity": 266240, "pool_reserved": 35158333849, "id": 0}
+
+2017-09-26 16:59:10: Expect: {"sector": "2KB", "ctrl_id": 2, "name": "1111111111111111111111111111111", "pds": [1, 2, 3, 4, 7, 8, 9, 11, 12, 13, 16], "raid_level": "raid5", "stripe": "256KB", "force_sync": 1}
+
+2017-09-26 16:57:47: 'result': 'p'
+2017-09-26 16:57:47: Actual: {"sector": "1 KB", "prefer_ctrl_id": 2, "operational_status": "OK", "name": "TN", "total_capacity": 1930587799552, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}, {"status": "OK", "pd_id": 2, "da_id": 0, "seq_no": 1}], "_raw_sector": 2, "pds": "1,2", "raid_level": 1, "owner": "Controller 2", "free_capacity": 1930587658240, "usage": 0, "_raw_stripe": 256, "pd_group": "(1,2)", "stripe": "128 KB", "axle": 1, "force_sync": "Enabled", "pool_avail": 1834058268263, "used_capacity": 141312, "pool_reserved": 96529389977, "id": 0}
+
+2017-09-26 16:57:45: Expect: {"sector": "1KB", "ctrl_id": 2, "name": "TN", "pds": [1, 2], "raid_level": "raid1", "stripe": "128KB", "force_sync": 1}
+
+2017-09-26 16:55:59: 'result': 'p'
+2017-09-26 16:55:59: Actual: {"sector": "512 Bytes", "prefer_ctrl_id": 2, "operational_status": "OK", "name": "t", "total_capacity": 773899419648, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}, {"status": "OK", "pd_id": 2, "da_id": 0, "seq_no": 1}, {"status": "OK", "pd_id": 3, "da_id": 0, "seq_no": 2}, {"status": "OK", "pd_id": 4, "da_id": 0, "seq_no": 3}, {"status": "OK", "pd_id": 7, "da_id": 0, "seq_no": 4}, {"status": "OK", "pd_id": 8, "da_id": 0, "seq_no": 5}, {"status": "OK", "pd_id": 9, "da_id": 0, "seq_no": 6}, {"status": "OK", "pd_id": 11, "da_id": 0, "seq_no": 7}, {"status": "OK", "pd_id": 12, "da_id": 0, "seq_no": 8}, {"status": "OK", "pd_id": 13, "da_id": 0, "seq_no": 9}, {"status": "OK", "pd_id": 16, "da_id": 0, "seq_no": 10}], "_raw_sector": 1, "pds": "1,2,3,4,7,8,9,11,12,13,16", "raid_level": 0, "owner": "Controller 2", "free_capacity": 773899274752, "usage": 0, "_raw_stripe": 128, "pd_group": "(1,2,3,4,7,8,9,11,12,13,16)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 735204303770, "used_capacity": 144896, "pool_reserved": 38694970982, "id": 0}
+
+2017-09-26 16:55:57: Expect: {"sector": "512B", "ctrl_id": 2, "name": "t", "pds": [1, 2, 3, 4, 7, 8, 9, 11, 12, 13, 16], "raid_level": "raid0", "stripe": "64KB", "force_sync": 0}
+
+2017-09-26 16:55:25: 'result': 'f'
+2017-09-26 16:55:25: 1,2,3,4,7,8,9,11,12,13,16!=1, 2, 3, 4, 7, 8, 9, 11, 12, 13, 16
+2017-09-26 16:55:25: Fail: please check out parameter pds
+
+2017-09-26 16:55:25: Actual: {"sector": "512 Bytes", "prefer_ctrl_id": 2, "operational_status": "OK", "name": "t", "total_capacity": 773899419648, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}, {"status": "OK", "pd_id": 2, "da_id": 0, "seq_no": 1}, {"status": "OK", "pd_id": 3, "da_id": 0, "seq_no": 2}, {"status": "OK", "pd_id": 4, "da_id": 0, "seq_no": 3}, {"status": "OK", "pd_id": 7, "da_id": 0, "seq_no": 4}, {"status": "OK", "pd_id": 8, "da_id": 0, "seq_no": 5}, {"status": "OK", "pd_id": 9, "da_id": 0, "seq_no": 6}, {"status": "OK", "pd_id": 11, "da_id": 0, "seq_no": 7}, {"status": "OK", "pd_id": 12, "da_id": 0, "seq_no": 8}, {"status": "OK", "pd_id": 13, "da_id": 0, "seq_no": 9}, {"status": "OK", "pd_id": 16, "da_id": 0, "seq_no": 10}], "_raw_sector": 1, "pds": "1,2,3,4,7,8,9,11,12,13,16", "raid_level": 0, "owner": "Controller 2", "free_capacity": 773899320832, "usage": 0, "_raw_stripe": 128, "pd_group": "(1,2,3,4,7,8,9,11,12,13,16)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 735204349850, "used_capacity": 98816, "pool_reserved": 38694970982, "id": 0}
+
+2017-09-26 16:55:23: Expect: {"sector": "512B", "ctrl_id": 2, "name": "t", "pds": [1, 2, 3, 4, 7, 8, 9, 11, 12, 13, 16], "raid_level": "raid0", "stripe": "64KB", "force_sync": 0}
+
+2017-09-26 16:53:36: 'result': 'f'
+2017-09-26 16:53:36: 1,2,3,4,7,8,9,11,12,13,16!=1, 2, 3, 4, 7, 8, 9, 11, 12, 13, 16
+2017-09-26 16:53:36: Fail: please check out parameter pds
+
+2017-09-26 16:53:36: Actual: {"sector": "512 Bytes", "prefer_ctrl_id": 2, "operational_status": "OK", "name": "t", "total_capacity": 773899419648, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}, {"status": "OK", "pd_id": 2, "da_id": 0, "seq_no": 1}, {"status": "OK", "pd_id": 3, "da_id": 0, "seq_no": 2}, {"status": "OK", "pd_id": 4, "da_id": 0, "seq_no": 3}, {"status": "OK", "pd_id": 7, "da_id": 0, "seq_no": 4}, {"status": "OK", "pd_id": 8, "da_id": 0, "seq_no": 5}, {"status": "OK", "pd_id": 9, "da_id": 0, "seq_no": 6}, {"status": "OK", "pd_id": 11, "da_id": 0, "seq_no": 7}, {"status": "OK", "pd_id": 12, "da_id": 0, "seq_no": 8}, {"status": "OK", "pd_id": 13, "da_id": 0, "seq_no": 9}, {"status": "OK", "pd_id": 16, "da_id": 0, "seq_no": 10}], "_raw_sector": 1, "pds": "1,2,3,4,7,8,9,11,12,13,16", "raid_level": 0, "owner": "Controller 2", "free_capacity": 773899320832, "usage": 0, "_raw_stripe": 128, "pd_group": "(1,2,3,4,7,8,9,11,12,13,16)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 735204349850, "used_capacity": 98816, "pool_reserved": 38694970982, "id": 0}
+
+2017-09-26 16:53:34: Expect: {"sector": "512B", "ctrl_id": 2, "name": "t", "pds": [1, 2, 3, 4, 7, 8, 9, 11, 12, 13, 16], "raid_level": "raid0", "stripe": "64KB", "force_sync": 0}
+
+2017-09-26 16:50:51: 'result': 'f'
+2017-09-26 16:50:51: 1,2,3,4,7,8,9,11,12,13,16!=[1, 2, 3, 4, 7, 8, 9, 11, 12, 13, 16]
+2017-09-26 16:50:51: Fail: please check out parameter pds
+
+2017-09-26 16:50:51: Actual: {"sector": "512 Bytes", "prefer_ctrl_id": 2, "operational_status": "OK", "name": "t", "total_capacity": 773899419648, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}, {"status": "OK", "pd_id": 2, "da_id": 0, "seq_no": 1}, {"status": "OK", "pd_id": 3, "da_id": 0, "seq_no": 2}, {"status": "OK", "pd_id": 4, "da_id": 0, "seq_no": 3}, {"status": "OK", "pd_id": 7, "da_id": 0, "seq_no": 4}, {"status": "OK", "pd_id": 8, "da_id": 0, "seq_no": 5}, {"status": "OK", "pd_id": 9, "da_id": 0, "seq_no": 6}, {"status": "OK", "pd_id": 11, "da_id": 0, "seq_no": 7}, {"status": "OK", "pd_id": 12, "da_id": 0, "seq_no": 8}, {"status": "OK", "pd_id": 13, "da_id": 0, "seq_no": 9}, {"status": "OK", "pd_id": 16, "da_id": 0, "seq_no": 10}], "_raw_sector": 1, "pds": "1,2,3,4,7,8,9,11,12,13,16", "raid_level": 0, "owner": "Controller 2", "free_capacity": 773899274752, "usage": 0, "_raw_stripe": 128, "pd_group": "(1,2,3,4,7,8,9,11,12,13,16)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 735204303770, "used_capacity": 144896, "pool_reserved": 38694970982, "id": 0}
+
+2017-09-26 16:50:49: Expect: {"sector": "512B", "ctrl_id": 2, "name": "t", "pds": [1, 2, 3, 4, 7, 8, 9, 11, 12, 13, 16], "raid_level": "raid0", "stripe": "64KB", "force_sync": 0}
+
+2017-09-26 16:49:29: 'result': 'f'
+2017-09-26 16:49:29: Fail: please check out parameter pds
+
+2017-09-26 16:49:29: Actual: {"sector": "512 Bytes", "prefer_ctrl_id": 2, "operational_status": "OK", "name": "t", "total_capacity": 773899419648, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}, {"status": "OK", "pd_id": 2, "da_id": 0, "seq_no": 1}, {"status": "OK", "pd_id": 3, "da_id": 0, "seq_no": 2}, {"status": "OK", "pd_id": 4, "da_id": 0, "seq_no": 3}, {"status": "OK", "pd_id": 7, "da_id": 0, "seq_no": 4}, {"status": "OK", "pd_id": 8, "da_id": 0, "seq_no": 5}, {"status": "OK", "pd_id": 9, "da_id": 0, "seq_no": 6}, {"status": "OK", "pd_id": 11, "da_id": 0, "seq_no": 7}, {"status": "OK", "pd_id": 12, "da_id": 0, "seq_no": 8}, {"status": "OK", "pd_id": 13, "da_id": 0, "seq_no": 9}, {"status": "OK", "pd_id": 16, "da_id": 0, "seq_no": 10}], "_raw_sector": 1, "pds": "1,2,3,4,7,8,9,11,12,13,16", "raid_level": 0, "owner": "Controller 2", "free_capacity": 773899274752, "usage": 0, "_raw_stripe": 128, "pd_group": "(1,2,3,4,7,8,9,11,12,13,16)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 735204303770, "used_capacity": 144896, "pool_reserved": 38694970982, "id": 0}
+
+2017-09-26 16:49:27: Expect: {"sector": "512B", "ctrl_id": 2, "name": "t", "pds": [1, 2, 3, 4, 7, 8, 9, 11, 12, 13, 16], "raid_level": "raid0", "stripe": "64KB", "force_sync": 0}
+
+2017-09-26 16:48:29: 'result': 'f'
+2017-09-26 16:48:29: Fail: please check out parameter pds
+
+2017-09-26 16:48:29: Actual: {"sector": "512 Bytes", "prefer_ctrl_id": 2, "operational_status": "OK", "name": "t", "total_capacity": 773899419648, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}, {"status": "OK", "pd_id": 2, "da_id": 0, "seq_no": 1}, {"status": "OK", "pd_id": 3, "da_id": 0, "seq_no": 2}, {"status": "OK", "pd_id": 4, "da_id": 0, "seq_no": 3}, {"status": "OK", "pd_id": 7, "da_id": 0, "seq_no": 4}, {"status": "OK", "pd_id": 8, "da_id": 0, "seq_no": 5}, {"status": "OK", "pd_id": 9, "da_id": 0, "seq_no": 6}, {"status": "OK", "pd_id": 11, "da_id": 0, "seq_no": 7}, {"status": "OK", "pd_id": 12, "da_id": 0, "seq_no": 8}, {"status": "OK", "pd_id": 13, "da_id": 0, "seq_no": 9}, {"status": "OK", "pd_id": 16, "da_id": 0, "seq_no": 10}], "_raw_sector": 1, "pds": "1,2,3,4,7,8,9,11,12,13,16", "raid_level": 0, "owner": "Controller 2", "free_capacity": 773899274752, "usage": 0, "_raw_stripe": 128, "pd_group": "(1,2,3,4,7,8,9,11,12,13,16)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 735204303770, "used_capacity": 144896, "pool_reserved": 38694970982, "id": 0}
+
+2017-09-26 16:48:27: Expect: {"sector": "512B", "ctrl_id": 2, "name": "t", "pds": [1, 2, 3, 4, 7, 8, 9, 11, 12, 13, 16], "raid_level": "raid0", "stripe": "64KB", "force_sync": 0}
+
+2017-09-26 15:50:05: 'result': 'p'
+2017-09-26 15:50:05: Actual: {"sector": "512 Bytes", "prefer_ctrl_id": 2, "operational_status": "OK", "name": "t", "total_capacity": 773899419648, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}, {"status": "OK", "pd_id": 2, "da_id": 0, "seq_no": 1}, {"status": "OK", "pd_id": 3, "da_id": 0, "seq_no": 2}, {"status": "OK", "pd_id": 4, "da_id": 0, "seq_no": 3}, {"status": "OK", "pd_id": 7, "da_id": 0, "seq_no": 4}, {"status": "OK", "pd_id": 8, "da_id": 0, "seq_no": 5}, {"status": "OK", "pd_id": 9, "da_id": 0, "seq_no": 6}, {"status": "OK", "pd_id": 11, "da_id": 0, "seq_no": 7}, {"status": "OK", "pd_id": 12, "da_id": 0, "seq_no": 8}, {"status": "OK", "pd_id": 13, "da_id": 0, "seq_no": 9}, {"status": "OK", "pd_id": 16, "da_id": 0, "seq_no": 10}], "_raw_sector": 1, "pds": "1,2,3,4,7,8,9,11,12,13,16", "raid_level": 0, "owner": "Controller 2", "free_capacity": 773899274752, "usage": 0, "_raw_stripe": 128, "pd_group": "(1,2,3,4,7,8,9,11,12,13,16)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 735204303770, "used_capacity": 144896, "pool_reserved": 38694970982, "id": 0}
+
+2017-09-26 15:50:03: Expect: {"sector": "512B", "ctrl_id": 2, "name": "t", "pds": [1, 2, 3, 4, 7, 8, 9, 11, 12, 13, 16], "raid_level": "raid0", "stripe": "64KB", "force_sync": 0}
+
+2017-09-26 15:47:20: 'result': 'p'
+2017-09-26 15:47:20: Actual: {"sector": "512 Bytes", "prefer_ctrl_id": 2, "operational_status": "OK", "name": "t", "total_capacity": 773899419648, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}, {"status": "OK", "pd_id": 2, "da_id": 0, "seq_no": 1}, {"status": "OK", "pd_id": 3, "da_id": 0, "seq_no": 2}, {"status": "OK", "pd_id": 4, "da_id": 0, "seq_no": 3}, {"status": "OK", "pd_id": 7, "da_id": 0, "seq_no": 4}, {"status": "OK", "pd_id": 8, "da_id": 0, "seq_no": 5}, {"status": "OK", "pd_id": 9, "da_id": 0, "seq_no": 6}, {"status": "OK", "pd_id": 11, "da_id": 0, "seq_no": 7}, {"status": "OK", "pd_id": 12, "da_id": 0, "seq_no": 8}, {"status": "OK", "pd_id": 13, "da_id": 0, "seq_no": 9}, {"status": "OK", "pd_id": 16, "da_id": 0, "seq_no": 10}], "_raw_sector": 1, "pds": "1,2,3,4,7,8,9,11,12,13,16", "raid_level": 0, "owner": "Controller 2", "free_capacity": 773899274752, "usage": 0, "_raw_stripe": 128, "pd_group": "(1,2,3,4,7,8,9,11,12,13,16)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 735204303770, "used_capacity": 144896, "pool_reserved": 38694970982, "id": 0}
+
+2017-09-26 15:14:09: 'result': 'f'
+2017-09-26 15:14:09: Fail: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-26 15:14:08: Expect: {"sector": "512B", "ctrl_id": 2, "name": "1_", "pds": [1, 2, 3, 4, 7, 8, 9, 11, 12, 13, 16], "raid_level": "raid60", "stripe": "1MB", "axle": 2, "force_sync": 0}
+
+2017-09-26 15:14:08: Fail: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-26 15:14:08: Expect: {"sector": "4KB", "ctrl_id": 2, "name": "_1", "pds": [1, 2, 3, 4, 7, 8, 9, 11, 12, 13, 16], "raid_level": "raid50", "stripe": "512KB", "axle": 2, "force_sync": 0}
+
+2017-09-26 15:14:08: Fail: Incorrect parameters: RAID level 10 requires even number of physical drives. (0x4100104)
+
+2017-09-26 15:14:08: Expect: {"sector": "2KB", "ctrl_id": 2, "name": "Test_", "pds": [1, 2, 3, 4, 7, 8, 9, 11, 12, 13, 16], "raid_level": "raid10", "stripe": "64KB", "force_sync": 0}
+
+2017-09-26 15:14:08: Fail: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-26 15:14:08: Expect: {"sector": "1KB", "ctrl_id": 2, "name": "_Test", "pds": [1, 2, 3, 4, 7, 8, 9, 11, 12, 13, 16], "raid_level": "raid6", "stripe": "1MB", "force_sync": 0}
+
+2017-09-26 15:14:08: Fail: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-09-26 15:14:08: Expect: {"sector": "4KB", "ctrl_id": 2, "name": "22222222222222222222222222222222", "pds": [1, 2, 3, 4, 7, 8, 9, 11, 12, 13, 16], "raid_level": "raid5", "stripe": "512KB", "force_sync": 1}
+
+2017-09-26 15:14:08: Fail: invalid raid_level (raid0|raid1|raid5|raid6|raid10|raid50|raid60|all|unknown)
+
+2017-09-26 15:14:08: Expect: {"sector": "2KB", "ctrl_id": 2, "name": "1111111111111111111111111111111", "pds": [1, 2, 3, 4, 7, 8, 9, 11, 12, 13, 16], "raid_level": "raid1e", "stripe": "256KB", "force_sync": 1}
+
+2017-09-26 15:14:08: Fail: Incorrect parameters: RAID level 1 requires 2 physical drives. (0x4100104)
+
+2017-09-26 15:14:08: Expect: {"sector": "1KB", "ctrl_id": 2, "name": "TN", "pds": [1, 2, 3, 4, 7, 8, 9, 11, 12, 13, 16], "raid_level": "raid1", "stripe": "128KB", "force_sync": 1}
+
+2017-09-26 15:14:08: Actual: {"sector": "512 Bytes", "prefer_ctrl_id": 2, "operational_status": "OK", "name": "t", "total_capacity": 773899419648, "pd_info": [{"status": "OK", "pd_id": 1, "da_id": 0, "seq_no": 0}, {"status": "OK", "pd_id": 2, "da_id": 0, "seq_no": 1}, {"status": "OK", "pd_id": 3, "da_id": 0, "seq_no": 2}, {"status": "OK", "pd_id": 4, "da_id": 0, "seq_no": 3}, {"status": "OK", "pd_id": 7, "da_id": 0, "seq_no": 4}, {"status": "OK", "pd_id": 8, "da_id": 0, "seq_no": 5}, {"status": "OK", "pd_id": 9, "da_id": 0, "seq_no": 6}, {"status": "OK", "pd_id": 11, "da_id": 0, "seq_no": 7}, {"status": "OK", "pd_id": 12, "da_id": 0, "seq_no": 8}, {"status": "OK", "pd_id": 13, "da_id": 0, "seq_no": 9}, {"status": "OK", "pd_id": 16, "da_id": 0, "seq_no": 10}], "_raw_sector": 1, "pds": "1,2,3,4,7,8,9,11,12,13,16", "raid_level": 0, "owner": "Controller 2", "free_capacity": 773899274752, "usage": 0, "_raw_stripe": 128, "pd_group": "(1,2,3,4,7,8,9,11,12,13,16)", "stripe": "64 KB", "axle": 1, "force_sync": "Disabled", "pool_avail": 735204303770, "used_capacity": 144896, "pool_reserved": 38694970982, "id": 0}
+
+2017-09-26 15:14:05: Expect: {"sector": "512B", "ctrl_id": 2, "name": "t", "pds": [1, 2, 3, 4, 7, 8, 9, 11, 12, 13, 16], "raid_level": "raid0", "stripe": "64KB", "force_sync": 0}
+
+2017-09-26 15:13:17: add pool by different parameters combination
+
+2017-09-26 15:11:55: 'result': 'f'
+2017-09-26 15:11:55: Fail: invalid raid_level (raid0|raid1|raid5|raid6|raid10|raid50|raid60|all|unknown)
+
+2017-09-26 15:11:55: Expect: {"sector": "512B", "ctrl_id": 2, "name": "1_", "pds": [1, 2, 3, 4, 7, 8, 9, 11, 12, 13, 16], "raid_level": "60", "stripe": "1MB", "axle": 2, "force_sync": 0}
+
+2017-09-26 15:11:55: Fail: invalid raid_level (raid0|raid1|raid5|raid6|raid10|raid50|raid60|all|unknown)
+
+2017-09-26 15:11:55: Expect: {"sector": "4KB", "ctrl_id": 2, "name": "_1", "pds": [1, 2, 3, 4, 7, 8, 9, 11, 12, 13, 16], "raid_level": "50", "stripe": "512KB", "axle": 2, "force_sync": 0}
+
+2017-09-26 15:11:55: Fail: invalid raid_level (raid0|raid1|raid5|raid6|raid10|raid50|raid60|all|unknown)
+
+2017-09-26 15:11:55: Expect: {"sector": "2KB", "ctrl_id": 2, "name": "Test_", "pds": [1, 2, 3, 4, 7, 8, 9, 11, 12, 13, 16], "raid_level": "10", "stripe": "64KB", "force_sync": 0}
+
+2017-09-26 15:11:55: Fail: invalid raid_level (raid0|raid1|raid5|raid6|raid10|raid50|raid60|all|unknown)
+
+2017-09-26 15:11:55: Expect: {"sector": "1KB", "ctrl_id": 2, "name": "_Test", "pds": [1, 2, 3, 4, 7, 8, 9, 11, 12, 13, 16], "raid_level": "6", "stripe": "1MB", "force_sync": 0}
+
+2017-09-26 15:11:55: Fail: invalid raid_level (raid0|raid1|raid5|raid6|raid10|raid50|raid60|all|unknown)
+
+2017-09-26 15:11:55: Expect: {"sector": "4KB", "ctrl_id": 2, "name": "22222222222222222222222222222222", "pds": [1, 2, 3, 4, 7, 8, 9, 11, 12, 13, 16], "raid_level": "5", "stripe": "512KB", "force_sync": 1}
+
+2017-09-26 15:11:55: Fail: invalid raid_level (raid0|raid1|raid5|raid6|raid10|raid50|raid60|all|unknown)
+
+2017-09-26 15:11:55: Expect: {"sector": "2KB", "ctrl_id": 2, "name": "1111111111111111111111111111111", "pds": [1, 2, 3, 4, 7, 8, 9, 11, 12, 13, 16], "raid_level": "1e", "stripe": "256KB", "force_sync": 1}
+
+2017-09-26 15:11:55: Fail: invalid raid_level (raid0|raid1|raid5|raid6|raid10|raid50|raid60|all|unknown)
+
+2017-09-26 15:11:55: Expect: {"sector": "1KB", "ctrl_id": 2, "name": "TN", "pds": [1, 2, 3, 4, 7, 8, 9, 11, 12, 13, 16], "raid_level": "1", "stripe": "128KB", "force_sync": 1}
+
+2017-09-26 15:11:55: Fail: invalid raid_level (raid0|raid1|raid5|raid6|raid10|raid50|raid60|all|unknown)
+
+2017-09-26 15:11:55: Expect: {"sector": "512B", "ctrl_id": 2, "name": "t", "pds": [1, 2, 3, 4, 7, 8, 9, 11, 12, 13, 16], "raid_level": "0", "stripe": "64KB", "force_sync": 0}
+
+2017-09-26 15:11:06: add pool by different parameters combination
+
+2017-09-26 14:55:11: 'result': 'p'
+2017-09-26 14:54:22: add pool by different parameters combination
+
+2017-09-26 14:53:53: 'result': 'p'
+2017-09-26 14:53:03: add pool by different parameters combination
+
+2017-09-26 14:50:04: add pool by different parameters combination
+
+2017-09-26 14:47:13: add pool by different parameters combination
+
+2017-09-26 14:42:23: add pool by different parameters combination
+
+2017-09-26 14:40:12: add pool by different parameters combination
+
+2017-09-26 14:38:13: add pool by different parameters combination
+
+2017-09-26 14:34:24: 'result': 'p'
+2017-09-26 14:33:28: add pool by different parameters combination
+
 2017-09-26 13:50:44: 'result': 'p'
 2017-09-26 13:50:44: Actual: 
     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
