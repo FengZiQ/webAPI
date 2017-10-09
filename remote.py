@@ -14,6 +14,7 @@ logger.addHandler(handler)
 
 serverIp = "10.84.2.164"
 
+
 class Server(object):
     addition_info = None
 
@@ -47,7 +48,6 @@ class Server(object):
                 setattr(response, "data", response.json())
         except:
             return str(response.text)
-
 
         return returninfo
 

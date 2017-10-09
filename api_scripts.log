@@ -1,3 +1,87 @@
+2017-10-09 16:03:27: Fail: Cannot perform operation: Flash update in progress. (0x8058)
+2017-10-09 16:03:27: Expect: {"priv_passwd": "11111111", "auth_passwd": "11111111", "id": "b", "auth": "MD5", "priv": "DES"}
+
+2017-10-09 16:03:27: Add SNMPUser by api 
+
+2017-10-09 16:03:27: 'result': 'f'
+2017-10-09 16:03:27: Fail: To delete user 111111111111111111111111111111 is failed
+2017-10-09 16:03:27: Expect: To delete user 111111111111111111111111111111
+
+2017-10-09 16:03:27: Fail: To delete user test_name is failed
+2017-10-09 16:03:27: Expect: To delete user test_name
+
+2017-10-09 16:03:26: Fail: To delete user nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn is failed
+2017-10-09 16:03:26: Expect: To delete user nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+2017-10-09 16:03:26: Fail: To delete user a is failed
+2017-10-09 16:03:26: Expect: To delete user a
+
+2017-10-09 16:03:26: Delete user by api 
+
+2017-10-09 16:03:26: 'result': 'f'
+2017-10-09 16:03:26: Fail: Cannot perform operation: Flash update in progress. (0x8058)
+2017-10-09 16:03:26: Expect: {"status": 1, "privilege": "Super", "display_name": "ttttttttttttttttttttttttttttttt", "email": "a@a.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"}
+
+2017-10-09 16:03:26: Fail: Cannot perform operation: Flash update in progress. (0x8058)
+2017-10-09 16:03:26: Expect: {"status": 1, "privilege": "Power", "display_name": "1", "email": "1@1.11"}
+
+2017-10-09 16:03:26: Fail: Cannot perform operation: Flash update in progress. (0x8058)
+2017-10-09 16:03:26: Expect: {"status": 0, "privilege": "Maintenance", "display_name": "a", "email": ""}
+
+2017-10-09 16:03:26: Actual: {"status": 0, "display_name": "", "id": "a", "location": "Local", "privilege": "View", "email": ""}
+
+2017-10-09 16:03:21: Expect: {"status": 0, "privilege": "View", "display_name": "", "email": ""}
+
+2017-10-09 16:03:21: Modify user by api 
+
+2017-10-09 16:03:21: 'result': 'p'
+2017-10-09 16:03:21: Actual: The user 111111111111111111111111111111 is listed 
+
+2017-10-09 16:03:21: Expect: To list user 111111111111111111111111111111
+
+2017-10-09 16:03:21: Actual: The user test_name is listed 
+
+2017-10-09 16:03:21: Expect: To list user test_name
+
+2017-10-09 16:03:21: Actual: The user nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn is listed 
+
+2017-10-09 16:03:21: Expect: To list user nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+2017-10-09 16:03:21: Actual: The user a is listed 
+
+2017-10-09 16:03:20: Expect: To list user a
+
+2017-10-09 16:03:20: To list specify user 
+
+2017-10-09 16:03:20: Actual: 
+{"status": 1, "display_name": "Super user", "id": "administrator", "location": "Local", "privilege": "Super", "email": "admin@yourcompany.com"}
+{"status": 1, "display_name": "", "id": "a", "location": "Local", "privilege": "View", "email": ""}
+{"status": 0, "display_name": "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN", "id": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn", "location": "Local", "privilege": "Maintenance", "email": "1@11.11"}
+{"status": 0, "display_name": "111111111111111111111111111111", "id": "test_name", "location": "Local", "privilege": "Power", "email": "a@aa.aac"}
+{"status": 1, "display_name": "123_test", "id": "111111111111111111111111111111", "location": "Local", "privilege": "Super", "email": "1@1.1111111111111111111111111111111111111111111"}
+
+
+2017-10-09 16:03:20: Expect: list all of user 
+
+2017-10-09 16:03:20: 'result': 'p'
+2017-10-09 16:03:20: Actual: {"status": 1, "display_name": "123_test", "id": "111111111111111111111111111111", "location": "Local", "privilege": "Super", "email": "1@1.1111111111111111111111111111111111111111111"}
+
+2017-10-09 16:03:15: Expect: {"status": 1, "display_name": "123_test", "passwd": "ppppppppppppppppppppppppppppppp", "email": "1@1.1111111111111111111111111111111111111111111", "privilege": "Super", "id": "111111111111111111111111111111"}
+
+2017-10-09 16:03:15: Actual: {"status": 0, "display_name": "111111111111111111111111111111", "id": "test_name", "location": "Local", "privilege": "Power", "email": "a@aa.aac"}
+
+2017-10-09 16:03:11: Expect: {"status": 0, "display_name": "111111111111111111111111111111", "passwd": "111111111111111111111111111111", "email": "a@aa.aac", "privilege": "Power", "id": "test_name"}
+
+2017-10-09 16:03:11: Actual: {"status": 0, "display_name": "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN", "id": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn", "location": "Local", "privilege": "Maintenance", "email": "1@11.11"}
+
+2017-10-09 16:03:04: Expect: {"status": 0, "display_name": "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN", "passwd": "pass_word", "email": "1@11.11", "privilege": "Maintenance", "id": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn"}
+
+2017-10-09 16:03:04: Actual: {"status": 1, "display_name": "", "id": "a", "location": "Local", "privilege": "View", "email": ""}
+
+2017-10-09 16:02:58: Expect: {"status": 1, "display_name": "", "passwd": "", "email": "", "privilege": "View", "id": "a"}
+
+2017-10-09 16:02:58: Add user by api 
+
 2017-10-09 11:00:24: Expect: To modify NASShare by empty body will hint error
 
 2017-10-09 11:00:24: Actual: missing setting
