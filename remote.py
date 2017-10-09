@@ -24,10 +24,12 @@ class Server(object):
         self.addition_info = response_obj[0]
 
     def webapi(self, method, service, parameters=None):
+
         url = "https://"+serverIp+"/service/" + service
         header = dict()
         header["Content-Type"] = "application/json"
         header["additioninfo"] = self.addition_info
+
         returninfo = dict()
         requests_function = getattr(requests, method)
 
@@ -50,10 +52,12 @@ class Server(object):
         return returninfo
 
     def webapiurl(self, method, service, urlparameter):
+
         url = "https://" + serverIp + "/service/" + service + '/' + urlparameter
         header = dict()
         header["Content-Type"] = "application/json"
         header["additioninfo"] = self.addition_info
+
         returninfo = dict()
         requests_function = getattr(requests, method)
         response = requests_function(url, headers=header, verify=False)

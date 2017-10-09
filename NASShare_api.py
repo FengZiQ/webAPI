@@ -7,6 +7,7 @@ from to_log import tolog
 Pass = "'result': 'p'"
 Fail = "'result': 'f'"
 
+
 def findPlId():
     # get physical drive id
     pdResponseInfo = server.webapi('get', 'phydrv')
@@ -48,6 +49,7 @@ def findPlId():
         plId.append(pl['id'])
 
     return plId
+
 
 def NASShareApiPost():
     Failflag = False
@@ -108,6 +110,7 @@ def NASShareApiPost():
     else:
         tolog(Pass)
 
+
 def NASShareApiMountAndUnmount():
     Failflag = False
     tolog('Mount/Un-mount NASShare by api \r\n')
@@ -157,6 +160,7 @@ def NASShareApiMountAndUnmount():
     else:
         tolog(Pass)
 
+
 def NASShareApiModify():
     Failflag = False
     tolog('To modify NASShare by api\r\n')
@@ -195,6 +199,7 @@ def NASShareApiModify():
     else:
         tolog(Pass)
 
+
 def NASShareApiList():
     Failflag = False
 
@@ -218,6 +223,7 @@ def NASShareApiList():
         tolog(Fail)
     else:
         tolog(Pass)
+
 
 def NASShareApiDelete():
     Failflag = False
@@ -247,6 +253,7 @@ def NASShareApiDelete():
     else:
         tolog('Actual: NASShare ' + str(i) + ' is deleted \r\n')
         tolog(Pass)
+
 
 def NASShareApiFailedTest():
     Failflag = False
@@ -300,10 +307,74 @@ def NASShareApiFailedTest():
     server.webapiurl('delete', 'pool', '0?force=1')
 
 
+def add_NASShare_missing_body():
+    Failflag = False
+
+    tolog('Expect: To add NASShare missing body will hint error\r\n')
+    result1 = server.webapi('post', 'nasshare')
+
+    if isinstance(result1, dict):
+
+        Failflag = True
+        tolog('Fail: add NASShare missing body\r\n')
+
+    else:
+        tolog('Actual: ' + result1 + '\r\n')
+
+    tolog('Expect: To add NASShare by empty body will hint error\r\n')
+    result2 = server.webapi('post', 'nasshare', {})
+
+    if isinstance(result2, dict):
+
+        Failflag = True
+        tolog('Fail: add NASShare by empty body\r\n')
+
+    else:
+        tolog('Actual: ' + result2 + '\r\n')
+
+    if Failflag:
+        tolog(Fail)
+    else:
+        tolog(Pass)
+
+
+def modify_NASShare_missing_body():
+    Failflag = False
+
+    tolog('Expect: To modify NASShare missing body will hint error\r\n')
+    result1 = server.webapi('put', 'nasshare/0')
+
+    if isinstance(result1, dict):
+
+        Failflag = True
+        tolog('Fail: modify NASShare missing body\r\n')
+
+    else:
+        tolog('Actual: ' + result1 + '\r\n')
+
+    tolog('Expect: To modify NASShare by empty body will hint error\r\n')
+    result2 = server.webapi('put', 'nasshare/0', {})
+
+    if isinstance(result2, dict):
+
+        Failflag = True
+        tolog('Fail: modify NASShare by empty body\r\n')
+
+    else:
+        tolog('Actual: ' + result2 + '\r\n')
+
+    if Failflag:
+        tolog(Fail)
+    else:
+        tolog(Pass)
+
+
 if __name__ == '__main__':
     # NASShareApiPost()
     # NASShareApiMountAndUnmount()
     # NASShareApiModify()
     # NASShareApiList()
-    NASShareApiDelete()
+    # NASShareApiDelete()
     # NASShareApiFailedTest()
+    # add_NASShare_missing_body()
+    modify_NASShare_missing_body()

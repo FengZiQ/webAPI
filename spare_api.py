@@ -469,6 +469,37 @@ def failing_delete_spare():
     else:
         tolog(Pass)
 
+
+def post_spare_drive_miss_parameter():
+    FailFlag = False
+
+    tolog('Expect: To add spare missing body will hint error\r\n')
+    result1 = server.webapi('post', 'spare')
+
+    if isinstance(result1, dict):
+
+        FailFlag = True
+        tolog('Fail: add spare missing body\r\n')
+
+    else:
+        tolog('Actual: ' + result1 + '\r\n')
+
+    tolog('Expect: To add spare by empty body will hint error\r\n')
+    result2 = server.webapi('post', 'spare', {})
+
+    if isinstance(result2, dict):
+        FailFlag = True
+        tolog('Fail: add spare missing body\r\n')
+
+    else:
+        tolog('Actual: ' + result2 + '\r\n')
+
+    if FailFlag:
+        tolog(Fail)
+    else:
+        tolog(Pass)
+
+
 if __name__ == "__main__":
     post_global_spare_revertible_0()
     post_global_spare_revertible_1()
@@ -479,3 +510,4 @@ if __name__ == "__main__":
     failing_post_spare()
     failing_get_spare()
     failing_delete_spare()
+    post_spare_drive_miss_parameter()

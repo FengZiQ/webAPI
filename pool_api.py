@@ -684,45 +684,6 @@ def set_pool_global_setting():
         tolog(Pass)
 
 
-def modify_pool():
-    FailFlag = False
-
-    # rename pool
-    tolog('rename pool\r\n')
-
-    # test data
-    name = ['a', 'a_', '1' * 31, '2' * 32, '1_g']
-
-    for i in range(len(name)):
-
-        tolog('Expect: To modify name is ' + name[i] + '\r\n')
-        result = server.webapi('put', 'pool/0/rename', {
-            "name": name[i],
-            "ctrl_id": 1
-        })
-
-        if isinstance(result, str):
-
-            FailFlag = True
-            tolog('Fail: ' + result + '\r\n')
-
-        else:
-
-            check = server.webapi('get', 'pool/0')
-            checkResult = json.loads(check["text"])[0]
-
-            tolog('Actual ' + json.dumps(checkResult) + '\r\n')
-
-            if checkResult["name"] != name[i]:
-                FailFlag = True
-                tolog('Fail: please check out name after modified\r\n')
-
-    if FailFlag:
-        tolog(Fail)
-    else:
-        tolog(Pass)
-
-
 def transfer_pool():
     FailFlag = False
 
@@ -1168,6 +1129,199 @@ def invalid_pool_parameters():
     else:
         tolog(Pass)
 
+
+def add_pool_missing_body():
+    FailFlag = False
+
+    tolog('Expect: To add pool missing body will hint error\r\n')
+    result1 = server.webapi('post', 'pool')
+
+    if isinstance(result1, dict):
+
+        FailFlag = True
+        tolog('Fail: add pool missing body\r\n')
+
+    else:
+        tolog('Actual: ' + result1 + '\r\n')
+
+    tolog('Expect: To add pool by empty body will hint error\r\n')
+    result2 = server.webapi('post', 'pool', {})
+
+    if isinstance(result2, dict):
+        FailFlag = True
+        tolog('Fail: add pool missing body\r\n')
+
+    else:
+        tolog('Actual: ' + result2 + '\r\n')
+
+    if FailFlag:
+        tolog(Fail)
+    else:
+        tolog(Pass)
+
+
+def transfer_pool_missing_body():
+    FailFlag = False
+
+    # test data
+    pdId = find_pdId()
+
+    # precondition
+    server.webapi('post', 'pool', {
+        "name": "test_",
+        "pds": pdId[:3],
+        "raid_level": "raid5"
+    })
+
+    tolog('Expect: To transfer pool missing body will come true\r\n')
+    result1 = server.webapi('put', 'pool/0/transfer')
+
+    if isinstance(result1, str):
+
+        FailFlag = True
+        tolog('Fail: ' + result1 + '\r\n')
+
+    else:
+        tolog('Actual: pool successfully transfer\r\n')
+
+    tolog('Expect: To transfer pool by empty body will come true\r\n')
+    result2 = server.webapi('put', 'pool/0/transfer', {})
+
+    if isinstance(result2, str):
+
+        FailFlag = True
+        tolog('Fail: ' + result2 + '\r\n')
+
+    else:
+        tolog('Actual: pool successfully transfer\r\n')
+
+    if FailFlag:
+        tolog(Fail)
+    else:
+        tolog(Pass)
+
+
+def extend_pool_missing_body():
+    FailFlag = False
+
+    tolog('Expect: To extend pool missing body will hint error\r\n')
+    result1 = server.webapi('post', 'pool/0/extend')
+
+    if isinstance(result1, dict):
+
+        FailFlag = True
+        tolog('Fail: extend pool missing body\r\n')
+
+    else:
+        tolog('Actual: ' + result1 + '\r\n')
+
+    tolog('Expect: To extend pool by empty body will hint error\r\n')
+    result2 = server.webapi('post', 'pool/0/extend', {})
+
+    if isinstance(result2, dict):
+        FailFlag = True
+        tolog('Fail: extend pool missing body\r\n')
+
+    else:
+        tolog('Actual: ' + result2 + '\r\n')
+
+    if FailFlag:
+        tolog(Fail)
+    else:
+        tolog(Pass)
+
+
+def list_pool_missing_body():
+    FailFlag = False
+
+    tolog('Expect: To list pool missing body will come true\r\n')
+    result1 = server.webapi('get', 'pool')
+
+    if isinstance(result1, str):
+
+        FailFlag = True
+        tolog('Fail: ' + result1 + '\r\n')
+
+    else:
+        tolog('Actual: successfully get pool list\r\n')
+
+    tolog('Expect: To list pool by empty body will come true\r\n')
+    result2 = server.webapi('get', 'pool', {})
+
+    if isinstance(result2, str):
+
+        FailFlag = True
+        tolog('Fail: ' + result2 + '\r\n')
+
+    else:
+        tolog('Actual: successfully get pool list\r\n')
+
+    if FailFlag:
+        tolog(Fail)
+    else:
+        tolog(Pass)
+
+
+def rename_pool_missing_body():
+    FailFlag = False
+
+    tolog('Expect: To rename pool missing body will hint error\r\n')
+    result1 = server.webapi('put', 'pool/0/rename')
+
+    if isinstance(result1, dict):
+
+        FailFlag = True
+        tolog('Fail: rename pool missing body\r\n')
+
+    else:
+        tolog('Actual: ' + result1 + '\r\n')
+
+    tolog('Expect: To rename pool by empty body will hint error\r\n')
+    result2 = server.webapi('put', 'pool/0/rename', {})
+
+    if isinstance(result2, dict):
+        FailFlag = True
+        tolog('Fail: rename pool missing body\r\n')
+
+    else:
+        tolog('Actual: ' + result2 + '\r\n')
+
+    if FailFlag:
+        tolog(Fail)
+    else:
+        tolog(Pass)
+
+
+def set_pool_global_missing_body():
+    FailFlag = False
+
+    tolog('Expect: To set pool global missing body will hint error\r\n')
+    result1 = server.webapi('post', 'poolglobal')
+
+    if isinstance(result1, dict):
+
+        FailFlag = True
+        tolog('Fail: set pool global missing body\r\n')
+
+    else:
+        tolog('Actual: ' + result1 + '\r\n')
+
+    tolog('Expect: To set pool global by empty body will hint error\r\n')
+    result2 = server.webapi('post', 'poolglobal', {})
+
+    if isinstance(result2, dict):
+        FailFlag = True
+        tolog('Fail: set pool global missing body\r\n')
+
+    else:
+        tolog('Actual: ' + result2 + '\r\n')
+
+    if FailFlag:
+        tolog(Fail)
+    else:
+        tolog(Pass)
+
+
 if __name__ == "__main__":
     add_pool_raid0()
     add_pool_raid1()
@@ -1184,7 +1338,6 @@ if __name__ == "__main__":
     get_pool_global_setting()
     set_pool_global_setting()
     transfer_pool()
-    modify_pool()
     extend_pool_raid0()
     extend_pool_raid1()
     extend_pool_raid5()
@@ -1195,3 +1348,9 @@ if __name__ == "__main__":
     delete_pool()
     invalid_pool_name()
     invalid_pool_parameters()
+    add_pool_missing_body()
+    transfer_pool_missing_body()
+    extend_pool_missing_body()
+    list_pool_missing_body()
+    rename_pool_missing_body()
+    set_pool_global_missing_body()

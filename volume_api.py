@@ -9,6 +9,7 @@ import time
 Pass = "'result': 'p'"
 Fail = "'result': 'f'"
 
+
 def findPlId():
     # get physical drive id
     pdResponseInfo = server.webapi('get', 'phydrv')
@@ -35,7 +36,7 @@ def findPlId():
             'sector': '512B',
             'raid_level': 'RAID5',
             'force_sync': 0,
-            'pds': [pdId[3], pdId[5], pdId[6]]
+            'pds': [pdId[3], pdId[7], pdId[8]]
         })
 
     if isinstance(createPool1, str):
@@ -59,6 +60,7 @@ def findPlId():
         plId.append(1)
 
     return plId
+
 
 def addVolume():
     FailFlag = False
@@ -185,6 +187,7 @@ def addVolume():
     else:
         tolog(Pass)
 
+
 def listVolume():
     FailFlag = False
     tolog('Expect: List all of the volume \r\n')
@@ -236,6 +239,7 @@ def listVolume():
     else:
         tolog(Pass)
 
+
 def modifyVolume():
     FailFlag = False
 
@@ -267,6 +271,7 @@ def modifyVolume():
         tolog(Fail)
     else:
         tolog(Pass)
+
 
 def exportVolume():
     FailFlag = False
@@ -319,6 +324,7 @@ def exportVolume():
     else:
         tolog(Pass)
 
+
 def unexportVolume():
     FailFlag = False
     tolog('Un-Export volume \r\n')
@@ -370,6 +376,7 @@ def unexportVolume():
     else:
         tolog(Pass)
 
+
 def invalidSettingNameVolume():
     FailFlag = False
     tolog('Verify invalid setting name \r\n')
@@ -408,6 +415,7 @@ def invalidSettingNameVolume():
         tolog(Fail)
     else:
         tolog(Pass)
+
 
 def invalidSettingVolume():
     FailFlag = False
@@ -497,6 +505,68 @@ def invalidSettingVolume():
     else:
         tolog(Pass)
 
+
+def add_volume_miss_body():
+    FailFlag = False
+
+    tolog('Expect: To add volume missing body will hint error\r\n')
+    result1 = server.webapi('post', 'volume')
+
+    if isinstance(result1, dict):
+
+        FailFlag = True
+        tolog('Fail: add volume missing body\r\n')
+
+    else:
+        tolog('Actual: ' + result1 + '\r\n')
+
+    tolog('Expect: To add volume by empty body will hint error\r\n')
+    result2 = server.webapi('post', 'volume', {})
+
+    if isinstance(result2, dict):
+        FailFlag = True
+        tolog('Fail: add volume missing body\r\n')
+
+    else:
+        tolog('Actual: ' + result2 + '\r\n')
+
+    if FailFlag:
+        tolog(Fail)
+    else:
+        tolog(Pass)
+
+
+def modify_volume_miss_body():
+    FailFlag = False
+
+    tolog('Expect: To modify volume missing body will hint error\r\n')
+    result1 = server.webapi('put', 'volume/0')
+
+    if isinstance(result1, dict):
+
+        FailFlag = True
+        tolog('Fail: modify volume missing body\r\n')
+
+    else:
+        tolog('Actual: ' + result1 + '\r\n')
+
+    tolog('Expect: To modify volume by empty body will hint error\r\n')
+    result2 = server.webapi('put', 'volume/0', {})
+
+    if isinstance(result2, dict):
+
+        FailFlag = True
+        tolog('Fail: modify volume by empty body\r\n')
+
+    else:
+        tolog('Actual: ' + result2 + '\r\n')
+
+    if FailFlag:
+        tolog(Fail)
+    else:
+        tolog(Pass)
+
+
 def deleteVolume():
     FailFlag = False
     tolog('delete volume by api \r\n')
@@ -538,6 +608,7 @@ def deleteVolume():
     server.webapiurl('delete', 'pool', '0?force=1')
     server.webapiurl('delete', 'pool', '1?force=1')
 
+
 if __name__ == "__main__":
     addVolume()
     listVolume()
@@ -546,5 +617,6 @@ if __name__ == "__main__":
     unexportVolume()
     invalidSettingNameVolume()
     invalidSettingVolume()
+    add_volume_miss_body()
+    modify_volume_miss_body()
     deleteVolume()
-

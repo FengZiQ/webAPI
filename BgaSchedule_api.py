@@ -7,6 +7,7 @@ from to_log import tolog
 Pass = "'result': 'p'"
 Fail = "'result': 'f'"
 
+
 def findPlId():
     pdResponseInfo = server.webapi('get', 'phydrv')
     pdInfo = json.loads(pdResponseInfo['text'])
@@ -26,6 +27,7 @@ def findPlId():
             pdId.append(pd['id'])
 
     return pdId
+
 
 def BgascheduleApiPost():
     Failflag = False
@@ -348,6 +350,7 @@ def BgascheduleApiPost():
         tolog(Fail)
     else:
         tolog(Pass)
+
 
 def BgascheduleApiPut():
     Failflag = False
@@ -725,6 +728,7 @@ def BgascheduleApiPut():
         tolog(Fail)
     else:
         tolog(Pass)
+
 
 def BgascheduleApiDelete():
     Failflag = False
