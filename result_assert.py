@@ -7,16 +7,17 @@ Pass = "'result': 'p'"
 Fail = "'result': 'f'"
 
 
-class Result():
+class Result_assert():
 
     FailFlag = False
 
-    def result(self):
+    def result_assert(self):
 
         if self.FailFlag:
             tolog(Fail)
+            self.FailFlag = False
         else:
             tolog(Pass)
 
 
-result = Result()
+result_assert = Result_assert()

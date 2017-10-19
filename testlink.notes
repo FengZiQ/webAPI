@@ -1,1106 +1,159 @@
-Expect: {"sector": "512B", "ctrl_id": 1, "name": "1", "pds": [], "raid_level": "raid0", "stripe": "64KB", "axle": 2, "force_sync": 0}
-
-Actual: Incorrect parameters: The parameter [pd_list] is empty. (0x4100104)
-
-Expect: {"sector": "512B", "ctrl_id": 1, "name": "2", "pds": [100], "raid_level": "raid0", "stripe": "64KB", "axle": 2, "force_sync": 0}
-
-Actual: 
-    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-    <html>
-        <head>
-            <title>Error: 500 Internal Server Error</title>
-            <style type="text/css">
-              html {background-color: #eee; font-family: sans;}
-              body {background-color: #fff; border: 1px solid #ddd;
-                    padding: 15px; margin: 15px;}
-              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
-            </style>
-        </head>
-        <body>
-            <h1>Error: 500 Internal Server Error</h1>
-            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool&#039;</tt>
-               caused an error:</p>
-            <pre>Internal Server Error</pre>
-        </body>
-    </html>
-
-
-Expect: {"sector": "512B", "ctrl_id": 1, "name": "3", "pds": [1], "raid_level": "test", "stripe": "64KB", "axle": 2, "force_sync": 0}
-
-Actual: invalid raid_level (raid0|raid1|raid5|raid6|raid10|raid50|raid60|all|unknown)
-
-Expect: {"sector": "512B", "ctrl_id": 1, "name": "4", "pds": [1, 2, 3, 4, 7, 8, 9, 11, 12, 13, 16], "raid_level": "raid50", "stripe": "64KB", "axle": 4, "force_sync": 0}
-
-Actual: Incorrect parameters: Number of PD list devides axle smaller than 3. RAID level 50 requires at least 3. (0x4100104)
-
-Expect: {"sector": "512B", "ctrl_id": 3, "name": "5", "pds": [1], "raid_level": "raid0", "stripe": "64KB", "axle": 2, "force_sync": 0}
-
-Actual: invalid ctrl_id (1,2)
-
-Expect: {"sector": "512B", "ctrl_id": 1, "name": "6", "pds": [], "raid_level": "raid", "stripe": "2MB", "axle": 2, "force_sync": 0}
-
-Actual: invalid raid_level (raid0|raid1|raid5|raid6|raid10|raid50|raid60|all|unknown)
-
-Expect: {"sector": "512KB", "ctrl_id": 1, "name": "7", "pds": [], "raid_level": "raid", "stripe": "64KB", "axle": 2, "force_sync": 0}
-
-Actual: invalid raid_level (raid0|raid1|raid5|raid6|raid10|raid50|raid60|all|unknown)
-
-Expect: {"sector": "512KB", "ctrl_id": 1, "name": "7", "pds": [], "raid_level": "raid", "stripe": "64KB", "axle": 2, "force_sync": -1}
-
-Actual: invalid force_sync (0,1)
-
-'result': 'p'
-Expect: {"sector": "512B", "ctrl_id": 2, "name": "t", "pds": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "raid_level": "raid0", "stripe": "64KB", "force_sync": 0}
-
-Fail: missing setting
-
-'result': 'f'
-Expect: {"sector": "512B", "ctrl_id": 2, "name": "t", "pds": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "raid_level": "raid0", "stripe": "64KB", "force_sync": 0}
-
-Expect: {"sector": "512B", "ctrl_id": 2, "name": "t", "pds": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "raid_level": "raid0", "stripe": "64KB", "force_sync": 0}
-
-add pool missing body
-
-'result': 'p'
-Expect: To add pool missing body will hint error
+Expect: missing body should return error
 
 Actual: missing setting
 
-Expect: To add pool by empty body will hint error
+Expect: body is empty that should return error
 
-Actual: please specify name
-
-'result': 'p'
-Expect: To add pool missing body will hint error
-
-Actual: missing setting
-
-Expect: To add pool missing body will hint error
-
-Actual: missing setting
-
-Expect: To add pool by empty body will hint error
-
-Expect: To add pool missing body will hint error
-
-Actual: missing setting
-
-Expect: To add pool missing body will hint error
-
-Actual: missing setting
-
-Expect: To transfer pool missing body will hint error
-
-Actual: 
-    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-    <html>
-        <head>
-            <title>Error: 500 Internal Server Error</title>
-            <style type="text/css">
-              html {background-color: #eee; font-family: sans;}
-              body {background-color: #fff; border: 1px solid #ddd;
-                    padding: 15px; margin: 15px;}
-              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
-            </style>
-        </head>
-        <body>
-            <h1>Error: 500 Internal Server Error</h1>
-            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool/0/transfer&#039;</tt>
-               caused an error:</p>
-            <pre>Internal Server Error</pre>
-        </body>
-    </html>
-
-
-Expect: To transfer pool by empty body will hint error
-
-Actual: Empty query result, please check input parameters. Pool id=[0] is not existed. (0x4100102)
+Actual: please specify token
 
 'result': 'p'
-Expect: To add pool missing body will hint error
+To add NASShare by api 
 
-Actual: missing setting
+Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_0f", "logbias": "latency", "compress": "off", "sync": "always", "pool_id": 0}
 
-Expect: To add pool by empty body will hint error
+Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testNASShare_0f", "total_capacity": 1000000000, "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "off", "sync": "always", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "123.83 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 0}
 
-Actual: please specify name
+Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_0n", "logbias": "latency", "compress": "on", "sync": "always", "pool_id": 0}
 
-'result': 'p'
-Expect: To transfer pool missing body will hint error
+Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testNASShare_0n", "total_capacity": 1000000000, "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "on", "sync": "always", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "123.83 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 1}
 
-Actual: 
-    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-    <html>
-        <head>
-            <title>Error: 500 Internal Server Error</title>
-            <style type="text/css">
-              html {background-color: #eee; font-family: sans;}
-              body {background-color: #fff; border: 1px solid #ddd;
-                    padding: 15px; margin: 15px;}
-              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
-            </style>
-        </head>
-        <body>
-            <h1>Error: 500 Internal Server Error</h1>
-            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool/0/transfer&#039;</tt>
-               caused an error:</p>
-            <pre>Internal Server Error</pre>
-        </body>
-    </html>
-
+Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_0b", "logbias": "latency", "compress": "lzjb", "sync": "always", "pool_id": 0}
 
-Expect: To transfer pool by empty body will hint error
+Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testNASShare_0b", "total_capacity": 1000000000, "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "lzjb", "sync": "always", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "123.83 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 2}
 
-Fail: transfer pool missing body
+Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_0p", "logbias": "latency", "compress": "gzip", "sync": "always", "pool_id": 0}
 
-'result': 'f'
-Expect: To transfer pool missing body will hint error
+Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testNASShare_0p", "total_capacity": 1000000000, "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "gzip", "sync": "always", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "123.83 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 3}
 
-Actual: 
-    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-    <html>
-        <head>
-            <title>Error: 500 Internal Server Error</title>
-            <style type="text/css">
-              html {background-color: #eee; font-family: sans;}
-              body {background-color: #fff; border: 1px solid #ddd;
-                    padding: 15px; margin: 15px;}
-              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
-            </style>
-        </head>
-        <body>
-            <h1>Error: 500 Internal Server Error</h1>
-            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool/0/transfer&#039;</tt>
-               caused an error:</p>
-            <pre>Internal Server Error</pre>
-        </body>
-    </html>
-
+Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_01", "logbias": "latency", "compress": "gzip-1", "sync": "always", "pool_id": 0}
 
-Expect: To transfer pool by empty body will hint error
+Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testNASShare_01", "total_capacity": 1000000000, "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "gzip-1", "sync": "always", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "123.83 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 4}
 
-Fail: transfer pool missing body
+Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_09", "logbias": "latency", "compress": "gzip-9", "sync": "always", "pool_id": 0}
 
-'result': 'f'
-Expect: To transfer pool missing body will hint error
+Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testNASShare_09", "total_capacity": 1000000000, "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "gzip-9", "sync": "always", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "123.83 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 5}
 
-Actual: 
-    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-    <html>
-        <head>
-            <title>Error: 500 Internal Server Error</title>
-            <style type="text/css">
-              html {background-color: #eee; font-family: sans;}
-              body {background-color: #fff; border: 1px solid #ddd;
-                    padding: 15px; margin: 15px;}
-              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
-            </style>
-        </head>
-        <body>
-            <h1>Error: 500 Internal Server Error</h1>
-            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool/0/transfer&#039;</tt>
-               caused an error:</p>
-            <pre>Internal Server Error</pre>
-        </body>
-    </html>
-
+Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_0e", "logbias": "latency", "compress": "zle", "sync": "always", "pool_id": 0}
 
-Expect: To transfer pool by empty body will come true
+Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testNASShare_0e", "total_capacity": 1000000000, "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "zle", "sync": "always", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "123.83 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 6}
 
-Actual: transfer pool successfully
+Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_04", "logbias": "latency", "compress": "lz4", "sync": "always", "pool_id": 0}
 
-'result': 'p'
-Expect: To extend pool missing body will hint error
+Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testNASShare_04", "total_capacity": 1000000000, "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "lz4", "sync": "always", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "123.83 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 7}
 
-Actual: 
-    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-    <html>
-        <head>
-            <title>Error: 405 Method Not Allowed</title>
-            <style type="text/css">
-              html {background-color: #eee; font-family: sans;}
-              body {background-color: #fff; border: 1px solid #ddd;
-                    padding: 15px; margin: 15px;}
-              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
-            </style>
-        </head>
-        <body>
-            <h1>Error: 405 Method Not Allowed</h1>
-            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool/0/extend&#039;</tt>
-               caused an error:</p>
-            <pre>Method not allowed.</pre>
-        </body>
-    </html>
-
+Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_1f", "logbias": "throughput", "compress": "off", "sync": "standard", "pool_id": 0}
 
-Expect: To extend pool by empty body will hint error
+Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testNASShare_1f", "total_capacity": 2000000000, "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "off", "sync": "standard", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "123.83 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 8}
 
-Actual: 
-    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-    <html>
-        <head>
-            <title>Error: 405 Method Not Allowed</title>
-            <style type="text/css">
-              html {background-color: #eee; font-family: sans;}
-              body {background-color: #fff; border: 1px solid #ddd;
-                    padding: 15px; margin: 15px;}
-              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
-            </style>
-        </head>
-        <body>
-            <h1>Error: 405 Method Not Allowed</h1>
-            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool/0/extend&#039;</tt>
-               caused an error:</p>
-            <pre>Method not allowed.</pre>
-        </body>
-    </html>
-
+Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_1n", "logbias": "throughput", "compress": "on", "sync": "standard", "pool_id": 0}
+
+Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testNASShare_1n", "total_capacity": 2000000000, "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "on", "sync": "standard", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "123.83 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 9}
+
+Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_1b", "logbias": "throughput", "compress": "lzjb", "sync": "standard", "pool_id": 0}
+
+Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testNASShare_1b", "total_capacity": 2000000000, "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "lzjb", "sync": "standard", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "123.83 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 10}
+
+Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_1p", "logbias": "throughput", "compress": "gzip", "sync": "standard", "pool_id": 0}
+
+Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testNASShare_1p", "total_capacity": 2000000000, "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "gzip", "sync": "standard", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "123.83 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 11}
+
+Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_11", "logbias": "throughput", "compress": "gzip-1", "sync": "standard", "pool_id": 0}
+
+Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testNASShare_11", "total_capacity": 2000000000, "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "gzip-1", "sync": "standard", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "123.83 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 12}
+
+Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_19", "logbias": "throughput", "compress": "gzip-9", "sync": "standard", "pool_id": 0}
+
+Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testNASShare_19", "total_capacity": 2000000000, "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "gzip-9", "sync": "standard", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "123.82 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 13}
+
+Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_1e", "logbias": "throughput", "compress": "zle", "sync": "standard", "pool_id": 0}
+
+Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testNASShare_1e", "total_capacity": 2000000000, "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "zle", "sync": "standard", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "123.83 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 14}
+
+Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_14", "logbias": "throughput", "compress": "lz4", "sync": "standard", "pool_id": 0}
+
+Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testNASShare_14", "total_capacity": 2000000000, "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "lz4", "sync": "standard", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "123.83 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 15}
+
+Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_2f", "logbias": "throughput", "compress": "off", "sync": "disabled", "pool_id": 0}
+
+Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "1 MB", "ratio": "1.00x", "name": "testNASShare_2f", "total_capacity": 1000000000000, "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "off", "sync": "disabled", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "123.82 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 16}
+
+Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_2n", "logbias": "throughput", "compress": "on", "sync": "disabled", "pool_id": 0}
+
+Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "1 MB", "ratio": "1.00x", "name": "testNASShare_2n", "total_capacity": 1000000000000, "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "on", "sync": "disabled", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "123.83 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 17}
+
+Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_2b", "logbias": "throughput", "compress": "lzjb", "sync": "disabled", "pool_id": 0}
+
+Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "1 MB", "ratio": "1.00x", "name": "testNASShare_2b", "total_capacity": 1000000000000, "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "lzjb", "sync": "disabled", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "123.83 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 18}
+
+Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_2p", "logbias": "throughput", "compress": "gzip", "sync": "disabled", "pool_id": 0}
+
+Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "1 MB", "ratio": "1.00x", "name": "testNASShare_2p", "total_capacity": 1000000000000, "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "gzip", "sync": "disabled", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "123.83 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 19}
+
+Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_21", "logbias": "throughput", "compress": "gzip-1", "sync": "disabled", "pool_id": 0}
+
+Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "1 MB", "ratio": "1.00x", "name": "testNASShare_21", "total_capacity": 1000000000000, "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "gzip-1", "sync": "disabled", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "123.82 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 20}
+
+Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_29", "logbias": "throughput", "compress": "gzip-9", "sync": "disabled", "pool_id": 0}
+
+Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "1 MB", "ratio": "1.00x", "name": "testNASShare_29", "total_capacity": 1000000000000, "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "gzip-9", "sync": "disabled", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "123.82 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 21}
+
+Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_2e", "logbias": "throughput", "compress": "zle", "sync": "disabled", "pool_id": 0}
+
+Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "1 MB", "ratio": "1.00x", "name": "testNASShare_2e", "total_capacity": 1000000000000, "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "zle", "sync": "disabled", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "123.82 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 22}
+
+Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_24", "logbias": "throughput", "compress": "lz4", "sync": "disabled", "pool_id": 0}
+
+Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "1 MB", "ratio": "1.00x", "name": "testNASShare_24", "total_capacity": 1000000000000, "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "lz4", "sync": "disabled", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "123.82 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 23}
 
 'result': 'p'
-Expect: To add pool missing body will hint error
+FTP protocol should be disabled when it is enabled
 
-Actual: missing setting
+Actual: FTP protocol can be disabled
 
-Expect: To add pool by empty body will hint error
+NFS protocol should be disabled when it is enabled
 
-Actual: please specify name
+Actual: NFS protocol can be disabled
 
-'result': 'p'
-Expect: To transfer pool missing body will come true
+SMB protocol should be disabled when it is enabled
 
-Fail: 
-    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-    <html>
-        <head>
-            <title>Error: 500 Internal Server Error</title>
-            <style type="text/css">
-              html {background-color: #eee; font-family: sans;}
-              body {background-color: #fff; border: 1px solid #ddd;
-                    padding: 15px; margin: 15px;}
-              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
-            </style>
-        </head>
-        <body>
-            <h1>Error: 500 Internal Server Error</h1>
-            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool/0/transfer&#039;</tt>
-               caused an error:</p>
-            <pre>Internal Server Error</pre>
-        </body>
-    </html>
-
-
-Expect: To transfer pool by empty body will come true
-
-Actual: pool successfully transfer
-
-'result': 'f'
-Expect: To extend pool missing body will hint error
-
-Actual: 
-    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-    <html>
-        <head>
-            <title>Error: 405 Method Not Allowed</title>
-            <style type="text/css">
-              html {background-color: #eee; font-family: sans;}
-              body {background-color: #fff; border: 1px solid #ddd;
-                    padding: 15px; margin: 15px;}
-              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
-            </style>
-        </head>
-        <body>
-            <h1>Error: 405 Method Not Allowed</h1>
-            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool/0/extend&#039;</tt>
-               caused an error:</p>
-            <pre>Method not allowed.</pre>
-        </body>
-    </html>
-
-
-Expect: To extend pool by empty body will hint error
-
-Actual: 
-    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-    <html>
-        <head>
-            <title>Error: 405 Method Not Allowed</title>
-            <style type="text/css">
-              html {background-color: #eee; font-family: sans;}
-              body {background-color: #fff; border: 1px solid #ddd;
-                    padding: 15px; margin: 15px;}
-              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
-            </style>
-        </head>
-        <body>
-            <h1>Error: 405 Method Not Allowed</h1>
-            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool/0/extend&#039;</tt>
-               caused an error:</p>
-            <pre>Method not allowed.</pre>
-        </body>
-    </html>
-
+Actual: SMB protocol can be disabled
 
 'result': 'p'
-Expect: To list pool missing body will come true
+FTP protocol should be disabled when it is enabled
 
-Actual: successfully get pool list
+FTP protocol should be enabled when it is disabled
 
-Expect: To list pool by empty body will come true
+Actual: FTP protocol can be enabled
 
-Actual: successfully get pool list
+NFS protocol should be enabled when it is disabled
 
-'result': 'p'
-Expect: To rename pool missing body will hint error
+Actual: NFS protocol can be enabled
 
-Actual: 
-    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-    <html>
-        <head>
-            <title>Error: 500 Internal Server Error</title>
-            <style type="text/css">
-              html {background-color: #eee; font-family: sans;}
-              body {background-color: #fff; border: 1px solid #ddd;
-                    padding: 15px; margin: 15px;}
-              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
-            </style>
-        </head>
-        <body>
-            <h1>Error: 500 Internal Server Error</h1>
-            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool/0/rename&#039;</tt>
-               caused an error:</p>
-            <pre>Internal Server Error</pre>
-        </body>
-    </html>
-
+SMB protocol should be enabled when it is disabled
 
-Expect: To rename pool by empty body will hint error
-
-Actual: 
-    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-    <html>
-        <head>
-            <title>Error: 405 Method Not Allowed</title>
-            <style type="text/css">
-              html {background-color: #eee; font-family: sans;}
-              body {background-color: #fff; border: 1px solid #ddd;
-                    padding: 15px; margin: 15px;}
-              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
-            </style>
-        </head>
-        <body>
-            <h1>Error: 405 Method Not Allowed</h1>
-            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool/0/rename&#039;</tt>
-               caused an error:</p>
-            <pre>Method not allowed.</pre>
-        </body>
-    </html>
-
+Actual: SMB protocol can be enabled
 
 'result': 'p'
-Expect: To set pool global missing body will hint error
+FTP protocol should be reset
 
-Actual: 
-    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-    <html>
-        <head>
-            <title>Error: 500 Internal Server Error</title>
-            <style type="text/css">
-              html {background-color: #eee; font-family: sans;}
-              body {background-color: #fff; border: 1px solid #ddd;
-                    padding: 15px; margin: 15px;}
-              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
-            </style>
-        </head>
-        <body>
-            <h1>Error: 500 Internal Server Error</h1>
-            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/poolglobal&#039;</tt>
-               caused an error:</p>
-            <pre>Internal Server Error</pre>
-        </body>
-    </html>
-
+Actual: FTP protocol is reset
 
-Expect: To set pool global by empty body will hint error
+NFS protocol should be reset
 
-Actual: Incorrect parameters: invalid literal for int() with base 10: '' (0x4100104)
+Actual: NFS protocol is reset
+
+SMB protocol should be reset
+
+Actual: SMB protocol is reset
+
+Expect: reset all protocol
+
+Actual: all protocol is reset
 
 'result': 'p'
-Expect: To modify pool missing body will hint error
+FTP protocol should be reset
 
-Actual: 
-    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-    <html>
-        <head>
-            <title>Error: 405 Method Not Allowed</title>
-            <style type="text/css">
-              html {background-color: #eee; font-family: sans;}
-              body {background-color: #fff; border: 1px solid #ddd;
-                    padding: 15px; margin: 15px;}
-              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
-            </style>
-        </head>
-        <body>
-            <h1>Error: 405 Method Not Allowed</h1>
-            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool/0&#039;</tt>
-               caused an error:</p>
-            <pre>Method not allowed.</pre>
-        </body>
-    </html>
-
+Actual: FTP protocol is reset
 
-Expect: To modify pool by empty body will hint error
+NFS protocol should be reset
 
-Actual: 
-    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-    <html>
-        <head>
-            <title>Error: 405 Method Not Allowed</title>
-            <style type="text/css">
-              html {background-color: #eee; font-family: sans;}
-              body {background-color: #fff; border: 1px solid #ddd;
-                    padding: 15px; margin: 15px;}
-              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
-            </style>
-        </head>
-        <body>
-            <h1>Error: 405 Method Not Allowed</h1>
-            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool/0&#039;</tt>
-               caused an error:</p>
-            <pre>Method not allowed.</pre>
-        </body>
-    </html>
-
-
-'result': 'p'
-Expect: To modify pool missing body will hint error
-
-Actual: 
-    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-    <html>
-        <head>
-            <title>Error: 405 Method Not Allowed</title>
-            <style type="text/css">
-              html {background-color: #eee; font-family: sans;}
-              body {background-color: #fff; border: 1px solid #ddd;
-                    padding: 15px; margin: 15px;}
-              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
-            </style>
-        </head>
-        <body>
-            <h1>Error: 405 Method Not Allowed</h1>
-            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool/0&#039;</tt>
-               caused an error:</p>
-            <pre>Method not allowed.</pre>
-        </body>
-    </html>
-
-
-Expect: To modify pool by empty body will hint error
-
-Actual: 
-    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-    <html>
-        <head>
-            <title>Error: 405 Method Not Allowed</title>
-            <style type="text/css">
-              html {background-color: #eee; font-family: sans;}
-              body {background-color: #fff; border: 1px solid #ddd;
-                    padding: 15px; margin: 15px;}
-              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
-            </style>
-        </head>
-        <body>
-            <h1>Error: 405 Method Not Allowed</h1>
-            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool/0&#039;</tt>
-               caused an error:</p>
-            <pre>Method not allowed.</pre>
-        </body>
-    </html>
-
-
-'result': 'p'
-Expect: To modify pool missing body will hint error
-
-Actual: 
-    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-    <html>
-        <head>
-            <title>Error: 405 Method Not Allowed</title>
-            <style type="text/css">
-              html {background-color: #eee; font-family: sans;}
-              body {background-color: #fff; border: 1px solid #ddd;
-                    padding: 15px; margin: 15px;}
-              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
-            </style>
-        </head>
-        <body>
-            <h1>Error: 405 Method Not Allowed</h1>
-            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool/0&#039;</tt>
-               caused an error:</p>
-            <pre>Method not allowed.</pre>
-        </body>
-    </html>
-
-
-Expect: To modify pool by empty body will hint error
-
-Actual: 
-    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-    <html>
-        <head>
-            <title>Error: 405 Method Not Allowed</title>
-            <style type="text/css">
-              html {background-color: #eee; font-family: sans;}
-              body {background-color: #fff; border: 1px solid #ddd;
-                    padding: 15px; margin: 15px;}
-              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
-            </style>
-        </head>
-        <body>
-            <h1>Error: 405 Method Not Allowed</h1>
-            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool/0&#039;</tt>
-               caused an error:</p>
-            <pre>Method not allowed.</pre>
-        </body>
-    </html>
-
-
-'result': 'p'
-modify pool
-
-Expect: To modify name is a
-
-Fail: 
-    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-    <html>
-        <head>
-            <title>Error: 405 Method Not Allowed</title>
-            <style type="text/css">
-              html {background-color: #eee; font-family: sans;}
-              body {background-color: #fff; border: 1px solid #ddd;
-                    padding: 15px; margin: 15px;}
-              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
-            </style>
-        </head>
-        <body>
-            <h1>Error: 405 Method Not Allowed</h1>
-            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool/0&#039;</tt>
-               caused an error:</p>
-            <pre>Method not allowed.</pre>
-        </body>
-    </html>
-
-
-Expect: To modify name is a_
-
-Fail: 
-    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-    <html>
-        <head>
-            <title>Error: 405 Method Not Allowed</title>
-            <style type="text/css">
-              html {background-color: #eee; font-family: sans;}
-              body {background-color: #fff; border: 1px solid #ddd;
-                    padding: 15px; margin: 15px;}
-              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
-            </style>
-        </head>
-        <body>
-            <h1>Error: 405 Method Not Allowed</h1>
-            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool/0&#039;</tt>
-               caused an error:</p>
-            <pre>Method not allowed.</pre>
-        </body>
-    </html>
-
-
-Expect: To modify name is 1111111111111111111111111111111
-
-Fail: 
-    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-    <html>
-        <head>
-            <title>Error: 405 Method Not Allowed</title>
-            <style type="text/css">
-              html {background-color: #eee; font-family: sans;}
-              body {background-color: #fff; border: 1px solid #ddd;
-                    padding: 15px; margin: 15px;}
-              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
-            </style>
-        </head>
-        <body>
-            <h1>Error: 405 Method Not Allowed</h1>
-            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool/0&#039;</tt>
-               caused an error:</p>
-            <pre>Method not allowed.</pre>
-        </body>
-    </html>
-
-
-Expect: To modify name is 22222222222222222222222222222222
-
-Fail: 
-    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-    <html>
-        <head>
-            <title>Error: 405 Method Not Allowed</title>
-            <style type="text/css">
-              html {background-color: #eee; font-family: sans;}
-              body {background-color: #fff; border: 1px solid #ddd;
-                    padding: 15px; margin: 15px;}
-              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
-            </style>
-        </head>
-        <body>
-            <h1>Error: 405 Method Not Allowed</h1>
-            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool/0&#039;</tt>
-               caused an error:</p>
-            <pre>Method not allowed.</pre>
-        </body>
-    </html>
-
-
-Expect: To modify name is 1_g
-
-Fail: 
-    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-    <html>
-        <head>
-            <title>Error: 405 Method Not Allowed</title>
-            <style type="text/css">
-              html {background-color: #eee; font-family: sans;}
-              body {background-color: #fff; border: 1px solid #ddd;
-                    padding: 15px; margin: 15px;}
-              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
-            </style>
-        </head>
-        <body>
-            <h1>Error: 405 Method Not Allowed</h1>
-            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool/0&#039;</tt>
-               caused an error:</p>
-            <pre>Method not allowed.</pre>
-        </body>
-    </html>
-
-
-'result': 'f'
-modify pool
-
-Expect: To modify name is a
-
-Fail: 
-    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-    <html>
-        <head>
-            <title>Error: 405 Method Not Allowed</title>
-            <style type="text/css">
-              html {background-color: #eee; font-family: sans;}
-              body {background-color: #fff; border: 1px solid #ddd;
-                    padding: 15px; margin: 15px;}
-              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
-            </style>
-        </head>
-        <body>
-            <h1>Error: 405 Method Not Allowed</h1>
-            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool/0&#039;</tt>
-               caused an error:</p>
-            <pre>Method not allowed.</pre>
-        </body>
-    </html>
-
-
-Expect: To modify name is a_
-
-Fail: 
-    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-    <html>
-        <head>
-            <title>Error: 405 Method Not Allowed</title>
-            <style type="text/css">
-              html {background-color: #eee; font-family: sans;}
-              body {background-color: #fff; border: 1px solid #ddd;
-                    padding: 15px; margin: 15px;}
-              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
-            </style>
-        </head>
-        <body>
-            <h1>Error: 405 Method Not Allowed</h1>
-            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool/0&#039;</tt>
-               caused an error:</p>
-            <pre>Method not allowed.</pre>
-        </body>
-    </html>
-
-
-Expect: To modify name is 1111111111111111111111111111111
-
-Fail: 
-    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-    <html>
-        <head>
-            <title>Error: 405 Method Not Allowed</title>
-            <style type="text/css">
-              html {background-color: #eee; font-family: sans;}
-              body {background-color: #fff; border: 1px solid #ddd;
-                    padding: 15px; margin: 15px;}
-              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
-            </style>
-        </head>
-        <body>
-            <h1>Error: 405 Method Not Allowed</h1>
-            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool/0&#039;</tt>
-               caused an error:</p>
-            <pre>Method not allowed.</pre>
-        </body>
-    </html>
-
-
-Expect: To modify name is 22222222222222222222222222222222
-
-Fail: 
-    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-    <html>
-        <head>
-            <title>Error: 405 Method Not Allowed</title>
-            <style type="text/css">
-              html {background-color: #eee; font-family: sans;}
-              body {background-color: #fff; border: 1px solid #ddd;
-                    padding: 15px; margin: 15px;}
-              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
-            </style>
-        </head>
-        <body>
-            <h1>Error: 405 Method Not Allowed</h1>
-            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool/0&#039;</tt>
-               caused an error:</p>
-            <pre>Method not allowed.</pre>
-        </body>
-    </html>
-
-
-Expect: To modify name is 1_g
-
-Fail: 
-    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-    <html>
-        <head>
-            <title>Error: 405 Method Not Allowed</title>
-            <style type="text/css">
-              html {background-color: #eee; font-family: sans;}
-              body {background-color: #fff; border: 1px solid #ddd;
-                    padding: 15px; margin: 15px;}
-              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
-            </style>
-        </head>
-        <body>
-            <h1>Error: 405 Method Not Allowed</h1>
-            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/pool/0&#039;</tt>
-               caused an error:</p>
-            <pre>Method not allowed.</pre>
-        </body>
-    </html>
-
-
-'result': 'f'
-Expect: To add spare missing body will hint error
-
-Actual: missing setting
-
-Expect: To add spare by empty body will hint error
-
-Actual: 
-    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-    <html>
-        <head>
-            <title>Error: 500 Internal Server Error</title>
-            <style type="text/css">
-              html {background-color: #eee; font-family: sans;}
-              body {background-color: #fff; border: 1px solid #ddd;
-                    padding: 15px; margin: 15px;}
-              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
-            </style>
-        </head>
-        <body>
-            <h1>Error: 500 Internal Server Error</h1>
-            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/spare&#039;</tt>
-               caused an error:</p>
-            <pre>Internal Server Error</pre>
-        </body>
-    </html>
-
-
-'result': 'p'
-Expect: To add volume missing body will hint error
-
-Actual: missing setting
-
-Expect: To add volume by empty body will hint error
-
-Actual: missing setting
-
-'result': 'p'
-add volume by api use all of settings 
-
-Expect: {"sector": "512b", "thin_prov": 0, "capacity": "1GB", "name": "n", "quantity": 1, "compress": "on", "pool_id": 0, "block": "512b", "sync": "standard"}
-
-Actual: {"sector": "512 Bytes", "create_date": "2017-09-29 20:29:26", "logbias": "latency", "sync": "standard", "snapshots": [], "_raw_written_capacity": 512, "redundant_md": "all", "id": 0, "ctrl_id": 2, "export_id": 0, "_raw_pool_avail": 512, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 512, "_raw_used_child": 512, "used_capacity": 1000000000, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "221d0001559cf6e3", "name": "n", "total_capacity": 1000000000, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 512, "used_child": "0 Byte", "_raw_sector": 512, "pool_avail": "56.59 GB", "written_capacity_value": 8192, "block": "512 Bytes"}
-
-Expect: {"sector": "1kb", "thin_prov": 1, "capacity": "2GB", "name": "12", "quantity": 1, "compress": "off", "pool_id": 0, "block": "1kb", "sync": "always"}
-
-Actual: {"sector": "1 KB", "create_date": "2017-09-29 20:29:26", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 1024, "redundant_md": "all", "id": 1, "ctrl_id": 2, "export_id": 1, "_raw_pool_avail": 1024, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 1024, "_raw_used_child": 1024, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "228b000155ebf1d3", "name": "12", "total_capacity": 2000000000, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 1024, "used_child": "0 Byte", "_raw_sector": 1024, "pool_avail": "56.59 GB", "written_capacity_value": 8192, "block": "1 KB"}
-
-Expect: {"sector": "2kb", "thin_prov": 0, "capacity": "3GB", "name": "Name_11", "quantity": 1, "compress": "lzjb", "pool_id": 0, "block": "2kb", "sync": "disabled"}
-
-Actual: {"sector": "2 KB", "create_date": "2017-09-29 20:29:27", "logbias": "latency", "sync": "disabled", "snapshots": [], "_raw_written_capacity": 2048, "redundant_md": "all", "id": 2, "ctrl_id": 2, "export_id": 2, "_raw_pool_avail": 2048, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 2048, "_raw_used_child": 2048, "used_capacity": 2999998464, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22f100015565d0e6", "name": "Name_11", "total_capacity": 2999998464, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 2048, "used_child": "0 Byte", "_raw_sector": 2048, "pool_avail": "53.49 GB", "written_capacity_value": 8192, "block": "2 KB"}
-
-Expect: {"sector": "4kb", "thin_prov": 1, "capacity": "4GB", "name": "1_name", "quantity": 1, "compress": "gzip", "pool_id": 0, "block": "4kb", "sync": "standard"}
-
-Actual: {"sector": "4 KB", "create_date": "2017-09-29 20:29:27", "logbias": "latency", "sync": "standard", "snapshots": [], "_raw_written_capacity": 4096, "redundant_md": "all", "id": 3, "ctrl_id": 2, "export_id": 3, "_raw_pool_avail": 4096, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 4096, "_raw_used_child": 4096, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "226700015512d7d6", "name": "1_name", "total_capacity": 3999997952, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 4096, "used_child": "0 Byte", "_raw_sector": 4096, "pool_avail": "53.49 GB", "written_capacity_value": 8192, "block": "4 KB"}
-
-Expect: {"sector": "512b", "thin_prov": 0, "capacity": "5GB", "name": "1111111111111111111111111111111", "quantity": 1, "compress": "gzip-1", "pool_id": 0, "block": "8kb", "sync": "always"}
-
-Actual: {"sector": "512 Bytes", "create_date": "2017-09-29 20:29:28", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 8192, "redundant_md": "all", "id": 4, "ctrl_id": 2, "export_id": 4, "_raw_pool_avail": 512, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 8192, "_raw_used_child": 8192, "used_capacity": 4999995392, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "228400015550295b", "name": "1111111111111111111111111111111", "total_capacity": 4999995392, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 512, "used_child": "0 Byte", "_raw_sector": 512, "pool_avail": "48.33 GB", "written_capacity_value": 8192, "block": "8 KB"}
-
-Expect: {"sector": "1kb", "thin_prov": 1, "capacity": "6GB", "name": "22222222222222222222222222222222", "quantity": 1, "compress": "gzip-2", "pool_id": 0, "block": "16kb", "sync": "disabled"}
-
-Actual: {"sector": "1 KB", "create_date": "2017-09-29 20:29:28", "logbias": "latency", "sync": "disabled", "snapshots": [], "_raw_written_capacity": 16384, "redundant_md": "all", "id": 5, "ctrl_id": 2, "export_id": 5, "_raw_pool_avail": 1024, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 16384, "_raw_used_child": 16384, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "2212000155272e6b", "name": "22222222222222222222222222222222", "total_capacity": 5999984640, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 1024, "used_child": "0 Byte", "_raw_sector": 1024, "pool_avail": "48.33 GB", "written_capacity_value": 8192, "block": "16 KB"}
-
-Expect: {"sector": "2kb", "thin_prov": 0, "capacity": "9GB", "name": "a", "quantity": 1, "compress": "gzip-8", "pool_id": 0, "block": "32kb", "sync": "standard"}
-
-Actual: {"sector": "2 KB", "create_date": "2017-09-29 20:29:29", "logbias": "latency", "sync": "standard", "snapshots": [], "_raw_written_capacity": 32768, "redundant_md": "all", "id": 6, "ctrl_id": 2, "export_id": 6, "_raw_pool_avail": 2048, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 32768, "_raw_used_child": 32768, "used_capacity": 8999993344, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "2268000155a90f5e", "name": "a", "total_capacity": 8999993344, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 2048, "used_child": "0 Byte", "_raw_sector": 2048, "pool_avail": "39.05 GB", "written_capacity_value": 8192, "block": "32 KB"}
-
-Expect: {"sector": "4kb", "thin_prov": 1, "capacity": "10GB", "name": "1", "quantity": 1, "compress": "gzip-9", "pool_id": 0, "block": "64kb", "sync": "always"}
-
-Actual: {"sector": "4 KB", "create_date": "2017-09-29 20:29:29", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 65536, "redundant_md": "all", "id": 7, "ctrl_id": 2, "export_id": 7, "_raw_pool_avail": 4096, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 65536, "_raw_used_child": 65536, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22fe000155de086e", "name": "1", "total_capacity": 9999941632, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 4096, "used_child": "0 Byte", "_raw_sector": 4096, "pool_avail": "39.05 GB", "written_capacity_value": 8192, "block": "64 KB"}
-
-Expect: {"sector": "512b", "thin_prov": 0, "capacity": "1TB", "name": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb", "quantity": 1, "compress": "zle", "pool_id": 0, "block": "128kb", "sync": "disabled"}
-
-Fail: Incorrect parameters: The pool is out of space to create full-provision volume. (0x4100104)
-
-Expect: {"sector": "1kb", "thin_prov": 1, "capacity": "2TB", "name": "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT", "quantity": 1, "compress": "lz4", "pool_id": 0, "block": "512b", "sync": "always"}
-
-add volume by api use must settings 
-
-Expect: {"sector": "512 Bytes", "capacity": "1GB", "name": "Must_parameters", "compress": "off", "sync": "always", "pool_id": 0, "block": "8 KB"}
-
-Actual: {"sector": "512 Bytes", "create_date": "2017-09-29 20:29:30", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 8192, "redundant_md": "all", "id": 9, "ctrl_id": 2, "export_id": 9, "_raw_pool_avail": 512, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 8192, "_raw_used_child": 8192, "used_capacity": 999997440, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22b900015500c8ee", "name": "Must_parameters", "total_capacity": 999997440, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 512, "used_child": "0 Byte", "_raw_sector": 512, "pool_avail": "38.02 GB", "written_capacity_value": 8192, "block": "8 KB"}
-
-'result': 'f'
-add volume by api use all of settings 
-
-Expect: {"sector": "512b", "thin_prov": 0, "capacity": "1GB", "name": "n", "quantity": 1, "compress": "on", "pool_id": 0, "block": "512b", "sync": "standard"}
-
-Actual: {"sector": "512 Bytes", "create_date": "2017-09-29 20:33:41", "logbias": "latency", "sync": "standard", "snapshots": [], "_raw_written_capacity": 512, "redundant_md": "all", "id": 0, "ctrl_id": 2, "export_id": 0, "_raw_pool_avail": 512, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 512, "_raw_used_child": 512, "used_capacity": 1000000000, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22be000155de90cc", "name": "n", "total_capacity": 1000000000, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 512, "used_child": "0 Byte", "_raw_sector": 512, "pool_avail": "7.30 TB", "written_capacity_value": 8192, "block": "512 Bytes"}
-
-Expect: {"sector": "1kb", "thin_prov": 1, "capacity": "2GB", "name": "12", "quantity": 1, "compress": "off", "pool_id": 0, "block": "1kb", "sync": "always"}
-
-Actual: {"sector": "1 KB", "create_date": "2017-09-29 20:33:42", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 1024, "redundant_md": "all", "id": 1, "ctrl_id": 2, "export_id": 1, "_raw_pool_avail": 1024, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 1024, "_raw_used_child": 1024, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "226800015590ef51", "name": "12", "total_capacity": 2000000000, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 1024, "used_child": "0 Byte", "_raw_sector": 1024, "pool_avail": "7.30 TB", "written_capacity_value": 8192, "block": "1 KB"}
-
-Expect: {"sector": "2kb", "thin_prov": 0, "capacity": "3GB", "name": "Name_11", "quantity": 1, "compress": "lzjb", "pool_id": 0, "block": "2kb", "sync": "disabled"}
-
-Actual: {"sector": "2 KB", "create_date": "2017-09-29 20:33:42", "logbias": "latency", "sync": "disabled", "snapshots": [], "_raw_written_capacity": 2048, "redundant_md": "all", "id": 2, "ctrl_id": 2, "export_id": 2, "_raw_pool_avail": 2048, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 2048, "_raw_used_child": 2048, "used_capacity": 2999998464, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22d200015509e600", "name": "Name_11", "total_capacity": 2999998464, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 2048, "used_child": "0 Byte", "_raw_sector": 2048, "pool_avail": "7.30 TB", "written_capacity_value": 8192, "block": "2 KB"}
-
-Expect: {"sector": "4kb", "thin_prov": 1, "capacity": "4GB", "name": "1_name", "quantity": 1, "compress": "gzip", "pool_id": 0, "block": "4kb", "sync": "standard"}
-
-Actual: {"sector": "4 KB", "create_date": "2017-09-29 20:33:43", "logbias": "latency", "sync": "standard", "snapshots": [], "_raw_written_capacity": 4096, "redundant_md": "all", "id": 3, "ctrl_id": 2, "export_id": 3, "_raw_pool_avail": 4096, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 4096, "_raw_used_child": 4096, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "228400015569c954", "name": "1_name", "total_capacity": 3999997952, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 4096, "used_child": "0 Byte", "_raw_sector": 4096, "pool_avail": "7.30 TB", "written_capacity_value": 8192, "block": "4 KB"}
-
-Expect: {"sector": "512b", "thin_prov": 0, "capacity": "5GB", "name": "1111111111111111111111111111111", "quantity": 1, "compress": "gzip-1", "pool_id": 0, "block": "8kb", "sync": "always"}
-
-Actual: {"sector": "512 Bytes", "create_date": "2017-09-29 20:33:43", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 8192, "redundant_md": "all", "id": 4, "ctrl_id": 2, "export_id": 4, "_raw_pool_avail": 512, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 8192, "_raw_used_child": 8192, "used_capacity": 4999995392, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "2227000155f7adc1", "name": "1111111111111111111111111111111", "total_capacity": 4999995392, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 512, "used_child": "0 Byte", "_raw_sector": 512, "pool_avail": "7.29 TB", "written_capacity_value": 8192, "block": "8 KB"}
-
-Expect: {"sector": "1kb", "thin_prov": 1, "capacity": "6GB", "name": "22222222222222222222222222222222", "quantity": 1, "compress": "gzip-2", "pool_id": 0, "block": "16kb", "sync": "disabled"}
-
-Actual: {"sector": "1 KB", "create_date": "2017-09-29 20:33:43", "logbias": "latency", "sync": "disabled", "snapshots": [], "_raw_written_capacity": 16384, "redundant_md": "all", "id": 5, "ctrl_id": 2, "export_id": 5, "_raw_pool_avail": 1024, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 16384, "_raw_used_child": 16384, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22b100015580aaf1", "name": "22222222222222222222222222222222", "total_capacity": 5999984640, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 1024, "used_child": "0 Byte", "_raw_sector": 1024, "pool_avail": "7.29 TB", "written_capacity_value": 8192, "block": "16 KB"}
-
-Expect: {"sector": "2kb", "thin_prov": 0, "capacity": "9GB", "name": "a", "quantity": 1, "compress": "gzip-8", "pool_id": 0, "block": "32kb", "sync": "standard"}
-
-Actual: {"sector": "2 KB", "create_date": "2017-09-29 20:33:44", "logbias": "latency", "sync": "standard", "snapshots": [], "_raw_written_capacity": 32768, "redundant_md": "all", "id": 6, "ctrl_id": 2, "export_id": 6, "_raw_pool_avail": 2048, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 32768, "_raw_used_child": 32768, "used_capacity": 8999993344, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "224b000155c539b8", "name": "a", "total_capacity": 8999993344, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 2048, "used_child": "0 Byte", "_raw_sector": 2048, "pool_avail": "7.28 TB", "written_capacity_value": 8192, "block": "32 KB"}
-
-Expect: {"sector": "4kb", "thin_prov": 1, "capacity": "10GB", "name": "1", "quantity": 1, "compress": "gzip-9", "pool_id": 0, "block": "64kb", "sync": "always"}
-
-Actual: {"sector": "4 KB", "create_date": "2017-09-29 20:33:44", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 65536, "redundant_md": "all", "id": 7, "ctrl_id": 2, "export_id": 7, "_raw_pool_avail": 4096, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 65536, "_raw_used_child": 65536, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22dd000155b23e88", "name": "1", "total_capacity": 9999941632, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 4096, "used_child": "0 Byte", "_raw_sector": 4096, "pool_avail": "7.28 TB", "written_capacity_value": 8192, "block": "64 KB"}
-
-Expect: {"sector": "512b", "thin_prov": 0, "capacity": "1TB", "name": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb", "quantity": 1, "compress": "zle", "pool_id": 0, "block": "128kb", "sync": "disabled"}
-
-Actual: {"sector": "512 Bytes", "create_date": "2017-09-29 20:33:45", "logbias": "latency", "sync": "disabled", "snapshots": [], "_raw_written_capacity": 131072, "redundant_md": "all", "id": 8, "ctrl_id": 2, "export_id": 8, "_raw_pool_avail": 512, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 131072, "_raw_used_child": 131072, "used_capacity": 999999930368, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "228c00015535a9f1", "name": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb", "total_capacity": 999999930368, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 512, "used_child": "0 Byte", "_raw_sector": 512, "pool_avail": "6.25 TB", "written_capacity_value": 8192, "block": "128 KB"}
-
-Expect: {"sector": "1kb", "thin_prov": 1, "capacity": "2TB", "name": "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT", "quantity": 1, "compress": "lz4", "pool_id": 0, "block": "512b", "sync": "always"}
-
-Actual: {"sector": "1 KB", "create_date": "2017-09-29 20:33:45", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 512, "redundant_md": "all", "id": 9, "ctrl_id": 2, "export_id": 9, "_raw_pool_avail": 1024, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Enabled", "_raw_block": 512, "_raw_used_child": 512, "used_capacity": 8192, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "221a00015542aec1", "name": "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT", "total_capacity": 2000000000000, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 1024, "used_child": "0 Byte", "_raw_sector": 1024, "pool_avail": "6.25 TB", "written_capacity_value": 8192, "block": "512 Bytes"}
-
-add volume by api use must settings 
-
-Expect: {"sector": "512 Bytes", "capacity": "1GB", "name": "Must_parameters", "compress": "off", "sync": "always", "pool_id": 0, "block": "8 KB"}
-
-Actual: {"sector": "512 Bytes", "create_date": "2017-09-29 20:33:46", "logbias": "latency", "sync": "always", "snapshots": [], "_raw_written_capacity": 8192, "redundant_md": "all", "id": 10, "ctrl_id": 2, "export_id": 10, "_raw_pool_avail": 512, "operational_status": "OK, Synchronizing", "copies": 1, "thin_prov": "Disabled", "_raw_block": 8192, "_raw_used_child": 8192, "used_capacity": 999997440, "written_capacity": "8.19 KB", "status": "Exported", "pool_name": "testVolumeApi1", "snapshot_count": 0, "used_snapshot": "0 Byte", "export_wwn": "22e0000155e2df3d", "name": "Must_parameters", "total_capacity": 999997440, "max_snapshot_count": 1024, "pool_id": 0, "_raw_used_snapshot": 512, "used_child": "0 Byte", "_raw_sector": 512, "pool_avail": "6.25 TB", "written_capacity_value": 8192, "block": "8 KB"}
-
-'result': 'p'
-Expect: To modify volume missing body will hint error
-
-Actual: missing setting
-
-Expect: To modify volume by empty body will hint error
-
-Fail: modify volume missing body
-
-'result': 'f'
-add global spare drive that is not revertible by api
-
-Expect: To modify volume missing body will hint error
-
-Actual: missing setting
-
-Expect: To modify volume by empty body will hint error
-
-Fail: modify volume by empty body
-
-'result': 'f'
-Expect: To modify volume missing body will hint error
-
-Actual: missing setting
-
-Expect: To modify volume by empty body will hint error
-
-Fail: modify volume by empty body
-
-'result': 'f'
-Expect: To modify volume missing body will hint error
-
-Actual: missing setting
-
-Expect: To modify volume by empty body will hint error
-
-Fail: modify volume by empty body
-
-'result': 'f'
-Expect: To modify volume missing body will hint error
-
-Actual: missing setting
-
-Expect: To modify volume by empty body will hint error
-
-Expect: To modify volume missing body will hint error
-
-Actual: missing setting
-
-Expect: To modify volume by empty body will hint error
-
-Fail: modify volume by empty body
-
-'result': 'f'
-Expect: To modify volume missing body will hint error
-
-Actual: missing setting
-
-Expect: To modify volume by empty body will hint error
-
-Fail: modify volume by empty body
-
-'result': 'f'
-Expect: To modify volume missing body will hint error
-
-Actual: missing setting
-
-Expect: To modify volume by empty body will hint error
-
-add volume by api use all of settings 
-
-Expect: To add NASShare missing body will hint error
-
-Actual: missing setting
-
-Expect: To add NASShare by empty body will hint error
-
-Actual: please specify pool_id
-
-'result': 'p'
-Expect: To modify NASShare missing body will hint error
-
-Actual: missing setting
-
-Expect: To modify NASShare by empty body will hint error
-
-Add user by api 
-
-Expect: {"status": 1, "display_name": "", "passwd": "", "email": "", "privilege": "View", "id": "a"}
-
-Actual: {"status": 1, "display_name": "", "id": "a", "location": "Local", "privilege": "View", "email": ""}
-
-Expect: {"status": 0, "display_name": "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN", "passwd": "pass_word", "email": "1@11.11", "privilege": "Maintenance", "id": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn"}
-
-Actual: {"status": 0, "display_name": "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN", "id": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn", "location": "Local", "privilege": "Maintenance", "email": "1@11.11"}
-
-Expect: {"status": 0, "display_name": "111111111111111111111111111111", "passwd": "111111111111111111111111111111", "email": "a@aa.aac", "privilege": "Power", "id": "test_name"}
-
-Actual: {"status": 0, "display_name": "111111111111111111111111111111", "id": "test_name", "location": "Local", "privilege": "Power", "email": "a@aa.aac"}
-
-Expect: {"status": 1, "display_name": "123_test", "passwd": "ppppppppppppppppppppppppppppppp", "email": "1@1.1111111111111111111111111111111111111111111", "privilege": "Super", "id": "111111111111111111111111111111"}
-
-Actual: {"status": 1, "display_name": "123_test", "id": "111111111111111111111111111111", "location": "Local", "privilege": "Super", "email": "1@1.1111111111111111111111111111111111111111111"}
-
-'result': 'p'
-Expect: list all of user 
-
-Actual: 
-{"status": 1, "display_name": "Super user", "id": "administrator", "location": "Local", "privilege": "Super", "email": "admin@yourcompany.com"}
-{"status": 1, "display_name": "", "id": "a", "location": "Local", "privilege": "View", "email": ""}
-{"status": 0, "display_name": "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN", "id": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn", "location": "Local", "privilege": "Maintenance", "email": "1@11.11"}
-{"status": 0, "display_name": "111111111111111111111111111111", "id": "test_name", "location": "Local", "privilege": "Power", "email": "a@aa.aac"}
-{"status": 1, "display_name": "123_test", "id": "111111111111111111111111111111", "location": "Local", "privilege": "Super", "email": "1@1.1111111111111111111111111111111111111111111"}
-
-
-To list specify user 
-
-Expect: To list user a
-
-Actual: The user a is listed 
-
-Expect: To list user nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
-
-Actual: The user nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn is listed 
-
-Expect: To list user test_name
-
-Actual: The user test_name is listed 
-
-Expect: To list user 111111111111111111111111111111
-
-Actual: The user 111111111111111111111111111111 is listed 
-
-'result': 'p'
-Modify user by api 
-
-Expect: {"status": 0, "privilege": "View", "display_name": "", "email": ""}
-
-Actual: {"status": 0, "display_name": "", "id": "a", "location": "Local", "privilege": "View", "email": ""}
-
-Expect: {"status": 0, "privilege": "Maintenance", "display_name": "a", "email": ""}
-
-Fail: Cannot perform operation: Flash update in progress. (0x8058)
-Expect: {"status": 1, "privilege": "Power", "display_name": "1", "email": "1@1.11"}
-
-Fail: Cannot perform operation: Flash update in progress. (0x8058)
-Expect: {"status": 1, "privilege": "Super", "display_name": "ttttttttttttttttttttttttttttttt", "email": "a@a.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"}
-
-Fail: Cannot perform operation: Flash update in progress. (0x8058)
-'result': 'f'
-Delete user by api 
-
-Expect: To delete user a
-
-Fail: To delete user a is failed
-Expect: To delete user nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
-
-Fail: To delete user nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn is failed
-Expect: To delete user test_name
-
-Fail: To delete user test_name is failed
-Expect: To delete user 111111111111111111111111111111
-
-Fail: To delete user 111111111111111111111111111111 is failed
-'result': 'f'
-Add SNMPUser by api 
-
-Expect: {"priv_passwd": "11111111", "auth_passwd": "11111111", "id": "b", "auth": "MD5", "priv": "DES"}
-
-Fail: Cannot perform operation: Flash update in progress. (0x8058)

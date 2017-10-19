@@ -370,11 +370,11 @@ def modify_NASShare_missing_body():
 
 
 if __name__ == '__main__':
-    # NASShareApiPost()
-    # NASShareApiMountAndUnmount()
-    # NASShareApiModify()
-    # NASShareApiList()
-    # NASShareApiDelete()
-    # NASShareApiFailedTest()
-    # add_NASShare_missing_body()
+    NASShareApiPost()
+    NASShareApiMountAndUnmount()
+    NASShareApiModify()
+    NASShareApiList()
+    NASShareApiDelete()
+    NASShareApiFailedTest()
+    add_NASShare_missing_body()
     modify_NASShare_missing_body()
