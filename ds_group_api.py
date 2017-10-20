@@ -190,37 +190,34 @@ def search_ds_group():
 
 def get_ds_group():
     # test
-    id = ['a', 'users']
+    id = 'users'
     response = ['id', 'gid', 'description', 'group_member']
 
-    for i in range(len(id)):
+    tolog('Expect: \r\n' + str(response) + '\r\n')
 
-        tolog('Expect: list ' + id[i] + ' group\r\n')
+    result = server.webapi('get', 'dsgroup/' + id)
 
-        result = server.webapi('get', 'dsgroup/' + id[i])
+    if isinstance(result, str):
 
-        if isinstance(result, str):
+        result_assert.FailFlag = True
+        tolog('Fail: ' + result + '\r\n')
+
+    else:
+
+        check = json.loads(result["text"])[0]
+        tolog('Actual: \r\n' + str(check.keys()).replace('u', '') + '\r\n')
+
+        if len(response) != len(check.keys()):
 
             result_assert.FailFlag = True
-            tolog('Fail: ' + result + '\r\n')
+            tolog('Fail: please check out response parameters count\r\n')
 
-        else:
+        for p in check.keys():
 
-            tolog('Actual: the group ' + id[i] + ' is listed\r\n')
-
-            check = json.loads(result["text"])[0]
-
-            if len(response) != len(check.keys()):
+            if p not in response:
 
                 result_assert.FailFlag = True
-                tolog('Fail: please check out response parameters count\r\n')
-
-            for p in check.keys():
-
-                if p not in response:
-
-                    result_assert.FailFlag = True
-                    tolog('Fail: please check out response parameter: ' + p + '\r\n')
+                tolog('Fail: please check out response parameter: ' + p + '\r\n')
 
     result_assert.result_assert()
 

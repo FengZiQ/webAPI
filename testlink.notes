@@ -1,159 +1,63 @@
-Expect: missing body should return error
+Expect: that should hint error when body is missing
 
 Actual: missing setting
 
-Expect: body is empty that should return error
+Expect: that should hint error when body is empty
 
-Actual: please specify token
-
-'result': 'p'
-To add NASShare by api 
-
-Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_0f", "logbias": "latency", "compress": "off", "sync": "always", "pool_id": 0}
-
-Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testNASShare_0f", "total_capacity": 1000000000, "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "off", "sync": "always", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "123.83 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 0}
-
-Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_0n", "logbias": "latency", "compress": "on", "sync": "always", "pool_id": 0}
-
-Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testNASShare_0n", "total_capacity": 1000000000, "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "on", "sync": "always", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "123.83 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 1}
-
-Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_0b", "logbias": "latency", "compress": "lzjb", "sync": "always", "pool_id": 0}
-
-Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testNASShare_0b", "total_capacity": 1000000000, "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "lzjb", "sync": "always", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "123.83 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 2}
-
-Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_0p", "logbias": "latency", "compress": "gzip", "sync": "always", "pool_id": 0}
-
-Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testNASShare_0p", "total_capacity": 1000000000, "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "gzip", "sync": "always", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "123.83 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 3}
-
-Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_01", "logbias": "latency", "compress": "gzip-1", "sync": "always", "pool_id": 0}
-
-Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testNASShare_01", "total_capacity": 1000000000, "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "gzip-1", "sync": "always", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "123.83 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 4}
-
-Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_09", "logbias": "latency", "compress": "gzip-9", "sync": "always", "pool_id": 0}
-
-Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testNASShare_09", "total_capacity": 1000000000, "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "gzip-9", "sync": "always", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "123.83 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 5}
-
-Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_0e", "logbias": "latency", "compress": "zle", "sync": "always", "pool_id": 0}
-
-Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testNASShare_0e", "total_capacity": 1000000000, "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "zle", "sync": "always", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "123.83 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 6}
-
-Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_04", "logbias": "latency", "compress": "lz4", "sync": "always", "pool_id": 0}
-
-Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testNASShare_04", "total_capacity": 1000000000, "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "lz4", "sync": "always", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "123.83 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 7}
-
-Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_1f", "logbias": "throughput", "compress": "off", "sync": "standard", "pool_id": 0}
-
-Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testNASShare_1f", "total_capacity": 2000000000, "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "off", "sync": "standard", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "123.83 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 8}
-
-Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_1n", "logbias": "throughput", "compress": "on", "sync": "standard", "pool_id": 0}
-
-Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testNASShare_1n", "total_capacity": 2000000000, "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "on", "sync": "standard", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "123.83 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 9}
-
-Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_1b", "logbias": "throughput", "compress": "lzjb", "sync": "standard", "pool_id": 0}
-
-Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testNASShare_1b", "total_capacity": 2000000000, "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "lzjb", "sync": "standard", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "123.83 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 10}
-
-Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_1p", "logbias": "throughput", "compress": "gzip", "sync": "standard", "pool_id": 0}
-
-Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testNASShare_1p", "total_capacity": 2000000000, "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "gzip", "sync": "standard", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "123.83 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 11}
-
-Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_11", "logbias": "throughput", "compress": "gzip-1", "sync": "standard", "pool_id": 0}
-
-Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testNASShare_11", "total_capacity": 2000000000, "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "gzip-1", "sync": "standard", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "123.83 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 12}
-
-Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_19", "logbias": "throughput", "compress": "gzip-9", "sync": "standard", "pool_id": 0}
-
-Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testNASShare_19", "total_capacity": 2000000000, "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "gzip-9", "sync": "standard", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "123.82 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 13}
-
-Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_1e", "logbias": "throughput", "compress": "zle", "sync": "standard", "pool_id": 0}
-
-Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testNASShare_1e", "total_capacity": 2000000000, "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "zle", "sync": "standard", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "123.83 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 14}
-
-Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_14", "logbias": "throughput", "compress": "lz4", "sync": "standard", "pool_id": 0}
-
-Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testNASShare_14", "total_capacity": 2000000000, "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "lz4", "sync": "standard", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "123.83 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 15}
-
-Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_2f", "logbias": "throughput", "compress": "off", "sync": "disabled", "pool_id": 0}
-
-Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "1 MB", "ratio": "1.00x", "name": "testNASShare_2f", "total_capacity": 1000000000000, "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "off", "sync": "disabled", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "123.82 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 16}
-
-Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_2n", "logbias": "throughput", "compress": "on", "sync": "disabled", "pool_id": 0}
-
-Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "1 MB", "ratio": "1.00x", "name": "testNASShare_2n", "total_capacity": 1000000000000, "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "on", "sync": "disabled", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "123.83 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 17}
-
-Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_2b", "logbias": "throughput", "compress": "lzjb", "sync": "disabled", "pool_id": 0}
-
-Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "1 MB", "ratio": "1.00x", "name": "testNASShare_2b", "total_capacity": 1000000000000, "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "lzjb", "sync": "disabled", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "123.83 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 18}
-
-Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_2p", "logbias": "throughput", "compress": "gzip", "sync": "disabled", "pool_id": 0}
-
-Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "1 MB", "ratio": "1.00x", "name": "testNASShare_2p", "total_capacity": 1000000000000, "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "gzip", "sync": "disabled", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "123.83 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 19}
-
-Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_21", "logbias": "throughput", "compress": "gzip-1", "sync": "disabled", "pool_id": 0}
-
-Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "1 MB", "ratio": "1.00x", "name": "testNASShare_21", "total_capacity": 1000000000000, "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "gzip-1", "sync": "disabled", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "123.82 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 20}
-
-Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_29", "logbias": "throughput", "compress": "gzip-9", "sync": "disabled", "pool_id": 0}
-
-Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "1 MB", "ratio": "1.00x", "name": "testNASShare_29", "total_capacity": 1000000000000, "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "gzip-9", "sync": "disabled", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "123.82 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 21}
-
-Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_2e", "logbias": "throughput", "compress": "zle", "sync": "disabled", "pool_id": 0}
-
-Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "1 MB", "ratio": "1.00x", "name": "testNASShare_2e", "total_capacity": 1000000000000, "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "zle", "sync": "disabled", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "123.82 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 22}
-
-Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_24", "logbias": "throughput", "compress": "lz4", "sync": "disabled", "pool_id": 0}
-
-Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "1 MB", "ratio": "1.00x", "name": "testNASShare_24", "total_capacity": 1000000000000, "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "lz4", "sync": "disabled", "pool_id": 0, "redundant_md": "all", "status": "Mounted", "copies": 1, "pool_avail": "123.82 GB", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 23}
+Actual: missing setting
 
 'result': 'p'
-FTP protocol should be disabled when it is enabled
+Expect: that should return 200 when body is 
+{"tm_enable": 1, "ftp": 0, "nfs": 1, "smb": 1, "allow_ip": []}
 
-Actual: FTP protocol can be disabled
+Expect: that should return 200 when body is 
+{"tm_enable": 1, "ftp": 0, "nfs": 1, "smb": 1, "allow_ip": []}
 
-NFS protocol should be disabled when it is enabled
+Actual: 
+['stats', 'qt_list']
 
-Actual: NFS protocol can be disabled
+Fail: status is not in response
 
-SMB protocol should be disabled when it is enabled
+Fail: qt_list is not in response
 
-Actual: SMB protocol can be disabled
+Actual: 
+['stats', 'qt_list']
 
-'result': 'p'
-FTP protocol should be disabled when it is enabled
+Fail: status is not in response
 
-FTP protocol should be enabled when it is disabled
+Fail: qt_list is not in response
 
-Actual: FTP protocol can be enabled
+'result': 'f'
+Actual: 
+['stats', 'qt_list']
 
-NFS protocol should be enabled when it is disabled
-
-Actual: NFS protocol can be enabled
-
-SMB protocol should be enabled when it is disabled
-
-Actual: SMB protocol can be enabled
-
-'result': 'p'
-FTP protocol should be reset
-
-Actual: FTP protocol is reset
-
-NFS protocol should be reset
-
-Actual: NFS protocol is reset
-
-SMB protocol should be reset
-
-Actual: SMB protocol is reset
-
-Expect: reset all protocol
-
-Actual: all protocol is reset
+Actual: 
+['stats', 'qt_list']
 
 'result': 'p'
-FTP protocol should be reset
+Expect: 
+['status', 'qt_list']
 
-Actual: FTP protocol is reset
+Actual: 
+['stats', 'qt_list']
 
-NFS protocol should be reset
+Expect: 
+['status', 'qt_list']
 
+Actual: 
+['stats', 'qt_list']
+
+'result': 'p'
+Expect: 
+['status', 'qt_list']
+
+Actual: 
+['stats', 'qt_list']
+
+Expect: 
+['status', 'qt_list']
+
+Actual: 
+['stats', 'qt_list']
+
+'result': 'p'

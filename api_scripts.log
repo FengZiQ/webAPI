@@ -1,3 +1,2667 @@
+2017-10-20 16:24:05: 'result': 'p'
+2017-10-20 16:24:05: Actual: 
+['stats', 'qt_list']
+
+2017-10-20 16:24:04: Expect: 
+['status', 'qt_list']
+
+2017-10-20 16:24:04: Actual: 
+['stats', 'qt_list']
+
+2017-10-20 16:24:04: Expect: 
+['status', 'qt_list']
+
+2017-10-20 16:22:51: 'result': 'p'
+2017-10-20 16:22:51: Actual: 
+['stats', 'qt_list']
+
+2017-10-20 16:22:51: Expect: 
+['status', 'qt_list']
+
+2017-10-20 16:22:51: Actual: 
+['stats', 'qt_list']
+
+2017-10-20 16:22:51: Expect: 
+['status', 'qt_list']
+
+2017-10-20 16:21:22: 'result': 'p'
+2017-10-20 16:21:22: Actual: 
+['stats', 'qt_list']
+
+2017-10-20 16:21:18: Actual: 
+['stats', 'qt_list']
+
+2017-10-20 16:13:53: 'result': 'f'
+2017-10-20 16:13:53: Fail: qt_list is not in response
+
+2017-10-20 16:13:53: Fail: status is not in response
+
+2017-10-20 16:13:53: Actual: 
+['stats', 'qt_list']
+
+2017-10-20 16:13:50: Fail: qt_list is not in response
+
+2017-10-20 16:13:50: Fail: status is not in response
+
+2017-10-20 16:13:50: Actual: 
+['stats', 'qt_list']
+
+2017-10-20 15:32:47: Expect: that should return 200 when body is 
+{"tm_enable": 1, "ftp": 0, "nfs": 1, "smb": 1, "allow_ip": []}
+
+2017-10-20 11:16:21: Expect: that should return 200 when body is 
+{"tm_enable": 1, "ftp": 0, "nfs": 1, "smb": 1, "allow_ip": []}
+
+2017-10-20 10:32:39: 'result': 'p'
+2017-10-20 10:32:38: Actual: missing setting
+
+2017-10-20 10:32:38: Expect: that should hint error when body is empty
+
+2017-10-20 10:32:38: Actual: missing setting
+
+2017-10-20 10:32:38: Expect: that should hint error when body is missing
+
+2017-10-20 10:32:38: 'result': 'p'
+2017-10-20 10:32:38: Actual: missing setting
+
+2017-10-20 10:32:38: Expect: that should hint error when body is empty
+
+2017-10-20 10:32:38: Actual: missing setting
+
+2017-10-20 10:32:38: Expect: that should hint error when body is missing
+
+2017-10-20 10:32:38: 'result': 'p'
+2017-10-20 10:32:38: Actual: missing setting
+
+2017-10-20 10:32:38: Expect: that should hint error when body is empty
+
+2017-10-20 10:32:38: Actual: missing setting
+
+2017-10-20 10:32:38: Expect: that should hint error when body is missing
+
+2017-10-20 10:32:38: 'result': 'p'
+2017-10-20 10:32:38: Actual: missing setting
+
+2017-10-20 10:32:38: Expect: that should hint error when body is empty
+
+2017-10-20 10:32:38: Actual: missing setting
+
+2017-10-20 10:32:38: Expect: that should hint error when body is missing
+
+2017-10-20 10:32:38: 'result': 'p'
+2017-10-20 10:32:38: Actual: invalid parameter [nasshare_X | snapshot_X | clone_X]
+
+2017-10-20 10:32:38: Expect: that should hint error when path parameter is 0
+
+2017-10-20 10:32:38: Actual: invalid parameter [nasshare_X | snapshot_X | clone_X]
+
+2017-10-20 10:32:38: Expect: that should hint error when path parameter is test
+
+2017-10-20 10:32:38: Actual: missing setting
+
+2017-10-20 10:32:37: Expect: that should hint error when path parameter is clone_100
+
+2017-10-20 10:32:37: Actual: missing setting
+
+2017-10-20 10:32:37: Expect: that should hint error when path parameter is snapshot_100
+
+2017-10-20 10:32:37: Actual: missing setting
+
+2017-10-20 10:32:37: Expect: that should hint error when path parameter is nasshare_100
+
+2017-10-20 10:32:37: 'result': 'p'
+2017-10-20 10:32:37: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/protocol/smb&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-10-20 10:32:37: Expect: that should hint error when body is {"enable": ""}
+
+2017-10-20 10:32:37: Actual: invalid enable (0,1)
+
+2017-10-20 10:32:37: Expect: that should hint error when body is {"enable": 2}
+
+2017-10-20 10:32:37: Actual: invalid enable (0,1)
+
+2017-10-20 10:32:37: Expect: that should hint error when body is {"enable": -1}
+
+2017-10-20 10:32:37: Actual: invalid nt_acl (yes|no)
+
+2017-10-20 10:32:37: Expect: that should hint error when body is {"nt_acl": ""}
+
+2017-10-20 10:32:37: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/protocol/smb&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-10-20 10:32:37: Expect: that should hint error when body is {"nt_acl": 0}
+
+2017-10-20 10:32:37: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/protocol/smb&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-10-20 10:32:37: Expect: that should hint error when body is {"nt_acl": -1}
+
+2017-10-20 10:32:37: 'result': 'p'
+2017-10-20 10:32:37: Actual: Incorrect parameters: invalid literal for int() with base 10: '' (0x4100104)
+
+2017-10-20 10:32:37: Expect: that should hint error when body is {"mountd_port": ""}
+
+2017-10-20 10:32:37: Actual: Incorrect parameters: The parameter mountd_port must be 1024~65533. (0x4100104)
+
+2017-10-20 10:32:37: Expect: that should hint error when body is {"mountd_port": 4}
+
+2017-10-20 10:32:37: Actual: Incorrect parameters: The parameter mountd_port must be 1024~65533. (0x4100104)
+
+2017-10-20 10:32:37: Expect: that should hint error when body is {"mountd_port": -1}
+
+2017-10-20 10:32:37: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/protocol/nfs&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-10-20 10:32:37: Expect: that should hint error when body is {"enable": ""}
+
+2017-10-20 10:32:37: Actual: invalid enable (0,1)
+
+2017-10-20 10:32:37: Expect: that should hint error when body is {"enable": 2}
+
+2017-10-20 10:32:37: Actual: invalid enable (0,1)
+
+2017-10-20 10:32:37: Expect: that should hint error when body is {"enable": -1}
+
+2017-10-20 10:32:37: 'result': 'p'
+2017-10-20 10:32:37: Actual: Incorrect parameters: invalid literal for int() with base 10: '' (0x4100104)
+
+2017-10-20 10:32:37: Expect: that should hint error when body is {"dw_rate": ""}
+
+2017-10-20 10:32:37: Actual: Incorrect parameters: invalid literal for int() with base 10: '' (0x4100104)
+
+2017-10-20 10:32:37: Expect: that should hint error when body is {"up_rate": ""}
+
+2017-10-20 10:32:37: Actual: Incorrect parameters: invalid literal for int() with base 10: '' (0x4100104)
+
+2017-10-20 10:32:37: Expect: that should hint error when body is {"cmd_port": ""}
+
+2017-10-20 10:32:37: Actual: Incorrect parameters: The cmd_port: [65536] is out of range (1~65535). (0x4100104)
+
+2017-10-20 10:32:37: Expect: that should hint error when body is {"cmd_port": 65536}
+
+2017-10-20 10:32:37: Actual: Incorrect parameters: The cmd_port: [0] is out of range (1~65535). (0x4100104)
+
+2017-10-20 10:32:36: Expect: that should hint error when body is {"cmd_port": 0}
+
+2017-10-20 10:32:36: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/protocol/ftp&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-10-20 10:32:36: Expect: that should hint error when body is {"charset": 0}
+
+2017-10-20 10:32:36: Actual: invalid charset (utf8|ja_jp|ko_kr|zh_cn|zh_tw)
+
+2017-10-20 10:32:36: Expect: that should hint error when body is {"charset": "test"}
+
+2017-10-20 10:32:36: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/protocol/ftp&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-10-20 10:32:36: Expect: that should hint error when body is {"encrypt_type": ""}
+
+2017-10-20 10:32:36: Actual: invalid encrypt_type (0,3)
+
+2017-10-20 10:32:36: Expect: that should hint error when body is {"encrypt_type": 4}
+
+2017-10-20 10:32:36: Actual: Incorrect parameters: invalid literal for int() with base 10: '' (0x4100104)
+
+2017-10-20 10:32:36: Expect: that should hint error when body is {"passive_start": ""}
+
+2017-10-20 10:32:36: Actual: Incorrect parameters: The passive_start: [65535] is out of range (1024~65534). (0x4100104)
+
+2017-10-20 10:32:36: Expect: that should hint error when body is {"passive_start": 65535}
+
+2017-10-20 10:32:36: Actual: Incorrect parameters: The passive_start: [1023] is out of range (1024~65534). (0x4100104)
+
+2017-10-20 10:32:36: Expect: that should hint error when body is {"passive_start": 1023}
+
+2017-10-20 10:32:36: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/protocol/ftp&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-10-20 10:32:36: Expect: that should hint error when body is {"enable": ""}
+
+2017-10-20 10:32:36: Actual: invalid enable (0,1)
+
+2017-10-20 10:32:36: Expect: that should hint error when body is {"enable": 2}
+
+2017-10-20 10:32:36: Actual: Incorrect parameters: invalid literal for int() with base 10: '' (0x4100104)
+
+2017-10-20 10:32:36: Expect: that should hint error when body is {"passive_end": ""}
+
+2017-10-20 10:32:36: Actual: Incorrect parameters: The passive_end: [65536] is out of range (1025~65535). (0x4100104)
+
+2017-10-20 10:32:36: Expect: that should hint error when body is {"passive_end": 65536}
+
+2017-10-20 10:32:36: Actual: Incorrect parameters: The passive_end: [1024] is out of range (1025~65535). (0x4100104)
+
+2017-10-20 10:32:36: Expect: that should hint error when body is {"passive_end": 1024}
+
+2017-10-20 10:32:36: 'result': 'p'
+2017-10-20 10:32:36: Actual: invalid name (ftp|nfs|smb)
+
+2017-10-20 10:32:36: Expect: that should hint error when path parameter is 0
+
+2017-10-20 10:32:36: Actual: invalid name (ftp|nfs|smb)
+
+2017-10-20 10:32:36: Expect: that should hint error when path parameter is test
+
+2017-10-20 10:32:36: 'result': 'p'
+2017-10-20 10:32:36: Actual: invalid name (ftp|nfs|smb)
+
+2017-10-20 10:32:36: Expect: that should hint error when path parameter is 0
+
+2017-10-20 10:32:36: Actual: invalid name (ftp|nfs|smb)
+
+2017-10-20 10:32:36: Expect: that should hint error when path parameter is test
+
+2017-10-20 10:32:36: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 404 Not Found</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 404 Not Found</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/protocol/enable/&#039;</tt>
+               caused an error:</p>
+            <pre>Not found: &#039;/service/protocol/enable/&#039;</pre>
+        </body>
+    </html>
+
+
+2017-10-20 10:32:36: Expect: that should hint error when path parameter is 
+
+2017-10-20 10:32:36: 'result': 'p'
+2017-10-20 10:32:36: Actual: invalid name (ftp|nfs|smb)
+
+2017-10-20 10:32:35: Expect: that should hint error when path parameter is 0
+
+2017-10-20 10:32:35: Actual: invalid name (ftp|nfs|smb)
+
+2017-10-20 10:32:35: Expect: that should hint error when path parameter is test
+
+2017-10-20 10:32:35: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 404 Not Found</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 404 Not Found</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/protocol/disable/&#039;</tt>
+               caused an error:</p>
+            <pre>Not found: &#039;/service/protocol/disable/&#039;</pre>
+        </body>
+    </html>
+
+
+2017-10-20 10:32:35: Expect: that should hint error when path parameter is 
+
+2017-10-20 10:32:35: 'result': 'f'
+2017-10-20 10:32:35: Fail: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/protocol/storage/nasshare_0&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-10-20 10:32:35: Expect: that should return 200 when body is 
+{"tm_enable": 0, "ftp": 1, "nfs": 0, "smb": 0, "allow_ip": []}
+
+2017-10-20 10:32:35: Fail: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/protocol/storage/nasshare_0&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-10-20 10:32:35: Expect: that should return 200 when body is 
+{"tm_enable": 1, "ftp": 0, "nfs": 1, "smb": 1, "allow_ip": []}
+
+2017-10-20 10:32:35: 'result': 'p'
+2017-10-20 10:32:35: Actual: 
+['tm_enable', 'ftp', 'nfs', 'smb', 'allow_ip']
+
+2017-10-20 10:32:35: Expect: 
+['ftp', 'nfs', 'smb', 'tm_enable', 'allow_ip']
+
+2017-10-20 10:32:31: 'result': 'f'
+2017-10-20 10:32:31: Fail: please check out response parameters count
+
+2017-10-20 10:32:31: Actual: 
+['stats', 'enable', 'name']
+
+2017-10-20 10:32:31: Expect: 
+['name', 'status']
+
+2017-10-20 10:32:31: 'result': 'p'
+2017-10-20 10:32:31: Actual: return 200, and gets ftp protocol info are 
+{"nt_acl": "no", "enable": 1, "workgroup": "test", "desc": "this is the test"}
+
+2017-10-20 10:32:30: Expect: that should return 200 when body is 
+{"nt_acl": "no", "enable": 1, "workgroup": "test", "desc": "this is the test"}
+
+2017-10-20 10:32:30: Actual: return 200, and gets ftp protocol info are 
+{"nt_acl": "yes", "enable": 0, "workgroup": "", "desc": ""}
+
+2017-10-20 10:32:30: Expect: that should return 200 when body is 
+{"nt_acl": "yes", "enable": 0, "workgroup": "", "desc": ""}
+
+2017-10-20 10:32:30: 'result': 'p'
+2017-10-20 10:32:30: Actual: 
+['nt_acl', 'enable', 'workgrop', 'desc']
+
+2017-10-20 10:32:30: Expect: 
+['enable', 'desc', 'workgroup', 'nt_acl']
+
+2017-10-20 10:32:30: 'result': 'p'
+2017-10-20 10:32:30: Actual: return 200, and gets ftp protocol info are 
+{"enable": 1, "statd_port": 65534, "nfsd_port": 2049, "lockd_port": 65535, "mountd_port": 65533, "portmapper_port": 111}
+
+2017-10-20 10:32:30: Expect: that should return 200 when body is 
+{"enable": 1, "mountd_port": 65533}
+
+2017-10-20 10:32:30: Actual: return 200, and gets ftp protocol info are 
+{"enable": 0, "statd_port": 65533, "nfsd_port": 2049, "lockd_port": 65534, "mountd_port": 65532, "portmapper_port": 111}
+
+2017-10-20 10:32:29: Expect: that should return 200 when body is 
+{"enable": 0, "mountd_port": 65532}
+
+2017-10-20 10:32:29: Actual: return 200, and gets ftp protocol info are 
+{"enable": 1, "statd_port": 1026, "nfsd_port": 2049, "lockd_port": 1027, "mountd_port": 1025, "portmapper_port": 111}
+
+2017-10-20 10:32:29: Expect: that should return 200 when body is 
+{"enable": 1, "mountd_port": 1025}
+
+2017-10-20 10:32:29: Actual: return 200, and gets ftp protocol info are 
+{"enable": 0, "statd_port": 1025, "nfsd_port": 2049, "lockd_port": 1026, "mountd_port": 1024, "portmapper_port": 111}
+
+2017-10-20 10:32:29: Expect: that should return 200 when body is 
+{"enable": 0, "mountd_port": 1024}
+
+2017-10-20 10:32:29: 'result': 'p'
+2017-10-20 10:32:29: Actual: 
+['enable', 'statd_port', 'nfsd_port', 'lockd_port', 'montd_port', 'portmapper_port']
+
+2017-10-20 10:32:29: Expect: 
+['enable', 'portmapper_port', 'nfsd_port', 'mountd_port', 'statd_port', 'lockd_port']
+
+2017-10-20 10:32:29: 'result': 'p'
+2017-10-20 10:32:29: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 1025, "enable": 0, "passive_start": 1024, "cmd_port": 1, "charset": "zh_tw", "dw_rate": 65536, "up_rate": 0, "encrypt_type": 0}
+
+2017-10-20 10:32:28: Expect: that should return 200 when body is 
+{"passive_end": 1025, "enable": 0, "passive_start": 1024, "encrypt_type": 0, "charset": "zh_tw", "dw_rate": 65536, "up_rate": 0, "cmd_port": 1}
+
+2017-10-20 10:32:28: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 65535, "enable": 1, "passive_start": 65534, "cmd_port": 65535, "charset": "zh_cn", "dw_rate": 65535, "up_rate": 126, "encrypt_type": 3}
+
+2017-10-20 10:32:28: Expect: that should return 200 when body is 
+{"passive_end": 65535, "enable": 1, "passive_start": 65534, "encrypt_type": 3, "charset": "zh_cn", "dw_rate": 65535, "up_rate": 126, "cmd_port": 65535}
+
+2017-10-20 10:32:28: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 65534, "enable": 0, "passive_start": 65533, "cmd_port": 65534, "charset": "ko_kr", "dw_rate": 2048, "up_rate": 1024, "encrypt_type": 2}
+
+2017-10-20 10:32:28: Expect: that should return 200 when body is 
+{"passive_end": 65534, "enable": 0, "passive_start": 65533, "encrypt_type": 2, "charset": "ko_kr", "dw_rate": 2048, "up_rate": 1024, "cmd_port": 65534}
+
+2017-10-20 10:32:28: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 1026, "enable": 1, "passive_start": 1025, "cmd_port": 2, "charset": "ja_jp", "dw_rate": 512, "up_rate": 65535, "encrypt_type": 1}
+
+2017-10-20 10:32:28: Expect: that should return 200 when body is 
+{"passive_end": 1026, "enable": 1, "passive_start": 1025, "encrypt_type": 1, "charset": "ja_jp", "dw_rate": 512, "up_rate": 65535, "cmd_port": 2}
+
+2017-10-20 10:32:28: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 1025, "enable": 0, "passive_start": 1024, "cmd_port": 1, "charset": "utf8", "dw_rate": 0, "up_rate": 65536, "encrypt_type": 0}
+
+2017-10-20 10:32:27: Expect: that should return 200 when body is 
+{"passive_end": 1025, "enable": 0, "passive_start": 1024, "encrypt_type": 0, "charset": "utf8", "dw_rate": 0, "up_rate": 65536, "cmd_port": 1}
+
+2017-10-20 10:32:27: 'result': 'f'
+2017-10-20 10:32:27: Fail: cmd_port is not in response
+
+2017-10-20 10:32:27: Actual: 
+['passive_end', 'enable', 'passive_start', 'cmd_port', 'charset', 'dw_rate', 'p_rate', 'encrypt_type']
+
+2017-10-20 10:32:27: Expect: 
+['enable', 'encrypt_type', 'port', 'passive_start', 'passive_end', 'charset', 'dw_rate', 'up_rate']
+
+2017-10-20 10:32:27: 'result': 'p'
+2017-10-20 10:32:27: Actual: all protocol is reset
+
+2017-10-20 10:32:27: Expect: all protocol should be reset
+
+2017-10-20 10:32:27: Actual: SMB protocol is reset
+
+2017-10-20 10:32:27: Expect: SMB protocol should be reset
+
+2017-10-20 10:32:27: Actual: NFS protocol is reset
+
+2017-10-20 10:32:27: Expect: NFS protocol should be reset
+
+2017-10-20 10:32:27: Actual: FTP protocol is reset
+
+2017-10-20 10:32:27: Expect: FTP protocol should be reset
+
+2017-10-20 10:32:27: 'result': 'p'
+2017-10-20 10:32:27: Actual: SMB protocol is enabled
+
+2017-10-20 10:32:26: Expect: SMB protocol should be enabled when it is enabled
+
+2017-10-20 10:32:26: Actual: NFS protocol is enabled
+
+2017-10-20 10:32:26: Expect: NFS protocol should be enabled when it is enabled
+
+2017-10-20 10:32:26: Actual: FTP protocol is enabled
+
+2017-10-20 10:32:26: Expect: FTP protocol should be enabled when it is enabled
+
+2017-10-20 10:32:26: Actual: SMB protocol is enabled
+
+2017-10-20 10:32:26: Expect: SMB protocol should be enabled when it is disabled
+
+2017-10-20 10:32:25: Actual: NFS protocol is enabled
+
+2017-10-20 10:32:25: Expect: NFS protocol should be enabled when it is disabled
+
+2017-10-20 10:32:25: Actual: FTP protocol is enabled
+
+2017-10-20 10:32:25: Expect: FTP protocol should be enabled when it is disabled
+
+2017-10-20 10:32:25: 'result': 'p'
+2017-10-20 10:32:25: Actual: SMB protocol is disabled
+
+2017-10-20 10:32:25: Expect: SMB protocol should be disabled when it is disabled
+
+2017-10-20 10:32:25: Actual: NFS protocol is disabled
+
+2017-10-20 10:32:24: Expect: NFS protocol should be disabled when it is disabled
+
+2017-10-20 10:32:24: Actual: FTP protocol is disabled
+
+2017-10-20 10:32:24: Expect: FTP protocol should be disabled when it is disabled
+
+2017-10-20 10:32:24: Actual: SMB protocol is disabled
+
+2017-10-20 10:32:24: Expect: SMB protocol should be disabled when it is enabled
+
+2017-10-20 10:32:24: Actual: NFS protocol is disabled
+
+2017-10-20 10:32:23: Expect: NFS protocol should be disabled when it is enabled
+
+2017-10-20 10:32:23: Actual: FTP protocol is disabled
+
+2017-10-20 10:32:23: Expect: FTP protocol should be disabled when it is enabled
+
+2017-10-20 09:59:35: 'result': 'p'
+2017-10-20 09:59:34: Actual: missing setting
+
+2017-10-20 09:59:34: Expect: that should hint error when body is empty
+
+2017-10-20 09:59:34: Actual: missing setting
+
+2017-10-20 09:59:34: Expect: that should hint error when body is missing
+
+2017-10-20 09:59:34: 'result': 'p'
+2017-10-20 09:59:34: Actual: missing setting
+
+2017-10-20 09:59:34: Expect: that should hint error when body is empty
+
+2017-10-20 09:59:34: Actual: missing setting
+
+2017-10-20 09:59:34: Expect: that should hint error when body is missing
+
+2017-10-20 09:59:34: 'result': 'p'
+2017-10-20 09:59:34: Actual: missing setting
+
+2017-10-20 09:59:34: Expect: that should hint error when body is empty
+
+2017-10-20 09:59:34: Actual: missing setting
+
+2017-10-20 09:59:34: Expect: that should hint error when body is missing
+
+2017-10-20 09:59:34: 'result': 'p'
+2017-10-20 09:59:34: Actual: missing setting
+
+2017-10-20 09:59:34: Expect: that should hint error when body is empty
+
+2017-10-20 09:59:34: Actual: missing setting
+
+2017-10-20 09:59:33: Expect: that should hint error when body is missing
+
+2017-10-20 09:59:33: 'result': 'p'
+2017-10-20 09:59:33: Actual: invalid parameter [nasshare_X | snapshot_X | clone_X]
+
+2017-10-20 09:59:33: Expect: that should hint error when path parameter is 0
+
+2017-10-20 09:59:33: Actual: invalid parameter [nasshare_X | snapshot_X | clone_X]
+
+2017-10-20 09:59:33: Expect: that should hint error when path parameter is test
+
+2017-10-20 09:59:33: Actual: missing setting
+
+2017-10-20 09:59:33: Expect: that should hint error when path parameter is clone_100
+
+2017-10-20 09:59:33: Actual: missing setting
+
+2017-10-20 09:59:33: Expect: that should hint error when path parameter is snapshot_100
+
+2017-10-20 09:59:33: Actual: missing setting
+
+2017-10-20 09:59:33: Expect: that should hint error when path parameter is nasshare_100
+
+2017-10-20 09:59:33: 'result': 'p'
+2017-10-20 09:59:33: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/protocol/smb&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-10-20 09:59:33: Expect: that should hint error when body is {"enable": ""}
+
+2017-10-20 09:59:33: Actual: invalid enable (0,1)
+
+2017-10-20 09:59:32: Expect: that should hint error when body is {"enable": 2}
+
+2017-10-20 09:59:32: Actual: invalid enable (0,1)
+
+2017-10-20 09:59:32: Expect: that should hint error when body is {"enable": -1}
+
+2017-10-20 09:59:32: Actual: invalid nt_acl (yes|no)
+
+2017-10-20 09:59:32: Expect: that should hint error when body is {"nt_acl": ""}
+
+2017-10-20 09:59:32: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/protocol/smb&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-10-20 09:59:32: Expect: that should hint error when body is {"nt_acl": 0}
+
+2017-10-20 09:59:32: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/protocol/smb&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-10-20 09:59:32: Expect: that should hint error when body is {"nt_acl": -1}
+
+2017-10-20 09:59:32: 'result': 'p'
+2017-10-20 09:59:32: Actual: Incorrect parameters: invalid literal for int() with base 10: '' (0x4100104)
+
+2017-10-20 09:59:32: Expect: that should hint error when body is {"mountd_port": ""}
+
+2017-10-20 09:59:32: Actual: Incorrect parameters: The parameter mountd_port must be 1024~65533. (0x4100104)
+
+2017-10-20 09:59:32: Expect: that should hint error when body is {"mountd_port": 4}
+
+2017-10-20 09:59:32: Actual: Incorrect parameters: The parameter mountd_port must be 1024~65533. (0x4100104)
+
+2017-10-20 09:59:32: Expect: that should hint error when body is {"mountd_port": -1}
+
+2017-10-20 09:59:32: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/protocol/nfs&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-10-20 09:59:32: Expect: that should hint error when body is {"enable": ""}
+
+2017-10-20 09:59:32: Actual: invalid enable (0,1)
+
+2017-10-20 09:59:32: Expect: that should hint error when body is {"enable": 2}
+
+2017-10-20 09:59:32: Actual: invalid enable (0,1)
+
+2017-10-20 09:59:32: Expect: that should hint error when body is {"enable": -1}
+
+2017-10-20 09:59:32: 'result': 'p'
+2017-10-20 09:59:32: Actual: Incorrect parameters: invalid literal for int() with base 10: '' (0x4100104)
+
+2017-10-20 09:59:32: Expect: that should hint error when body is {"dw_rate": ""}
+
+2017-10-20 09:59:32: Actual: Incorrect parameters: invalid literal for int() with base 10: '' (0x4100104)
+
+2017-10-20 09:59:32: Expect: that should hint error when body is {"up_rate": ""}
+
+2017-10-20 09:59:32: Actual: Incorrect parameters: invalid literal for int() with base 10: '' (0x4100104)
+
+2017-10-20 09:59:32: Expect: that should hint error when body is {"cmd_port": ""}
+
+2017-10-20 09:59:32: Actual: Incorrect parameters: The cmd_port: [65536] is out of range (1~65535). (0x4100104)
+
+2017-10-20 09:59:32: Expect: that should hint error when body is {"cmd_port": 65536}
+
+2017-10-20 09:59:32: Actual: Incorrect parameters: The cmd_port: [0] is out of range (1~65535). (0x4100104)
+
+2017-10-20 09:59:32: Expect: that should hint error when body is {"cmd_port": 0}
+
+2017-10-20 09:59:32: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/protocol/ftp&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-10-20 09:59:32: Expect: that should hint error when body is {"charset": 0}
+
+2017-10-20 09:59:32: Actual: invalid charset (utf8|ja_jp|ko_kr|zh_cn|zh_tw)
+
+2017-10-20 09:59:31: Expect: that should hint error when body is {"charset": "test"}
+
+2017-10-20 09:59:31: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/protocol/ftp&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-10-20 09:59:31: Expect: that should hint error when body is {"encrypt_type": ""}
+
+2017-10-20 09:59:31: Actual: invalid encrypt_type (0,3)
+
+2017-10-20 09:59:31: Expect: that should hint error when body is {"encrypt_type": 4}
+
+2017-10-20 09:59:31: Actual: Incorrect parameters: invalid literal for int() with base 10: '' (0x4100104)
+
+2017-10-20 09:59:31: Expect: that should hint error when body is {"passive_start": ""}
+
+2017-10-20 09:59:31: Actual: Incorrect parameters: The passive_start: [65535] is out of range (1024~65534). (0x4100104)
+
+2017-10-20 09:59:31: Expect: that should hint error when body is {"passive_start": 65535}
+
+2017-10-20 09:59:31: Actual: Incorrect parameters: The passive_start: [1023] is out of range (1024~65534). (0x4100104)
+
+2017-10-20 09:59:31: Expect: that should hint error when body is {"passive_start": 1023}
+
+2017-10-20 09:59:31: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/protocol/ftp&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-10-20 09:59:31: Expect: that should hint error when body is {"enable": ""}
+
+2017-10-20 09:59:31: Actual: invalid enable (0,1)
+
+2017-10-20 09:59:31: Expect: that should hint error when body is {"enable": 2}
+
+2017-10-20 09:59:31: Actual: Incorrect parameters: invalid literal for int() with base 10: '' (0x4100104)
+
+2017-10-20 09:59:31: Expect: that should hint error when body is {"passive_end": ""}
+
+2017-10-20 09:59:31: Actual: Incorrect parameters: The passive_end: [65536] is out of range (1025~65535). (0x4100104)
+
+2017-10-20 09:59:31: Expect: that should hint error when body is {"passive_end": 65536}
+
+2017-10-20 09:59:31: Actual: Incorrect parameters: The passive_end: [1024] is out of range (1025~65535). (0x4100104)
+
+2017-10-20 09:59:31: Expect: that should hint error when body is {"passive_end": 1024}
+
+2017-10-20 09:59:31: 'result': 'p'
+2017-10-20 09:59:31: Actual: invalid name (ftp|nfs|smb)
+
+2017-10-20 09:59:31: Expect: that should hint error when path parameter is 0
+
+2017-10-20 09:59:31: Actual: invalid name (ftp|nfs|smb)
+
+2017-10-20 09:59:31: Expect: that should hint error when path parameter is test
+
+2017-10-20 09:59:31: 'result': 'p'
+2017-10-20 09:59:31: Actual: invalid name (ftp|nfs|smb)
+
+2017-10-20 09:59:31: Expect: that should hint error when path parameter is 0
+
+2017-10-20 09:59:31: Actual: invalid name (ftp|nfs|smb)
+
+2017-10-20 09:59:31: Expect: that should hint error when path parameter is test
+
+2017-10-20 09:59:31: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 404 Not Found</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 404 Not Found</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/protocol/enable/&#039;</tt>
+               caused an error:</p>
+            <pre>Not found: &#039;/service/protocol/enable/&#039;</pre>
+        </body>
+    </html>
+
+
+2017-10-20 09:59:31: Expect: that should hint error when path parameter is 
+
+2017-10-20 09:59:31: 'result': 'p'
+2017-10-20 09:59:31: Actual: invalid name (ftp|nfs|smb)
+
+2017-10-20 09:59:31: Expect: that should hint error when path parameter is 0
+
+2017-10-20 09:59:31: Actual: invalid name (ftp|nfs|smb)
+
+2017-10-20 09:59:31: Expect: that should hint error when path parameter is test
+
+2017-10-20 09:59:31: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 404 Not Found</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 404 Not Found</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/protocol/disable/&#039;</tt>
+               caused an error:</p>
+            <pre>Not found: &#039;/service/protocol/disable/&#039;</pre>
+        </body>
+    </html>
+
+
+2017-10-20 09:59:31: Expect: that should hint error when path parameter is 
+
+2017-10-20 09:59:31: 'result': 'f'
+2017-10-20 09:59:31: Fail: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/protocol/storage/nasshare_0&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-10-20 09:59:31: Expect: that should return 200 when body is 
+{"tm_enable": 0, "ftp": 1, "nfs": 0, "smb": 0, "allow_ip": []}
+
+2017-10-20 09:59:31: Fail: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/protocol/storage/nasshare_0&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-10-20 09:59:30: Expect: that should return 200 when body is 
+{"tm_enable": 1, "ftp": 0, "nfs": 1, "smb": 1, "allow_ip": []}
+
+2017-10-20 09:59:30: 'result': 'p'
+2017-10-20 09:59:30: Actual: 
+['tm_enable', 'ftp', 'nfs', 'smb', 'allow_ip']
+
+2017-10-20 09:59:30: Expect: 
+['ftp', 'nfs', 'smb', 'tm_enable', 'allow_ip']
+
+2017-10-20 09:59:24: 'result': 'f'
+2017-10-20 09:59:24: Fail: please check out response parameters count
+
+2017-10-20 09:59:24: Actual: 
+['stats', 'enable', 'name']
+
+2017-10-20 09:59:24: Expect: 
+['name', 'status']
+
+2017-10-20 09:59:24: 'result': 'p'
+2017-10-20 09:59:24: Actual: return 200, and gets ftp protocol info are 
+{"nt_acl": "no", "enable": 1, "workgroup": "test", "desc": "this is the test"}
+
+2017-10-20 09:59:24: Expect: that should return 200 when body is 
+{"nt_acl": "no", "enable": 1, "workgroup": "test", "desc": "this is the test"}
+
+2017-10-20 09:59:24: Actual: return 200, and gets ftp protocol info are 
+{"nt_acl": "yes", "enable": 0, "workgroup": "", "desc": ""}
+
+2017-10-20 09:59:23: Expect: that should return 200 when body is 
+{"nt_acl": "yes", "enable": 0, "workgroup": "", "desc": ""}
+
+2017-10-20 09:59:23: 'result': 'p'
+2017-10-20 09:59:23: Actual: 
+['nt_acl', 'enable', 'workgrop', 'desc']
+
+2017-10-20 09:59:23: Expect: 
+['enable', 'desc', 'workgroup', 'nt_acl']
+
+2017-10-20 09:59:23: 'result': 'p'
+2017-10-20 09:59:23: Actual: return 200, and gets ftp protocol info are 
+{"enable": 1, "statd_port": 65534, "nfsd_port": 2049, "lockd_port": 65535, "mountd_port": 65533, "portmapper_port": 111}
+
+2017-10-20 09:59:23: Expect: that should return 200 when body is 
+{"enable": 1, "mountd_port": 65533}
+
+2017-10-20 09:59:23: Actual: return 200, and gets ftp protocol info are 
+{"enable": 0, "statd_port": 65533, "nfsd_port": 2049, "lockd_port": 65534, "mountd_port": 65532, "portmapper_port": 111}
+
+2017-10-20 09:59:23: Expect: that should return 200 when body is 
+{"enable": 0, "mountd_port": 65532}
+
+2017-10-20 09:59:23: Actual: return 200, and gets ftp protocol info are 
+{"enable": 1, "statd_port": 1026, "nfsd_port": 2049, "lockd_port": 1027, "mountd_port": 1025, "portmapper_port": 111}
+
+2017-10-20 09:59:22: Expect: that should return 200 when body is 
+{"enable": 1, "mountd_port": 1025}
+
+2017-10-20 09:59:22: Actual: return 200, and gets ftp protocol info are 
+{"enable": 0, "statd_port": 1025, "nfsd_port": 2049, "lockd_port": 1026, "mountd_port": 1024, "portmapper_port": 111}
+
+2017-10-20 09:59:22: Expect: that should return 200 when body is 
+{"enable": 0, "mountd_port": 1024}
+
+2017-10-20 09:59:22: 'result': 'p'
+2017-10-20 09:59:22: Actual: 
+['enable', 'statd_port', 'nfsd_port', 'lockd_port', 'montd_port', 'portmapper_port']
+
+2017-10-20 09:59:22: Expect: 
+['enable', 'portmapper_port', 'nfsd_port', 'mountd_port', 'statd_port', 'lockd_port']
+
+2017-10-20 09:59:22: 'result': 'p'
+2017-10-20 09:59:22: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 1025, "enable": 0, "passive_start": 1024, "cmd_port": 1, "charset": "zh_tw", "dw_rate": 65536, "up_rate": 0, "encrypt_type": 0}
+
+2017-10-20 09:59:22: Expect: that should return 200 when body is 
+{"passive_end": 1025, "enable": 0, "passive_start": 1024, "encrypt_type": 0, "charset": "zh_tw", "dw_rate": 65536, "up_rate": 0, "cmd_port": 1}
+
+2017-10-20 09:59:22: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 65535, "enable": 1, "passive_start": 65534, "cmd_port": 65535, "charset": "zh_cn", "dw_rate": 65535, "up_rate": 126, "encrypt_type": 3}
+
+2017-10-20 09:59:21: Expect: that should return 200 when body is 
+{"passive_end": 65535, "enable": 1, "passive_start": 65534, "encrypt_type": 3, "charset": "zh_cn", "dw_rate": 65535, "up_rate": 126, "cmd_port": 65535}
+
+2017-10-20 09:59:21: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 65534, "enable": 0, "passive_start": 65533, "cmd_port": 65534, "charset": "ko_kr", "dw_rate": 2048, "up_rate": 1024, "encrypt_type": 2}
+
+2017-10-20 09:59:21: Expect: that should return 200 when body is 
+{"passive_end": 65534, "enable": 0, "passive_start": 65533, "encrypt_type": 2, "charset": "ko_kr", "dw_rate": 2048, "up_rate": 1024, "cmd_port": 65534}
+
+2017-10-20 09:59:21: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 1026, "enable": 1, "passive_start": 1025, "cmd_port": 2, "charset": "ja_jp", "dw_rate": 512, "up_rate": 65535, "encrypt_type": 1}
+
+2017-10-20 09:59:21: Expect: that should return 200 when body is 
+{"passive_end": 1026, "enable": 1, "passive_start": 1025, "encrypt_type": 1, "charset": "ja_jp", "dw_rate": 512, "up_rate": 65535, "cmd_port": 2}
+
+2017-10-20 09:59:21: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 1025, "enable": 0, "passive_start": 1024, "cmd_port": 1, "charset": "utf8", "dw_rate": 0, "up_rate": 65536, "encrypt_type": 0}
+
+2017-10-20 09:59:21: Expect: that should return 200 when body is 
+{"passive_end": 1025, "enable": 0, "passive_start": 1024, "encrypt_type": 0, "charset": "utf8", "dw_rate": 0, "up_rate": 65536, "cmd_port": 1}
+
+2017-10-20 09:59:21: 'result': 'f'
+2017-10-20 09:59:21: Fail: cmd_port is not in response
+
+2017-10-20 09:59:21: Actual: 
+['passive_end', 'enable', 'passive_start', 'cmd_port', 'charset', 'dw_rate', 'p_rate', 'encrypt_type']
+
+2017-10-20 09:59:21: Expect: 
+['enable', 'encrypt_type', 'port', 'passive_start', 'passive_end', 'charset', 'dw_rate', 'up_rate']
+
+2017-10-20 09:59:21: 'result': 'p'
+2017-10-20 09:59:20: Actual: all protocol is reset
+
+2017-10-20 09:59:20: Expect: all protocol should be reset
+
+2017-10-20 09:59:20: Actual: SMB protocol is reset
+
+2017-10-20 09:59:20: Expect: SMB protocol should be reset
+
+2017-10-20 09:59:20: Actual: NFS protocol is reset
+
+2017-10-20 09:59:20: Expect: NFS protocol should be reset
+
+2017-10-20 09:59:20: Actual: FTP protocol is reset
+
+2017-10-20 09:59:20: Expect: FTP protocol should be reset
+
+2017-10-20 09:59:20: 'result': 'p'
+2017-10-20 09:59:20: Actual: SMB protocol is enabled
+
+2017-10-20 09:59:19: Expect: SMB protocol should be enabled when it is enabled
+
+2017-10-20 09:59:19: Actual: NFS protocol is enabled
+
+2017-10-20 09:59:19: Expect: NFS protocol should be enabled when it is enabled
+
+2017-10-20 09:59:19: Actual: FTP protocol is enabled
+
+2017-10-20 09:59:19: Expect: FTP protocol should be enabled when it is enabled
+
+2017-10-20 09:59:19: Actual: SMB protocol is enabled
+
+2017-10-20 09:59:19: Expect: SMB protocol should be enabled when it is disabled
+
+2017-10-20 09:59:18: Actual: NFS protocol is enabled
+
+2017-10-20 09:59:18: Expect: NFS protocol should be enabled when it is disabled
+
+2017-10-20 09:59:18: Actual: FTP protocol is enabled
+
+2017-10-20 09:59:18: Expect: FTP protocol should be enabled when it is disabled
+
+2017-10-20 09:59:18: 'result': 'p'
+2017-10-20 09:59:18: Actual: SMB protocol is disabled
+
+2017-10-20 09:59:17: Expect: SMB protocol should be disabled when it is disabled
+
+2017-10-20 09:59:17: Actual: NFS protocol is disabled
+
+2017-10-20 09:59:17: Expect: NFS protocol should be disabled when it is disabled
+
+2017-10-20 09:59:17: Actual: FTP protocol is disabled
+
+2017-10-20 09:59:17: Expect: FTP protocol should be disabled when it is disabled
+
+2017-10-20 09:59:17: Actual: SMB protocol is disabled
+
+2017-10-20 09:59:17: Expect: SMB protocol should be disabled when it is enabled
+
+2017-10-20 09:59:16: Actual: NFS protocol is disabled
+
+2017-10-20 09:59:16: Expect: NFS protocol should be disabled when it is enabled
+
+2017-10-20 09:59:15: Actual: FTP protocol is disabled
+
+2017-10-20 09:59:15: Expect: FTP protocol should be disabled when it is enabled
+
+2017-10-20 09:56:35: 'result': 'p'
+2017-10-20 09:56:35: Actual: missing setting
+
+2017-10-20 09:56:35: Expect: that should hint error when body is empty
+
+2017-10-20 09:56:35: Actual: missing setting
+
+2017-10-20 09:56:35: Expect: that should hint error when body is missing
+
+2017-10-20 09:54:44: 'result': 'p'
+2017-10-20 09:54:44: Actual: missing setting
+
+2017-10-20 09:54:44: Expect: that should hint error when body is empty
+
+2017-10-20 09:54:44: Actual: missing setting
+
+2017-10-20 09:54:44: Expect: that should hint error when body is missing
+
+2017-10-20 09:54:44: 'result': 'p'
+2017-10-20 09:54:44: Actual: missing setting
+
+2017-10-20 09:54:43: Expect: that should hint error when body is empty
+
+2017-10-20 09:54:43: Actual: missing setting
+
+2017-10-20 09:54:43: Expect: that should hint error when body is missing
+
+2017-10-20 09:53:30: 'result': 'p'
+2017-10-20 09:53:30: Actual: missing setting
+
+2017-10-20 09:53:30: Expect: that should hint error when body is empty
+
+2017-10-20 09:53:30: Actual: missing setting
+
+2017-10-20 09:53:30: Expect: that should hint error when body is missing
+
+2017-10-20 09:47:48: 'result': 'p'
+2017-10-20 09:47:48: Actual: invalid parameter [nasshare_X | snapshot_X | clone_X]
+
+2017-10-20 09:47:48: Expect: that should hint error when path parameter is 0
+
+2017-10-20 09:47:48: Actual: invalid parameter [nasshare_X | snapshot_X | clone_X]
+
+2017-10-20 09:47:48: Expect: that should hint error when path parameter is test
+
+2017-10-20 09:47:48: Actual: missing setting
+
+2017-10-20 09:47:48: Expect: that should hint error when path parameter is clone_100
+
+2017-10-20 09:47:48: Actual: missing setting
+
+2017-10-20 09:47:48: Expect: that should hint error when path parameter is snapshot_100
+
+2017-10-20 09:47:48: Actual: missing setting
+
+2017-10-20 09:47:48: Expect: that should hint error when path parameter is nasshare_100
+
+2017-10-20 09:46:56: 'result': 'p'
+2017-10-20 09:46:56: Actual: invalid parameter [nasshare_X | snapshot_X | clone_X]
+
+2017-10-20 09:46:56: Expect: that should hint error when path parameter is 0
+
+2017-10-20 09:46:56: Actual: invalid parameter [nasshare_X | snapshot_X | clone_X]
+
+2017-10-20 09:46:56: Expect: that should hint error when path parameter is test
+
+2017-10-20 09:46:56: Actual: missing setting
+
+2017-10-20 09:46:56: Expect: that should hint error when path parameter is clone_100
+
+2017-10-20 09:46:56: Actual: missing setting
+
+2017-10-20 09:46:56: Expect: that should hint error when path parameter is snapshot_100
+
+2017-10-20 09:46:56: Actual: invalid type (nasshare|snapshot|clone)
+
+2017-10-20 09:46:55: Expect: that should hint error when path parameter is nashare_100
+
+2017-10-20 09:44:22: 'result': 'p'
+2017-10-20 09:44:22: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/protocol/smb&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-10-20 09:44:22: Expect: that should hint error when body is {"enable": ""}
+
+2017-10-20 09:44:22: Actual: invalid enable (0,1)
+
+2017-10-20 09:44:22: Expect: that should hint error when body is {"enable": 2}
+
+2017-10-20 09:44:22: Actual: invalid enable (0,1)
+
+2017-10-20 09:44:22: Expect: that should hint error when body is {"enable": -1}
+
+2017-10-20 09:44:22: Actual: invalid nt_acl (yes|no)
+
+2017-10-20 09:44:22: Expect: that should hint error when body is {"nt_acl": ""}
+
+2017-10-20 09:44:22: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/protocol/smb&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-10-20 09:44:22: Expect: that should hint error when body is {"nt_acl": 0}
+
+2017-10-20 09:44:22: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/protocol/smb&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-10-20 09:44:22: Expect: that should hint error when body is {"nt_acl": -1}
+
+2017-10-20 09:41:43: 'result': 'f'
+2017-10-20 09:41:43: Fail: when body is {"desc": ""}
+
+2017-10-20 09:41:42: Expect: that should hint error when body is {"desc": ""}
+
+2017-10-20 09:41:42: Fail: when body is {"desc": 4}
+
+2017-10-20 09:41:42: Expect: that should hint error when body is {"desc": 4}
+
+2017-10-20 09:41:42: Fail: when body is {"desc": -1}
+
+2017-10-20 09:41:41: Expect: that should hint error when body is {"desc": -1}
+
+2017-10-20 09:41:41: Fail: when body is {"workgroup": 0}
+
+2017-10-20 09:41:41: Expect: that should hint error when body is {"workgroup": 0}
+
+2017-10-20 09:41:41: Fail: when body is {"workgroup": -1}
+
+2017-10-20 09:41:41: Expect: that should hint error when body is {"workgroup": -1}
+
+2017-10-20 09:41:41: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/protocol/smb&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-10-20 09:41:40: Expect: that should hint error when body is {"enable": ""}
+
+2017-10-20 09:41:40: Actual: invalid enable (0,1)
+
+2017-10-20 09:41:40: Expect: that should hint error when body is {"enable": 2}
+
+2017-10-20 09:41:40: Actual: invalid enable (0,1)
+
+2017-10-20 09:41:40: Expect: that should hint error when body is {"enable": -1}
+
+2017-10-20 09:41:40: Actual: invalid nt_acl (yes|no)
+
+2017-10-20 09:41:40: Expect: that should hint error when body is {"nt_acl": ""}
+
+2017-10-20 09:41:40: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/protocol/smb&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-10-20 09:41:40: Expect: that should hint error when body is {"nt_acl": 0}
+
+2017-10-20 09:41:40: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/protocol/smb&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-10-20 09:41:40: Expect: that should hint error when body is {"nt_acl": -1}
+
+2017-10-20 09:38:38: 'result': 'p'
+2017-10-20 09:38:38: Actual: Incorrect parameters: invalid literal for int() with base 10: '' (0x4100104)
+
+2017-10-20 09:38:38: Expect: that should hint error when body is {"mountd_port": ""}
+
+2017-10-20 09:38:38: Actual: Incorrect parameters: The parameter mountd_port must be 1024~65533. (0x4100104)
+
+2017-10-20 09:38:38: Expect: that should hint error when body is {"mountd_port": 4}
+
+2017-10-20 09:38:38: Actual: Incorrect parameters: The parameter mountd_port must be 1024~65533. (0x4100104)
+
+2017-10-20 09:38:38: Expect: that should hint error when body is {"mountd_port": -1}
+
+2017-10-20 09:38:38: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/protocol/nfs&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-10-20 09:38:38: Expect: that should hint error when body is {"enable": ""}
+
+2017-10-20 09:38:38: Actual: invalid enable (0,1)
+
+2017-10-20 09:38:38: Expect: that should hint error when body is {"enable": 2}
+
+2017-10-20 09:38:38: Actual: invalid enable (0,1)
+
+2017-10-20 09:38:38: Expect: that should hint error when body is {"enable": -1}
+
+2017-10-20 09:36:24: 'result': 'p'
+2017-10-20 09:36:24: Actual: Incorrect parameters: invalid literal for int() with base 10: '' (0x4100104)
+
+2017-10-20 09:36:24: Expect: that should hint error when body is {"dw_rate": ""}
+
+2017-10-20 09:36:24: Actual: Incorrect parameters: invalid literal for int() with base 10: '' (0x4100104)
+
+2017-10-20 09:36:24: Expect: that should hint error when body is {"up_rate": ""}
+
+2017-10-20 09:36:24: Actual: Incorrect parameters: invalid literal for int() with base 10: '' (0x4100104)
+
+2017-10-20 09:36:24: Expect: that should hint error when body is {"cmd_port": ""}
+
+2017-10-20 09:36:24: Actual: Incorrect parameters: The cmd_port: [65536] is out of range (1~65535). (0x4100104)
+
+2017-10-20 09:36:24: Expect: that should hint error when body is {"cmd_port": 65536}
+
+2017-10-20 09:36:24: Actual: Incorrect parameters: The cmd_port: [0] is out of range (1~65535). (0x4100104)
+
+2017-10-20 09:36:24: Expect: that should hint error when body is {"cmd_port": 0}
+
+2017-10-20 09:36:24: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/protocol/ftp&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-10-20 09:36:24: Expect: that should hint error when body is {"charset": 0}
+
+2017-10-20 09:36:24: Actual: invalid charset (utf8|ja_jp|ko_kr|zh_cn|zh_tw)
+
+2017-10-20 09:36:24: Expect: that should hint error when body is {"charset": "test"}
+
+2017-10-20 09:36:24: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/protocol/ftp&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-10-20 09:36:24: Expect: that should hint error when body is {"encrypt_type": ""}
+
+2017-10-20 09:36:24: Actual: invalid encrypt_type (0,3)
+
+2017-10-20 09:36:24: Expect: that should hint error when body is {"encrypt_type": 4}
+
+2017-10-20 09:36:24: Actual: Incorrect parameters: invalid literal for int() with base 10: '' (0x4100104)
+
+2017-10-20 09:36:24: Expect: that should hint error when body is {"passive_start": ""}
+
+2017-10-20 09:36:24: Actual: Incorrect parameters: The passive_start: [65535] is out of range (1024~65534). (0x4100104)
+
+2017-10-20 09:36:24: Expect: that should hint error when body is {"passive_start": 65535}
+
+2017-10-20 09:36:24: Actual: Incorrect parameters: The passive_start: [1023] is out of range (1024~65534). (0x4100104)
+
+2017-10-20 09:36:24: Expect: that should hint error when body is {"passive_start": 1023}
+
+2017-10-20 09:36:24: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/protocol/ftp&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-10-20 09:36:24: Expect: that should hint error when body is {"enable": ""}
+
+2017-10-20 09:36:24: Actual: invalid enable (0,1)
+
+2017-10-20 09:36:23: Expect: that should hint error when body is {"enable": 2}
+
+2017-10-20 09:36:23: Actual: Incorrect parameters: invalid literal for int() with base 10: '' (0x4100104)
+
+2017-10-20 09:36:23: Expect: that should hint error when body is {"passive_end": ""}
+
+2017-10-20 09:36:23: Actual: Incorrect parameters: The passive_end: [65536] is out of range (1025~65535). (0x4100104)
+
+2017-10-20 09:36:15: Expect: that should hint error when body is {"passive_end": 65536}
+
+2017-10-20 09:36:11: Actual: Incorrect parameters: The passive_end: [1024] is out of range (1025~65535). (0x4100104)
+
+2017-10-20 09:36:02: Expect: that should hint error when body is {"passive_end": 1024}
+
+2017-10-20 09:25:44: 'result': 'p'
+2017-10-20 09:25:44: Actual: invalid name (ftp|nfs|smb)
+
+2017-10-20 09:25:44: Expect: that should hint error when path parameter is 0
+
+2017-10-20 09:25:44: Actual: invalid name (ftp|nfs|smb)
+
+2017-10-20 09:25:44: Expect: that should hint error when path parameter is test
+
+2017-10-20 09:24:07: 'result': 'p'
+2017-10-20 09:24:07: Actual: invalid name (ftp|nfs|smb)
+
+2017-10-20 09:24:07: Expect: that should hint error when path parameter is 0
+
+2017-10-20 09:24:07: Actual: invalid name (ftp|nfs|smb)
+
+2017-10-20 09:24:07: Expect: that should hint error when path parameter is test
+
+2017-10-20 09:24:07: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 404 Not Found</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 404 Not Found</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/protocol/enable/&#039;</tt>
+               caused an error:</p>
+            <pre>Not found: &#039;/service/protocol/enable/&#039;</pre>
+        </body>
+    </html>
+
+
+2017-10-20 09:24:07: Expect: that should hint error when path parameter is 
+
+2017-10-20 09:22:49: 'result': 'p'
+2017-10-20 09:22:49: Actual: invalid name (ftp|nfs|smb)
+
+2017-10-20 09:22:49: Expect: that should hint error when path parameter is 0
+
+2017-10-20 09:22:49: Actual: invalid name (ftp|nfs|smb)
+
+2017-10-20 09:22:49: Expect: that should hint error when path parameter is test
+
+2017-10-20 09:22:49: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 404 Not Found</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 404 Not Found</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/protocol/disable/&#039;</tt>
+               caused an error:</p>
+            <pre>Not found: &#039;/service/protocol/disable/&#039;</pre>
+        </body>
+    </html>
+
+
+2017-10-20 09:22:49: Expect: that should hint error when path parameter is 
+
+2017-10-20 09:22:02: Actual: invalid name (ftp|nfs|smb)
+
+2017-10-20 09:22:02: Expect: that should hint error when path parameter is test
+
+2017-10-20 09:22:02: Actual: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 404 Not Found</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 404 Not Found</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/protocol/disable/&#039;</tt>
+               caused an error:</p>
+            <pre>Not found: &#039;/service/protocol/disable/&#039;</pre>
+        </body>
+    </html>
+
+
+2017-10-20 09:22:02: Expect: that should hint error when path parameter is 
+
+2017-10-19 17:45:34: 'result': 'p'
+2017-10-19 17:45:34: Actual: SMB protocol is enabled
+
+2017-10-19 17:45:33: Expect: SMB protocol should be enabled when it is enabled
+
+2017-10-19 17:45:33: Actual: NFS protocol is enabled
+
+2017-10-19 17:45:33: Expect: NFS protocol should be enabled when it is enabled
+
+2017-10-19 17:45:33: Actual: FTP protocol is enabled
+
+2017-10-19 17:45:33: Expect: FTP protocol should be enabled when it is enabled
+
+2017-10-19 17:45:33: Actual: SMB protocol is enabled
+
+2017-10-19 17:45:32: Expect: SMB protocol should be enabled when it is disabled
+
+2017-10-19 17:45:32: Actual: NFS protocol is enabled
+
+2017-10-19 17:45:32: Expect: NFS protocol should be enabled when it is disabled
+
+2017-10-19 17:45:32: Actual: FTP protocol is enabled
+
+2017-10-19 17:45:32: Expect: FTP protocol should be enabled when it is disabled
+
+2017-10-19 17:39:18: 'result': 'p'
+2017-10-19 17:39:18: Actual: SMB protocol is disabled
+
+2017-10-19 17:39:18: Expect: SMB protocol should be disabled when it is disabled
+
+2017-10-19 17:39:18: Actual: NFS protocol is disabled
+
+2017-10-19 17:39:18: Expect: NFS protocol should be disabled when it is disabled
+
+2017-10-19 17:39:18: Actual: FTP protocol is disabled
+
+2017-10-19 17:39:17: Expect: FTP protocol should be disabled when it is disabled
+
+2017-10-19 17:39:17: Actual: SMB protocol is disabled
+
+2017-10-19 17:39:17: Expect: SMB protocol should be disabled when it is enabled
+
+2017-10-19 17:39:17: Actual: NFS protocol is disabled
+
+2017-10-19 17:39:16: Expect: NFS protocol should be disabled when it is enabled
+
+2017-10-19 17:39:16: Actual: FTP protocol is disabled
+
+2017-10-19 17:39:16: Expect: FTP protocol should be disabled when it is enabled
+
+2017-10-19 17:15:26: Expect: that should return 200 when body is 
+{"tm_enable": 1, "ftp": 0, "nfs": 1, "smb": 1, "allow_ip": []}
+
+2017-10-19 17:14:46: Expect: that should return 200 when body is 
+{"tm_enable": 0, "ftp": 1, "nfs": 0, "smb": 0, "allow_ip": []}
+
+2017-10-19 17:14:46: Fail: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/protocol/storage/nasshare_0&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+
+2017-10-19 17:14:41: Expect: that should return 200 when body is 
+{"tm_enable": 1, "ftp": 0, "nfs": 1, "smb": 1, "allow_ip": []}
+
+2017-10-19 16:58:20: 'result': 'p'
+2017-10-19 16:58:20: Actual: 
+['tm_enable', 'ftp', 'nfs', 'smb', 'allow_ip']
+
+2017-10-19 16:57:58: Expect: 
+['ftp', 'nfs', 'smb', 'tm_enable', 'allow_ip']
+
+2017-10-19 16:57:41: 'result': 'f'
+2017-10-19 16:57:41: Fail: please check out response parameters count
+
+2017-10-19 16:57:41: Actual: 
+['stats', 'enable', 'name']
+
+2017-10-19 16:57:41: Expect: 
+['name', 'status']
+
+2017-10-19 16:30:57: 'result': 'f'
+2017-10-19 16:30:57: Fail: please check out response parameters count
+
+2017-10-19 16:30:57: Actual: 
+['stats', 'enable', 'name']
+
+2017-10-19 16:30:57: Expect: 
+['name', 'status']
+
+2017-10-19 16:21:34: 'result': 'p'
+2017-10-19 16:21:32: Actual: 
+['stats', 'enable', 'name']
+
+2017-10-19 16:21:32: Expect: 
+['name', 'status', 'enable']
+
+2017-10-19 16:20:11: Fail: please check out response parameters count
+
+2017-10-19 16:20:11: Actual: 
+['stats', 'enable', 'name']
+
+2017-10-19 16:20:09: Expect: 
+['name', 'status']
+
+2017-10-19 16:19:57: 'result': 'f'
+2017-10-19 16:19:57: Fail: please check out response parameters count
+
+2017-10-19 16:19:57: Actual: 
+['stats', 'enable', 'name']
+
+2017-10-19 16:19:47: Expect: 
+['name', 'status']
+
+2017-10-19 16:19:04: 'result': 'f'
+2017-10-19 16:19:04: Fail: please check out response parameters count
+
+2017-10-19 16:19:04: Actual: 
+['stats', 'enable', 'name']
+
+2017-10-19 16:19:03: Expect: 
+['name', 'status']
+
+2017-10-19 16:09:38: 'result': 'f'
+2017-10-19 16:09:38: Fail: please check out response parameters count
+
+2017-10-19 16:09:38: Actual: 
+['stats', 'enable', 'name']
+
+2017-10-19 16:09:38: Expect: 
+['name', 'status']
+
+2017-10-19 15:39:24: 'result': 'p'
+2017-10-19 15:39:24: Actual: return 200, and gets ftp protocol info are 
+{"nt_acl": "no", "enable": 1, "workgroup": "test", "desc": "this is the test"}
+
+2017-10-19 15:39:22: Expect: that should return 200 when body is 
+{"nt_acl": "no", "enable": 1, "workgroup": "test", "desc": "this is the test"}
+
+2017-10-19 15:39:22: Actual: return 200, and gets ftp protocol info are 
+{"nt_acl": "yes", "enable": 0, "workgroup": "", "desc": ""}
+
+2017-10-19 15:39:20: Expect: that should return 200 when body is 
+{"nt_acl": "yes", "enable": 0, "workgroup": "", "desc": ""}
+
+2017-10-19 15:38:41: Expect: that should return 200 when body is 
+{"nt_acl": "no", "enable": 1, "workgroup": "test", "desc": "this is the test"}
+
+2017-10-19 15:38:41: Fail: workgroup not available
+
+2017-10-19 15:38:39: Expect: that should return 200 when body is 
+{"nt_acl": "yes", "enable": 0, "workgroup": "", "desc": ""}
+
+2017-10-19 15:26:37: 'result': 'p'
+2017-10-19 15:26:37: Actual: return 200, and gets ftp protocol info are 
+{"enable": 1, "statd_port": 65534, "nfsd_port": 2049, "lockd_port": 65535, "mountd_port": 65533, "portmapper_port": 111}
+
+2017-10-19 15:26:37: Expect: that should return 200 when body is 
+{"enable": 1, "mountd_port": 65533}
+
+2017-10-19 15:26:37: Actual: return 200, and gets ftp protocol info are 
+{"enable": 0, "statd_port": 65533, "nfsd_port": 2049, "lockd_port": 65534, "mountd_port": 65532, "portmapper_port": 111}
+
+2017-10-19 15:26:36: Expect: that should return 200 when body is 
+{"enable": 0, "mountd_port": 65532}
+
+2017-10-19 15:26:36: Actual: return 200, and gets ftp protocol info are 
+{"enable": 1, "statd_port": 1026, "nfsd_port": 2049, "lockd_port": 1027, "mountd_port": 1025, "portmapper_port": 111}
+
+2017-10-19 15:26:36: Expect: that should return 200 when body is 
+{"enable": 1, "mountd_port": 1025}
+
+2017-10-19 15:26:36: Actual: return 200, and gets ftp protocol info are 
+{"enable": 0, "statd_port": 1025, "nfsd_port": 2049, "lockd_port": 1026, "mountd_port": 1024, "portmapper_port": 111}
+
+2017-10-19 15:26:36: Expect: that should return 200 when body is 
+{"enable": 0, "mountd_port": 1024}
+
+2017-10-19 15:26:00: 'result': 'f'
+2017-10-19 15:26:00: Fail: please check out the value 65533
+
+2017-10-19 15:26:00: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 1025, "enable": 0, "passive_start": 1024, "cmd_port": 1, "charset": "zh_tw", "dw_rate": 65536, "up_rate": 0, "encrypt_type": 0}
+
+2017-10-19 15:26:00: Expect: that should return 200 when body is 
+{"enable": 1, "mountd_port": 65533}
+
+2017-10-19 15:26:00: Fail: please check out the value 65532
+
+2017-10-19 15:26:00: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 1025, "enable": 0, "passive_start": 1024, "cmd_port": 1, "charset": "zh_tw", "dw_rate": 65536, "up_rate": 0, "encrypt_type": 0}
+
+2017-10-19 15:25:59: Expect: that should return 200 when body is 
+{"enable": 0, "mountd_port": 65532}
+
+2017-10-19 15:25:59: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 1025, "enable": 0, "passive_start": 1024, "cmd_port": 1, "charset": "zh_tw", "dw_rate": 65536, "up_rate": 0, "encrypt_type": 0}
+
+2017-10-19 15:25:35: Expect: that should return 200 when body is 
+{"enable": 1, "mountd_port": 1025}
+
+2017-10-19 15:25:35: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 1025, "enable": 0, "passive_start": 1024, "cmd_port": 1, "charset": "zh_tw", "dw_rate": 65536, "up_rate": 0, "encrypt_type": 0}
+
+2017-10-19 15:25:34: Expect: that should return 200 when body is 
+{"enable": 0, "mountd_port": 1024}
+
+2017-10-19 15:23:59: 'result': 'f'
+2017-10-19 15:23:59: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 1025, "enable": 0, "passive_start": 1024, "cmd_port": 1, "charset": "zh_tw", "dw_rate": 65536, "up_rate": 0, "encrypt_type": 0}
+
+2017-10-19 15:23:59: Fail: please check out the value 0
+
+2017-10-19 15:23:59: Fail: please check out the value 0
+
+2017-10-19 15:23:59: Fail: please check out the value 65536
+
+2017-10-19 15:23:59: Fail: please check out the value zh_tw
+
+2017-10-19 15:23:59: Fail: please check out the value 1024
+
+2017-10-19 15:23:59: Fail: please check out the value 0
+
+2017-10-19 15:23:59: Fail: please check out the value 1025
+
+2017-10-19 15:23:59: Expect: that should return 200 when body is 
+{"enable": 1, "mountd_port": 65533}
+
+2017-10-19 15:23:59: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 1025, "enable": 0, "passive_start": 1024, "cmd_port": 1, "charset": "zh_tw", "dw_rate": 65536, "up_rate": 0, "encrypt_type": 0}
+
+2017-10-19 15:23:59: Fail: please check out the value 65536
+
+2017-10-19 15:23:59: Fail: please check out the value zh_tw
+
+2017-10-19 15:23:59: Fail: please check out the value 1
+
+2017-10-19 15:23:59: Fail: please check out the value 1024
+
+2017-10-19 15:23:59: Fail: please check out the value 1025
+
+2017-10-19 15:23:59: Expect: that should return 200 when body is 
+{"enable": 0, "mountd_port": 65532}
+
+2017-10-19 15:23:59: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 1025, "enable": 0, "passive_start": 1024, "cmd_port": 1, "charset": "zh_tw", "dw_rate": 65536, "up_rate": 0, "encrypt_type": 0}
+
+2017-10-19 15:23:59: Fail: please check out the value 0
+
+2017-10-19 15:23:59: Fail: please check out the value 0
+
+2017-10-19 15:23:59: Fail: please check out the value 65536
+
+2017-10-19 15:23:59: Fail: please check out the value zh_tw
+
+2017-10-19 15:23:59: Fail: please check out the value 1024
+
+2017-10-19 15:23:59: Fail: please check out the value 0
+
+2017-10-19 15:23:58: Expect: that should return 200 when body is 
+{"enable": 1, "mountd_port": 1025}
+
+2017-10-19 15:23:58: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 1025, "enable": 0, "passive_start": 1024, "cmd_port": 1, "charset": "zh_tw", "dw_rate": 65536, "up_rate": 0, "encrypt_type": 0}
+
+2017-10-19 15:23:58: Fail: please check out the value 65536
+
+2017-10-19 15:23:58: Fail: please check out the value zh_tw
+
+2017-10-19 15:23:58: Fail: please check out the value 1
+
+2017-10-19 15:23:58: Fail: please check out the value 1025
+
+2017-10-19 15:23:58: Expect: that should return 200 when body is 
+{"enable": 0, "mountd_port": 1024}
+
+2017-10-19 15:23:18: 'result': 'f'
+2017-10-19 15:23:18: Fail: Incorrect parameters: The parameter mountd_port must be 1024~65533. (0x4100104)
+
+2017-10-19 15:23:18: Expect: that should return 200 when body is 
+{"enable": 1, "mountd_port": 65535}
+
+2017-10-19 15:23:18: Fail: Incorrect parameters: The parameter mountd_port must be 1024~65533. (0x4100104)
+
+2017-10-19 15:23:18: Expect: that should return 200 when body is 
+{"enable": 0, "mountd_port": 65534}
+
+2017-10-19 15:23:18: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 1025, "enable": 0, "passive_start": 1024, "cmd_port": 1, "charset": "zh_tw", "dw_rate": 65536, "up_rate": 0, "encrypt_type": 0}
+
+2017-10-19 15:23:18: Fail: please check out the value 0
+
+2017-10-19 15:23:18: Fail: please check out the value 0
+
+2017-10-19 15:23:18: Fail: please check out the value 65536
+
+2017-10-19 15:23:18: Fail: please check out the value zh_tw
+
+2017-10-19 15:23:18: Fail: please check out the value 1024
+
+2017-10-19 15:23:18: Fail: please check out the value 0
+
+2017-10-19 15:23:18: Expect: that should return 200 when body is 
+{"enable": 1, "mountd_port": 1025}
+
+2017-10-19 15:23:18: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 1025, "enable": 0, "passive_start": 1024, "cmd_port": 1, "charset": "zh_tw", "dw_rate": 65536, "up_rate": 0, "encrypt_type": 0}
+
+2017-10-19 15:23:18: Fail: please check out the value 65536
+
+2017-10-19 15:23:18: Fail: please check out the value zh_tw
+
+2017-10-19 15:23:18: Fail: please check out the value 1
+
+2017-10-19 15:23:18: Fail: please check out the value 1025
+
+2017-10-19 15:23:10: Expect: that should return 200 when body is 
+{"enable": 0, "mountd_port": 1024}
+
+2017-10-19 15:22:12: Expect: that should return 200 when body is 
+{"enable": 0, "mountd_port": 56746}
+
+2017-10-19 15:20:58: Expect: that should return 200 when body is 
+{"enable": 0, "mountd_port": 65024}
+
+2017-10-19 15:20:34: Expect: that should return 200 when body is 
+{"enable": 0, "mountd_port": 1024}
+
+2017-10-19 15:19:42: Expect: that should return 200 when body is 
+{"enable": 0, "port": 1024}
+
+2017-10-19 15:17:15: Expect: that should return 200 when body is 
+{"enable": 0, "mountd_port": 1024}
+
+2017-10-19 15:12:41: 'result': 'p'
+2017-10-19 15:12:41: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 1025, "enable": 0, "passive_start": 1024, "cmd_port": 1, "charset": "zh_tw", "dw_rate": 65536, "up_rate": 0, "encrypt_type": 0}
+
+2017-10-19 15:12:40: Expect: that should return 200 when body is 
+{"passive_end": 1025, "enable": 0, "passive_start": 1024, "encrypt_type": 0, "charset": "zh_tw", "dw_rate": 65536, "up_rate": 0, "cmd_port": 1}
+
+2017-10-19 15:12:40: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 65535, "enable": 1, "passive_start": 65534, "cmd_port": 65535, "charset": "zh_cn", "dw_rate": 65535, "up_rate": 126, "encrypt_type": 3}
+
+2017-10-19 15:12:40: Expect: that should return 200 when body is 
+{"passive_end": 65535, "enable": 1, "passive_start": 65534, "encrypt_type": 3, "charset": "zh_cn", "dw_rate": 65535, "up_rate": 126, "cmd_port": 65535}
+
+2017-10-19 15:12:40: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 65534, "enable": 0, "passive_start": 65533, "cmd_port": 65534, "charset": "ko_kr", "dw_rate": 2048, "up_rate": 1024, "encrypt_type": 2}
+
+2017-10-19 15:12:40: Expect: that should return 200 when body is 
+{"passive_end": 65534, "enable": 0, "passive_start": 65533, "encrypt_type": 2, "charset": "ko_kr", "dw_rate": 2048, "up_rate": 1024, "cmd_port": 65534}
+
+2017-10-19 15:12:40: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 1026, "enable": 1, "passive_start": 1025, "cmd_port": 2, "charset": "ja_jp", "dw_rate": 512, "up_rate": 65535, "encrypt_type": 1}
+
+2017-10-19 15:12:40: Expect: that should return 200 when body is 
+{"passive_end": 1026, "enable": 1, "passive_start": 1025, "encrypt_type": 1, "charset": "ja_jp", "dw_rate": 512, "up_rate": 65535, "cmd_port": 2}
+
+2017-10-19 15:12:39: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 1025, "enable": 0, "passive_start": 1024, "cmd_port": 1, "charset": "utf8", "dw_rate": 0, "up_rate": 65536, "encrypt_type": 0}
+
+2017-10-19 15:12:39: Expect: that should return 200 when body is 
+{"passive_end": 1025, "enable": 0, "passive_start": 1024, "encrypt_type": 0, "charset": "utf8", "dw_rate": 0, "up_rate": 65536, "cmd_port": 1}
+
+2017-10-19 15:11:44: 'result': 'p'
+2017-10-19 15:11:44: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 1025, "enable": 0, "passive_start": 1024, "cmd_port": 1, "charset": "zh_tw", "dw_rate": 65536, "up_rate": 0, "encrypt_type": 0}
+
+2017-10-19 15:11:44: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 1025, "enable": 0, "passive_start": 1024, "cmd_port": 1, "charset": "zh_tw", "dw_rate": 65536, "up_rate": 0, "encrypt_type": 0}
+
+2017-10-19 15:11:44: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 1025, "enable": 0, "passive_start": 1024, "cmd_port": 1, "charset": "zh_tw", "dw_rate": 65536, "up_rate": 0, "encrypt_type": 0}
+
+2017-10-19 15:11:44: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 1025, "enable": 0, "passive_start": 1024, "cmd_port": 1, "charset": "zh_tw", "dw_rate": 65536, "up_rate": 0, "encrypt_type": 0}
+
+2017-10-19 15:11:44: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 1025, "enable": 0, "passive_start": 1024, "cmd_port": 1, "charset": "zh_tw", "dw_rate": 65536, "up_rate": 0, "encrypt_type": 0}
+
+2017-10-19 15:11:44: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 1025, "enable": 0, "passive_start": 1024, "cmd_port": 1, "charset": "zh_tw", "dw_rate": 65536, "up_rate": 0, "encrypt_type": 0}
+
+2017-10-19 15:11:44: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 1025, "enable": 0, "passive_start": 1024, "cmd_port": 1, "charset": "zh_tw", "dw_rate": 65536, "up_rate": 0, "encrypt_type": 0}
+
+2017-10-19 15:11:44: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 1025, "enable": 0, "passive_start": 1024, "cmd_port": 1, "charset": "zh_tw", "dw_rate": 65536, "up_rate": 0, "encrypt_type": 0}
+
+2017-10-19 15:11:42: Expect: that should return 200 when body is 
+{"passive_end": 1025, "enable": 0, "passive_start": 1024, "encrypt_type": 0, "charset": "zh_tw", "dw_rate": 65536, "up_rate": 0, "cmd_port": 1}
+
+2017-10-19 15:11:42: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 65535, "enable": 1, "passive_start": 65534, "cmd_port": 65535, "charset": "zh_cn", "dw_rate": 65535, "up_rate": 126, "encrypt_type": 3}
+
+2017-10-19 15:11:42: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 65535, "enable": 1, "passive_start": 65534, "cmd_port": 65535, "charset": "zh_cn", "dw_rate": 65535, "up_rate": 126, "encrypt_type": 3}
+
+2017-10-19 15:11:42: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 65535, "enable": 1, "passive_start": 65534, "cmd_port": 65535, "charset": "zh_cn", "dw_rate": 65535, "up_rate": 126, "encrypt_type": 3}
+
+2017-10-19 15:11:42: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 65535, "enable": 1, "passive_start": 65534, "cmd_port": 65535, "charset": "zh_cn", "dw_rate": 65535, "up_rate": 126, "encrypt_type": 3}
+
+2017-10-19 15:11:42: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 65535, "enable": 1, "passive_start": 65534, "cmd_port": 65535, "charset": "zh_cn", "dw_rate": 65535, "up_rate": 126, "encrypt_type": 3}
+
+2017-10-19 15:11:42: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 65535, "enable": 1, "passive_start": 65534, "cmd_port": 65535, "charset": "zh_cn", "dw_rate": 65535, "up_rate": 126, "encrypt_type": 3}
+
+2017-10-19 15:11:42: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 65535, "enable": 1, "passive_start": 65534, "cmd_port": 65535, "charset": "zh_cn", "dw_rate": 65535, "up_rate": 126, "encrypt_type": 3}
+
+2017-10-19 15:11:42: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 65535, "enable": 1, "passive_start": 65534, "cmd_port": 65535, "charset": "zh_cn", "dw_rate": 65535, "up_rate": 126, "encrypt_type": 3}
+
+2017-10-19 15:11:29: Expect: that should return 200 when body is 
+{"passive_end": 65535, "enable": 1, "passive_start": 65534, "encrypt_type": 3, "charset": "zh_cn", "dw_rate": 65535, "up_rate": 126, "cmd_port": 65535}
+
+2017-10-19 15:11:29: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 65534, "enable": 0, "passive_start": 65533, "cmd_port": 65534, "charset": "ko_kr", "dw_rate": 2048, "up_rate": 1024, "encrypt_type": 2}
+
+2017-10-19 15:11:29: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 65534, "enable": 0, "passive_start": 65533, "cmd_port": 65534, "charset": "ko_kr", "dw_rate": 2048, "up_rate": 1024, "encrypt_type": 2}
+
+2017-10-19 15:11:29: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 65534, "enable": 0, "passive_start": 65533, "cmd_port": 65534, "charset": "ko_kr", "dw_rate": 2048, "up_rate": 1024, "encrypt_type": 2}
+
+2017-10-19 15:11:28: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 65534, "enable": 0, "passive_start": 65533, "cmd_port": 65534, "charset": "ko_kr", "dw_rate": 2048, "up_rate": 1024, "encrypt_type": 2}
+
+2017-10-19 15:11:28: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 65534, "enable": 0, "passive_start": 65533, "cmd_port": 65534, "charset": "ko_kr", "dw_rate": 2048, "up_rate": 1024, "encrypt_type": 2}
+
+2017-10-19 15:11:28: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 65534, "enable": 0, "passive_start": 65533, "cmd_port": 65534, "charset": "ko_kr", "dw_rate": 2048, "up_rate": 1024, "encrypt_type": 2}
+
+2017-10-19 15:11:28: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 65534, "enable": 0, "passive_start": 65533, "cmd_port": 65534, "charset": "ko_kr", "dw_rate": 2048, "up_rate": 1024, "encrypt_type": 2}
+
+2017-10-19 15:11:28: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 65534, "enable": 0, "passive_start": 65533, "cmd_port": 65534, "charset": "ko_kr", "dw_rate": 2048, "up_rate": 1024, "encrypt_type": 2}
+
+2017-10-19 15:11:27: Expect: that should return 200 when body is 
+{"passive_end": 65534, "enable": 0, "passive_start": 65533, "encrypt_type": 2, "charset": "ko_kr", "dw_rate": 2048, "up_rate": 1024, "cmd_port": 65534}
+
+2017-10-19 15:11:27: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 1026, "enable": 1, "passive_start": 1025, "cmd_port": 2, "charset": "ja_jp", "dw_rate": 512, "up_rate": 65535, "encrypt_type": 1}
+
+2017-10-19 15:11:27: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 1026, "enable": 1, "passive_start": 1025, "cmd_port": 2, "charset": "ja_jp", "dw_rate": 512, "up_rate": 65535, "encrypt_type": 1}
+
+2017-10-19 15:11:27: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 1026, "enable": 1, "passive_start": 1025, "cmd_port": 2, "charset": "ja_jp", "dw_rate": 512, "up_rate": 65535, "encrypt_type": 1}
+
+2017-10-19 15:11:27: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 1026, "enable": 1, "passive_start": 1025, "cmd_port": 2, "charset": "ja_jp", "dw_rate": 512, "up_rate": 65535, "encrypt_type": 1}
+
+2017-10-19 15:11:27: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 1026, "enable": 1, "passive_start": 1025, "cmd_port": 2, "charset": "ja_jp", "dw_rate": 512, "up_rate": 65535, "encrypt_type": 1}
+
+2017-10-19 15:11:27: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 1026, "enable": 1, "passive_start": 1025, "cmd_port": 2, "charset": "ja_jp", "dw_rate": 512, "up_rate": 65535, "encrypt_type": 1}
+
+2017-10-19 15:11:27: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 1026, "enable": 1, "passive_start": 1025, "cmd_port": 2, "charset": "ja_jp", "dw_rate": 512, "up_rate": 65535, "encrypt_type": 1}
+
+2017-10-19 15:11:27: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 1026, "enable": 1, "passive_start": 1025, "cmd_port": 2, "charset": "ja_jp", "dw_rate": 512, "up_rate": 65535, "encrypt_type": 1}
+
+2017-10-19 15:11:23: Expect: that should return 200 when body is 
+{"passive_end": 1026, "enable": 1, "passive_start": 1025, "encrypt_type": 1, "charset": "ja_jp", "dw_rate": 512, "up_rate": 65535, "cmd_port": 2}
+
+2017-10-19 15:11:23: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 1025, "enable": 0, "passive_start": 1024, "cmd_port": 1, "charset": "utf8", "dw_rate": 0, "up_rate": 65536, "encrypt_type": 0}
+
+2017-10-19 15:11:23: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 1025, "enable": 0, "passive_start": 1024, "cmd_port": 1, "charset": "utf8", "dw_rate": 0, "up_rate": 65536, "encrypt_type": 0}
+
+2017-10-19 15:11:23: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 1025, "enable": 0, "passive_start": 1024, "cmd_port": 1, "charset": "utf8", "dw_rate": 0, "up_rate": 65536, "encrypt_type": 0}
+
+2017-10-19 15:11:23: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 1025, "enable": 0, "passive_start": 1024, "cmd_port": 1, "charset": "utf8", "dw_rate": 0, "up_rate": 65536, "encrypt_type": 0}
+
+2017-10-19 15:11:23: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 1025, "enable": 0, "passive_start": 1024, "cmd_port": 1, "charset": "utf8", "dw_rate": 0, "up_rate": 65536, "encrypt_type": 0}
+
+2017-10-19 15:11:23: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 1025, "enable": 0, "passive_start": 1024, "cmd_port": 1, "charset": "utf8", "dw_rate": 0, "up_rate": 65536, "encrypt_type": 0}
+
+2017-10-19 15:11:23: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 1025, "enable": 0, "passive_start": 1024, "cmd_port": 1, "charset": "utf8", "dw_rate": 0, "up_rate": 65536, "encrypt_type": 0}
+
+2017-10-19 15:11:23: Actual: return 200, and gets ftp protocol info are 
+{"passive_end": 1025, "enable": 0, "passive_start": 1024, "cmd_port": 1, "charset": "utf8", "dw_rate": 0, "up_rate": 65536, "encrypt_type": 0}
+
+2017-10-19 15:11:12: Expect: that should return 200 when body is 
+{"passive_end": 1025, "enable": 0, "passive_start": 1024, "encrypt_type": 0, "charset": "utf8", "dw_rate": 0, "up_rate": 65536, "cmd_port": 1}
+
+2017-10-19 15:06:27: Expect: that should return 200 when body is 
+{"passive_end": 1025, "enable": 0, "passive_start": 1024, "encrypt_type": 0, "charset": "utf8", "dw_rate": 0, "up_rate": 65536, "port": 1}
+
+2017-10-19 15:05:50: 'result': 'f'
+2017-10-19 15:05:50: Fail: port not available
+
+2017-10-19 15:05:50: Expect: that should return 200 when body is 
+{"passive_end": 1025, "enable": 0, "passive_start": 1024, "encrypt_type": 0, "charset": "zh_tw", "dw_rate": 65536, "up_rate": 0, "port": 1}
+
+2017-10-19 15:05:50: Fail: port not available
+
+2017-10-19 15:05:50: Expect: that should return 200 when body is 
+{"passive_end": 65535, "enable": 1, "passive_start": 65534, "encrypt_type": 3, "charset": "zh_cn", "dw_rate": 65535, "up_rate": 126, "port": 65535}
+
+2017-10-19 15:05:50: Fail: port not available
+
+2017-10-19 15:05:50: Expect: that should return 200 when body is 
+{"passive_end": 65534, "enable": 0, "passive_start": 65533, "encrypt_type": 2, "charset": "ko_kr", "dw_rate": 2048, "up_rate": 1024, "port": 65534}
+
+2017-10-19 15:05:49: Fail: port not available
+
+2017-10-19 15:05:49: Expect: that should return 200 when body is 
+{"passive_end": 1026, "enable": 1, "passive_start": 1025, "encrypt_type": 1, "charset": "ja_jp", "dw_rate": 512, "up_rate": 65535, "port": 2}
+
+2017-10-19 15:05:49: Fail: port not available
+
+2017-10-19 15:05:49: Expect: that should return 200 when body is 
+{"passive_end": 1025, "enable": 0, "passive_start": 1024, "encrypt_type": 0, "charset": "utf8", "dw_rate": 0, "up_rate": 65536, "port": 1}
+
+2017-10-19 15:05:04: 'result': 'f'
+2017-10-19 15:05:04: Fail: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 405 Method Not Allowed</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 405 Method Not Allowed</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/ftp&#039;</tt>
+               caused an error:</p>
+            <pre>Method not allowed.</pre>
+        </body>
+    </html>
+
+
+2017-10-19 15:05:04: Expect: that should return 200 when body is 
+{"passive_end": 1025, "enable": 0, "passive_start": 1024, "encrypt_type": 0, "charset": "zh_tw", "dw_rate": 65536, "up_rate": 0, "port": 1}
+
+2017-10-19 15:05:04: Fail: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 405 Method Not Allowed</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 405 Method Not Allowed</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/ftp&#039;</tt>
+               caused an error:</p>
+            <pre>Method not allowed.</pre>
+        </body>
+    </html>
+
+
+2017-10-19 15:05:04: Expect: that should return 200 when body is 
+{"passive_end": 65535, "enable": 1, "passive_start": 65534, "encrypt_type": 3, "charset": "zh_cn", "dw_rate": 65535, "up_rate": 126, "port": 65535}
+
+2017-10-19 15:05:04: Fail: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 405 Method Not Allowed</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 405 Method Not Allowed</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/ftp&#039;</tt>
+               caused an error:</p>
+            <pre>Method not allowed.</pre>
+        </body>
+    </html>
+
+
+2017-10-19 15:05:04: Expect: that should return 200 when body is 
+{"passive_end": 65534, "enable": 0, "passive_start": 65533, "encrypt_type": 2, "charset": "ko_kr", "dw_rate": 2048, "up_rate": 1024, "port": 65534}
+
+2017-10-19 15:05:04: Fail: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 405 Method Not Allowed</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 405 Method Not Allowed</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/ftp&#039;</tt>
+               caused an error:</p>
+            <pre>Method not allowed.</pre>
+        </body>
+    </html>
+
+
+2017-10-19 15:05:04: Expect: that should return 200 when body is 
+{"passive_end": 1026, "enable": 1, "passive_start": 1025, "encrypt_type": 1, "charset": "ja_jp", "dw_rate": 512, "up_rate": 65535, "port": 2}
+
+2017-10-19 15:05:04: Fail: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 405 Method Not Allowed</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 405 Method Not Allowed</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/ftp&#039;</tt>
+               caused an error:</p>
+            <pre>Method not allowed.</pre>
+        </body>
+    </html>
+
+
+2017-10-19 15:05:04: Expect: that should return 200 when body is 
+{"passive_end": 1025, "enable": 0, "passive_start": 1024, "encrypt_type": 0, "charset": "utf8", "dw_rate": 0, "up_rate": 65536, "port": 1}
+
+2017-10-19 14:41:14: 
+2017-10-19 14:41:14: 
+2017-10-19 14:41:14: 
+2017-10-19 14:41:14: 
+2017-10-19 14:40:46: 
+2017-10-19 14:40:46: 
+2017-10-19 14:40:46: 
+2017-10-19 14:40:46: 
+2017-10-19 14:39:43: 
+2017-10-19 14:39:43: 
+2017-10-19 14:39:43: 
+2017-10-19 14:39:43: 
+2017-10-19 14:39:43: 
+2017-10-19 14:39:43: 
+2017-10-19 14:39:43: 
+2017-10-19 14:39:43: 
+2017-10-19 14:38:32: 
+2017-10-19 14:38:32: 
+2017-10-19 14:38:31: 
+2017-10-19 14:38:31: 
+2017-10-19 14:38:31: 
+2017-10-19 14:38:31: 
+2017-10-19 14:38:31: 
+2017-10-19 14:38:31: 
+2017-10-19 14:37:56: 'result': 'f'
+2017-10-19 14:37:56: Fail: cmd_port is not in response
+
+2017-10-19 14:37:56: Actual: 
+['passive_end', 'enable', 'passive_start', 'cmd_port', 'charset', 'dw_rate', 'p_rate', 'encrypt_type']
+
+2017-10-19 14:37:55: Expect: 
+['enable', 'encrypt_type', 'port', 'passive_start', 'passive_end', 'charset', 'dw_rate', 'up_rate']
+
+2017-10-19 11:25:47: 'result': 'f'
+2017-10-19 11:25:47: Fail: cmd_port is not in response
+
+2017-10-19 11:25:47: Actual: 
+['passive_end', 'enable', 'passive_start', 'cmd_port', 'charset', 'dw_rate', 'p_rate', 'encrypt_type']
+
+2017-10-19 11:25:47: Expect: 
+['enable', 'encrypt_type', 'port', 'passive_start', 'passive_end', 'charset', 'dw_rate', 'up_rate']
+
+2017-10-19 11:22:45: 'result': 'f'
+2017-10-19 11:22:45: Fail: please check out response parameter: group_members
+
+2017-10-19 11:22:45: Actual: 
+['grop_members', 'gid', 'id', 'description']
+
+2017-10-19 11:22:44: Expect: 
+['id', 'gid', 'description', 'group_member']
+
+2017-10-19 11:20:00: 'result': 'f'
+2017-10-19 11:20:00: Fail: please check out response parameter: group_members
+
+2017-10-19 11:20:00: Actual: the group users is listed
+
+2017-10-19 11:20:00: Expect: list users group
+
+2017-10-19 11:20:00: Fail: Unknown error (0x4100104)
+
+2017-10-19 11:19:59: Expect: list a group
+
+2017-10-19 11:12:28: 'result': 'p'
+2017-10-19 11:12:28: Actual: 
+['nt_acl', 'enable', 'workgrop', 'desc']
+
+2017-10-19 11:12:28: Expect: 
+['enable', 'desc', 'workgroup', 'nt_acl']
+
+2017-10-19 11:11:01: 'result': 'p'
+2017-10-19 11:11:01: Actual: 
+['enable', 'statd_port', 'nfsd_port', 'lockd_port', 'montd_port', 'portmapper_port']
+
+2017-10-19 11:11:01: Expect: 
+['enable', 'portmapper_port', 'nfsd_port', 'mountd_port', 'statd_port', 'lockd_port']
+
+2017-10-19 11:08:34: 'result': 'f'
+2017-10-19 11:08:34: Fail: cmd_port is not in response
+
+2017-10-19 11:08:34: Actual: 
+['passive_end', 'enable', 'passive_start', 'cmd_port', 'charset', 'dw_rate', 'p_rate', 'encrypt_type']
+
+2017-10-19 11:08:34: Expect: 
+['enable', 'encrypt_type', 'port', 'passive_start', 'passive_end', 'charset', 'dw_rate', 'up_rate']
+
+2017-10-19 11:08:05: 'result': 'f'
+2017-10-19 11:08:05: Fail: cmd_port is not in response
+
+2017-10-19 11:08:05: Actual: 
+[u'passive_end', u'enable', u'passive_start', u'cmd_port', u'charset', u'dw_rate', u'up_rate', u'encrypt_type']
+
+2017-10-19 11:08:04: Expect: 
+['enable', 'encrypt_type', 'port', 'passive_start', 'passive_end', 'charset', 'dw_rate', 'up_rate']
+
+2017-10-19 11:06:56: 'result': 'f'
+2017-10-19 11:06:56: Fail: cmd_port is not in response
+
+2017-10-19 11:06:56: Expect: 
+['enable', 'encrypt_type', 'port', 'passive_start', 'passive_end', 'charset', 'dw_rate', 'up_rate']
+
+2017-10-19 11:05:29: 'result': 'f'
+2017-10-19 11:05:29: Fail: cmd_port is not in response
+
+2017-10-19 11:05:29: Expect: should return about fpt all of parameters
+
+2017-10-19 11:04:55: 'result': 'f'
+2017-10-19 11:04:55: Actual: all of parameters are returned
+
+2017-10-19 11:04:55: Actual: all of parameters are returned
+
+2017-10-19 11:04:55: Actual: all of parameters are returned
+
+2017-10-19 11:04:55: Actual: all of parameters are returned
+
+2017-10-19 11:04:55: Fail: cmd_port is not in response
+
+2017-10-19 11:04:55: Actual: all of parameters are returned
+
+2017-10-19 11:04:55: Actual: all of parameters are returned
+
+2017-10-19 11:04:55: Actual: all of parameters are returned
+
+2017-10-19 11:04:55: Expect: should return about fpt all of parameters
+
+2017-10-19 11:04:30: 'result': 'f'
+2017-10-19 11:04:30: Actual: all of parameters are returned
+
+2017-10-19 11:04:30: Actual: all of parameters are returned
+
+2017-10-19 11:04:30: Actual: all of parameters are returned
+
+2017-10-19 11:04:30: Actual: all of parameters are returned
+
+2017-10-19 11:04:29: Fail: cmd_port is not in response
+
+2017-10-19 11:04:29: Actual: all of parameters are returned
+
+2017-10-19 11:04:29: Actual: all of parameters are returned
+
+2017-10-19 11:04:29: Actual: all of parameters are returned
+
+2017-10-19 11:04:29: Expect: should return about fpt all of parameters
+
+2017-10-19 11:02:35: 'result': 'f'
+2017-10-19 11:02:35: Fail: cmd_port is not in response
+
+2017-10-19 11:02:35: Expect: should return about fpt all of parameters
+
+2017-10-19 11:02:03: 'result': 'f'
+2017-10-19 11:02:03: Fail: cmd_port is not in response
+
+2017-10-19 11:02:03: Fail: please check out response parameters count
+
+2017-10-19 11:02:03: Expect: should return about fpt all of parameters
+
+2017-10-19 11:00:41: Expect: should return about fpt all of parameters
+
+2017-10-19 11:00:02: 'result': 'f'
+2017-10-19 11:00:02: Fail: cmd_port is not in response
+
+2017-10-19 11:00:02: Fail: please check out response parameters count
+
+2017-10-19 11:00:02: Expect: should return about fpt all of parameters
+
+2017-10-19 10:42:34: Expect: should return about fpt all of parameters
+
+2017-10-19 10:32:13: 'result': 'p'
+2017-10-19 10:32:13: Actual: all protocol is reset
+
+2017-10-19 10:32:12: Expect: all protocol should be reset
+
+2017-10-19 10:32:12: Actual: SMB protocol is reset
+
+2017-10-19 10:32:12: SMB protocol should be reset
+
+2017-10-19 10:32:12: Actual: NFS protocol is reset
+
+2017-10-19 10:32:12: NFS protocol should be reset
+
+2017-10-19 10:32:12: Actual: FTP protocol is reset
+
+2017-10-19 10:32:12: FTP protocol should be reset
+
+2017-10-19 10:31:37: 'result': 'p'
+2017-10-19 10:31:37: Actual: all protocol is reset
+
+2017-10-19 10:31:36: Expect: reset all protocol
+
+2017-10-19 10:31:36: Actual: SMB protocol is reset
+
+2017-10-19 10:31:36: SMB protocol should be reset
+
+2017-10-19 10:31:36: Actual: NFS protocol is reset
+
+2017-10-19 10:31:36: NFS protocol should be reset
+
+2017-10-19 10:31:36: Actual: FTP protocol is reset
+
+2017-10-19 10:31:36: FTP protocol should be reset
+
 2017-10-19 10:28:52: NFS protocol should be reset
 
 2017-10-19 10:28:52: Actual: FTP protocol is reset
