@@ -43,12 +43,6 @@ class Server(object):
         returninfo["parameters"] = parameters
         returninfo["response"] = response
 
-        try:
-            if response.text != "":
-                setattr(response, "data", response.json())
-        except:
-            return str(response.text)
-
         return returninfo
 
     def webapiurl(self, method, service, urlparameter):
@@ -69,11 +63,11 @@ class Server(object):
         returninfo["parameters"] = urlparameter
         returninfo["response"] = response
 
-        try:
-            if response.text != "":
-                setattr(response, "data", response.json())
-        except:
-            return str(response.text)
+        # try:
+        #     if response.text != "":
+        #         setattr(response, "data", response.json())
+        # except:
+        #     return str(response.text)
 
         return returninfo
 

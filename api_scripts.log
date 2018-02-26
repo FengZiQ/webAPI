@@ -1,3 +1,600 @@
+2018-02-26 17:57:27: Error Message: Invalid username (0x200)
+
+2018-02-26 17:57:27: Fail: HTTP status code is <Response [400]>
+2018-02-26 17:57:27: Expect: {u'status': 1, u'display_name': u'test_test_test_test_test_test32', u'passwd': u'test_test_test_test_test_tes31', u'email': u'1@aa.aac', u'privilege': u'super', u'id': u'test_test_test_test_tes25'}
+
+2018-02-26 17:57:27: Error Message: Invalid username (0x200)
+
+2018-02-26 17:57:27: Fail: HTTP status code is <Response [400]>
+2018-02-26 17:57:27: Expect: {u'status': 0, u'display_name': u'test_test_test_test_test_tes31', u'passwd': u'', u'email': u'a@aa.aac', u'privilege': u'power', u'id': u'test_test_test_test_te24'}
+
+2018-02-26 17:57:27: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-26 17:57:21: Expect: {u'status': 0, u'display_name': u'*', u'passwd': u'test_test_test_test_test_te30', u'email': u'', u'privilege': u'maintenance', u'id': u'12'}
+
+2018-02-26 17:57:21: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-26 17:57:14: Expect: {u'status': 1, u'display_name': u'', u'passwd': u'p_d.*#', u'email': u'1@11.11', u'privilege': u'view', u'id': u'T'}
+
+2018-02-26 17:48:25: Error Message: Invalid username (0x200)
+
+2018-02-26 17:48:25: Fail: HTTP status code is <Response [400]>
+2018-02-26 17:48:25: Expect: {u'status': 1, u'display_name': u'test_test_test_test_test_test32', u'passwd': u'test_test_test_test_test_tes31', u'email': u'1@aa.aac', u'privilege': u'super', u'id': u'test_test_test_test_tes25'}
+
+2018-02-26 17:48:25: Error Message: Invalid username (0x200)
+
+2018-02-26 17:48:25: Fail: HTTP status code is <Response [400]>
+2018-02-26 17:48:25: Expect: {u'status': 0, u'display_name': u'test_test_test_test_test_tes31', u'passwd': u'', u'email': u'a@aa.aac', u'privilege': u'power', u'id': u'test_test_test_test_te24'}
+
+2018-02-26 17:48:25: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-26 17:48:18: Expect: {u'status': 0, u'display_name': u'*', u'passwd': u'test_test_test_test_test_te30', u'email': u'', u'privilege': u'maintenance', u'id': u'12'}
+
+2018-02-26 17:48:18: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-26 17:48:12: Expect: {u'status': 1, u'display_name': u'', u'passwd': u'p_d.*#', u'email': u'1@11.11', u'privilege': u'view', u'id': u'T'}
+
+2018-02-26 17:45:13: Error Message: Invalid username (0x200)
+
+2018-02-26 17:45:13: Fail: HTTP status code is <Response [400]>
+2018-02-26 17:45:13: Expect: {u'status': 1, u'display_name': u'test_test_test_test_test_test32', u'passwd': u'test_test_test_test_test_tes31', u'email': u'1@aa.aac', u'privilege': u'super', u'id': u'test_test_test_test_tes25'}
+
+2018-02-26 17:45:13: Error Message: Invalid username (0x200)
+
+2018-02-26 17:45:13: Fail: HTTP status code is <Response [400]>
+2018-02-26 17:45:13: Expect: {u'status': 0, u'display_name': u'test_test_test_test_test_tes31', u'passwd': u'', u'email': u'a@aa.aac', u'privilege': u'power', u'id': u'test_test_test_test_te24'}
+
+2018-02-26 17:45:13: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-26 17:45:06: Expect: {u'status': 0, u'display_name': u'*', u'passwd': u'test_test_test_test_test_te30', u'email': u'', u'privilege': u'maintenance', u'id': u'12'}
+
+2018-02-26 17:45:06: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-26 17:45:00: Expect: {u'status': 1, u'display_name': u'', u'passwd': u'p_d.*#', u'email': u'1@11.11', u'privilege': u'view', u'id': u'T'}
+
+2018-02-26 16:05:47: Error Message: Invalid username (0x200)
+
+2018-02-26 16:05:47: Fail: HTTP status code is <Response [400]>
+2018-02-26 16:05:47: Expect: {u'status': 1, u'display_name': u'test_test_test_test_test_test32', u'passwd': u'test_test_test_test_test_tes31', u'email': u'1@aa.aac', u'privilege': u'super', u'id': u'test_test_test_test_tes25'}
+
+2018-02-26 16:05:47: Error Message: Invalid username (0x200)
+
+2018-02-26 16:05:47: Fail: HTTP status code is <Response [400]>
+2018-02-26 16:05:47: Expect: {u'status': 0, u'display_name': u'test_test_test_test_test_tes31', u'passwd': u'', u'email': u'a@aa.aac', u'privilege': u'power', u'id': u'test_test_test_test_te24'}
+
+2018-02-26 16:05:47: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-26 16:05:40: Expect: {u'status': 0, u'display_name': u'*', u'passwd': u'test_test_test_test_test_te30', u'email': u'', u'privilege': u'maintenance', u'id': u'12'}
+
+2018-02-26 16:05:40: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-26 16:05:34: Expect: {u'status': 1, u'display_name': u'', u'passwd': u'p_d.*#', u'email': u'1@11.11', u'privilege': u'view', u'id': u'T'}
+
+2018-02-26 16:05:06: Error Message: Invalid username (0x200)
+
+2018-02-26 16:05:05: Fail: HTTP status code is <Response [400]>
+2018-02-26 16:05:05: Expect: {status: 1, display_name: test_test_test_test_test_test32, passwd: test_test_test_test_test_tes31, email: 1@aa.aac, privilege: super, id: test_test_test_test_tes25}
+
+2018-02-26 16:05:05: Error Message: Invalid username (0x200)
+
+2018-02-26 16:05:05: Fail: HTTP status code is <Response [400]>
+2018-02-26 16:05:05: Expect: {status: 0, display_name: test_test_test_test_test_tes31, passwd: , email: a@aa.aac, privilege: power, id: test_test_test_test_te24}
+
+2018-02-26 16:05:05: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-26 16:04:59: Expect: {status: 0, display_name: *, passwd: test_test_test_test_test_te30, email: , privilege: maintenance, id: 12}
+
+2018-02-26 16:04:59: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-26 16:04:52: Expect: {status: 1, display_name: , passwd: p_d.*#, email: 1@11.11, privilege: view, id: T}
+
+2018-02-26 16:02:15: Error Message: Invalid username (0x200)
+
+2018-02-26 16:02:15: Fail: HTTP status code is <Response [400]>
+2018-02-26 16:02:15: Expect: {u'status': 1, u'display_name': u'test_test_test_test_test_test32', u'passwd': u'test_test_test_test_test_tes31', u'email': u'1@aa.aac', u'privilege': u'super', u'id': u'test_test_test_test_tes25'}
+
+2018-02-26 16:02:15: Error Message: Invalid username (0x200)
+
+2018-02-26 16:02:15: Fail: HTTP status code is <Response [400]>
+2018-02-26 16:02:15: Expect: {u'status': 0, u'display_name': u'test_test_test_test_test_tes31', u'passwd': u'', u'email': u'a@aa.aac', u'privilege': u'power', u'id': u'test_test_test_test_te24'}
+
+2018-02-26 16:02:15: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-26 16:02:09: Expect: {u'status': 0, u'display_name': u'*', u'passwd': u'test_test_test_test_test_te30', u'email': u'', u'privilege': u'maintenance', u'id': u'12'}
+
+2018-02-26 16:02:09: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-26 16:02:02: Expect: {u'status': 1, u'display_name': u'', u'passwd': u'p_d.*#', u'email': u'1@11.11', u'privilege': u'view', u'id': u'T'}
+
+2018-02-26 15:58:20: Error message: Invalid username (0x200)
+
+2018-02-26 15:58:20: Fail: HTTP status code is <Response [400]>
+2018-02-26 15:58:20: Expect: {u'status': 1, u'display_name': u'test_test_test_test_test_test32', u'passwd': u'test_test_test_test_test_tes31', u'email': u'1@aa.aac', u'privilege': u'super', u'id': u'test_test_test_test_tes25'}
+
+2018-02-26 15:58:20: Error message: Invalid username (0x200)
+
+2018-02-26 15:58:20: Fail: HTTP status code is <Response [400]>
+2018-02-26 15:58:20: Expect: {u'status': 0, u'display_name': u'test_test_test_test_test_tes31', u'passwd': u'', u'email': u'a@aa.aac', u'privilege': u'power', u'id': u'test_test_test_test_te24'}
+
+2018-02-26 15:58:20: Actual: request is successful!
+
+2018-02-26 15:58:13: Expect: {u'status': 0, u'display_name': u'*', u'passwd': u'test_test_test_test_test_te30', u'email': u'', u'privilege': u'maintenance', u'id': u'12'}
+
+2018-02-26 15:58:13: Actual: request is successful!
+
+2018-02-26 15:58:07: Expect: {u'status': 1, u'display_name': u'', u'passwd': u'p_d.*#', u'email': u'1@11.11', u'privilege': u'view', u'id': u'T'}
+
+2018-02-26 15:51:55: Actual: request is successful!
+
+2018-02-26 15:51:48: Expect: {u'status': 1, u'display_name': u'test_test_test_test_test_test32', u'passwd': u'test_test_test_test_test_tes31', u'email': u'1@aa.aac', u'privilege': u'super', u'id': u'test_test_test_test_tes25'}
+
+2018-02-26 15:51:48: Actual: request is successful!
+
+2018-02-26 15:51:42: Expect: {u'status': 0, u'display_name': u'test_test_test_test_test_tes31', u'passwd': u'', u'email': u'a@aa.aac', u'privilege': u'power', u'id': u'test_test_test_test_te24'}
+
+2018-02-26 15:51:25: Error message: Invalid username (0x200)
+
+2018-02-26 15:51:25: Fail: Status code is <Response [400]>
+2018-02-26 15:51:25: Expect: {u'status': 0, u'display_name': u'*', u'passwd': u'test_test_test_test_test_te30', u'email': u'', u'privilege': u'maintenance', u'id': u'12'}
+
+2018-02-26 15:51:19: Error message: Setting parameters too long (0x2014)
+
+2018-02-26 15:51:19: Fail: Status code is <Response [400]>
+2018-02-26 15:51:19: Expect: {u'status': 1, u'display_name': u'', u'passwd': u'p_d.*#', u'email': u'1@11.11', u'privilege': u'view', u'id': u'test_test_test_test_test_test32'}
+
+2018-02-26 15:49:49: Expect: {u'status': 0, u'display_name': u'test_test_test_test_test_tes31', u'passwd': u'', u'email': u'a@aa.aac', u'privilege': u'power', u'id': u'test_test_test_test_te24'}
+
+2018-02-26 15:49:49: Actual: request is successful!
+
+2018-02-26 15:49:37: Expect: {u'status': 0, u'display_name': u'*', u'passwd': u'test_test_test_test_test_te30', u'email': u'', u'privilege': u'maintenance', u'id': u'12'}
+
+2018-02-26 15:49:30: Fail: Status code is <Response [400]>
+Error message: Setting parameters too long (0x2014)
+2018-02-26 15:49:26: Expect: {u'status': 1, u'display_name': u'', u'passwd': u'p_d.*#', u'email': u'1@11.11', u'privilege': u'view', u'id': u'test_test_test_test_test_test32'}
+
+2018-02-26 15:47:14: Expect: {u'status': 1, u'display_name': u'', u'passwd': u'p_d.*#', u'email': u'1@11.11', u'privilege': u'view', u'id': u'test_test_test_test_test_test32'}
+
+2018-02-26 15:43:00: Expect: {u'status': 1, u'display_name': u'', u'passwd': u'p_d.*#', u'email': u'1@11.11', u'privilege': u'view', u'id': u'test_test_test_test_test_test32'}
+
+2018-02-26 15:42:09: Expect: {u'status': 1, u'display_name': u'', u'passwd': u'p_d.*#', u'email': u'1@11.11', u'privilege': u'view', u'id': u'test_test_test_test_test_test32'}
+
+2018-02-26 15:41:29: Expect: {u'status': 1, u'display_name': u'', u'passwd': u'p_d.*#', u'email': u'1@11.11', u'privilege': u'view', u'id': u'test_test_test_test_test_test32'}
+
+2018-02-26 15:29:30: Expect: {u'status': 1, u'display_name': u'', u'passwd': u'p_d.*#', u'email': u'1@11.11', u'privilege': u'view', u'id': u'test_test_test_test_test_test32'}
+
+2018-02-26 15:28:27: Expect: {u'status': 1, u'display_name': u'', u'passwd': u'p_d.*#', u'email': u'1@11.11', u'privilege': u'view', u'id': u'test_test_test_test_test_test32'}
+
+2018-02-26 15:26:34: Actual: request is successful!
+2018-02-26 15:26:28: Expect: {u'status': 1, u'display_name': u'test_test_test_test_test_test32', u'passwd': u'test_test_test_test_test_tes31', u'email': u'1@aa.aac', u'privilege': u'super', u'id': u'test_test_test_test_tes25'}
+
+2018-02-26 15:26:28: Actual: request is successful!
+2018-02-26 15:26:21: Expect: {u'status': 0, u'display_name': u'test_test_test_test_test_tes31', u'passwd': u'', u'email': u'a@aa.aac', u'privilege': u'power', u'id': u'test_test_test_test_te24'}
+
+2018-02-26 15:26:21: Actual: request is successful!
+2018-02-26 15:26:15: Expect: {u'status': 0, u'display_name': u'*', u'passwd': u'test_test_test_test_test_te30', u'email': u'', u'privilege': u'maintenance', u'id': u'12'}
+
+2018-02-26 15:26:15: Actual: request is successful!
+2018-02-26 15:26:08: Expect: {u'status': 1, u'display_name': u'', u'passwd': u'p_d.*#', u'email': u'1@11.11', u'privilege': u'view', u'id': 0}
+
+2018-02-26 15:04:40: 
+Expect: {u'status': 1, u'display_name': u'', u'passwd': u'p_d.*#', u'email': u'1@11.11', u'privilege': u'view', u'id': u'a'}
+
+2018-02-26 14:54:56: 
+Expect: {u'status': 1, u'display_name': u'', u'passwd': u'p_d.*#', u'email': u'1@11.11', u'privilege': u'view', u'id': u'a'}
+
+2018-02-26 14:46:02: 
+Expect: {u'status': 1, u'display_name': u'', u'passwd': u'p_d.*#', u'email': u'1@11.11', u'privilege': u'view', u'id': u'a'}
+
+2018-02-26 14:44:29: 
+Expect: {u'status': 1, u'display_name': u'', u'passwd': u'p_d.*#', u'email': u'1@11.11', u'privilege': u'view', u'id': u'a'}
+
+2018-02-26 14:43:01: 
+Expect: {u'status': 1, u'display_name': u'', u'passwd': u'p_d.*#', u'email': u'1@11.11', u'privilege': u'view', u'id': u'a'}
+
+2018-02-26 14:39:50: 
+Expect: {u'status': 1, u'display_name': u'', u'passwd': u'p_d.*#', u'email': u'1@11.11', u'privilege': u'view', u'id': u'a'}
+
+2018-02-26 14:36:21: 
+Expect: {u'status': 1, u'display_name': u'', u'passwd': u'p_d.*#', u'email': u'1@11.11', u'privilege': u'view', u'id': u'a'}
+
+2018-02-26 14:26:21: 
+Expect: {u'status': 1, u'display_name': u'', u'passwd': u'p_d.*#', u'email': u'1@11.11', u'privilege': u'view', u'id': u'a'}
+
+2018-02-26 13:50:01: 
+Expect: {u'status': 0, u'display_name': u'*', u'passwd': u'test_test_test_test_test_te30', u'email': u'', u'privilege': u'maintenance', u'id': u'12'}
+
+2018-02-26 13:47:28: 
+Expect: {u'status': 1, u'display_name': u'', u'passwd': u'p_d.*#', u'email': u'1@11.11', u'privilege': u'view', u'id': u'a'}
+
+2018-02-26 13:41:48: 
+Expect: {u'status': 1.0, u'display_name': u'', u'passwd': u'p_d.*#', u'email': u'1@11.11', u'privilege': u'view', u'id': u'a'}
+
+2018-02-26 13:35:19: 
+Expect: {u'status': 1.0, u'display_name': u'', u'passwd': u'p_d.*#', u'email': u'1@11.11', u'privilege': u'view', u'id': u'a'}
+
+2018-02-26 13:33:09: Fail: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/user&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+2018-02-26 13:33:09: 
+Expect: {u'status': 1.0, u'display_name': u'test_test_test_test_test_test32', u'passwd': u'test_test_test_test_test_tes31', u'email': u'1@aa.aac', u'privilege': u'super', u'id': u'test_test_test_test_tes25'}
+
+2018-02-26 13:33:09: Fail: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/user&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+2018-02-26 13:33:09: 
+Expect: {u'status': 0.0, u'display_name': u'test_test_test_test_test_tes31', u'passwd': u'', u'email': u'a@aa.aac', u'privilege': u'power', u'id': u'test_test_test_test_te24'}
+
+2018-02-26 13:33:09: Fail: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/user&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+2018-02-26 13:33:09: 
+Expect: {u'status': 0.0, u'display_name': u'*', u'passwd': u'test_test_test_test_test_te30', u'email': u'', u'privilege': u'maintenance', u'id': u'12'}
+
+2018-02-26 13:33:09: Fail: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/user&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+        </body>
+    </html>
+
+2018-02-26 13:33:09: 
+Expect: {u'status': 1.0, u'display_name': u'', u'passwd': u'p_d.*#', u'email': u'1@11.11', u'privilege': u'view', u'id': u'a'}
+
+2018-02-26 12:29:52: Fail: Invalid username (0x200)
+2018-02-26 12:29:52: 
+Expect: {u'status': 1.0, u'display_name': u'', u'passwd': u'p_d.*#', u'email': u'1@11.11', u'privilege': u'view', u'id': u'a'}
+
+2018-02-25 18:24:07: 'result': 'f'
+2018-02-25 18:24:07: Fail: Setting parameters too long (0x2014)
+2018-02-25 18:24:07: Expect: {"status": 1, "display_name": "123_test", "passwd": "ppppppppppppppppppppppppppppppp", "email": "1@1.1111111111111111111111111111111111111111111", "privilege": "Super", "id": "111111111111111111111111111111"}
+
+2018-02-25 18:24:07: Actual: {"status": 0, "display_name": "111111111111111111111111111111", "id": "test_name", "location": "Local", "privilege": "Power", "email": "a@aa.aac"}
+
+2018-02-25 18:24:00: Expect: {"status": 0, "display_name": "111111111111111111111111111111", "passwd": "111111111111111111111111111111", "email": "a@aa.aac", "privilege": "Power", "id": "test_name"}
+
+2018-02-25 18:24:00: Fail: Setting parameters too long (0x2014)
+2018-02-25 18:24:00: Expect: {"status": 0, "display_name": "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN", "passwd": "pass_word", "email": "1@11.11", "privilege": "Maintenance", "id": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn"}
+
+2018-02-25 18:24:00: Actual: {"status": 1, "display_name": "", "id": "a", "location": "Local", "privilege": "View", "email": ""}
+
+2018-02-25 18:23:54: Expect: {"status": 1, "display_name": "", "passwd": "", "email": "", "privilege": "View", "id": "a"}
+
+2018-02-25 18:23:54: Add user by api 
+
+2018-02-25 18:20:25: 'result': 'p'
+2018-02-25 18:20:24: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_24", "logbias": "throughput", "compress": "lz4", "sync": "disabled", "pool_id": 0}
+
+2018-02-25 18:20:23: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_2e", "logbias": "throughput", "compress": "zle", "sync": "disabled", "pool_id": 0}
+
+2018-02-25 18:20:23: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_29", "logbias": "throughput", "compress": "gzip-9", "sync": "disabled", "pool_id": 0}
+
+2018-02-25 18:20:23: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_21", "logbias": "throughput", "compress": "gzip-1", "sync": "disabled", "pool_id": 0}
+
+2018-02-25 18:20:22: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_2p", "logbias": "throughput", "compress": "gzip", "sync": "disabled", "pool_id": 0}
+
+2018-02-25 18:20:21: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_2b", "logbias": "throughput", "compress": "lzjb", "sync": "disabled", "pool_id": 0}
+
+2018-02-25 18:20:21: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_2n", "logbias": "throughput", "compress": "on", "sync": "disabled", "pool_id": 0}
+
+2018-02-25 18:20:20: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_2f", "logbias": "throughput", "compress": "off", "sync": "disabled", "pool_id": 0}
+
+2018-02-25 18:20:19: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_14", "logbias": "throughput", "compress": "lz4", "sync": "standard", "pool_id": 0}
+
+2018-02-25 18:20:18: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_1e", "logbias": "throughput", "compress": "zle", "sync": "standard", "pool_id": 0}
+
+2018-02-25 18:20:18: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_19", "logbias": "throughput", "compress": "gzip-9", "sync": "standard", "pool_id": 0}
+
+2018-02-25 18:20:18: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_11", "logbias": "throughput", "compress": "gzip-1", "sync": "standard", "pool_id": 0}
+
+2018-02-25 18:20:17: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_1p", "logbias": "throughput", "compress": "gzip", "sync": "standard", "pool_id": 0}
+
+2018-02-25 18:20:17: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_1b", "logbias": "throughput", "compress": "lzjb", "sync": "standard", "pool_id": 0}
+
+2018-02-25 18:20:17: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_1n", "logbias": "throughput", "compress": "on", "sync": "standard", "pool_id": 0}
+
+2018-02-25 18:20:16: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_1f", "logbias": "throughput", "compress": "off", "sync": "standard", "pool_id": 0}
+
+2018-02-25 18:20:15: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_04", "logbias": "latency", "compress": "lz4", "sync": "always", "pool_id": 0}
+
+2018-02-25 18:20:14: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_0e", "logbias": "latency", "compress": "zle", "sync": "always", "pool_id": 0}
+
+2018-02-25 18:20:14: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_09", "logbias": "latency", "compress": "gzip-9", "sync": "always", "pool_id": 0}
+
+2018-02-25 18:20:14: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_01", "logbias": "latency", "compress": "gzip-1", "sync": "always", "pool_id": 0}
+
+2018-02-25 18:20:13: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_0p", "logbias": "latency", "compress": "gzip", "sync": "always", "pool_id": 0}
+
+2018-02-25 18:20:13: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_0b", "logbias": "latency", "compress": "lzjb", "sync": "always", "pool_id": 0}
+
+2018-02-25 18:20:13: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_0n", "logbias": "latency", "compress": "on", "sync": "always", "pool_id": 0}
+
+2018-02-25 18:20:12: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_0f", "logbias": "latency", "compress": "off", "sync": "always", "pool_id": 0}
+
+2018-02-25 18:20:12: To add NASShare by api 
+
+2018-02-25 18:18:36: Expect: unmount
+
+2018-02-25 18:18:36: Fail: parameters Un-Mounted!=Mounted
+2018-02-25 18:18:36: Actual: Un-Mounted
+
+2018-02-25 18:18:35: Expect: mount
+
+2018-02-25 18:18:35: Actual: Un-Mounted
+
+2018-02-25 18:18:34: Expect: unmount
+
+2018-02-25 18:18:34: Fail: parameters Un-Mounted!=Mounted
+2018-02-25 18:18:34: Actual: Un-Mounted
+
+2018-02-25 18:18:33: Expect: mount
+
+2018-02-25 18:18:33: Fail: parameters Un-Mounted!=Mounted
+2018-02-25 18:18:33: Actual: Un-Mounted
+
+2018-02-25 18:18:32: Expect: mount
+
+2018-02-25 18:18:32: Mount/Un-mount NASShare by api 
+
+2018-02-25 18:18:32: 'result': 'p'
+2018-02-25 18:18:31: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_24", "logbias": "throughput", "compress": "lz4", "sync": "disabled", "pool_id": 0}
+
+2018-02-25 18:18:30: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_2e", "logbias": "throughput", "compress": "zle", "sync": "disabled", "pool_id": 0}
+
+2018-02-25 18:18:30: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_29", "logbias": "throughput", "compress": "gzip-9", "sync": "disabled", "pool_id": 0}
+
+2018-02-25 18:18:30: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_21", "logbias": "throughput", "compress": "gzip-1", "sync": "disabled", "pool_id": 0}
+
+2018-02-25 18:18:29: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_2p", "logbias": "throughput", "compress": "gzip", "sync": "disabled", "pool_id": 0}
+
+2018-02-25 18:18:29: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_2b", "logbias": "throughput", "compress": "lzjb", "sync": "disabled", "pool_id": 0}
+
+2018-02-25 18:18:29: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_2n", "logbias": "throughput", "compress": "on", "sync": "disabled", "pool_id": 0}
+
+2018-02-25 18:18:28: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_2f", "logbias": "throughput", "compress": "off", "sync": "disabled", "pool_id": 0}
+
+2018-02-25 18:18:27: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_14", "logbias": "throughput", "compress": "lz4", "sync": "standard", "pool_id": 0}
+
+2018-02-25 18:18:26: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_1e", "logbias": "throughput", "compress": "zle", "sync": "standard", "pool_id": 0}
+
+2018-02-25 18:18:26: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_19", "logbias": "throughput", "compress": "gzip-9", "sync": "standard", "pool_id": 0}
+
+2018-02-25 18:18:26: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_11", "logbias": "throughput", "compress": "gzip-1", "sync": "standard", "pool_id": 0}
+
+2018-02-25 18:18:25: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_1p", "logbias": "throughput", "compress": "gzip", "sync": "standard", "pool_id": 0}
+
+2018-02-25 18:18:24: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_1b", "logbias": "throughput", "compress": "lzjb", "sync": "standard", "pool_id": 0}
+
+2018-02-25 18:18:24: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_1n", "logbias": "throughput", "compress": "on", "sync": "standard", "pool_id": 0}
+
+2018-02-25 18:18:23: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_1f", "logbias": "throughput", "compress": "off", "sync": "standard", "pool_id": 0}
+
+2018-02-25 18:18:22: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_04", "logbias": "latency", "compress": "lz4", "sync": "always", "pool_id": 0}
+
+2018-02-25 18:18:21: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_0e", "logbias": "latency", "compress": "zle", "sync": "always", "pool_id": 0}
+
+2018-02-25 18:18:21: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_09", "logbias": "latency", "compress": "gzip-9", "sync": "always", "pool_id": 0}
+
+2018-02-25 18:18:21: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_01", "logbias": "latency", "compress": "gzip-1", "sync": "always", "pool_id": 0}
+
+2018-02-25 18:18:20: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_0p", "logbias": "latency", "compress": "gzip", "sync": "always", "pool_id": 0}
+
+2018-02-25 18:18:20: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_0b", "logbias": "latency", "compress": "lzjb", "sync": "always", "pool_id": 0}
+
+2018-02-25 18:18:20: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_0n", "logbias": "latency", "compress": "on", "sync": "always", "pool_id": 0}
+
+2018-02-25 18:18:19: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_0f", "logbias": "latency", "compress": "off", "sync": "always", "pool_id": 0}
+
+2018-02-25 18:18:19: To add NASShare by api 
+
+2018-01-29 17:29:17: Expect: To list NASShare that id is 23
+
+2018-01-29 17:29:17: Actual: The NASShare id is 10
+
+2018-01-29 17:29:17: Expect: To list NASShare that id is 10
+
+2018-01-29 17:29:17: Actual: The NASShare id is 1
+
+2018-01-29 17:29:17: Expect: To list NASShare that id is 1
+
+2018-01-29 17:29:17: To verify parameters: search/page/page_size 
+
+2018-01-29 17:29:17: 'result': 'f'
+2018-01-29 17:29:17: Fail: parameters testNASShare_0f!=TestName
+2018-01-29 17:29:17: Actual: {"name": "testNASShare_0f", "total_capacity": 2000000000000}
+
+2018-01-29 17:29:16: Expect: {"capacity": "2TB", "name": "TestName"}
+
+2018-01-29 17:29:16: Fail: parameters testNASShare_0f!=123455
+2018-01-29 17:29:16: Actual: {"name": "testNASShare_0f", "total_capacity": 2000000000}
+
+2018-01-29 17:29:16: Expect: {"capacity": "2GB", "name": "123455"}
+
+2018-01-29 17:29:16: Fail: parameters testNASShare_0f!=name_2
+2018-01-29 17:29:16: Actual: {"name": "testNASShare_0f", "total_capacity": 2000000000}
+
+2018-01-29 17:29:15: Expect: {"capacity": "2GB", "name": "name_2"}
+
+2018-01-29 17:29:15: Fail: parameters testNASShare_0f!=n
+2018-01-29 17:29:15: Actual: {"name": "testNASShare_0f", "total_capacity": 1000000000}
+
+2018-01-29 17:29:15: Expect: {"capacity": "1GB", "name": "n"}
+
+2018-01-29 17:29:15: To modify NASShare by api
+
+2018-01-29 17:29:15: 'result': 'p'
+2018-01-29 17:29:15: Actual: Un-Mounted
+
+2018-01-29 17:29:14: Expect: unmount
+
+2018-01-29 17:29:14: Actual: Mounted
+
+2018-01-29 17:29:13: Expect: mount
+
+2018-01-29 17:29:13: Actual: Un-Mounted
+
+2018-01-29 17:29:13: Expect: unmount
+
+2018-01-29 17:29:13: Actual: Un-Mounted
+
+2018-01-29 17:29:12: Expect: unmount
+
+2018-01-29 17:29:12: Actual: Mounted
+
+2018-01-29 17:29:11: Expect: mount
+
+2018-01-29 17:29:11: Actual: Un-Mounted
+
+2018-01-29 17:29:10: Expect: unmount
+
+2018-01-29 17:29:10: Actual: Mounted
+
+2018-01-29 17:29:10: Expect: mount
+
+2018-01-29 17:29:10: Actual: Mounted
+
+2018-01-29 17:29:10: Expect: mount
+
+2018-01-29 17:29:09: Mount/Un-mount NASShare by api 
+
+2018-01-29 17:29:09: 'result': 'p'
+2018-01-29 17:29:09: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "1 MB", "ratio": "1.00x", "name": "testNASShare_24", "total_capacity": 1000000000000, "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "lz4", "sync": "disabled", "pool_id": 0, "thin_prov": "Enabled", "redundant_md": "all", "status": "Mounted", "copies": 1, "share_protocol": "WEBDAV", "pool_avail": "249.63 GB", "mountpoint": "/FS/testNASShare_24", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 11}
+
+2018-01-29 17:29:09: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_24", "logbias": "throughput", "compress": "lz4", "sync": "disabled", "pool_id": 0}
+
+2018-01-29 17:29:09: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "1 MB", "ratio": "1.00x", "name": "testNASShare_2e", "total_capacity": 1000000000000, "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "zle", "sync": "disabled", "pool_id": 0, "thin_prov": "Enabled", "redundant_md": "all", "status": "Mounted", "copies": 1, "share_protocol": "WEBDAV", "pool_avail": "249.63 GB", "mountpoint": "/FS/testNASShare_2e", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 10}
+
+2018-01-29 17:29:08: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_2e", "logbias": "throughput", "compress": "zle", "sync": "disabled", "pool_id": 0}
+
+2018-01-29 17:29:08: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_29", "logbias": "throughput", "compress": "gzip-9", "sync": "disabled", "pool_id": 0}
+
+2018-01-29 17:29:07: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_21", "logbias": "throughput", "compress": "gzip-1", "sync": "disabled", "pool_id": 0}
+
+2018-01-29 17:29:07: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "1 MB", "ratio": "1.00x", "name": "testNASShare_2p", "total_capacity": 1000000000000, "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "gzip", "sync": "disabled", "pool_id": 0, "thin_prov": "Enabled", "redundant_md": "all", "status": "Mounted", "copies": 1, "share_protocol": "WEBDAV", "pool_avail": "249.63 GB", "mountpoint": "/FS/testNASShare_2p", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 9}
+
+2018-01-29 17:29:07: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_2p", "logbias": "throughput", "compress": "gzip", "sync": "disabled", "pool_id": 0}
+
+2018-01-29 17:29:07: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_2b", "logbias": "throughput", "compress": "lzjb", "sync": "disabled", "pool_id": 0}
+
+2018-01-29 17:29:06: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_2n", "logbias": "throughput", "compress": "on", "sync": "disabled", "pool_id": 0}
+
+2018-01-29 17:29:06: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "1 MB", "ratio": "1.00x", "name": "testNASShare_2f", "total_capacity": 1000000000000, "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "off", "sync": "disabled", "pool_id": 0, "thin_prov": "Enabled", "redundant_md": "all", "status": "Mounted", "copies": 1, "share_protocol": "WEBDAV", "pool_avail": "249.63 GB", "mountpoint": "/FS/testNASShare_2f", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 8}
+
+2018-01-29 17:29:06: Expect: {"recsize": "1MB", "capacity": "1TB", "name": "testNASShare_2f", "logbias": "throughput", "compress": "off", "sync": "disabled", "pool_id": 0}
+
+2018-01-29 17:29:06: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testNASShare_14", "total_capacity": 2000000000, "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "lz4", "sync": "standard", "pool_id": 0, "thin_prov": "Enabled", "redundant_md": "all", "status": "Mounted", "copies": 1, "share_protocol": "WEBDAV", "pool_avail": "249.63 GB", "mountpoint": "/FS/testNASShare_14", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 7}
+
+2018-01-29 17:29:05: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_14", "logbias": "throughput", "compress": "lz4", "sync": "standard", "pool_id": 0}
+
+2018-01-29 17:29:05: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testNASShare_1e", "total_capacity": 2000000000, "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "zle", "sync": "standard", "pool_id": 0, "thin_prov": "Enabled", "redundant_md": "all", "status": "Mounted", "copies": 1, "share_protocol": "WEBDAV", "pool_avail": "249.63 GB", "mountpoint": "/FS/testNASShare_1e", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 6}
+
+2018-01-29 17:29:04: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_1e", "logbias": "throughput", "compress": "zle", "sync": "standard", "pool_id": 0}
+
+2018-01-29 17:29:04: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_19", "logbias": "throughput", "compress": "gzip-9", "sync": "standard", "pool_id": 0}
+
+2018-01-29 17:29:04: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_11", "logbias": "throughput", "compress": "gzip-1", "sync": "standard", "pool_id": 0}
+
+2018-01-29 17:29:04: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testNASShare_1p", "total_capacity": 2000000000, "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "gzip", "sync": "standard", "pool_id": 0, "thin_prov": "Enabled", "redundant_md": "all", "status": "Mounted", "copies": 1, "share_protocol": "WEBDAV", "pool_avail": "249.63 GB", "mountpoint": "/FS/testNASShare_1p", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 5}
+
+2018-01-29 17:29:03: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_1p", "logbias": "throughput", "compress": "gzip", "sync": "standard", "pool_id": 0}
+
+2018-01-29 17:29:03: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_1b", "logbias": "throughput", "compress": "lzjb", "sync": "standard", "pool_id": 0}
+
+2018-01-29 17:29:03: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_1n", "logbias": "throughput", "compress": "on", "sync": "standard", "pool_id": 0}
+
+2018-01-29 17:29:03: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "512 Bytes", "ratio": "1.00x", "name": "testNASShare_1f", "total_capacity": 2000000000, "logbias": "throughput", "operational_status": "OK, Synchronizing", "compress": "off", "sync": "standard", "pool_id": 0, "thin_prov": "Enabled", "redundant_md": "all", "status": "Mounted", "copies": 1, "share_protocol": "WEBDAV", "pool_avail": "249.63 GB", "mountpoint": "/FS/testNASShare_1f", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 4}
+
+2018-01-29 17:29:02: Expect: {"recsize": "512B", "capacity": "2GB", "name": "testNASShare_1f", "logbias": "throughput", "compress": "off", "sync": "standard", "pool_id": 0}
+
+2018-01-29 17:29:02: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testNASShare_04", "total_capacity": 1000000000, "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "lz4", "sync": "always", "pool_id": 0, "thin_prov": "Enabled", "redundant_md": "all", "status": "Mounted", "copies": 1, "share_protocol": "WEBDAV", "pool_avail": "249.63 GB", "mountpoint": "/FS/testNASShare_04", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 3}
+
+2018-01-29 17:29:01: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_04", "logbias": "latency", "compress": "lz4", "sync": "always", "pool_id": 0}
+
+2018-01-29 17:29:01: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testNASShare_0e", "total_capacity": 1000000000, "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "zle", "sync": "always", "pool_id": 0, "thin_prov": "Enabled", "redundant_md": "all", "status": "Mounted", "copies": 1, "share_protocol": "WEBDAV", "pool_avail": "249.63 GB", "mountpoint": "/FS/testNASShare_0e", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 2}
+
+2018-01-29 17:29:00: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_0e", "logbias": "latency", "compress": "zle", "sync": "always", "pool_id": 0}
+
+2018-01-29 17:29:00: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_09", "logbias": "latency", "compress": "gzip-9", "sync": "always", "pool_id": 0}
+
+2018-01-29 17:29:00: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_01", "logbias": "latency", "compress": "gzip-1", "sync": "always", "pool_id": 0}
+
+2018-01-29 17:29:00: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testNASShare_0p", "total_capacity": 1000000000, "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "gzip", "sync": "always", "pool_id": 0, "thin_prov": "Enabled", "redundant_md": "all", "status": "Mounted", "copies": 1, "share_protocol": "WEBDAV", "pool_avail": "249.63 GB", "mountpoint": "/FS/testNASShare_0p", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 1}
+
+2018-01-29 17:28:59: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_0p", "logbias": "latency", "compress": "gzip", "sync": "always", "pool_id": 0}
+
+2018-01-29 17:28:59: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_0b", "logbias": "latency", "compress": "lzjb", "sync": "always", "pool_id": 0}
+
+2018-01-29 17:28:59: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_0n", "logbias": "latency", "compress": "on", "sync": "always", "pool_id": 0}
+
+2018-01-29 17:28:59: Actual: {"ctrl_id": 2, "pool_name": "testNASShareApi2", "recsize": "128 KB", "ratio": "1.00x", "name": "testNASShare_0f", "total_capacity": 1000000000, "logbias": "latency", "operational_status": "OK, Synchronizing", "compress": "off", "sync": "always", "pool_id": 0, "thin_prov": "Enabled", "redundant_md": "all", "status": "Mounted", "copies": 1, "share_protocol": "WEBDAV", "pool_avail": "249.63 GB", "mountpoint": "/FS/testNASShare_0f", "used_capacity": 19456, "written_capacity": "19.46 KB", "id": 0}
+
+2018-01-29 17:28:58: Expect: {"recsize": "128KB", "capacity": "1GB", "name": "testNASShare_0f", "logbias": "latency", "compress": "off", "sync": "always", "pool_id": 0}
+
+2018-01-29 17:28:58: To add NASShare by api 
+
 2017-10-20 16:24:05: 'result': 'p'
 2017-10-20 16:24:05: Actual: 
 ['stats', 'qt_list']
