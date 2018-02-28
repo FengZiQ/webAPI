@@ -1,3 +1,26 @@
+2018-02-28 17:59:29: 'result': 'p'
+
+2018-02-28 17:59:29: Actual: 
+{u'status': 1, u'display_name': u'Super user', u'id': u'administrator', u'location': u'Local', u'privilege': u'Super', u'email': u'admin@yourcompany.com'}
+
+2018-02-28 17:59:29: Expected: [u'id', u'full_name', u'privilege', u'email', u'status', u'type']
+
+2018-02-28 17:55:00: 'result': 'f'
+
+2018-02-28 17:55:00: 
+Actual: Messages are {u'status': 1, u'display_name': u'Super user', u'id': u'administrator', u'location': u'Local', u'privilege': u'Super', u'email': u'admin@yourcompany.com'}
+
+2018-02-28 17:55:00: Fail: Expected value is . Actuality is admin@yourcompany.com
+2018-02-28 17:55:00: Fail: Expected value is . Actuality is Super
+2018-02-28 17:55:00: Fail: Expected value is . Actuality is Local
+2018-02-28 17:55:00: Fail: Expected value is . Actuality is Super user
+2018-02-28 17:55:00: Fail: Expected value is . Actuality is 1
+2018-02-28 17:55:00: Expected: {u'status': u'', u'display_name': u'', u'id': u'administrator', u'location': u'', u'privilege': u'', u'email': u''}
+
+2018-02-28 17:53:35: 'result': 'p'
+
+2018-02-28 17:53:35: Expected: [u'id', u'full_name', u'privilege', u'email', u'status', u'type']
+
 2018-02-28 17:49:46: 'result': 'f'
 
 2018-02-28 17:49:46: And get response: 

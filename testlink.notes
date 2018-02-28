@@ -1658,3 +1658,26 @@ And get response:
 
 'result': 'f'
 
+Expected: [u'id', u'full_name', u'privilege', u'email', u'status', u'type']
+
+'result': 'p'
+
+Expected: {u'status': u'', u'display_name': u'', u'id': u'administrator', u'location': u'', u'privilege': u'', u'email': u''}
+
+Fail: Expected value is . Actuality is 1
+Fail: Expected value is . Actuality is Super user
+Fail: Expected value is . Actuality is Local
+Fail: Expected value is . Actuality is Super
+Fail: Expected value is . Actuality is admin@yourcompany.com
+
+Actual: Messages are {u'status': 1, u'display_name': u'Super user', u'id': u'administrator', u'location': u'Local', u'privilege': u'Super', u'email': u'admin@yourcompany.com'}
+
+'result': 'f'
+
+Expected: [u'id', u'full_name', u'privilege', u'email', u'status', u'type']
+
+Actual: 
+{u'status': 1, u'display_name': u'Super user', u'id': u'administrator', u'location': u'Local', u'privilege': u'Super', u'email': u'admin@yourcompany.com'}
+
+'result': 'p'
+

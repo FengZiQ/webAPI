@@ -116,6 +116,10 @@ class APITest(object):
         if str(result['response']) != '<Response [200]>':
             self.flag = True
             tolog('Fail: ' + str(result['text']))
+        else:
+            response_info = json.loads(result['text'])
+            get_r = str(response_info).replace('},', '\n').replace('[', '\n').replace(']', '')
+            tolog('Actual: ' + get_r + '\n')
 
         if self.flag:
             tolog(Fail)
