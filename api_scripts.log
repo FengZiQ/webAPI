@@ -1,3 +1,1003 @@
+2018-02-28 17:49:46: 'result': 'f'
+
+2018-02-28 17:49:46: And get response: 
+{u'status': 1, u'display_name': u'Super user', u'id': u'administrator', u'location': u'Local', u'privilege': u'Super', u'email': u'admin@yourcompany.com'}
+
+2018-02-28 17:49:40: Actual: parameter test_test_test_test_tes25 is deleted
+2018-02-28 17:49:34: Expected: test_test_test_test_tes25 should be deleted
+
+2018-02-28 17:49:34: And get response: 
+{u'status': 1, u'display_name': u'Super user', u'id': u'administrator', u'location': u'Local', u'privilege': u'Super', u'email': u'admin@yourcompany.com'
+ {u'status': 1, u'display_name': u'test_test_test_test_test_test32', u'id': u'test_test_test_test_tes25', u'location': u'Local', u'privilege': u'Super', u'email': u'1@aa.aac'}
+
+2018-02-28 17:49:31: Actual: parameter test_test_test_test_te24 is deleted
+2018-02-28 17:49:24: Expected: test_test_test_test_te24 should be deleted
+
+2018-02-28 17:49:24: Error Message: Invalid username (0x200)
+
+2018-02-28 17:49:24: Fail: HTTP status code is <Response [400]>
+2018-02-28 17:49:24: Expected: 12 should be deleted
+
+2018-02-28 17:49:24: Error Message: Invalid username (0x200)
+
+2018-02-28 17:49:24: Fail: HTTP status code is <Response [400]>
+2018-02-28 17:49:24: Expected: T should be deleted
+
+2018-02-28 17:47:04: Actual: parameter 12 is deleted
+2018-02-28 17:46:58: Expected: 12 should be deleted
+
+2018-02-28 17:46:58: And get response: [{u'status': 1, u'display_name': u'Super user', u'id': u'administrator', u'location': u'Local', u'privilege': u'Super', u'email': u'admin@yourcompany.com'
+ {u'status': 0, u'display_name': u'*', u'id': u'12', u'location': u'Local', u'privilege': u'Maintenance', u'email': u''
+ {u'status': 0, u'display_name': u'test_test_test_test_test_tes31', u'id': u'test_test_test_test_te24', u'location': u'Local', u'privilege': u'Power', u'email': u'a@aa.aac'
+ {u'status': 1, u'display_name': u'test_test_test_test_test_test32', u'id': u'test_test_test_test_tes25', u'location': u'Local', u'privilege': u'Super', u'email': u'1@aa.aac'}]
+
+2018-02-28 17:46:48: Actual: parameter T is deleted
+2018-02-28 17:46:42: Expected: T should be deleted
+
+2018-02-28 17:46:38: 'result': 'p'
+
+2018-02-28 17:46:38: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-28 17:46:31: Expect: {u'status': 1, u'display_name': u'test_test_test_test_test_test32', u'passwd': u'test_test_test_test_test_tes31', u'email': u'1@aa.aac', u'privilege': u'super', u'id': u'test_test_test_test_tes25'}
+
+2018-02-28 17:46:31: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-28 17:46:25: Expect: {u'status': 0, u'display_name': u'test_test_test_test_test_tes31', u'passwd': u'', u'email': u'a@aa.aac', u'privilege': u'power', u'id': u'test_test_test_test_te24'}
+
+2018-02-28 17:46:25: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-28 17:46:18: Expect: {u'status': 0, u'display_name': u'*', u'passwd': u'test_test_test_test_test_te30', u'email': u'', u'privilege': u'maintenance', u'id': u'12'}
+
+2018-02-28 17:46:18: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-28 17:46:12: Expect: {u'status': 1, u'display_name': u'', u'passwd': u'p_d.*#', u'email': u'1@11.11', u'privilege': u'view', u'id': u'T'}
+
+2018-02-28 17:42:53: 'result': 'p'
+
+2018-02-28 17:42:53: And get response: [{u'status': 1, u'display_name': u'Super user', u'id': u'administrator', u'location': u'Local', u'privilege': u'Super', u'email': u'admin@yourcompany.com'}]
+
+2018-02-28 17:42:53: Actual: parameter test_test_test_test_tes25 is deleted
+2018-02-28 17:42:47: Expected: test_test_test_test_tes25 should be deleted
+
+2018-02-28 17:42:47: And get response: [{u'status': 1, u'display_name': u'Super user', u'id': u'administrator', u'location': u'Local', u'privilege': u'Super', u'email': u'admin@yourcompany.com'}, {u'status': 1, u'display_name': u'test_test_test_test_test_test32', u'id': u'test_test_test_test_tes25', u'location': u'Local', u'privilege': u'Super', u'email': u'1@aa.aac'}]
+
+2018-02-28 17:42:47: Actual: parameter test_test_test_test_te24 is deleted
+2018-02-28 17:42:40: Expected: test_test_test_test_te24 should be deleted
+
+2018-02-28 17:42:40: And get response: [{u'status': 1, u'display_name': u'Super user', u'id': u'administrator', u'location': u'Local', u'privilege': u'Super', u'email': u'admin@yourcompany.com'}, {u'status': 0, u'display_name': u'test_test_test_test_test_tes31', u'id': u'test_test_test_test_te24', u'location': u'Local', u'privilege': u'Power', u'email': u'a@aa.aac'}, {u'status': 1, u'display_name': u'test_test_test_test_test_test32', u'id': u'test_test_test_test_tes25', u'location': u'Local', u'privilege': u'Super', u'email': u'1@aa.aac'}]
+
+2018-02-28 17:42:40: Actual: parameter 12 is deleted
+2018-02-28 17:42:34: Expected: 12 should be deleted
+
+2018-02-28 17:42:34: And get response: [{u'status': 1, u'display_name': u'Super user', u'id': u'administrator', u'location': u'Local', u'privilege': u'Super', u'email': u'admin@yourcompany.com'}, {u'status': 0, u'display_name': u'*', u'id': u'12', u'location': u'Local', u'privilege': u'Maintenance', u'email': u''}, {u'status': 0, u'display_name': u'test_test_test_test_test_tes31', u'id': u'test_test_test_test_te24', u'location': u'Local', u'privilege': u'Power', u'email': u'a@aa.aac'}, {u'status': 1, u'display_name': u'test_test_test_test_test_test32', u'id': u'test_test_test_test_tes25', u'location': u'Local', u'privilege': u'Super', u'email': u'1@aa.aac'}]
+
+2018-02-28 17:42:34: Actual: parameter T is deleted
+2018-02-28 17:42:27: Expected: T should be deleted
+
+2018-02-28 17:42:23: 'result': 'p'
+
+2018-02-28 17:42:23: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-28 17:42:16: Expect: {u'status': 1, u'display_name': u'test_test_test_test_test_test32', u'passwd': u'test_test_test_test_test_tes31', u'email': u'1@aa.aac', u'privilege': u'super', u'id': u'test_test_test_test_tes25'}
+
+2018-02-28 17:42:16: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-28 17:42:09: Expect: {u'status': 0, u'display_name': u'test_test_test_test_test_tes31', u'passwd': u'', u'email': u'a@aa.aac', u'privilege': u'power', u'id': u'test_test_test_test_te24'}
+
+2018-02-28 17:42:09: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-28 17:42:03: Expect: {u'status': 0, u'display_name': u'*', u'passwd': u'test_test_test_test_test_te30', u'email': u'', u'privilege': u'maintenance', u'id': u'12'}
+
+2018-02-28 17:42:03: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-28 17:41:56: Expect: {u'status': 1, u'display_name': u'', u'passwd': u'p_d.*#', u'email': u'1@11.11', u'privilege': u'view', u'id': u'T'}
+
+2018-02-28 17:37:11: 'result': 'f'
+
+2018-02-28 17:37:11: Actual: parameter test_test_test_test_tes25 is deleted
+
+2018-02-28 17:37:05: Expected: test_test_test_test_tes25 should be deleted
+
+2018-02-28 17:37:04: Actual: parameter test_test_test_test_te24 is deleted
+
+2018-02-28 17:36:58: Expected: test_test_test_test_te24 should be deleted
+
+2018-02-28 17:36:58: Error Message: Invalid username (0x200)
+
+2018-02-28 17:36:58: Fail: HTTP status code is <Response [400]>
+2018-02-28 17:36:58: Expected: 12 should be deleted
+
+2018-02-28 17:36:58: Error Message: Invalid username (0x200)
+
+2018-02-28 17:36:58: Fail: HTTP status code is <Response [400]>
+2018-02-28 17:36:58: Expected: T should be deleted
+
+2018-02-28 17:28:56: Expected: 12 should be deleted
+
+2018-02-28 17:28:56: Error Message: Invalid username (0x200)
+
+2018-02-28 17:28:56: Fail: HTTP status code is <Response [400]>
+2018-02-28 17:28:55: Expected: T should be deleted
+
+2018-02-28 17:28:18: Expected: T should be deleted
+
+2018-02-28 17:26:55: 'result': 'f'
+
+2018-02-28 17:26:55: Error Message: Invalid username (0x200)
+
+2018-02-28 17:26:55: Fail: HTTP status code is <Response [400]>
+2018-02-28 17:26:55: Expect: {u'status': 1, u'display_name': u'test_test_test_test_test_test32', u'passwd': u'test_test_test_test_test_tes31', u'email': u'1@aa.aac', u'privilege': u'super', u'id': u'test_test_test_test_tes25'}
+
+2018-02-28 17:26:55: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-28 17:26:49: Expect: {u'status': 0, u'display_name': u'test_test_test_test_test_tes31', u'passwd': u'', u'email': u'a@aa.aac', u'privilege': u'power', u'id': u'test_test_test_test_te24'}
+
+2018-02-28 17:26:49: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-28 17:26:42: Expect: {u'status': 0, u'display_name': u'*', u'passwd': u'test_test_test_test_test_te30', u'email': u'', u'privilege': u'maintenance', u'id': u'12'}
+
+2018-02-28 17:26:42: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-28 17:26:36: Expect: {u'status': 1, u'display_name': u'', u'passwd': u'p_d.*#', u'email': u'1@11.11', u'privilege': u'view', u'id': u'T'}
+
+2018-02-28 17:17:53: Expected: test_test_test_test_te24 should be deleted
+
+2018-02-28 17:17:53: Error Message: Invalid username (0x200)
+
+2018-02-28 17:17:53: Fail: HTTP status code is <Response [400]>
+2018-02-28 17:17:53: Expected: 12 should be deleted
+
+2018-02-28 17:17:53: Error Message: Invalid username (0x200)
+
+2018-02-28 17:17:53: Fail: HTTP status code is <Response [400]>
+2018-02-28 17:17:52: Expected: T should be deleted
+
+2018-02-28 17:16:47: Expected: 12 should be deleted
+
+2018-02-28 17:16:47: Error Message: Invalid username (0x200)
+
+2018-02-28 17:16:47: Fail: HTTP status code is <Response [400]>
+2018-02-28 17:16:46: Expected: T should be deleted
+
+2018-02-28 17:15:47: Expected: T should be deleted
+
+2018-02-28 17:15:19: 'result': 'p'
+
+2018-02-28 17:15:19: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-28 17:15:12: Expect: {u'status': 1, u'display_name': u'test_test_test_test_test_test32', u'passwd': u'test_test_test_test_test_tes31', u'email': u'1@aa.aac', u'privilege': u'super', u'id': u'test_test_test_test_tes25'}
+
+2018-02-28 17:15:12: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-28 17:15:06: Expect: {u'status': 0, u'display_name': u'test_test_test_test_test_tes31', u'passwd': u'', u'email': u'a@aa.aac', u'privilege': u'power', u'id': u'test_test_test_test_te24'}
+
+2018-02-28 17:15:06: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-28 17:14:59: Expect: {u'status': 0, u'display_name': u'*', u'passwd': u'test_test_test_test_test_te30', u'email': u'', u'privilege': u'maintenance', u'id': u'12'}
+
+2018-02-28 17:14:59: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-28 17:14:53: Expect: {u'status': 1, u'display_name': u'', u'passwd': u'p_d.*#', u'email': u'1@11.11', u'privilege': u'view', u'id': u'T'}
+
+2018-02-28 15:15:32: 'result': 'p'
+
+2018-02-28 15:15:31: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-28 15:15:25: Expected: test_test_test_test_tes25 should be deleted
+
+2018-02-28 15:15:25: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-28 15:15:19: Expected: test_test_test_test_te24 should be deleted
+
+2018-02-28 15:15:19: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-28 15:15:13: Expected: 12 should be deleted
+
+2018-02-28 15:15:13: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-28 15:15:04: Expected: T should be deleted
+
+2018-02-28 15:14:40: 'result': 'p'
+
+2018-02-28 15:14:40: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-28 15:14:34: Expect: {u'status': 1, u'display_name': u'test_test_test_test_test_test32', u'passwd': u'test_test_test_test_test_tes31', u'email': u'1@aa.aac', u'privilege': u'super', u'id': u'test_test_test_test_tes25'}
+
+2018-02-28 15:14:34: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-28 15:14:27: Expect: {u'status': 0, u'display_name': u'test_test_test_test_test_tes31', u'passwd': u'', u'email': u'a@aa.aac', u'privilege': u'power', u'id': u'test_test_test_test_te24'}
+
+2018-02-28 15:14:27: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-28 15:14:21: Expect: {u'status': 0, u'display_name': u'*', u'passwd': u'test_test_test_test_test_te30', u'email': u'', u'privilege': u'maintenance', u'id': u'12'}
+
+2018-02-28 15:14:21: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-28 15:14:14: Expect: {u'status': 1, u'display_name': u'', u'passwd': u'p_d.*#', u'email': u'1@11.11', u'privilege': u'view', u'id': u'T'}
+
+2018-02-28 15:13:19: 'result': 'p'
+
+2018-02-28 15:13:19: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-28 15:13:13: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-28 15:13:07: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-28 15:13:00: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-28 14:30:01: 'result': 'f'
+
+2018-02-28 14:30:01: Error Message: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 405 Method Not Allowed</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 405 Method Not Allowed</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/user&#039;</tt>
+               caused an error:</p>
+            <pre>Method not allowed.</pre>
+        </body>
+    </html>
+
+
+2018-02-28 14:30:01: Fail: HTTP status code is <Response [405]>
+2018-02-28 14:30:01: Expect: {u'id': u'test_test_test_test_tes25'}
+
+2018-02-28 14:30:01: Error Message: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 405 Method Not Allowed</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 405 Method Not Allowed</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/user&#039;</tt>
+               caused an error:</p>
+            <pre>Method not allowed.</pre>
+        </body>
+    </html>
+
+
+2018-02-28 14:30:01: Fail: HTTP status code is <Response [405]>
+2018-02-28 14:30:01: Expect: {u'id': u'test_test_test_test_te24'}
+
+2018-02-28 14:30:01: Error Message: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 405 Method Not Allowed</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 405 Method Not Allowed</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/user&#039;</tt>
+               caused an error:</p>
+            <pre>Method not allowed.</pre>
+        </body>
+    </html>
+
+
+2018-02-28 14:30:01: Fail: HTTP status code is <Response [405]>
+2018-02-28 14:30:01: Expect: {u'id': u'12'}
+
+2018-02-28 14:30:01: Error Message: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 405 Method Not Allowed</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 405 Method Not Allowed</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/user&#039;</tt>
+               caused an error:</p>
+            <pre>Method not allowed.</pre>
+        </body>
+    </html>
+
+
+2018-02-28 14:30:01: Fail: HTTP status code is <Response [405]>
+2018-02-28 14:30:01: Expect: {u'id': u'T'}
+
+2018-02-28 13:19:43: 'result': 'f'
+
+2018-02-28 13:19:43: Error Message: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 405 Method Not Allowed</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 405 Method Not Allowed</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/user&#039;</tt>
+               caused an error:</p>
+            <pre>Method not allowed.</pre>
+        </body>
+    </html>
+
+
+2018-02-28 13:19:43: Fail: HTTP status code is <Response [405]>
+2018-02-28 13:19:43: Expect: {u'': u'test_test_test_test_tes25'}
+
+2018-02-28 13:19:43: Error Message: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 405 Method Not Allowed</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 405 Method Not Allowed</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/user&#039;</tt>
+               caused an error:</p>
+            <pre>Method not allowed.</pre>
+        </body>
+    </html>
+
+
+2018-02-28 13:19:43: Fail: HTTP status code is <Response [405]>
+2018-02-28 13:19:43: Expect: {u'': u'test_test_test_test_te24'}
+
+2018-02-28 13:19:43: Error Message: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 405 Method Not Allowed</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 405 Method Not Allowed</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/user&#039;</tt>
+               caused an error:</p>
+            <pre>Method not allowed.</pre>
+        </body>
+    </html>
+
+
+2018-02-28 13:19:43: Fail: HTTP status code is <Response [405]>
+2018-02-28 13:19:42: Expect: {u'': u'12'}
+
+2018-02-28 13:19:42: Error Message: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 405 Method Not Allowed</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 405 Method Not Allowed</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/user&#039;</tt>
+               caused an error:</p>
+            <pre>Method not allowed.</pre>
+        </body>
+    </html>
+
+
+2018-02-28 13:19:42: Fail: HTTP status code is <Response [405]>
+2018-02-28 13:19:42: Expect: {u'': u'T'}
+
+2018-02-28 13:19:42: Error Message: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 405 Method Not Allowed</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 405 Method Not Allowed</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/user&#039;</tt>
+               caused an error:</p>
+            <pre>Method not allowed.</pre>
+        </body>
+    </html>
+
+
+2018-02-28 13:19:42: Fail: HTTP status code is <Response [405]>
+2018-02-28 13:19:42: Expect: {u'': u'id'}
+
+2018-02-28 13:19:42: Error Message: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 405 Method Not Allowed</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 405 Method Not Allowed</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/user&#039;</tt>
+               caused an error:</p>
+            <pre>Method not allowed.</pre>
+        </body>
+    </html>
+
+
+2018-02-28 13:19:42: Fail: HTTP status code is <Response [405]>
+2018-02-28 13:19:42: Expect: {u'': u''}
+
+2018-02-28 13:19:42: Error Message: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 405 Method Not Allowed</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 405 Method Not Allowed</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/user&#039;</tt>
+               caused an error:</p>
+            <pre>Method not allowed.</pre>
+        </body>
+    </html>
+
+
+2018-02-28 13:19:42: Fail: HTTP status code is <Response [405]>
+2018-02-28 13:19:42: Expect: {u'': u''}
+
+2018-02-28 13:19:42: Error Message: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 405 Method Not Allowed</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 405 Method Not Allowed</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/user&#039;</tt>
+               caused an error:</p>
+            <pre>Method not allowed.</pre>
+        </body>
+    </html>
+
+
+2018-02-28 13:19:42: Fail: HTTP status code is <Response [405]>
+2018-02-28 13:19:42: Expect: {u'': u''}
+
+2018-02-28 13:19:42: Error Message: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 405 Method Not Allowed</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 405 Method Not Allowed</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/user&#039;</tt>
+               caused an error:</p>
+            <pre>Method not allowed.</pre>
+        </body>
+    </html>
+
+
+2018-02-28 13:19:42: Fail: HTTP status code is <Response [405]>
+2018-02-28 13:19:42: Expect: {u'': u''}
+
+2018-02-28 13:19:42: Error Message: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 405 Method Not Allowed</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 405 Method Not Allowed</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/user&#039;</tt>
+               caused an error:</p>
+            <pre>Method not allowed.</pre>
+        </body>
+    </html>
+
+
+2018-02-28 13:19:42: Fail: HTTP status code is <Response [405]>
+2018-02-28 13:19:42: Expect: {u'': u''}
+
+2018-02-28 13:19:42: Error Message: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 405 Method Not Allowed</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 405 Method Not Allowed</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/user&#039;</tt>
+               caused an error:</p>
+            <pre>Method not allowed.</pre>
+        </body>
+    </html>
+
+
+2018-02-28 13:19:42: Fail: HTTP status code is <Response [405]>
+2018-02-28 13:19:42: Expect: {u'': u''}
+
+2018-02-28 13:19:42: Error Message: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 405 Method Not Allowed</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 405 Method Not Allowed</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/user&#039;</tt>
+               caused an error:</p>
+            <pre>Method not allowed.</pre>
+        </body>
+    </html>
+
+
+2018-02-28 13:19:42: Fail: HTTP status code is <Response [405]>
+2018-02-28 13:19:42: Expect: {u'': u''}
+
+2018-02-28 13:19:42: Error Message: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 405 Method Not Allowed</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 405 Method Not Allowed</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/user&#039;</tt>
+               caused an error:</p>
+            <pre>Method not allowed.</pre>
+        </body>
+    </html>
+
+
+2018-02-28 13:19:42: Fail: HTTP status code is <Response [405]>
+2018-02-28 13:19:42: Expect: {u'': u''}
+
+2018-02-28 13:19:42: Error Message: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 405 Method Not Allowed</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 405 Method Not Allowed</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/user&#039;</tt>
+               caused an error:</p>
+            <pre>Method not allowed.</pre>
+        </body>
+    </html>
+
+
+2018-02-28 13:19:42: Fail: HTTP status code is <Response [405]>
+2018-02-28 13:19:42: Expect: {u'': u''}
+
+2018-02-28 13:19:42: Error Message: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 405 Method Not Allowed</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 405 Method Not Allowed</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/user&#039;</tt>
+               caused an error:</p>
+            <pre>Method not allowed.</pre>
+        </body>
+    </html>
+
+
+2018-02-28 13:19:42: Fail: HTTP status code is <Response [405]>
+2018-02-28 13:19:42: Expect: {u'': u''}
+
+2018-02-28 13:19:42: Error Message: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 405 Method Not Allowed</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 405 Method Not Allowed</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/user&#039;</tt>
+               caused an error:</p>
+            <pre>Method not allowed.</pre>
+        </body>
+    </html>
+
+
+2018-02-28 13:19:42: Fail: HTTP status code is <Response [405]>
+2018-02-28 13:19:42: Expect: {u'': u''}
+
+2018-02-28 11:59:06: 'result': 'f'
+
+2018-02-28 11:59:06: 
+Actual: Messages are {u'status': 1, u'display_name': u'Super user', u'id': u'administrator', u'location': u'Local', u'privilege': u'Super', u'email': u'admin@yourcompany.com'}
+
+2018-02-28 11:59:06: Fail: Expected value is . Actuality is admin@yourcompany.com
+2018-02-28 11:59:06: Fail: Expected value is . Actuality is Super
+2018-02-28 11:59:06: Fail: Expected value is . Actuality is Local
+2018-02-28 11:59:06: Fail: Expected value is . Actuality is Super user
+2018-02-28 11:59:06: Fail: Expected value is . Actuality is 1
+2018-02-28 11:59:06: Expected: {u'status': u'', u'display_name': u'', u'id': u'administrator', u'location': u'', u'privilege': u'', u'email': u''}
+
+2018-02-28 11:59:06: 'result': 'f'
+
+2018-02-28 11:59:06: 
+Actual: [u'status', u'display_name', u'id', u'location', u'privilege', u'email']
+
+2018-02-28 11:59:06: Fail: expected parameter type is not contained at response
+2018-02-28 11:59:06: Fail: expected parameter full_name is not contained at response
+2018-02-28 11:59:06: Expected: [u'id', u'full_name', u'privilege', u'email', u'status', u'type']
+
+2018-02-28 11:59:06: 'result': 'p'
+
+2018-02-28 11:59:06: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-28 11:58:59: Expect: {u'status': 1, u'display_name': u'test_test_test_test_test_test32', u'passwd': u'test_test_test_test_test_tes31', u'email': u'1@aa.aac', u'privilege': u'super', u'id': u'test_test_test_test_tes25'}
+
+2018-02-28 11:58:59: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-28 11:58:52: Expect: {u'status': 0, u'display_name': u'test_test_test_test_test_tes31', u'passwd': u'', u'email': u'a@aa.aac', u'privilege': u'power', u'id': u'test_test_test_test_te24'}
+
+2018-02-28 11:58:52: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-28 11:58:46: Expect: {u'status': 0, u'display_name': u'*', u'passwd': u'test_test_test_test_test_te30', u'email': u'', u'privilege': u'maintenance', u'id': u'12'}
+
+2018-02-28 11:58:46: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-28 11:58:39: Expect: {u'status': 1, u'display_name': u'', u'passwd': u'p_d.*#', u'email': u'1@11.11', u'privilege': u'view', u'id': u'T'}
+
+2018-02-28 11:56:18: 'result': 'f'
+2018-02-28 11:56:18: 
+Actual: Messages are {u'status': 1, u'display_name': u'Super user', u'id': u'administrator', u'location': u'Local', u'privilege': u'Super', u'email': u'admin@yourcompany.com'}
+
+2018-02-28 11:56:18: Fail: Expected value is . Actuality is admin@yourcompany.com
+2018-02-28 11:56:18: Fail: Expected value is . Actuality is Super
+2018-02-28 11:56:18: Fail: Expected value is . Actuality is Local
+2018-02-28 11:56:18: Fail: Expected value is . Actuality is Super user
+2018-02-28 11:56:18: Fail: Expected value is . Actuality is 1
+2018-02-28 11:56:18: Expected: {u'status': u'', u'display_name': u'', u'id': u'administrator', u'location': u'', u'privilege': u'', u'email': u''}
+
+2018-02-28 11:56:18: 'result': 'f'
+2018-02-28 11:56:18: 
+Actual: [u'status', u'display_name', u'id', u'location', u'privilege', u'email']
+
+2018-02-28 11:56:18: Fail: expected parameter type is not contained at response
+2018-02-28 11:56:17: Fail: expected parameter full_name is not contained at response
+2018-02-28 11:56:17: Expected: [u'id', u'full_name', u'privilege', u'email', u'status', u'type']
+
+2018-02-28 11:56:17: 'result': 'p'
+2018-02-28 11:56:17: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-28 11:56:11: Expect: {u'status': 1, u'display_name': u'test_test_test_test_test_test32', u'passwd': u'test_test_test_test_test_tes31', u'email': u'1@aa.aac', u'privilege': u'super', u'id': u'test_test_test_test_tes25'}
+
+2018-02-28 11:56:11: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-28 11:56:04: Expect: {u'status': 0, u'display_name': u'test_test_test_test_test_tes31', u'passwd': u'', u'email': u'a@aa.aac', u'privilege': u'power', u'id': u'test_test_test_test_te24'}
+
+2018-02-28 11:56:04: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-28 11:55:58: Expect: {u'status': 0, u'display_name': u'*', u'passwd': u'test_test_test_test_test_te30', u'email': u'', u'privilege': u'maintenance', u'id': u'12'}
+
+2018-02-28 11:55:58: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-28 11:55:51: Expect: {u'status': 1, u'display_name': u'', u'passwd': u'p_d.*#', u'email': u'1@11.11', u'privilege': u'view', u'id': u'T'}
+
+2018-02-28 11:52:30: 'result': 'f'
+2018-02-28 11:52:15: 
+Actual: Messages are {u'status': 1, u'display_name': u'Super user', u'id': u'administrator', u'location': u'Local', u'privilege': u'Super', u'email': u'admin@yourcompany.com'}
+
+2018-02-28 11:52:15: Fail: Expected value is . Actuality is admin@yourcompany.com
+2018-02-28 11:52:15: Fail: Expected value is . Actuality is Super
+2018-02-28 11:52:15: Fail: Expected value is . Actuality is Local
+2018-02-28 11:52:15: Fail: Expected value is . Actuality is Super user
+2018-02-28 11:52:15: Fail: Expected value is . Actuality is 1
+2018-02-28 11:52:09: Expected: {u'status': u'', u'display_name': u'', u'id': u'administrator', u'location': u'', u'privilege': u'', u'email': u''}
+
+2018-02-28 11:48:44: Expected: {u'status': u'', u'display_name': u'', u'id': u'administator', u'location': u'', u'privilege': u'', u'email': u''}
+
+2018-02-28 11:23:38: Expected: {u'status': u'no', u'': u'', u'enabled': u''}
+
+2018-02-28 11:23:27: 'result': 'f'
+2018-02-28 11:23:27: 
+Actual: [u'status', u'display_name', u'id', u'location', u'privilege', u'email']
+
+2018-02-28 11:23:27: Fail: expected parameter type is not contained at response
+2018-02-28 11:23:27: Fail: expected parameter full_name is not contained at response
+2018-02-28 11:23:27: Expected: [u'id', u'full_name', u'privilege', u'email', u'status', u'type']
+
+2018-02-28 11:20:32: Expected: {u'status': u'no', u'': u'', u'enabled': u''}
+
+2018-02-28 11:18:32: Expected: {u'status': u'no', u'': u'', u'enabled': u''}
+
+2018-02-28 11:17:36: Expected: {u'status': u'no', u'': u'', u'enabled': u''}
+
+2018-02-28 11:16:26: 'result': 'f'
+2018-02-28 11:16:26: Fail: Invalid username (0x200)
+2018-02-28 11:16:26: Expected: {u'status': u'no', u'': u'', u'enabled': u''}
+
+2018-02-28 11:15:36: 'result': 'f'
+2018-02-28 11:15:36: Fail: 
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 405 Method Not Allowed</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 405 Method Not Allowed</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://10.84.2.164/service/userstatus&#039;</tt>
+               caused an error:</p>
+            <pre>Method not allowed.</pre>
+        </body>
+    </html>
+
+2018-02-28 11:15:36: Expected: {u'status': u'no', u'': u'', u'enabled': u''}
+
+2018-02-28 11:13:59: Expected: {u'status': u'no', u'': u'', u'enabled': u''}
+
+2018-02-28 10:50:47: 'result': 'f'
+2018-02-28 10:50:47: 
+Actual: [u'status', u'display_name', u'id', u'location', u'privilege', u'email']
+
+2018-02-28 10:50:47: Fail: expected parameter type is not contained at response
+2018-02-28 10:50:47: Fail: expected parameter full_name is not contained at response
+2018-02-28 10:50:46: Expected: [u'id', u'full_name', u'privilege', u'email', u'status', u'type']
+
+2018-02-28 10:49:24: 'result': 'f'
+2018-02-28 10:49:24: Actual: [u'status', u'display_name', u'id', u'location', u'privilege', u'email']
+
+2018-02-28 10:49:24: Fail: expected parameter type is not contained at response
+2018-02-28 10:49:24: Fail: expected parameter full_name is not contained at response
+2018-02-28 10:49:24: Expected: [u'id', u'full_name', u'privilege', u'email', u'status', u'type']
+
+2018-02-28 10:47:33: 'result': 'f'
+2018-02-28 10:47:33: Actual: [u'status', u'display_name', u'id', u'location', u'privilege', u'email']
+
+2018-02-28 10:47:33: Fail: expected parameter type is not contained at response
+2018-02-28 10:47:33: Fail: expected parameter full_name is not contained at response
+2018-02-28 10:46:54: 'result': 'f'
+2018-02-28 10:46:54: Actual: [u'status', u'display_name', u'id', u'location', u'privilege', u'email']
+
+2018-02-28 10:46:54: Fail: expected parameter type is not contained at response
+2018-02-28 10:46:54: Fail: expected parameter status is not contained at response
+2018-02-28 10:46:54: Fail: expected parameter email is not contained at response
+2018-02-28 10:46:54: Fail: expected parameter privilege is not contained at response
+2018-02-28 10:46:54: Fail: expected parameter full_name is not contained at response
+2018-02-28 10:46:54: Fail: expected parameter id is not contained at response
+2018-02-28 10:46:45: 'result': 'f'
+2018-02-28 10:46:45: Actual: [1, u'Super user', u'administrator', u'Local', u'Super', u'admin@yourcompany.com']
+
+2018-02-28 10:46:45: Fail: expected parameter type is not contained at response
+2018-02-28 10:46:45: Fail: expected parameter status is not contained at response
+2018-02-28 10:46:45: Fail: expected parameter email is not contained at response
+2018-02-28 10:46:45: Fail: expected parameter privilege is not contained at response
+2018-02-28 10:46:45: Fail: expected parameter full_name is not contained at response
+2018-02-28 10:46:45: Fail: expected parameter id is not contained at response
+2018-02-28 10:45:29: 'result': 'f'
+2018-02-28 10:45:29: Fail: expected parameter type is not contained at response
+2018-02-28 10:45:29: Fail: expected parameter status is not contained at response
+2018-02-28 10:45:29: Fail: expected parameter email is not contained at response
+2018-02-28 10:45:29: Fail: expected parameter privilege is not contained at response
+2018-02-28 10:45:29: Fail: expected parameter full_name is not contained at response
+2018-02-28 10:45:29: Fail: expected parameter id is not contained at response
+2018-02-28 10:40:49: 'result': 'f'
+2018-02-28 10:40:49: Error Message: Invalid username (0x200)
+
+2018-02-28 10:40:49: Fail: HTTP status code is <Response [400]>
+2018-02-28 10:40:49: Expect: {u'status': 1, u'display_name': u'test_test_test_test_test_test32', u'passwd': u'test_test_test_test_test_tes31', u'email': u'1@aa.aac', u'privilege': u'super', u'id': u'test_test_test_test_tes25'}
+
+2018-02-28 10:40:49: Error Message: Invalid username (0x200)
+
+2018-02-28 10:40:48: Fail: HTTP status code is <Response [400]>
+2018-02-28 10:40:48: Expect: {u'status': 0, u'display_name': u'test_test_test_test_test_tes31', u'passwd': u'', u'email': u'a@aa.aac', u'privilege': u'power', u'id': u'test_test_test_test_te24'}
+
+2018-02-28 10:40:48: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-28 10:40:42: Expect: {u'status': 0, u'display_name': u'*', u'passwd': u'test_test_test_test_test_te30', u'email': u'', u'privilege': u'maintenance', u'id': u'12'}
+
+2018-02-28 10:40:42: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-28 10:40:35: Expect: {u'status': 1, u'display_name': u'', u'passwd': u'p_d.*#', u'email': u'1@11.11', u'privilege': u'view', u'id': u'T'}
+
+2018-02-28 10:39:45: 'result': 'f'
+2018-02-28 10:39:45: Error Message: Invalid username (0x200)
+
+2018-02-28 10:39:45: Fail: HTTP status code is <Response [400]>
+2018-02-28 10:39:45: Expect: {u'status': 1, u'display_name': u'test_test_test_test_test_test32', u'passwd': u'test_test_test_test_test_tes31', u'email': u'1@aa.aac', u'privilege': u'super', u'id': u'test_test_test_test_tes25'}
+
+2018-02-28 10:39:45: Error Message: Invalid username (0x200)
+
+2018-02-28 10:39:45: Fail: HTTP status code is <Response [400]>
+2018-02-28 10:39:45: Expect: {u'status': 0, u'display_name': u'test_test_test_test_test_tes31', u'passwd': u'', u'email': u'a@aa.aac', u'privilege': u'power', u'id': u'test_test_test_test_te24'}
+
+2018-02-28 10:39:45: Error Message: Invalid username (0x200)
+
+2018-02-28 10:39:45: Fail: HTTP status code is <Response [400]>
+2018-02-28 10:39:45: Expect: {u'status': 0, u'display_name': u'*', u'passwd': u'test_test_test_test_test_te30', u'email': u'', u'privilege': u'maintenance', u'id': u'12'}
+
+2018-02-28 10:39:45: Error Message: Invalid username (0x200)
+
+2018-02-28 10:39:45: Fail: HTTP status code is <Response [400]>
+2018-02-28 10:39:44: Expect: {u'status': 1, u'display_name': u'', u'passwd': u'p_d.*#', u'email': u'1@11.11', u'privilege': u'view', u'id': u'T'}
+
+2018-02-27 09:21:23: 'result': 'p'
+2018-02-27 09:21:23: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-27 09:21:20: Expect: {u'status': 1, u'display_name': u'test_test_test_test_test_test32', u'passwd': u'test_test_test_test_test_tes31', u'email': u'1@aa.aac', u'privilege': u'super', u'id': u'test_test_test_test_tes25'}
+
+2018-02-27 09:21:20: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-27 09:21:16: Expect: {u'status': 0, u'display_name': u'test_test_test_test_test_tes31', u'passwd': u'', u'email': u'a@aa.aac', u'privilege': u'power', u'id': u'test_test_test_test_te24'}
+
+2018-02-27 09:21:16: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-27 09:21:11: Expect: {u'status': 0, u'display_name': u'*', u'passwd': u'test_test_test_test_test_te30', u'email': u'', u'privilege': u'maintenance', u'id': u'12'}
+
+2018-02-27 09:21:11: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-27 09:21:08: Expect: {u'status': 1, u'display_name': u'', u'passwd': u'p_d.*#', u'email': u'1@11.11', u'privilege': u'view', u'id': u'T'}
+
+2018-02-27 09:20:17: 'result': 'p'
+2018-02-27 09:20:17: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-27 09:20:11: Expect: {u'status': 1, u'display_name': u'test_test_test_test_test_test32', u'passwd': u'test_test_test_test_test_tes31', u'email': u'1@aa.aac', u'privilege': u'super', u'id': u'test_test_test_test_tes25'}
+
+2018-02-27 09:20:11: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-27 09:20:04: Expect: {u'status': 0, u'display_name': u'test_test_test_test_test_tes31', u'passwd': u'', u'email': u'a@aa.aac', u'privilege': u'power', u'id': u'test_test_test_test_te24'}
+
+2018-02-27 09:20:04: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-27 09:19:58: Expect: {u'status': 0, u'display_name': u'*', u'passwd': u'test_test_test_test_test_te30', u'email': u'', u'privilege': u'maintenance', u'id': u'12'}
+
+2018-02-27 09:19:58: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-27 09:19:51: Expect: {u'status': 1, u'display_name': u'', u'passwd': u'p_d.*#', u'email': u'1@11.11', u'privilege': u'view', u'id': u'T'}
+
+2018-02-27 08:54:34: 'result': 'f'
+2018-02-27 08:54:34: Error Message: Invalid username (0x200)
+
+2018-02-27 08:54:34: Fail: HTTP status code is <Response [400]>
+2018-02-27 08:54:34: Expect: {u'status': 1, u'display_name': u'test_test_test_test_test_test32', u'passwd': u'test_test_test_test_test_tes31', u'email': u'1@aa.aac', u'privilege': u'super', u'id': u'test_test_test_test_tes25'}
+
+2018-02-27 08:54:34: Error Message: Invalid username (0x200)
+
+2018-02-27 08:54:34: Fail: HTTP status code is <Response [400]>
+2018-02-27 08:54:34: Expect: {u'status': 0, u'display_name': u'test_test_test_test_test_tes31', u'passwd': u'', u'email': u'a@aa.aac', u'privilege': u'power', u'id': u'test_test_test_test_te24'}
+
+2018-02-27 08:54:34: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-27 08:54:27: Expect: {u'status': 0, u'display_name': u'*', u'passwd': u'test_test_test_test_test_te30', u'email': u'', u'privilege': u'maintenance', u'id': u'12'}
+
+2018-02-27 08:54:27: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-27 08:54:21: Expect: {u'status': 1, u'display_name': u'', u'passwd': u'p_d.*#', u'email': u'1@11.11', u'privilege': u'view', u'id': u'T'}
+
+2018-02-26 17:59:35: Error Message: Invalid username (0x200)
+
+2018-02-26 17:59:35: Fail: HTTP status code is <Response [400]>
+2018-02-26 17:59:35: Expect: {u'status': 1, u'display_name': u'test_test_test_test_test_test32', u'passwd': u'test_test_test_test_test_tes31', u'email': u'1@aa.aac', u'privilege': u'super', u'id': u'test_test_test_test_tes25'}
+
+2018-02-26 17:59:35: Error Message: Invalid username (0x200)
+
+2018-02-26 17:59:35: Fail: HTTP status code is <Response [400]>
+2018-02-26 17:59:35: Expect: {u'status': 0, u'display_name': u'test_test_test_test_test_tes31', u'passwd': u'', u'email': u'a@aa.aac', u'privilege': u'power', u'id': u'test_test_test_test_te24'}
+
+2018-02-26 17:59:35: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-26 17:59:29: Expect: {u'status': 0, u'display_name': u'*', u'passwd': u'test_test_test_test_test_te30', u'email': u'', u'privilege': u'maintenance', u'id': u'12'}
+
+2018-02-26 17:59:29: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-02-26 17:59:22: Expect: {u'status': 1, u'display_name': u'', u'passwd': u'p_d.*#', u'email': u'1@11.11', u'privilege': u'view', u'id': u'T'}
+
 2018-02-26 17:57:27: Error Message: Invalid username (0x200)
 
 2018-02-26 17:57:27: Fail: HTTP status code is <Response [400]>
