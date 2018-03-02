@@ -1681,3 +1681,75 @@ Actual:
 
 'result': 'p'
 
+Expect: {u'status': 1, u'display_name': u'', u'passwd': u'p_d.*#', u'email': u'1@11.11', u'privilege': u'view', u'id': u'T'}
+
+Actual: HTTP status code is <Response [200]>, request is successful!
+
+Expect: {u'status': 0, u'display_name': u'*', u'passwd': u'test_test_test_test_test_te30', u'email': u'', u'privilege': u'maintenance', u'id': u'12'}
+
+Actual: HTTP status code is <Response [200]>, request is successful!
+
+Expect: {u'status': 0, u'display_name': u'test_test_test_test_test_tes31', u'passwd': u'', u'email': u'a@aa.aac', u'privilege': u'power', u'id': u'test_test_test_test_te24'}
+
+Actual: HTTP status code is <Response [200]>, request is successful!
+
+Expect: {u'status': 1, u'display_name': u'test_test_test_test_test_test32', u'passwd': u'test_test_test_test_test_tes31', u'email': u'1@aa.aac', u'privilege': u'super', u'id': u'test_test_test_test_tes25'}
+
+Actual: HTTP status code is <Response [200]>, request is successful!
+
+'result': 'p'
+
+Expected: [u'id', u'full_name', u'privilege', u'email', u'status', u'type']
+
+Actual: 
+{u'status': 1, u'display_name': u'Super user', u'id': u'administrator', u'location': u'Local', u'privilege': u'Super', u'email': u'admin@yourcompany.com'
+ {u'status': 1, u'display_name': u'', u'id': u'T', u'location': u'Local', u'privilege': u'View', u'email': u'1@11.11'
+ {u'status': 0, u'display_name': u'*', u'id': u'12', u'location': u'Local', u'privilege': u'Maintenance', u'email': u''
+ {u'status': 0, u'display_name': u'test_test_test_test_test_tes31', u'id': u'test_test_test_test_te24', u'location': u'Local', u'privilege': u'Power', u'email': u'a@aa.aac'
+ {u'status': 1, u'display_name': u'test_test_test_test_test_test32', u'id': u'test_test_test_test_tes25', u'location': u'Local', u'privilege': u'Super', u'email': u'1@aa.aac'}
+
+'result': 'p'
+
+Expected: [u'id', u'full_name', u'privilege', u'email', u'status', u'type']
+
+Actual: 
+u'status': 1, u'display_name': u'Super user', u'id': u'administrator', u'location': u'Local', u'privilege': u'Super', u'email': u'admin@yourcompany.com'
+ u'status': 1, u'display_name': u'', u'id': u'T', u'location': u'Local', u'privilege': u'View', u'email': u'1@11.11'
+ u'status': 0, u'display_name': u'*', u'id': u'12', u'location': u'Local', u'privilege': u'Maintenance', u'email': u''
+ u'status': 0, u'display_name': u'test_test_test_test_test_tes31', u'id': u'test_test_test_test_te24', u'location': u'Local', u'privilege': u'Power', u'email': u'a@aa.aac'
+ u'status': 1, u'display_name': u'test_test_test_test_test_test32', u'id': u'test_test_test_test_tes25', u'location': u'Local', u'privilege': u'Super', u'email': u'1@aa.aac'
+
+'result': 'p'
+
+Expected: T should be deleted
+
+Actual: parameter T is deleted
+And get response: 
+u'status': 1, u'display_name': u'Super user', u'id': u'administrator', u'location': u'Local', u'privilege': u'Super', u'email': u'admin@yourcompany.com'
+ u'status': 0, u'display_name': u'*', u'id': u'12', u'location': u'Local', u'privilege': u'Maintenance', u'email': u''
+ u'status': 0, u'display_name': u'test_test_test_test_test_tes31', u'id': u'test_test_test_test_te24', u'location': u'Local', u'privilege': u'Power', u'email': u'a@aa.aac'
+ u'status': 1, u'display_name': u'test_test_test_test_test_test32', u'id': u'test_test_test_test_tes25', u'location': u'Local', u'privilege': u'Super', u'email': u'1@aa.aac'
+
+Expected: 12 should be deleted
+
+Actual: parameter 12 is deleted
+And get response: 
+u'status': 1, u'display_name': u'Super user', u'id': u'administrator', u'location': u'Local', u'privilege': u'Super', u'email': u'admin@yourcompany.com'
+ u'status': 0, u'display_name': u'test_test_test_test_test_tes31', u'id': u'test_test_test_test_te24', u'location': u'Local', u'privilege': u'Power', u'email': u'a@aa.aac'
+ u'status': 1, u'display_name': u'test_test_test_test_test_test32', u'id': u'test_test_test_test_tes25', u'location': u'Local', u'privilege': u'Super', u'email': u'1@aa.aac'
+
+Expected: test_test_test_test_te24 should be deleted
+
+Actual: parameter test_test_test_test_te24 is deleted
+And get response: 
+u'status': 1, u'display_name': u'Super user', u'id': u'administrator', u'location': u'Local', u'privilege': u'Super', u'email': u'admin@yourcompany.com'
+ u'status': 1, u'display_name': u'test_test_test_test_test_test32', u'id': u'test_test_test_test_tes25', u'location': u'Local', u'privilege': u'Super', u'email': u'1@aa.aac'
+
+Expected: test_test_test_test_tes25 should be deleted
+
+Actual: parameter test_test_test_test_tes25 is deleted
+And get response: 
+u'status': 1, u'display_name': u'Super user', u'id': u'administrator', u'location': u'Local', u'privilege': u'Super', u'email': u'admin@yourcompany.com'
+
+'result': 'p'
+

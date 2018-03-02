@@ -33,7 +33,7 @@ def delete_user():
 
 if __name__ == "__main__":
 
-    # add_user()
-    # delete_user()
+    add_user()
+    delete_user()
     get_user()
-    # get_mgmt_user()
+    get_mgmt_user()

@@ -118,7 +118,7 @@ class APITest(object):
             tolog('Fail: ' + str(result['text']))
         else:
             response_info = json.loads(result['text'])
-            get_r = str(response_info).replace('},', '\n').replace('[', '\n').replace(']', '')
+            get_r = str(response_info).replace('},', '\n').replace('[', '\n').replace(']', '').replace('{', '').replace('}', '')
             tolog('Actual: ' + get_r + '\n')
 
         if self.flag:
@@ -214,7 +214,7 @@ class APITest(object):
                     tolog('Fail: parameter ' + str(table.cell(i, 0).value) + ' is not deleted\n')
                 else:
                     tolog('Actual: parameter ' + str(table.cell(i, 0).value) + ' is deleted')
-                    get_r = str(response_info).replace('},', '\n').replace('[', '\n').replace(']', '')
+                    get_r = str(response_info).replace('},', '\n').replace('[', '\n').replace(']', '').replace('{', '').replace('}', '')
                     tolog('And get response: ' + get_r + '\n')
 
         if self.flag:

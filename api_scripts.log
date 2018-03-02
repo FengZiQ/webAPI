@@ -1,3 +1,75 @@
+2018-03-01 08:53:01: 'result': 'p'
+
+2018-03-01 08:53:01: And get response: 
+u'status': 1, u'display_name': u'Super user', u'id': u'administrator', u'location': u'Local', u'privilege': u'Super', u'email': u'admin@yourcompany.com'
+
+2018-03-01 08:53:01: Actual: parameter test_test_test_test_tes25 is deleted
+2018-03-01 08:52:54: Expected: test_test_test_test_tes25 should be deleted
+
+2018-03-01 08:52:54: And get response: 
+u'status': 1, u'display_name': u'Super user', u'id': u'administrator', u'location': u'Local', u'privilege': u'Super', u'email': u'admin@yourcompany.com'
+ u'status': 1, u'display_name': u'test_test_test_test_test_test32', u'id': u'test_test_test_test_tes25', u'location': u'Local', u'privilege': u'Super', u'email': u'1@aa.aac'
+
+2018-03-01 08:52:54: Actual: parameter test_test_test_test_te24 is deleted
+2018-03-01 08:52:48: Expected: test_test_test_test_te24 should be deleted
+
+2018-03-01 08:52:48: And get response: 
+u'status': 1, u'display_name': u'Super user', u'id': u'administrator', u'location': u'Local', u'privilege': u'Super', u'email': u'admin@yourcompany.com'
+ u'status': 0, u'display_name': u'test_test_test_test_test_tes31', u'id': u'test_test_test_test_te24', u'location': u'Local', u'privilege': u'Power', u'email': u'a@aa.aac'
+ u'status': 1, u'display_name': u'test_test_test_test_test_test32', u'id': u'test_test_test_test_tes25', u'location': u'Local', u'privilege': u'Super', u'email': u'1@aa.aac'
+
+2018-03-01 08:52:48: Actual: parameter 12 is deleted
+2018-03-01 08:52:42: Expected: 12 should be deleted
+
+2018-03-01 08:52:41: And get response: 
+u'status': 1, u'display_name': u'Super user', u'id': u'administrator', u'location': u'Local', u'privilege': u'Super', u'email': u'admin@yourcompany.com'
+ u'status': 0, u'display_name': u'*', u'id': u'12', u'location': u'Local', u'privilege': u'Maintenance', u'email': u''
+ u'status': 0, u'display_name': u'test_test_test_test_test_tes31', u'id': u'test_test_test_test_te24', u'location': u'Local', u'privilege': u'Power', u'email': u'a@aa.aac'
+ u'status': 1, u'display_name': u'test_test_test_test_test_test32', u'id': u'test_test_test_test_tes25', u'location': u'Local', u'privilege': u'Super', u'email': u'1@aa.aac'
+
+2018-03-01 08:52:41: Actual: parameter T is deleted
+2018-03-01 08:52:35: Expected: T should be deleted
+
+2018-03-01 08:50:31: 'result': 'p'
+
+2018-03-01 08:50:31: Actual: 
+u'status': 1, u'display_name': u'Super user', u'id': u'administrator', u'location': u'Local', u'privilege': u'Super', u'email': u'admin@yourcompany.com'
+ u'status': 1, u'display_name': u'', u'id': u'T', u'location': u'Local', u'privilege': u'View', u'email': u'1@11.11'
+ u'status': 0, u'display_name': u'*', u'id': u'12', u'location': u'Local', u'privilege': u'Maintenance', u'email': u''
+ u'status': 0, u'display_name': u'test_test_test_test_test_tes31', u'id': u'test_test_test_test_te24', u'location': u'Local', u'privilege': u'Power', u'email': u'a@aa.aac'
+ u'status': 1, u'display_name': u'test_test_test_test_test_test32', u'id': u'test_test_test_test_tes25', u'location': u'Local', u'privilege': u'Super', u'email': u'1@aa.aac'
+
+2018-03-01 08:50:31: Expected: [u'id', u'full_name', u'privilege', u'email', u'status', u'type']
+
+2018-03-01 08:48:48: 'result': 'p'
+
+2018-03-01 08:48:48: Actual: 
+{u'status': 1, u'display_name': u'Super user', u'id': u'administrator', u'location': u'Local', u'privilege': u'Super', u'email': u'admin@yourcompany.com'
+ {u'status': 1, u'display_name': u'', u'id': u'T', u'location': u'Local', u'privilege': u'View', u'email': u'1@11.11'
+ {u'status': 0, u'display_name': u'*', u'id': u'12', u'location': u'Local', u'privilege': u'Maintenance', u'email': u''
+ {u'status': 0, u'display_name': u'test_test_test_test_test_tes31', u'id': u'test_test_test_test_te24', u'location': u'Local', u'privilege': u'Power', u'email': u'a@aa.aac'
+ {u'status': 1, u'display_name': u'test_test_test_test_test_test32', u'id': u'test_test_test_test_tes25', u'location': u'Local', u'privilege': u'Super', u'email': u'1@aa.aac'}
+
+2018-03-01 08:48:48: Expected: [u'id', u'full_name', u'privilege', u'email', u'status', u'type']
+
+2018-03-01 08:48:44: 'result': 'p'
+
+2018-03-01 08:48:44: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-03-01 08:48:37: Expect: {u'status': 1, u'display_name': u'test_test_test_test_test_test32', u'passwd': u'test_test_test_test_test_tes31', u'email': u'1@aa.aac', u'privilege': u'super', u'id': u'test_test_test_test_tes25'}
+
+2018-03-01 08:48:37: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-03-01 08:48:31: Expect: {u'status': 0, u'display_name': u'test_test_test_test_test_tes31', u'passwd': u'', u'email': u'a@aa.aac', u'privilege': u'power', u'id': u'test_test_test_test_te24'}
+
+2018-03-01 08:48:31: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-03-01 08:48:24: Expect: {u'status': 0, u'display_name': u'*', u'passwd': u'test_test_test_test_test_te30', u'email': u'', u'privilege': u'maintenance', u'id': u'12'}
+
+2018-03-01 08:48:24: Actual: HTTP status code is <Response [200]>, request is successful!
+
+2018-03-01 08:48:18: Expect: {u'status': 1, u'display_name': u'', u'passwd': u'p_d.*#', u'email': u'1@11.11', u'privilege': u'view', u'id': u'T'}
+
 2018-02-28 17:59:29: 'result': 'p'
 
 2018-02-28 17:59:29: Actual: 
